@@ -1,0 +1,23 @@
+{
+    "AS_Form_jd74626367b745e7a294ee561ead69c4": {
+        "id": "AS_Form_jd74626367b745e7a294ee561ead69c4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmViewUsers",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e8b73bb83a4b409d8aa7f00d16afadba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_e661358812844508bd848352e43980e1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.txtbxUserNameUser.textInputMode = constants.TEXTBOX_INPUT_MODE_ANY;",
+            "callbackType": null
+        }]
+    }
+}

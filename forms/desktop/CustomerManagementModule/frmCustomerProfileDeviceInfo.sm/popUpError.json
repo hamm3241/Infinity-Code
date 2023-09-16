@@ -1,0 +1,212 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s39233a8d65f40d5b9120e116f6d9ef6",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnPopUpCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e50d7f32f649440693685bb795cdf403",
+                "srcKUID": "d4ffebacb2fc450f90f34ff2c512b36f",
+                "wType": "Button"
+            },
+            "i18n_text": null,
+            "isVisible": true,
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "20px"
+                }
+            },
+            "text": "CLOSE",
+            "width": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        },
+        "btnPopUpDelete": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e0031cbe615a46b1b0b28eecdc4c14d5",
+                "srcKUID": "d74b32688d0448359e725db30e5db9ca",
+                "wType": "Button"
+            },
+            "i18n_text": null,
+            "isVisible": false,
+            "text": "YES, OFFLINE",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "150px"
+                }
+            }
+        },
+        "flxPopUp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g43e170c0b13480bbff9adcfe2c26279",
+                "srcKUID": "f1999a7df0404922bf7e8acfb6a3780a",
+                "wType": "FlexContainer"
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "220px"
+                }
+            }
+        },
+        "flxPopUpButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j7199a44b5114a8d83df1ebf1b5693a5",
+                "srcKUID": "f009cbfda01245849be265a8e58d3cf3",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "80px"
+                }
+            },
+            "layoutType": 2,
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "flxPopUpClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fcc7a69d258542cd90ced67604ae3dcb",
+                "srcKUID": "f9727789f4894508b70f7d5ae8b7a9a2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpTopColor": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f342e4fd4ead4548b62dff5e9ac9d57f",
+                "srcKUID": "d5d6b9f19ae4477b8708d1b775160fb5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopupHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e25b21d52032486aaadbb98878f6ce72",
+                "srcKUID": "ad64beaac2734a82ad110cd93e7e9838",
+                "wType": "FlexContainer"
+            }
+        },
+        "fontIconImgCLose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g0c4f726ec2348608130267864be2884",
+                "srcKUID": "hb8853052adb4ceb98482f3b9abdb6b1",
+                "wType": "Label"
+            }
+        },
+        "lblPopUpClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ibc1f2e7a5264981aa8823592112d053",
+                "srcKUID": "j726c91d687f4bdea9b61ee15718ea91",
+                "wType": "Label"
+            }
+        },
+        "lblPopUpMainMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eca2fc78d3344c7b834f646e464d2bbb",
+                "srcKUID": "cf94c2324e174d609ee2a12b7557d0a5",
+                "wType": "Label"
+            },
+            "i18n_text": null,
+            "text": "Set the Branch Offline?"
+        },
+        "popUp": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c8fe750bebe2401ba854d0ecd4265862",
+                "srcKUID": "bf3aac0ddc8b47a0b463a18207905574",
+                "wType": "FlexContainer"
+            }
+        },
+        "rtxPopUpDisclaimer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cccec2aa6ac647f5a65de855f67ae70b",
+                "srcKUID": "j4d87455f6ec44dbacababd4bf714b40",
+                "wType": "RichText"
+            },
+            "text": "Are you sure to set the Branch to Offline mode?<br><br>\n\nIf you set it offline, the Branch does not show operational to the customer."
+        }
+    },
+    "id": "popUpError",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "c8fe750bebe2401ba854d0ecd4265862",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxPopUpError",
+    "pf": "frmCustomerProfileDeviceInfo",
+    "snaptogrid": true,
+    "sourceUserWidget": "bf3aac0ddc8b47a0b463a18207905574",
+    "vizprops": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

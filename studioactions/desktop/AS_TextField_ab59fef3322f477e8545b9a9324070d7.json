@@ -1,0 +1,27 @@
+{
+    "AS_TextField_ab59fef3322f477e8545b9a9324070d7": {
+        "id": "AS_TextField_ab59fef3322f477e8545b9a9324070d7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c02be5d3d784495d84d6752e475086ab",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(Number(this.view.txtYears.text) <2 || (Number(this.view.txtYears.text) <=2 && Number(this.view.txtMonths.text) ==0)){\n  this.view.flxAddress2.isVisible=true\n}else{\n  this.view.flxAddress2.isVisible=false;\n}\neventobject.skin = \"sknTbxFFFFFFBorDEDEDE13pxKA\";\nthis.view[this.fieldsToVAlidateInPersonalInfo[eventobject.id].errorLabel].setVisibility(false);\nif(eventobject.text.trim() === \"\"){\n  this.fieldsToVAlidateInPersonalInfo[eventobject.id].isValidated = false;\n}else{\n  this.fieldsToVAlidateInPersonalInfo[eventobject.id].isValidated = true;\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

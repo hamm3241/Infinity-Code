@@ -1,0 +1,199 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "106px"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s4886d30205846ce90dddbeb96d1d6ef",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnAddNewOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a4b738995781495786e6f8479c00292a",
+                "srcKUID": "ada5d4a4ecde43cca0304c5882f66bb7",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmCompanies.CreateCompany",
+            "isVisible": false,
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "text": "CREATE COMPANY"
+        },
+        "btnDropdownList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c9662b4ae06f4d94a7151499743619e4",
+                "srcKUID": "b43698c27a4f4d988b5a7d3585c0a45b",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.mainHeader.DOWNLOADLIST",
+            "isVisible": false
+        },
+        "flxAddNewOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ae2e535324774d9bbf3acb996e74bf4f",
+                "srcKUID": "gcf4f343946b48eb8cfdddb8ea99ee15",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e6386567a2074f54aa6c7bdc2c980a4f",
+                "srcKUID": "ie1e60199eb3482b836d57a31097ad15",
+                "wType": "FlexContainer"
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "35dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "400dp"
+                }
+            }
+        },
+        "flxDownloadList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i0fb261182584125862134b6e15b835e",
+                "srcKUID": "hed9c70306a244ed9913ad2c67adf9b5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeaderSeperator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ca38a0d8df794eddbf13b27d34a096e4",
+                "srcKUID": "d5e902ebe40e41059acd4452ef74ee71",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "flxHeaderUserOptions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h13813e08cff44e28be303300739a11c",
+                "srcKUID": "e340add28ee8424ab0f160b52c1c3c49",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMainHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a5cb7e359b25488d88fc227aef9d248b",
+                "srcKUID": "b5acbdce2d1f4b79be60f46a616882ae",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgLogout": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e3f836b64ac9422e84ec686c62f2d367",
+                "srcKUID": "ff744a337cf24ffa97ecc82ef9964a85",
+                "wType": "Image"
+            },
+            "src": "img_logout.png"
+        },
+        "lblAddNewOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ebe573280edf48bb8ed77a776d607860",
+                "srcKUID": "b3a6223eaac240c2aec04f4e88d4c9a7",
+                "wType": "Label"
+            }
+        },
+        "lblDownloadList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j4f8080821e44f5395d6281742e29c37",
+                "srcKUID": "b6599b7f52704e498d2f53cc4ab1f6e7",
+                "wType": "Label"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a2355762ee134757be6fbed2174bbe78",
+                "srcKUID": "a773cdbb83be4b82acfb733f2e46eb06",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.leftmenu.companies",
+            "text": "Companies"
+        },
+        "lblUserName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hf0a2ca3b2fe4da29f855dd489b0461e",
+                "srcKUID": "i605a8166a1941eead62b15cbf43026c",
+                "wType": "Label"
+            }
+        },
+        "mainHeader": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "dd1d1b138ef241c4a9d3f48b9ea165de",
+                "srcKUID": "a90b792b68af4d448d2757e88c7e1671",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "id": "mainHeader",
+    "info": null,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "dd1d1b138ef241c4a9d3f48b9ea165de",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMainHeader",
+    "pf": "frmCustomerCreate",
+    "snaptogrid": true,
+    "sourceUserWidget": "a90b792b68af4d448d2757e88c7e1671",
+    "wType": "UserWidgetInstance"
+}

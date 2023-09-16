@@ -1,0 +1,24 @@
+{
+    "AS_Form_hf9939be929a42639285afc93e753fd7": {
+        "id": "AS_Form_hf9939be929a42639285afc93e753fd7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProfiles",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fd789135ec784f7db919d28824961c26"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d8140fa7df8f404ea0495809b38e65a2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.profilesPreShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

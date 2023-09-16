@@ -1,0 +1,24 @@
+{
+    "AS_Button_c765e830cf224c038166406983f6847b": {
+        "id": "AS_Button_c765e830cf224c038166406983f6847b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmErrorLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297ec624b3647e99b0e95d9a173b2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__iddfa04feb54465b9831132ba53d02c8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.resetPasswordCall();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

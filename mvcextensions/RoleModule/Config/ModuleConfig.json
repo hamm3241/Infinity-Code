@@ -1,0 +1,37 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "RoleModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmRoles": {
+                "Controller": "RoleModule/frmRolesController",
+                "ControllerExtensions": [
+                    "Pagination_FormExtn",
+					"downloadCSV_Extn",
+                    "Sorting_FormExtn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "TabUtil_FormExtn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleCommonUtilities",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "RoleModule/frmRoles",
+                "friendlyName": "frmRoles"
+            }
+        }
+    },
+    "ModuleName": "RoleModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "RoleModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "RoleModule/PresentationControllers/PresentationController_Extn",
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "ServicesManagementModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmServiceManagement": {
+                "Controller": "ServicesManagementModule/frmServiceManagementController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "downloadCSV_Extn",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+					"LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "ServicesManagementModule/frmServiceManagement",
+                "friendlyName": "frmServiceManagement"
+            },
+            "frmEmployeeFeatures": {
+                "ControllerExtensions": [
+                  "AdminConsoleCommonUtilities",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "downloadCSV_Extn",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ServicesManagementModule/frmEmployeeFeaturesController",
+                "FormName": "ServicesManagementModule/frmEmployeeFeatures",
+                "friendlyName": "frmEmployeeFeatures"
+            }
+        }
+    },
+    "ModuleName": "ServicesManagementModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "ServicesManagementModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

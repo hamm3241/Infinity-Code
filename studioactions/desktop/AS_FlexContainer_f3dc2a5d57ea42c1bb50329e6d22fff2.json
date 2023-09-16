@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_f3dc2a5d57ea42c1bb50329e6d22fff2": {
+        "id": "AS_FlexContainer_f3dc2a5d57ea42c1bb50329e6d22fff2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpSimulationResults",
+            "type": "templates",
+            "platform": "",
+            "KUID": "b4750a62806947f292030a56df5673af"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c022dbff1989434da5afded3afabe9d4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showApplyOnHover(context.rowIndex);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

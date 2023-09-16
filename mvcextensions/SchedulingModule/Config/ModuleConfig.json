@@ -1,0 +1,31 @@
+{
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "SchedulingModule/BusinessControllers/BusinessController"
+    },
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [
+              "Navigation_Presentation_Extn"
+            ],
+            "PresentationControllerClass": "SchedulingModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmMoneyMovementScheduling": {
+                "ControllerExtensions": [
+                  "WidgetPermission_Checker_FormExtns",
+                "Navigation_Form_Extn",
+                "Sorting_FormExtn",
+                "DateTimeUtils_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SchedulingModule/frmMoneyMovementSchedulingController",
+                "FormName": "SchedulingModule/frmMoneyMovementScheduling",
+                "friendlyName": "frmMoneyMovementScheduling"
+            }
+        }
+    },
+    "ModuleName": "SchedulingModule"
+}

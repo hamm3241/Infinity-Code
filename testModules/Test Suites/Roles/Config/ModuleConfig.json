@@ -1,0 +1,62 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.command.login.datadriven",
+      "CommandHandler": "TestCase_Auth_doLogin_DataDriven"
+    }, {
+      "CommandId": "testcase.command.login.successflow",
+      "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.fetchAllRoles",
+      "CommandHandler": "TestCase_Role_fetchAllRoles_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.fetchRoleUsers",
+      "CommandHandler": "TestCase_Role_fetchRoleUsers_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.fetchActiveUsers",
+      "CommandHandler": "TestCase_Role_fetchActiveUsers_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.fetchRolePermissions",
+      "CommandHandler": "TestCase_Role_fetchRolePermissions_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.fetchActivePermissions",
+      "CommandHandler": "TestCase_Role_fetchActivePermissions_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.createRole",
+      "CommandHandler": "TestCase_Role_createRole_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.updateRole",
+      "CommandHandler": "TestCase_Role_updateRole_CommandHandler"
+    }, {
+      "CommandId": "testcase.presenter.getRoles",
+      "CommandHandler": "TestCase_Roles_getRoles"
+    }, {
+      "CommandId": "testcase.presenter.fetchRoleDetails",
+      "CommandHandler": "TestCase_Roles_fetchRoleDetails"
+    }, {
+      "CommandId": "testcase.presenter.fetchAllActiveUsersAndAllActivePermissions",
+      "CommandHandler": "TestCase_Roles_fetchAllActiveUsersAndAllActivePermissions"
+    }, {
+      "CommandId": "testcase.presenter.fetchUpdateRoleData",
+      "CommandHandler": "TestCase_Roles_fetchUpdateRoleData"
+    }, {
+      "CommandId": "testcase.presenter.changeStatusOf",
+      "CommandHandler": "TestCase_Roles_changeStatusOf"
+    }, {
+      "CommandId": "testcase.presenter.createRoles",
+      "CommandHandler": "TestCase_Roles_createRoles"
+    }, {
+      "CommandId": "testcase.presenter.updateRoles",
+      "CommandHandler": "TestCase_Roles_updateRoles"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

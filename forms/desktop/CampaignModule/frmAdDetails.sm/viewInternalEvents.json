@@ -1,0 +1,306 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s6ef76013a8249e2a9fe6d5ddd752130",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnAddEvents": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f9cd03da6a2a434db00af1645390a953",
+                "srcKUID": "f513593c355549fe94535b7a6e547a87",
+                "wType": "Button"
+            }
+        },
+        "flxEventsBody": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j7d5329bf5bc49fb99fcd354e0dbf5f5",
+                "srcKUID": "d35e1248afb04889aa56a9dab3695e48",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEventsExpandCollapse": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f2383c3bf4024a2a889940f9e7eecc74",
+                "srcKUID": "e145213b613b46a3bb74802d89118576",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEventsHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gefe0d685cab4bd3b865c9b8312c6a33",
+                "srcKUID": "b36a557945c840718694ace7896803f9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEventsHeaderInner": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a298f036bd5d4f3196a34af6ce59f17b",
+                "srcKUID": "e7a17271b29b4a9f853d384b102e1e06",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEventsSegHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i82567a973754ea1aa6bc5b4056b8339",
+                "srcKUID": "efb7a813a10148bea8e69146628faff5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxNoResultFound": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c2bc42cb1cec4955aa1da4d361cbadf8",
+                "srcKUID": "a378124b6ecb4e4ba356b508ffd65955",
+                "wType": "FlexContainer"
+            }
+        },
+        "fontIconEventsExpandCollapse": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ba41390896484f9b85a783ab923f4962",
+                "srcKUID": "a8202e6f76c74841a99cdf14c3f150f9",
+                "wType": "Label"
+            }
+        },
+        "fontIconEventsInfo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j0f93e5465f241c2b58ecd171d1b91ab",
+                "srcKUID": "bc3893baa1fc44ce872df9d798127b86",
+                "wType": "Label"
+            }
+        },
+        "lblEventCodeHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ica27b1e0ad741958e677e9aed178c21",
+                "srcKUID": "h3179d32b85746848bc8cbed0e719b28",
+                "wType": "Label"
+            }
+        },
+        "lblEventNameHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a180938ce0604407872f5a60487d8849",
+                "srcKUID": "d4c43b325a1243d994f4242bda802d37",
+                "wType": "Label"
+            }
+        },
+        "lblEventSourceHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b417177809de4f6fa4da90510853cb35",
+                "srcKUID": "df88744e9e9d49a6bcdcedde00715a3b",
+                "wType": "Label"
+            }
+        },
+        "lblEventsHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b8c3bad1228c47e3b80be1a2a1318c35",
+                "srcKUID": "f7c55fe0d53e44508eb69f9303627362",
+                "wType": "Label"
+            }
+        },
+        "lblSeparator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g0ab8b68e66a4f4b83afd055d9e33265",
+                "srcKUID": "f288631a58ab491eaf7641111b85d546",
+                "wType": "Label"
+            }
+        },
+        "rtxSearchMesg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fba7a745e4ca499b943a91dfb2862132",
+                "srcKUID": "eb1a84f45c2743b9ae1bdf026d048ac7",
+                "wType": "RichText"
+            }
+        },
+        "segEvents": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b85f30c83cee43b299c98ca43571af48",
+                "srcKUID": "bac56411bd5a4b9bb06743fec5ae2314",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    {
+                        "lblDelete": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmFAQ.fonticonDelete",
+                            "text": ""
+                        },
+                        "lblEvent": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Events Name"
+                        },
+                        "lblEventCode": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Events Name"
+                        },
+                        "lblEventSource": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Events Name"
+                        },
+                        "lblSeparator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        }
+                    },
+                    {
+                        "lblDelete": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblEvent": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Events Name"
+                        },
+                        "lblEventCode": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Events Name"
+                        },
+                        "lblEventSource": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Events Name"
+                        },
+                        "lblSeparator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        }
+                    },
+                    {
+                        "lblDelete": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblEvent": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Events Name"
+                        },
+                        "lblEventCode": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Events Name"
+                        },
+                        "lblEventSource": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Events Name"
+                        },
+                        "lblSeparator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        }
+                    }
+                ]
+            }
+        },
+        "viewInternalExternalEvents": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "j9d7263ca707407b92b29db2e5c25c62",
+                "srcKUID": "aaa905c3a43841beb10f6534bf189764",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "isVisible": true,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "10dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "viewInternalEvents",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "j9d7263ca707407b92b29db2e5c25c62",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxViewEventsInner",
+    "pf": "frmAdDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "aaa905c3a43841beb10f6534bf189764",
+    "wType": "UserWidgetInstance"
+}

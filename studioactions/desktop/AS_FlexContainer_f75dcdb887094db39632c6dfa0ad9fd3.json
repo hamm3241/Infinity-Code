@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_f75dcdb887094db39632c6dfa0ad9fd3": {
+        "id": "AS_FlexContainer_f75dcdb887094db39632c6dfa0ad9fd3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f0028a3615af40e8b68c5069e31896de",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.viewInfoSectionsNavigation(\"prequalifiedloans\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

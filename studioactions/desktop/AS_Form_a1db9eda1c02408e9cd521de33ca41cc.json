@@ -1,0 +1,23 @@
+{
+    "AS_Form_a1db9eda1c02408e9cd521de33ca41cc": {
+        "id": "AS_Form_a1db9eda1c02408e9cd521de33ca41cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRoles",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ed49d022d9444ea5ab8531521040fd7e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_b8d568ddf71f422a974542b97eddfeec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.rolesPreshow();\n",
+            "callbackType": null
+        }]
+    }
+}

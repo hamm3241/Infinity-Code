@@ -1,0 +1,29 @@
+{
+    "AS_Segment_g12004ea0f284f86b565a59adbd1ee02": {
+        "id": "AS_Segment_g12004ea0f284f86b565a59adbd1ee02",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "f865853f825e4e44ab551112e27938a5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d227d3c4bdcd49f481a3cbcf95213c34",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var popMenu=this.view.flxSelectOptions;\nif(popMenu.visibility===false){\n  popMenu.setVisibility(true);\n}\nelse{\n  popMenu.setVisibility(false);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

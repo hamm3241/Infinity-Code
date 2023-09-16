@@ -1,0 +1,30 @@
+{
+    "AS_Segment_g16288b28c3b4baf849b11cb93de6e1c": {
+        "id": "AS_Segment_g16288b28c3b4baf849b11cb93de6e1c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmRoles",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed49d022d9444ea5ab8531521040fd7e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f54cb3b2f0aa45af96d7baa7badd8ed8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showViewPermissionSegmentAndHeader();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

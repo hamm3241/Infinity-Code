@@ -1,0 +1,20 @@
+{
+    "AS_FlexContainer_f93b89299fd440b58a6dbfb1f86740e4": {
+        "id": "AS_FlexContainer_f93b89299fd440b58a6dbfb1f86740e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_i5a59ea0e3da4693afc8bef096ab7ee0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.toggleVisibility();\nthis.executeOnParent(\"toggleVisibility\");",
+            "callbackType": null
+        }]
+    }
+}

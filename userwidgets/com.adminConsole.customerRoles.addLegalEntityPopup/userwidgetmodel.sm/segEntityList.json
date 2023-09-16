@@ -1,0 +1,184 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblActionCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblActionName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblFeatureName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblSeperatorLine": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "lblActionCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblActionName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblFeatureName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblSeperatorLine": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "desktop": {
+        "_data_": [
+            {
+                "imgChecbox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxselected.png"
+                },
+                "lblEntityName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblSeperatorLine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "statusSwitch": {
+                    "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                    "selectedIndex": 0
+                }
+            },
+            {
+                "imgChecbox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxselected.png"
+                },
+                "lblEntityName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblSeperatorLine": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "statusSwitch": {
+                    "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                    "selectedIndex": 0
+                }
+            }
+        ],
+        "rowTemplateId": "e3fd2a84cd2a47b2bc72e3c587ec6434",
+        "rowtemplate": "flxEntity",
+        "widgetdatamap": {
+            "flxDependencyDetails": "flxDependencyDetails",
+            "flxEntity": "flxEntity",
+            "imgChecbox": "imgChecbox",
+            "lblEntityName": "lblEntityName",
+            "lblSeperatorLine": "lblSeperatorLine",
+            "statusSwitch": "statusSwitch"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segEntityList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "h3c7cb81dcb6433b8b904fa7ea3eb6fd",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxEntitySegment",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 1,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxDependencyDetails": "flxDependencyDetails",
+        "flxEntity": "flxEntity",
+        "imgChecbox": "imgChecbox",
+        "lblEntityName": "lblEntityName",
+        "lblSeperatorLine": "lblSeperatorLine",
+        "statusSwitch": "statusSwitch"
+    },
+    "zindex": 1
+}

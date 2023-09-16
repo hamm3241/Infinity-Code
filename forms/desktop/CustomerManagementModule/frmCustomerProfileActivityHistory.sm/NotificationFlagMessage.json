@@ -1,0 +1,104 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "NotificationFlagMessage": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c56a9b69ff724310bf5a46e3cfc05d74",
+                "srcKUID": "efd7810257a2499994f297571e3888ff",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxFlagContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "iac7608173234b83bd2cf505a1f2f91c",
+                "srcKUID": "a06d730b332f41a89a273bc9a2d38b8c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxIconContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gc6a01b95bf14fcebffef95d6ed162a1",
+                "srcKUID": "b333ffb4a90648d58eedcce08e6b0e07",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "df414b62f1ac4e3f942fafc459ab8d46",
+                "srcKUID": "d549b073ba254cb3ad8ab54456248f33",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmCustomerManagement.ActivityHistory__Common_MSG"
+        },
+        "lblNotificationIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a205c2f658264a22a83e90d474665f6e",
+                "srcKUID": "b460c4d5b4a944409edd9bf356356e36",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "NotificationFlagMessage",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "c56a9b69ff724310bf5a46e3cfc05d74",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxActivityHistoryCommonMessage",
+    "pf": "frmCustomerProfileActivityHistory",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "efd7810257a2499994f297571e3888ff",
+    "wType": "UserWidgetInstance"
+}

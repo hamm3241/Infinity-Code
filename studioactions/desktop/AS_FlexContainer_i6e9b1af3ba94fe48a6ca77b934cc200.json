@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_i6e9b1af3ba94fe48a6ca77b934cc200": {
+        "id": "AS_FlexContainer_i6e9b1af3ba94fe48a6ca77b934cc200",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i5162fdf0d034e49bc78b37bb3760649",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.retrievePendingLoansList();\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

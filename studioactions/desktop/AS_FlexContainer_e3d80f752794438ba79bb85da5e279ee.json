@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_e3d80f752794438ba79bb85da5e279ee": {
+        "id": "AS_FlexContainer_e3d80f752794438ba79bb85da5e279ee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segMFAScenariosSelected",
+            "type": "templates",
+            "platform": null,
+            "KUID": "ae4f39567b3140d2ad182bf91cdcb574"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cfbb4ea83f8d4706aaa3392c6d709275",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"toggleVisibility\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,1057 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sf9c55017e324e16b8d4a710f3a703ab",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnOption0": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h572bdfaa99249d988b5984e22746792",
+                "srcKUID": "b0462e862ea2439dab03c9c304127129",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmContractCreate.entityandservice",
+            "text": "SELECT LEGAL ENTITY AND SERVICE",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "160dp"
+                }
+            }
+        },
+        "btnOption1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g66062ca8d164e38b96e6c8e6b111c04",
+                "srcKUID": "c2d257ab80ae4fc9ad9de81f29cce669",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.contracts.selectCustomers_UC",
+            "text": "SELECT CUSTOMERS"
+        },
+        "btnOption2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a22d0091014840dda530e96c5d508dc6",
+                "srcKUID": "d83597898b114ff6ba9ad6468bfe0703",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.contracts.contractDetails_UC",
+            "text": "CONTRACT DETAILS"
+        },
+        "btnOption3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d959dba3e7484f51ba39583ff717e481",
+                "srcKUID": "bf3a31bf3a97491fb5f7cefa8ee73867",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmEnrollCustomer.SelectAccounts_UC",
+            "text": "SELECT ACCOUNTS"
+        },
+        "btnOption4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cbbead8e14b740559f76d0ac476ff3da",
+                "srcKUID": "ed26afa7f6a4411c8fc5b4a0ebceb866",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmGroupsController.AssignFeaturesAndActions_UC",
+            "text": "ASSIGN FEATURES AND ACTIONS",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "80%"
+                }
+            }
+        },
+        "btnOption5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fbb5f242f73d41cfb96581b38e7eb469",
+                "srcKUID": "jf0b291df3444fad8e18945e4283f7e2",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmCustomerCreate.AssignLimits_UC",
+            "text": ""
+        },
+        "btnOption6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b3048abdfae44be38a3e178bafd11ee5",
+                "srcKUID": "iae539eb83db4eb196d7b6751e38f1a4",
+                "wType": "Button"
+            }
+        },
+        "flxAccountsLeftMenu": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "afafc314d62e4659b78ce51b18b4c4b5",
+                "srcKUID": "bc6251d4ae6442b5909df982fcfdb281",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAccountsLeftMenu6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gace36cc1188419bba36bc0dba14861d",
+                "srcKUID": "g833370a8332419b8090817e88c0792b",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddSeperator2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d8ada830f0194187b5618fc6392bc375",
+                "srcKUID": "a43fd8d574ac4f798c0f3c3e3322deec",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddSeperator3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e9123b52da7643d59d6a26f36fff2250",
+                "srcKUID": "a832cb47fcee4853b9ee0ff4c76f6b95",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddSeperator4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b4548e30d3b84623ae61b3861df87538",
+                "srcKUID": "ac65fbb623d14d2f83b6f5c16c794d75",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddSeperator5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ffc30b952faa4105bd7836aa5a8514af",
+                "srcKUID": "ed40756258fa498e87494a1a29e57bb1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddSeperator6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g2163225acc64b87b943d80f1b0fed57",
+                "srcKUID": "a7c0bd544dd3414fb5d63416643ef067",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxBottomPadding": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a8ac2e2d29c94dd6a11203f95edab478",
+                "srcKUID": "g81fc63ec8d0409f933bffee96c4055c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContentConatainer2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d76f0f5dd49f4d3cb24525060b3e9b9b",
+                "srcKUID": "ad42152312114b89822bfea58b0dc1fe",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContentContainer0": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f663cfb61fbc4c8f89464109c87bdd61",
+                "srcKUID": "c210756c21e74841a16c631c7482c8c1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContentContainer1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b52614c8b2294e6a830ea21fad59b412",
+                "srcKUID": "idbd099d49124f14b54ee970ac8c6a42",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContentContainer3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef3d480b2ffc41d283d97f66d5905e56",
+                "srcKUID": "c2289fdeef59478f8ba41bcd5d08c6f1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContentContainer4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e89ed9b2dc124c07b00ce3e70c08e033",
+                "srcKUID": "d2a847dda741477f9f23cc492c4d09e2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContentContainer5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ib7712ca91644affb180b9982cfa8313",
+                "srcKUID": "f2eb1f949d7645b998cd638d05ef26fb",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContentContainer6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ja5da74fc6d84b938a36c6340c7ba2b8",
+                "srcKUID": "i446bad4521848b886b314ff0bfc6444",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxImgArrow0": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f9bc345f290d439c90e4dd9969aaa197",
+                "srcKUID": "fedfcf162ba64effa6e8ab6441c011fa",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxImgArrow1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gabd3cd1cfe44936a404f0db9725d0ac",
+                "srcKUID": "e8ae8c43f0674359894256cd63d25c5d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxImgArrow2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d448e001446a4db7b4571b004605ad6e",
+                "srcKUID": "i25a2be923e94d12bd0b5068118f49d6",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxImgArrow3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c4a866995bdb4267aeb0c37c66d3ddea",
+                "srcKUID": "g13150120aa9479180b94d0873a0f1f7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxImgArrow4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f6af54a79cd547059b54db8e366f9a17",
+                "srcKUID": "f95e86db33974f058e9b25cb6dc45968",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxImgArrow5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ce10e4a2251c442b9078588e6a74446d",
+                "srcKUID": "c46d007b1a244775895314e0f2207e2d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxImgArrow6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g497539779b44123aa8317ad2428cc05",
+                "srcKUID": "f824f7de0b474bc4ba8c662b5fb454c9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxOption0": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e3c22da78e1e47f1b59ef124030b4d5b",
+                "srcKUID": "ged7e7fd27424fe7b843583206cd7e32",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxOption1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dd275e012d15456d9b78f9b7c9e14fbd",
+                "srcKUID": "c33d73c6103a40cba0228b50e2e69aa3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxOption2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a0b51b343b2143cfacad2b658f1b03e8",
+                "srcKUID": "f21ca47907dd47c58c26b648b8f9caed",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxOption3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b0c94319a1ef4e0d8e145767e3b278c5",
+                "srcKUID": "b91156dac9fb4535bb8728902ba1a40d",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxOption4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bf0fe251499f4dccb22c6318310c5309",
+                "srcKUID": "j5e227538fd74aa1a10de913e775503a",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxOption5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b9ab47c4cbb345d0a79dbd9ac237a14c",
+                "srcKUID": "a619fba84079407794c46ecbb945daff",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxOption6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a8740a9b503746b082d5082631d467fb",
+                "srcKUID": "he672f93d837433fa7fc13cbebd17cf9",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "flxSepratorConatainer3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c09f99afa2a249d889708c4903e4ac9c",
+                "srcKUID": "fcc8f92764d44df3bf5cddbd2068e0b1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSepratorContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a7ec2aa3c5ec4b2199b2ac6b6ef3994d",
+                "srcKUID": "f4880cc9886e477692ff162f0aa553bb",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSepratorContainer5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e67b4e41c14d4a55804c9a28cac4a172",
+                "srcKUID": "a8890499806a454fbc6308b7d64144cd",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSepratorContainer6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d43a4273d2e4488e96e6a6f6e1dcf4c6",
+                "srcKUID": "a3cf3fa8acd247618c9a63faaa535d9d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSepratorcontainer0": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e5ca7ec61f4c484f9c6f49aff0eed8c9",
+                "srcKUID": "cf0cb080035f4272a55e7616c1252dbc",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSepratorcontainer1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b834d02a715545aeac0186f008e17af4",
+                "srcKUID": "bbddfbc7a64e44b3afdbe2c78b3bbc67",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSepratorcontainer2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "he3777cc818b48fab7ed1088a9fe995f",
+                "srcKUID": "db2030651c844e68b6764bc9c54636c8",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxoptionSeperator0": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f535df0945b04033898a450d76129001",
+                "srcKUID": "a2bd37db9e8c438fb34de26679978363",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxoptionSeperator1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fb6bce8b700e4b9f8bc3f9fbf9deae29",
+                "srcKUID": "bd02b1a331f7449ebcdd63dfb10eb39f",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgSelected0": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a7fa7583e4a340018cf933022368270a",
+                "srcKUID": "beaebd8b60c642f9b8cc4b3d1da7a1af",
+                "wType": "Image"
+            }
+        },
+        "imgSelected1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f6277e6f50ee420b92919a6b9b0bf9d5",
+                "srcKUID": "h8d94be0e96c456889df45138e4b474d",
+                "wType": "Image"
+            },
+            "src": "right_arrow2x.png"
+        },
+        "imgSelected2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gee9bc49f7ad484690b0a6b63201be4c",
+                "srcKUID": "d05ad30dfe3f4458b98fe505ec781feb",
+                "wType": "Image"
+            },
+            "src": "right_arrow2x.png"
+        },
+        "imgSelected3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cd226d40617e45aaa48f0ece5496f0ad",
+                "srcKUID": "idd953ebf1264d89becfab30f2eb4c60",
+                "wType": "Image"
+            },
+            "src": "right_arrow2x.png"
+        },
+        "imgSelected4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d1f699e2b2744ac69092de955ccc757c",
+                "srcKUID": "acd6c7a2a6404b8687f3674c9076c0fa",
+                "wType": "Image"
+            },
+            "src": "right_arrow2x.png"
+        },
+        "imgSelected5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gf5d97587e86462690143fc22b3fef59",
+                "srcKUID": "c33c871cbc9e421897b3c7df9035a904",
+                "wType": "Image"
+            },
+            "src": "right_arrow2x.png"
+        },
+        "imgSelected6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gecd2fac9539417da767e5d970d12d0b",
+                "srcKUID": "dc4e9bfbf5a34877bb399a6bb90f6406",
+                "wType": "Image"
+            }
+        },
+        "lblIconDropArrow4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h5c3f00cf25d4be5a0b4276ec7c6c3c2",
+                "srcKUID": "e844a6106fa0476888e331b08c01b3e8",
+                "wType": "Label"
+            }
+        },
+        "lblIconDropArrow6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ea4828da57c14be18965e4fbe2134afb",
+                "srcKUID": "a0ec99898b15477fbfbf9d63c0721a57",
+                "wType": "Label"
+            }
+        },
+        "lblOptional0": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e006ca486d6140f783c1d2466cabf55e",
+                "srcKUID": "bd1a1438ed4e444c96f4155db364a191",
+                "wType": "Label"
+            }
+        },
+        "lblOptional1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h94b51feb633421da5774dbb20302988",
+                "srcKUID": "deb1cfaca2274d649727b5e19505aa12",
+                "wType": "Label"
+            }
+        },
+        "lblOptional2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d3d5d729541843bfb07431e2805efd29",
+                "srcKUID": "f66377c612464557b0f40accf4256b28",
+                "wType": "Label"
+            },
+            "isVisible": true
+        },
+        "lblOptional3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g9ed9981a7be4af1b4a49f4bc4486295",
+                "srcKUID": "g3a2a4820c284dbcb5da95d358be1e3c",
+                "wType": "Label"
+            },
+            "isVisible": true,
+            "text": ""
+        },
+        "lblOptional4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a0294f8484004968a705dbf01d7b1a5c",
+                "srcKUID": "b44d249e2afb48b5afc92ec10b841e6a",
+                "wType": "Label"
+            },
+            "isVisible": true
+        },
+        "lblOptional5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e606556a60024afba5ad13532d59933c",
+                "srcKUID": "e0c0f850a53c44fdaa569a6d32e00070",
+                "wType": "Label"
+            },
+            "isVisible": true
+        },
+        "lblOptional6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d9b8347187a74bb38f03a002bc2a9ec1",
+                "srcKUID": "feb34ebd00e2401183b64f008277afdb",
+                "wType": "Label"
+            }
+        },
+        "lblSelected0": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eb20b89f7a0141e693af366c5b9ff698",
+                "srcKUID": "efab0483bef246ee89a4c766e3240751",
+                "wType": "Label"
+            }
+        },
+        "lblSelected1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ba276a1f3ac44d19bfe121856cdda90f",
+                "srcKUID": "d043ec53e5a54be6abf204e013c22350",
+                "wType": "Label"
+            }
+        },
+        "lblSelected2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de00de565bce4972b0ae25c72a5a6340",
+                "srcKUID": "i96b73fb954147e79488d00a72193403",
+                "wType": "Label"
+            }
+        },
+        "lblSelected3": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h2f4f42d637b4a1c927d8d42dce17593",
+                "srcKUID": "beb063e1e4864f2d911534ce0c1119ed",
+                "wType": "Label"
+            }
+        },
+        "lblSelected4": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c45d5bcfae4c4c59ac973177078532fe",
+                "srcKUID": "i11c8a1098be41628e8f1ec6e52604a0",
+                "wType": "Label"
+            }
+        },
+        "lblSelected5": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d8e933ee42964daeb003e08f2665e987",
+                "srcKUID": "j8f6e45d2f6c4750a49caa8f7ea9381d",
+                "wType": "Label"
+            }
+        },
+        "lblSelected6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ffa1f290762949d59a9f4acafb189d6e",
+                "srcKUID": "g89449575d554fc8b445356b9531e05d",
+                "wType": "Label"
+            }
+        },
+        "segCompanyAccount6": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a4b7f86ba4e0442d91ae3fbedd4d501f",
+                "srcKUID": "c597e76829dc474992884093bab7bf08",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    }
+                ]
+            }
+        },
+        "segCompanyAccounts": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "edbbf90b182c4e4cb562daa68acfeec9",
+                "srcKUID": "ge935d2a265d4aa491d4bb76666a05b0",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblAccountNumber": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "0989865887"
+                        },
+                        "lblAccountType": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Salary Account"
+                        },
+                        "lblArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmPermissions.fontIconRightArrow1",
+                            "text": ""
+                        },
+                        "lblEntitlementsSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        }
+                    }
+                ]
+            }
+        },
+        "verticalTabs1": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "fd23b7351f104d8db606928b6765aa90",
+                "srcKUID": "b2dd89c660604ecf89526e48fed9adce",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "verticalTabsContract",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "fd23b7351f104d8db606928b6765aa90",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCreateContractVerticalTabs",
+    "pf": "frmContractCreate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "b2dd89c660604ecf89526e48fed9adce",
+    "wType": "UserWidgetInstance"
+}

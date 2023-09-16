@@ -1,0 +1,202 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "17%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa24d0cc4aa3494da591359f9103f6a5",
+    "_top_": {
+        "type": "string",
+        "value": "87dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "140px"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxArrowImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j6e8b92b9da1482d83681e5d2da6e2e1",
+                "srcKUID": "c254095edc7746e0a97f5e8ed2c1ae5f",
+                "wType": "FlexContainer"
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "flxContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b2cebdc7ff2e433b98558944c7fe7be6",
+                "srcKUID": "e25dcb4fdbc94e0fa6bc4e6c3df2f773",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "flxUpgrade": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c596ea988e664b58bac508c6b852d704",
+                "srcKUID": "c6c35eddd0b04dae87356892e5595b9a",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgUpArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fe9137e973f1481ba98a5fc9491f4e25",
+                "srcKUID": "be90efd677e04369b39d8da5c300abdb",
+                "wType": "Image"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "10dp"
+                }
+            },
+            "src": "uparrow_2x.png"
+        },
+        "infoIconComponent": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e561d288f12342a1a5cddf7dd800b5fa",
+                "srcKUID": "ccbccb3820ea4c4087dffc008fd4ef15",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "isVisible": false,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "17%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "87dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "140px"
+                }
+            },
+            "zIndex": {
+                "Default": 10
+            }
+        },
+        "lblOption2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e22df9faf78e47559c7ab64d715d2d13",
+                "srcKUID": "ac1760f7c802424bab0ceb73d50b783e",
+                "wType": "Label"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "i18n_text": "kony.customers.dueDiligence.IsCitizen",
+            "text": "Is the Customer a Citizen?",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "8dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "95%"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "citizenshipInfoIconComponent",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "e561d288f12342a1a5cddf7dd800b5fa",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxDueDiligenceRightDetails",
+    "pf": "frmCustomerProfileDueDiligence",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ccbccb3820ea4c4087dffc008fd4ef15",
+    "wType": "UserWidgetInstance",
+    "zindex": 10
+}

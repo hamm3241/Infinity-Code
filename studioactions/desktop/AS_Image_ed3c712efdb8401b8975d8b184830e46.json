@@ -1,0 +1,30 @@
+{
+    "AS_Image_ed3c712efdb8401b8975d8b184830e46": {
+        "id": "AS_Image_ed3c712efdb8401b8975d8b184830e46",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmPermissions",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eff2add8f99c4151bcc345f1c2ae5bfd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gc9b0673a6244a83b49030f3129a1d0a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.nextPage();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

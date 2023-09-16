@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_fa0dc0dcbc5941b3b09ae7f5e8150162": {
+        "id": "AS_FlexContainer_fa0dc0dcbc5941b3b09ae7f5e8150162",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__db7268f163484a969810bc0d163f8902",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "userDeviceDetailsPreShow",
+            "display": "userDeviceDetailsPreShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_i9491b0d76ab4e1eb77f76284eeba3dd": {
+        "id": "AS_FlexContainer_i9491b0d76ab4e1eb77f76284eeba3dd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "frmCustomerManagement",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ibab815510c54e1b8df244eb9fa4a7e8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a637999fab3d42f89ea3864909328cd6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.executeOnParent(\"showSelectedRow\");",
+            "callbackType": null
+        }]
+    }
+}

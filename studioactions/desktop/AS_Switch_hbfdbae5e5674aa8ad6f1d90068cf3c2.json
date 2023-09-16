@@ -1,0 +1,30 @@
+{
+    "AS_Switch_hbfdbae5e5674aa8ad6f1d90068cf3c2": {
+        "id": "AS_Switch_hbfdbae5e5674aa8ad6f1d90068cf3c2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTermsAndConditions",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h3d166746f0e4fa0acaa0b06870430d2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d799ead6092d46ba97747cf93042733d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//asdf",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

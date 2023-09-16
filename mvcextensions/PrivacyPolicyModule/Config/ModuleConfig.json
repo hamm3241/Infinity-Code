@@ -1,0 +1,30 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "PrivacyPolicyModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmPrivacyPolicy": {
+                "Controller": "PrivacyPolicyModule/frmPrivacyPolicyController",
+                "ControllerExtensions": [
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "ErrorInterceptor"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "PrivacyPolicyModule/frmPrivacyPolicy",
+                "friendlyName": "frmPrivacyPolicy"
+            }
+        }
+    },
+    "ModuleName": "PrivacyPolicyModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "PrivacyPolicyModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

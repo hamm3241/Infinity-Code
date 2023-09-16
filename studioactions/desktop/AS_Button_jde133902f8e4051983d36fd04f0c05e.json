@@ -1,0 +1,28 @@
+{
+    "AS_Button_jde133902f8e4051983d36fd04f0c05e": {
+        "id": "AS_Button_jde133902f8e4051983d36fd04f0c05e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___iddd39fd928343c6a8813fc6e6a2f694",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateBackVehicleLoan",
+            "display": "navigateBackVehicleLoan",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

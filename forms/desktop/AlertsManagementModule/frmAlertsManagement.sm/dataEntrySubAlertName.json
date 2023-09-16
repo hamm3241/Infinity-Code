@@ -1,0 +1,147 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "85dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "dataEntry": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "cebf8098b2f0489d869fa832a88f6f3b",
+                "srcKUID": "c1ca39590d5c440e8c855c01681c5fbc",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDataEntry": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b95b93b842db45da97fd6caf9ea734c0",
+                "srcKUID": "d374214df9f54d0190745c0cc8066f55",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hd0dfce940464e1c8763f4f58a35c53f",
+                "srcKUID": "h11b15e5100c49dfad8cd40df5b42df4",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblData": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ieff5fa289a847278d7f68a786292965",
+                "srcKUID": "ea3283b3415e4efe893df5fe26c0f778",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.AlertName",
+            "text": "Alert Name"
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i8785c275f6f49b78280e14797313e6c",
+                "srcKUID": "dcac7dfcc1a1419b9a3cebb41b697143",
+                "wType": "Label"
+            }
+        },
+        "lblErrorMsg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a4e3055d2ae9491dab6347e3aa03059b",
+                "srcKUID": "a2eb996913924c289f1e334f6d342eab",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.Alert_name_cannot_be_empty",
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "90%"
+                }
+            }
+        },
+        "lblTextCounter": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j624e88e033542bc86891df848163763",
+                "srcKUID": "h3300fcef4794d7bb8279011aca55d41",
+                "wType": "Label"
+            },
+            "isVisible": false
+        },
+        "tbxData": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cf8ee7abaee7435694536db9b5c7540b",
+                "srcKUID": "f8997f3ec882474b8db51ba710bc19f5",
+                "wType": "TextField"
+            },
+            "i18n_placeholder": "i18n.frmAlertsManagement.AlertName",
+            "maxTextLength": 50,
+            "placeholder": "Alert Name",
+            "text": ""
+        }
+    },
+    "enablescrolling": true,
+    "id": "dataEntrySubAlertName",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "cebf8098b2f0489d869fa832a88f6f3b",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxAddAlertCol12",
+    "pf": "frmAlertsManagement",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "c1ca39590d5c440e8c855c01681c5fbc",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

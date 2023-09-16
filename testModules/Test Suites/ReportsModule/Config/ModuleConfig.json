@@ -1,0 +1,23 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.presenter.getMessagesReport",
+      "CommandHandler": "TestCase_ReportsManagement_GetMessagesReport"
+    }, {
+      "CommandId": "testcase.presenter.getTransactionalReport",
+      "CommandHandler": "TestCase_ReportsManagement_GetTransactionalReport"
+    }, {
+      "CommandId": "testcase.presenter.showReportTabs",
+      "CommandHandler": "TestCase_ReportsManagement_ShowReportTabs"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

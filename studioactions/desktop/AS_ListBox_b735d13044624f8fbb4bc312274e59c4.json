@@ -1,0 +1,17 @@
+{
+    "AS_ListBox_b735d13044624f8fbb4bc312274e59c4": {
+        "id": "AS_ListBox_b735d13044624f8fbb4bc312274e59c4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_d98353254ec5422e890fcda2cb5e533d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.lstBoxEmploymentStatusGuestSimulation.skin = \"sknlstbx485c7513px\";\nthis.view.lblGuestSimulationEmploymentStatusError.setVisibility(false);",
+            "callbackType": null
+        }]
+    }
+}

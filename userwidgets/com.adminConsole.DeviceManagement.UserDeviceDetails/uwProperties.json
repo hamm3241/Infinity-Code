@@ -1,0 +1,172 @@
+{
+    "classname": "UserDeviceDetails",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a4f6b53bd942418f98e971d249b2cb0e",
+                    "paramList": [
+                        {
+                            "name": "userId"
+                        }
+                    ],
+                    "propertyKey": "fetchUserDevices",
+                    "pw": {
+                        "displayName": "fetchUserDevices",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ge77c62b62b14aa09e9317f72ccfef99",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e9c01c5f8bb64c878591b5f6760412d2",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "formUpdateUI",
+                    "pw": {
+                        "displayName": "formUpdateUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ge77c62b62b14aa09e9317f72ccfef99",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Get UserDevices Service Details",
+                "Update UserDevices Service Details"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAObjectServices",
+                    "group": "Get UserDevices Service Details",
+                    "kuid": "de48647cbd1345efad9ef4786a16a158",
+                    "originalPropertyKey": "getUserDevicesObjectServiceName",
+                    "propertyIndex": 1,
+                    "propertyKey": "getUserDevicesObjectServiceName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ge77c62b62b14aa09e9317f72ccfef99",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAObjectServices",
+                    "group": "Update UserDevices Service Details",
+                    "kuid": "hde2a1745c7844bb8573d08bea2e34d4",
+                    "originalPropertyKey": "updateDeviceStatusObjectServiceName",
+                    "propertyIndex": 1,
+                    "propertyKey": "updateDeviceStatusObjectServiceName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ge77c62b62b14aa09e9317f72ccfef99",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "UserDevice",
+                    "group": "Get UserDevices Service Details",
+                    "kuid": "df2ea2e7e4fc494bb9ab885aa11d9c6e",
+                    "originalPropertyKey": "getUserDevicesObjectName",
+                    "propertyIndex": 2,
+                    "propertyKey": "getUserDevicesObjectName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ge77c62b62b14aa09e9317f72ccfef99",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "UserDevice",
+                    "group": "Update UserDevices Service Details",
+                    "kuid": "e43d7879db634a4f80ea5aa89e52c5a5",
+                    "originalPropertyKey": "updateDeviceStatusObjectName",
+                    "propertyIndex": 2,
+                    "propertyKey": "updateDeviceStatusObjectName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ge77c62b62b14aa09e9317f72ccfef99",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "getUserDevices",
+                    "group": "Get UserDevices Service Details",
+                    "kuid": "f765599f33cd45598402f3898fa2fb1f",
+                    "originalPropertyKey": "getUserDevicesVerbName",
+                    "propertyIndex": 3,
+                    "propertyKey": "getUserDevicesVerbName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Verb Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ge77c62b62b14aa09e9317f72ccfef99",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "updateDeviceStatus",
+                    "group": "Update UserDevices Service Details",
+                    "kuid": "j42dd75fa3a9404aa567922c5c4c00b9",
+                    "originalPropertyKey": "updateDeviceStatusVerbName",
+                    "propertyIndex": 3,
+                    "propertyKey": "updateDeviceStatusVerbName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Verb Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ge77c62b62b14aa09e9317f72ccfef99",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.adminConsole.DeviceManagement",
+    "version": "1.0.0"
+}

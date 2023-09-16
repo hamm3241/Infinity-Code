@@ -1,0 +1,203 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s39233a8d65f40d5b9120e116f6d9ef6",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnPopUpCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g8ecef092a824250aee656067817d4f5",
+                "srcKUID": "jb66c253ecf241d5a38a7c9cbab2f267",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmCustomerManagement.close_popup",
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "20px"
+                }
+            },
+            "text": "CLOSE"
+        },
+        "btnPopUpDelete": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ac34bc104c5346049072e122fd3e0f4f",
+                "srcKUID": "cb58b22a7667452eb318a31dde73b8f5",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmOutageMessageController.UPDATE",
+            "isVisible": false,
+            "text": "UPDATE"
+        },
+        "flxPopUp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "iae2e7aa724b4c98b781f3264481df40",
+                "srcKUID": "e6216270f96c4f7d8ac20033cd80f4e2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c41581dd95964669aab9922e6d4619f6",
+                "srcKUID": "ad4aa75a27a6433d996568e82aec576c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "adbea84dfef141afba93674a8b01ea8f",
+                "srcKUID": "d3432e3e00244cff9b6bfd392f838dad",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpTopColor": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j6812e4b31034013a1f4f84aac6f9b61",
+                "srcKUID": "a4757555cb1e44429898c9d6fd01fed9",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxPopupHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b84b8cce31a349c08bc3c55c209cf905",
+                "srcKUID": "j5cbe68e2b14479ab3f7e81c520c959f",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblPopUpMainMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a1d90d5b729c4d9c8b960ff14e238746",
+                "srcKUID": "bd2429502d234d2aa474223ffc9db0ca",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmBusinessTypes.deleteBusinessType",
+            "text": "Delete Business Type",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "-10px"
+                }
+            }
+        },
+        "lblPopupClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d2698e6c0f8347f687e7ac9322905837",
+                "srcKUID": "c8198072e0974262936aba7e2ee6505b",
+                "wType": "Label"
+            }
+        },
+        "popUp1": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ia2a17e6d7d94c0db9fff9a25e32430d",
+                "srcKUID": "ibfff9ef405b470eac1a81d74649265c",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        },
+        "rtxPopUpDisclaimer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ic59eb4963c64df1b6e3cec0417cafe2",
+                "srcKUID": "d2f8d6f352f44ec8929e278450906b94",
+                "wType": "RichText"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": "30dp"
+                }
+            },
+            "i18n_text": "i18n.frmBusinessTypes.warning.deleteBusinessType",
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "text": "You cannot delete this business type as one or more companies are currently associated with this Business Type. Please assign a new business types to these companies before removing them.",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "93%"
+                }
+            }
+        }
+    },
+    "id": "conflictPopup",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ia2a17e6d7d94c0db9fff9a25e32430d",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxConflictPopup",
+    "pf": "frmBusinessTypes",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "ibfff9ef405b470eac1a81d74649265c",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

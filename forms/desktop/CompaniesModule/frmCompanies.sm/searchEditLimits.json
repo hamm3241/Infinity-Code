@@ -1,0 +1,236 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxSearchCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e2be435ebcae4e46953b23c2378148f4",
+                "srcKUID": "if8da966186f4fbc8a611755319422d1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b486bbfc568443118db2cc151af80755",
+                "srcKUID": "id2daeeb43b24e2aaf8d8f93d875b462",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "40px"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "fonticonClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e3ba0f91dc7b4d6fb799ea71048d55f2",
+                "srcKUID": "cc2672a1d2304e88b6875972d6deb3aa",
+                "wType": "Label"
+            }
+        },
+        "fonticonSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d5013492e6e94ab596e2cb3d3541e23d",
+                "srcKUID": "afc1fd25856d42938c8ed3a6b5c5bad9",
+                "wType": "Label"
+            }
+        },
+        "imgSearchCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d798a96f7f1f478da48727918cafe507",
+                "srcKUID": "dd56b9e4408f4404b4c2ed5dcbe40a35",
+                "wType": "Image"
+            }
+        },
+        "imgSearchIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f69869bc72aa46a9878544badd5240b9",
+                "srcKUID": "c91e4804deac4cde9a8b4cd63a4ef700",
+                "wType": "Image"
+            }
+        },
+        "searchBox": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a57d544c7cd64183a2e101fb42b97693",
+                "srcKUID": "g2c76d9ce07e4bbfb27b6d554840795a",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "70dp"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "maxHeight": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "maxWidth": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "minHeight": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "minWidth": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "10dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "80%"
+                }
+            }
+        },
+        "tbxSearchBox": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f9bba5f1296e4373905614a724e256cc",
+                "srcKUID": "ce1618e678b9439dbde2faf87cb3fbba",
+                "wType": "TextField"
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "i18n_placeholder": "i18n.frmEnrollCustomer.SearchByFeatureActionName"
+        }
+    },
+    "enablescrolling": true,
+    "id": "searchEditLimits",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "a57d544c7cd64183a2e101fb42b97693",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxAddedUserEditLimitsSearchFilterCont",
+    "pf": "frmCompanies",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "g2c76d9ce07e4bbfb27b6d554840795a",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,48 @@
+{
+    "AS_FlexContainer_i690340ff15640d39a59969c7ba60a46": {
+        "id": "AS_FlexContainer_i690340ff15640d39a59969c7ba60a46",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPasswordAgeAndLockoutSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i860fd5238df49cdb488d81dd8523689"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____e39accd9b0874ef7b4bf1b659cd5b2dc",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmPasswordAgeAndLockoutSettings",
+            "widgetId": "flxToastMessage",
+            "itemKUID": "i860fd5238df49cdb488d81dd8523689",
+            "widgetKUID": "gbb6638b95fe470881af8497da050532",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "bottom": "-70px",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": "2",
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000",
+                "direction": "kony.anim.DIRECTION_ALTERNATE"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____e39accd9b0874ef7b4bf1b659cd5b2dc",
+            "displayAnimationId": "MOVE_ACTION____e39accd9b0874ef7b4bf1b659cd5b2dc",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxToastMessage"
+        }]
+    }
+}

@@ -1,0 +1,69 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [
+      {
+        "CommandId": "testcase.command.login.successflow",
+        "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+      },
+      
+      {
+        "CommandId": "testcase.command.location.fetchAllLocations_PC",
+        "CommandHandler": "TestCase_fetchAllLocations_PC_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.getLocationDetails_PC",
+        "CommandHandler": "TestCase_getLocationDetails_PC_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.addNewLocation_PC",
+        "CommandHandler": "TestCase_addNewLocation_PC_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.changeLocationStatus_PC",
+        "CommandHandler": "TestCase_changeLocationStatus_PC_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.editLocationDetails_PC",
+        "CommandHandler": "TestCase_editLocationDetails_PC_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.importLocations_PC",
+        "CommandHandler": "TestCase_importLocations_PC_CommandHandler"
+      },
+      
+      {
+        "CommandId": "testcase.command.location.fetchAllLocations_CH",
+        "CommandHandler": "TestCase_fetchAllLocations_CH_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.getLocationDetails_CH",
+        "CommandHandler": "TestCase_getLocationDetails_CH_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.addNewLocation_CH",
+        "CommandHandler": "TestCase_addNewLocation_CH_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.changeLocationStatus_CH",
+        "CommandHandler": "TestCase_changeLocationStatus_CH_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.editLocationDetails_CH",
+        "CommandHandler": "TestCase_editLocationDetails_CH_CommandHandler"
+      },
+      {
+        "CommandId": "testcase.command.location.importLocations_CH",
+        "CommandHandler": "TestCase_importLocations_CH_CommandHandler"
+      }
+    ],
+      "BusinessControllerClass": "Test_BusinessController"
+  },
+    "PresentationControllerConfig": {
+      "Default": {
+        "PresentationControllerClass": "Test_PresentationController",
+          "PresentationExtensions": ["Test_Configuration"]
+      }
+    },
+      "Forms": {},
+        "ModuleName": "TestModule"
+}

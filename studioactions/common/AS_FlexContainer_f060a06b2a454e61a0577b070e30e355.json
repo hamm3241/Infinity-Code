@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_f060a06b2a454e61a0577b070e30e355": {
+        "id": "AS_FlexContainer_f060a06b2a454e61a0577b070e30e355",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "uwu110a4bb31f0423e90088cf81647d0dd",
+            "type": "userwidgets",
+            "KUID": "u110a4bb31f0423e90088cf81647d0dd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a92248dc2049420c8114aae91824c50b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var self = this ;\nvar isHover = context.event !== \"mouseout\";\nvar formName = eventobject.pf;\nvar code = \"\";\nif(formName && formName === \"frmDepositsDashboard\"){\n  code = eventobject.id.replace(\"depositsInfo\", \"\");\n} else {\n  code = eventobject.id.replace(\"loaninfo\", \"\");\n}\neventobject[code + \"flxLoanAprDetails\"].setVisibility(!isHover);\neventobject[code + \"flxApplyLoan\"].setVisibility(isHover);\neventobject[code + \"lblLearnMore\"].setVisibility(isHover);\neventobject[code + \"btnApplyLoan\"].setVisibility(isHover);\neventobject.skin = isHover ? \"sknFlxBorder117eb0CustomRadius5px\" : \"sknFlxBordere1e5eedCustomRadius5px\" ;\nself.view.forceLayout();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

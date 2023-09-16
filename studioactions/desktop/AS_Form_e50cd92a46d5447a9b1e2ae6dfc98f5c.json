@@ -1,0 +1,23 @@
+{
+    "AS_Form_e50cd92a46d5447a9b1e2ae6dfc98f5c": {
+        "id": "AS_Form_e50cd92a46d5447a9b1e2ae6dfc98f5c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerProfileLimits",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ie585c12c3ab42bc92a7b2307c2c2b27"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_cf1ad84a6aeb4682a4abc7fe8053ce5a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.CustomerProfileFeaturesPreshow();",
+            "callbackType": null
+        }]
+    }
+}

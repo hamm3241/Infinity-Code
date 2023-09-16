@@ -1,0 +1,717 @@
+<!-- RICH TEXT EDITOR -->
+<!-- Author: Mohit Khosla -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rich-text Editor</title>
+    <link rel="stylesheet" href="./font_icons/style.css">
+    <script src="richtextJquery.js"></script>
+    <style>
+      @font-face {
+        font-family: 'Lato';
+        src: url('../../Lato-Regular.ttf') format('truetype');
+      }
+      [contenteditable]:focus {
+        outline: 0px solid transparent;
+      }
+      [contentEditable]:empty:not(:focus):before{
+        content:attr(data-text);
+        color: #b2bdd5;
+      }
+      a {
+        cursor: pointer;
+      }
+      .toolbar {
+        width: 100%;
+        position: fixed;
+        border-bottom: 1px solid #e1ebed;
+        background: #ffffff;
+      }
+      .toolbar a,
+      .fore-wrapper,
+      .format-wrapper,
+      .table-wrapper {
+        color: black;
+        padding: 8px;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 16px;
+        margin: -1px;
+      }
+      .toolbar a:hover, .fore-wrapper:hover, .format-wrapper:hover, .table-wrapper:hover {
+        background: #d0d0d0;
+        border-color: #8c8c8c;
+      }
+      #editor {
+        overflow: auto;
+        padding: 1em;
+        resize: vertical;
+        min-height: 200px;
+        padding-top: 40px;
+      }
+      /* Color palette */
+      .fore-palette {
+        display: none;
+      }
+      .fore-wrapper {
+        display: inline-block;
+        cursor: pointer;
+      }
+      .fore-wrapper:hover .fore-palette {
+        display: block;
+        float: left;
+        position: absolute;
+        padding: 3px;
+        width: 120px;
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        box-shadow: 0 0 5px #cccccc;
+        height: 55px;
+      }
+      .fore-palette a {
+        background: #ffffff;
+        margin-bottom: 2px;
+      }
+      a.fore-palette-item {
+        width: 0.25em;
+        height: 0.25em;
+        margin: 2px;
+        border: 1px solid #CCC;
+        border-radius: 3px;
+      }
+      a.fore-palette-item:hover {
+        border: 1px solid #CCC;
+        box-shadow: 0 0 1px #333;
+      }
+      /* Color palette */
+      /* Format palette */
+      .format-palette {
+        display: none;
+      }
+      .format-wrapper {
+        display: inline-block;
+        cursor: pointer;
+      }
+      .format-wrapper:hover .format-palette {
+        display: block;
+        position: absolute;
+        padding: 3px;
+        width: 180px;
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        box-shadow: 0 0 5px #cccccc;
+        height: 140px;
+      }
+      .format-palette a {
+        background: #ffffff;
+        margin: 2px;
+      }
+      a.format-palette-item {
+        width: 5em;
+        margin: 2px;
+        float: left;
+        text-align: left;
+      }
+      a.format-h1 {
+        height: 1.2em;
+        font-size: 2em; 
+        font-weight: bold;  
+      }
+      a.format-h2 {
+        height: 1.1em;
+        font-size: 1.5em; 
+        font-weight: bold;  
+      }
+      /* Format palette */
+      /* Table */
+      .table-palette {
+        float: left;
+        position: absolute;
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        box-shadow: 0 0 5px #cccccc;
+        width: 218px;
+        height: 217px;
+        margin-top: -3px;
+      }
+      .table-palette a {
+        background: #ffffff;
+      }
+      a.table-palette-item {
+        height: 0.2em;
+        width: 0.2em;
+        border: 1px solid #CCC;
+        box-shadow: 0px 0px 0px;
+        margin: -5px 0px -2px -4px;
+      }
+      /* Table */
+    </style>
+  </head>
+  <body style="margin: 0 auto; font-family: 'Lato'; font-size: 13px !important;" onload="onRichtextLoadFunction()">
+    <div id="mainDiv">
+      <div class="toolbar-wrapper">
+        <div class="toolbar" style="display: block;">
+          <a href="#!" data-command='bold'><span class='icon-bold'></span></a>
+          <a href="#!" data-command='italic'><span class='icon-italic'></span></a>
+          <a href="#!" data-command='underline'><span class='icon-underline'></span></a>
+          <div class="fore-wrapper">
+            <span class='icon-text-color'></span>
+            <div class="fore-palette">
+              <a href="#!" data-command="forecolor" data-value="#ff0000" style="background-color:#ff0000;" class="fore-palette-item"></a>
+              <a href="#!" data-command="forecolor" data-value="#0000ff" style="background-color:#0000ff;" class="fore-palette-item"></a>
+              <a href="#!" data-command="forecolor" data-value="#00ff00" style="background-color:#00ff00;" class="fore-palette-item"></a>
+              <a href="#!" data-command="forecolor" data-value="#ffff00" style="background-color:#ffff00;" class="fore-palette-item"></a>
+              <a href="#!" data-command="forecolor" data-value="#000000" style="background-color:#000000;" class="fore-palette-item"></a>
+              <a href="#!" data-command="forecolor" data-value="#555555" style="background-color:#555555;" class="fore-palette-item"></a>
+              <a href="#!" data-command="forecolor" data-value="#aaaaaa" style="background-color:#aaaaaa;" class="fore-palette-item"></a>
+              <a href="#!" data-command="forecolor" data-value="#ffffff" style="background-color:#ffffff;" class="fore-palette-item"></a>
+            </div>
+          </div>
+          <div class="format-wrapper">
+            <span class='icon-size'></span>
+            <div class="format-palette">
+              <a href="#!" data-command='h1' class="format-palette-item format-h1">Heading 1</a>
+              <a href="#!" data-command='h2' class="format-palette-item format-h2">Heading 2</a>
+              <a href="#!" data-command='p' class="format-palette-item format-p">Paragraph</a>
+            </div>
+          </div>
+          <a href="#!" data-command='justifyLeft'><span class='icon-align-left'></span></a>
+          <a href="#!" data-command='justifyCenter'><span class='icon-align-center'></span></a>
+          <a href="#!" data-command='justifyRight'><span class='icon-align-right'></span></a>
+          <a href="#!" data-command='justifyFull'><span class='icon-align-justify'></span></a>
+          <a href="#!" data-command='indent'><span class='icon-indent-more'></span></a>
+          <a href="#!" data-command='outdent'><span class='icon-indent-less'></span></a>
+          <a href="#!" data-command='insertUnorderedList'><span class='icon-list'></span></a>
+          <a href="#!" data-command='insertOrderedList'><span class='icon-unorder-list'></span></a>
+          <div class="table-wrapper">
+            <span class='icon-insert-table'></span>
+            <div class="table-palette" style="display: none;">
+              <table>
+                <tr>
+                  <td><a href="#!" data-command='0x0' id="0x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='0x1' id="0x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='0x2' id="0x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='0x3' id="0x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='0x4' id="0x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='0x5' id="0x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='0x6' id="0x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='0x7' id="0x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='0x8' id="0x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='0x9' id="0x9" class="table-palette-item"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!" data-command='1x0' id="1x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='1x1' id="1x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='1x2' id="1x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='1x3' id="1x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='1x4' id="1x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='1x5' id="1x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='1x6' id="1x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='1x7' id="1x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='1x8' id="1x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='1x9' id="1x9" class="table-palette-item"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!" data-command='2x0' id="2x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='2x1' id="2x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='2x2' id="2x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='2x3' id="2x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='2x4' id="2x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='2x5' id="2x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='2x6' id="2x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='2x7' id="2x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='2x8' id="2x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='2x9' id="2x9" class="table-palette-item"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!" data-command='3x0' id="3x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='3x1' id="3x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='3x2' id="3x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='3x3' id="3x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='3x4' id="3x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='3x5' id="3x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='3x6' id="3x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='3x7' id="3x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='3x8' id="3x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='3x9' id="3x9" class="table-palette-item"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!" data-command='4x0' id="4x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='4x1' id="4x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='4x2' id="4x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='4x3' id="4x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='4x4' id="4x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='4x5' id="4x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='4x6' id="4x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='4x7' id="4x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='4x8' id="4x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='4x9' id="4x9" class="table-palette-item"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!" data-command='5x0' id="5x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='5x1' id="5x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='5x2' id="5x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='5x3' id="5x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='5x4' id="5x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='5x5' id="5x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='5x6' id="5x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='5x7' id="5x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='5x8' id="5x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='5x9' id="5x9" class="table-palette-item"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!" data-command='6x0' id="6x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='6x1' id="6x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='6x2' id="6x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='6x3' id="6x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='6x4' id="6x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='6x5' id="6x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='6x6' id="6x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='6x7' id="6x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='6x8' id="6x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='6x9' id="6x9" class="table-palette-item"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!" data-command='7x0' id="7x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='7x1' id="7x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='7x2' id="7x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='7x3' id="7x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='7x4' id="7x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='7x5' id="7x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='7x6' id="7x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='7x7' id="7x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='7x8' id="7x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='7x9' id="7x9" class="table-palette-item"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!" data-command='8x0' id="8x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='8x1' id="8x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='8x2' id="8x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='8x3' id="8x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='8x4' id="8x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='8x5' id="8x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='8x6' id="8x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='8x7' id="8x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='8x8' id="8x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='8x9' id="8x9" class="table-palette-item"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!" data-command='9x0' id="9x0" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='9x1' id="9x1" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='9x2' id="9x2" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='9x3' id="9x3" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='9x4' id="9x4" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='9x5' id="9x5" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='9x6' id="9x6" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='9x7' id="9x7" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='9x8' id="9x8" class="table-palette-item"></a></td>
+                  <td><a href="#!" data-command='9x9' id="9x9" class="table-palette-item"></a></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <a href="#!" data-command='createlink'><span class='icon-link'></span></a> 
+          <a href="#!" data-command='insertimage'><span class='icon-image'></span></a>
+          <input type="file" style="display: none;" onchange="uploadImage(this);">
+          <span id="charCounter" style="display: none;">
+            <span id="currentCharCounter">0</span>/<span id="maxCharCounter">1000</span>
+          </span>
+        </div>
+      </div>
+      <div id="editor" contenteditable data-text=""></div>
+      <input type="hidden" id="charCounterStatus" value="false">
+      <input type="hidden" id="beforePasteText" value="">
+      <input type="hidden" id="tableCounter" value="0">
+      <input type="hidden" id="imageSizeIsValid" value="true">
+      <input type="hidden" id="imageFormatIsValid" value="true">
+      <input type="hidden" id="cursorPosition" value="">
+    </div>
+
+    <script type="text/javascript">
+
+      // TOOLBAR VISIBILITY & CHARACTER COUNTER/LIMITER
+      var rangeOnEditorClick = undefined;
+
+      var onRichtextLoadFunction = function() {
+
+    	document.addEventListener('selectionchange', manageCursorPosition);
+
+        $('#editor').click(function() {
+          document.getElementsByClassName("toolbar")[0].style.display = "block";
+          document.getElementById("editor").style.paddingTop = "40px";
+          
+          charCounter();
+          hideMessageFilterIfVisible();
+
+          rangeOnEditorClick = window.getSelection().getRangeAt(0);
+        });
+
+        $('#editor').keyup(function() {
+          document.getElementsByClassName("toolbar")[0].style.display = "block";
+          document.getElementById("editor").style.paddingTop = "40px";
+          
+          charCounter();
+          hideMessageFilterIfVisible();
+
+          rangeOnEditorClick = undefined;
+        });
+      };
+
+      function charCounter() {
+        var editorText = document.getElementById("editor").innerHTML;
+        editorText = editorText.replace(/<br>/g, "");
+
+        var tempDiv = document.createElement('div');
+        tempDiv.innerHTML = editorText;
+        var editorTextWithoutElements = String(tempDiv.innerText);
+        editorTextWithoutElements = editorTextWithoutElements.toLowerCase();
+
+
+        if(document.getElementById("charCounterStatus").value == "true") {
+          var textLength = editorTextWithoutElements.length;
+          var currentCharCounter = document.getElementById("currentCharCounter").innerHTML;
+
+          if((event.keyCode != 13 && event.keyCode != 8) || (event.keyCode == 8 && parseInt(currentCharCounter, 10)!=0)){
+            document.getElementById("currentCharCounter").innerHTML = textLength;
+          }
+          else if(textLength > parseInt(document.getElementById("maxCharCounter").innerHTML, 10)) {
+            event.preventDefault();
+          }
+        }
+        else {
+          document.getElementById("charCounter").style.display = "none";
+        }
+      }
+
+      function charCounterAfterActivity(countTime) {
+        var editorText = document.getElementById("editor").innerHTML;
+        editorText = editorText.replace(/<br>/g, "");
+        editorText = editorText.replace(/<br class="">/g, "");
+
+        var tempDiv = document.createElement('div');
+        tempDiv.innerHTML = editorText;
+        var editorTextWithoutElements = String(tempDiv.innerText);
+        var textLength = editorTextWithoutElements.length;
+
+        if(countTime == "initial_count") {
+          document.getElementById("currentCharCounter").innerHTML = textLength;
+        }
+        else {
+          if(textLength > parseInt(document.getElementById("maxCharCounter").innerHTML, 10)) {
+            alert("Text is longer than the maximum length specified. Please trim your text before copying it again.");
+            if(document.getElementById("beforePasteText").value != "") {
+              document.getElementById("editor").innerHTML = document.getElementById("beforePasteText").value;
+
+              var beforePasteText = document.getElementById("beforePasteText").value;
+              beforePasteText = beforePasteText.replace(/<br>/g, "");
+              beforePasteText = beforePasteText.replace(/<br class="">/g, "");
+              var tempDiv2 = document.createElement('div');
+              tempDiv2.innerHTML = beforePasteText;
+              document.getElementById("currentCharCounter").innerHTML = String(tempDiv2.innerText).length;
+            }
+            else {
+              document.getElementById("editor").innerHTML = "";
+              document.getElementById("currentCharCounter").innerHTML = "0";
+            }
+          }
+          else {
+            document.getElementById("currentCharCounter").innerHTML = textLength;
+          }
+        }
+      }
+
+      // RICH TEXT ACTION IMPLEMENTOR
+      $('.toolbar a').click(function(e) {
+        var command = $(this).data('command');
+        if (command == 'h1' || command == 'h2' || command == 'p') {
+          document.execCommand('formatBlock', false, command);
+        }
+        else if (command == 'forecolor') {
+          document.execCommand($(this).data('command'), false, $(this).data('value'));
+        }
+        else if (command == 'createlink') {
+          url = prompt('Enter the link here: ', '');
+          if(url != null) {
+            document.execCommand($(this).data('command'), false, url);
+          }
+        }
+        else if (command == 'insertimage') {
+          $('input[type="file"]').click();
+        }
+        else {
+          document.execCommand($(this).data('command'), false, null);
+        }
+      });
+
+      // PASTE INTERCEPTOR
+      document.getElementById("editor").addEventListener("paste", function(e) {
+        document.getElementById("beforePasteText").value = document.getElementById("editor").innerHTML;
+        setTimeout(afterPaste, 50);
+      });
+
+      function afterPaste() {
+        $("#editor").find("*").removeClass();
+        $("#editor style").remove();
+        $("#editor").find("*").removeAttr("style");
+        $("#editor span").contents().unwrap();
+        $("#editor div, #editor p").prepend("<br>").contents().unwrap();
+        document.getElementById("editor").innerHTML = document.getElementById("editor").innerHTML.replace(/\uFFFD/g, "");
+        for(var i=0; i<document.getElementsByTagName("table").length; ++i) {
+          document.getElementsByTagName("table")[i].border = "1px solid #000";
+          document.getElementsByTagName("table")[i].style.borderCollapse = "collapse";
+        }
+        if(document.getElementById("charCounterStatus").value == "true") {
+          charCounterAfterActivity("afterPaste_count");
+        }
+      }
+
+      // TABLE CREATOR
+      $('.toolbar .table-palette-item').click(function(e) {
+        var clickedCell = $(this).data('command');
+
+        var row = clickedCell.substring(0, clickedCell.indexOf("x"));
+        var column = clickedCell.substring(clickedCell.indexOf("x")+1);
+        var editorWidth = document.getElementById("editor").clientWidth;
+        var columnWidth = editorWidth/(parseInt(column,10)+1)+"px";
+
+        var table = document.createElement('table');
+        table.id = "editorTable";
+        table.margin = "0px";
+
+        for (var i=0; i<=row; ++i){
+          var tr = document.createElement('tr');
+
+          for (var j=0; j<=column; ++j){
+            var td = document.createElement('td');
+            var text = document.createTextNode('');
+            td.appendChild(text);
+            td.width=columnWidth;
+            td.height="16px";
+            td.style.border = "1px solid #000000";
+            tr.appendChild(td);
+          }
+
+          table.appendChild(tr);
+        }
+
+        table.style.border = "1px solid #000000";
+        table.style.borderCollapse = "collapse";
+
+        var br = document.createElement('br');
+
+        if(rangeOnEditorClick !== undefined) {
+          var frag = document.createDocumentFragment(), node, lastNode;
+          lastNode = frag.appendChild(table);
+          rangeOnEditorClick.insertNode(frag);
+        }
+        else {
+          document.getElementById("editor").appendChild(table);
+        }
+
+        placeCaretAtEnd(document.getElementById("editor"));
+        document.getElementsByClassName("table-palette")[0].style.display = "none";
+      });
+
+      // TABLE SELECTOR ENABLER
+      $('.icon-insert-table').hover(function(e) {
+        document.getElementsByClassName("table-palette")[0].style.display = "block";
+      });
+
+      $('.icon-insert-table').mouseleave(function(e) {
+        document.getElementsByClassName("table-palette")[0].style.display = "none";
+      });
+
+      // TABLE SELECTOR ENABLER
+      $('.icon-insert-table').click(function(e) {
+        placeCaretAtEnd(document.getElementById("editor"));
+        document.getElementsByClassName("table-palette")[0].style.display = "block";
+      });
+
+      // TABLE CELL HIGHLIGHTER
+      $('.table-palette-item').hover(function(e) {
+      	document.getElementsByClassName("table-palette")[0].style.display = "block";
+      	
+        var clickedCell = $(this).data('command');
+        var row = clickedCell.substring(0, clickedCell.indexOf("x"));
+        var column = clickedCell.substring(clickedCell.indexOf("x")+1);
+
+        for (var i=0; i<10; ++i){
+          for (var j=0; j<10; ++j){
+            var cellId = i+"x"+j;
+            if(i<=row && j<=column) {
+              document.getElementById(cellId).style.backgroundColor = "#f2f2f2";
+              document.getElementById(cellId).style.borderColor = "#8c8c8c";
+            }
+            else {
+              document.getElementById(cellId).style.backgroundColor = "#ffffff";
+              document.getElementById(cellId).style.borderColor = "#cccccc";
+            }
+          }
+        }
+      });
+
+      $('.table-palette').mouseleave(function(e) {
+        for (var i=0; i<10; ++i){
+          for (var j=0; j<10; ++j){
+            var cellId = i+"x"+j;
+            document.getElementById(cellId).style.backgroundColor = "#ffffff";
+            document.getElementById(cellId).style.borderColor = "#cccccc";
+          }
+        }
+
+        placeCaretAtEnd(document.getElementById("editor"));
+        document.getElementsByClassName("table-palette")[0].style.display = "none";
+      });
+
+      function placeCaretAtEnd(e) {
+        e.focus();
+        if (typeof window.getSelection != "undefined" && typeof document.createRange != "undefined") {
+          var range = document.createRange();
+          range.selectNodeContents(e);
+          range.collapse(false);
+          var sel = window.getSelection();
+          sel.removeAllRanges();
+          sel.addRange(range);
+        }
+        else if (typeof document.body.createTextRange != "undefined") {
+          var textRange = document.body.createTextRange();
+          textRange.moveToElementText(e);
+          textRange.collapse(false);
+          textRange.select();
+        }
+
+        rangeOnEditorClick = window.getSelection().getRangeAt(0);
+      }
+      function uploadImage(input) {
+        if (input.files && input.files[0]) {
+            var img = document.createElement('img');
+
+			var imageSize = input.files[0].size;
+            var imageFormat = input.files[0].name.substring(input.files[0].name.lastIndexOf('.')+1);
+
+            var allowedImageFormats = ["jpeg", "jpg", "png", "JPEG", "JPG", "PNG"];
+
+            if(imageSize > 204800) {
+      			alert("Image size cannot be greater than 200KB");
+      			document.getElementById("imageSizeIsValid").value = "false";
+      			document.getElementById("imageFormatIsValid").value = "true";
+            }
+            else if(!allowedImageFormats.includes(imageFormat)) {
+      			alert("Image can only have one of the following formats: JPEG, JPG and PNG");
+      			document.getElementById("imageSizeIsValid").value = "true";
+      			document.getElementById("imageFormatIsValid").value = "false";
+            }
+            else {
+            	document.getElementById("imageSizeIsValid").value = "true";
+            	document.getElementById("imageFormatIsValid").value = "true";
+
+            	var reader = new FileReader();
+            	reader.readAsDataURL(input.files[0]);
+
+            	reader.onload = function(e) {
+                	img.src = e.target.result;
+            	};
+
+            	if(rangeOnEditorClick !== undefined) {
+          			var frag = document.createDocumentFragment(), node, lastNode;
+          			lastNode = frag.appendChild(img);
+          			rangeOnEditorClick.insertNode(frag);
+        		}
+        		else {
+          			document.getElementById("editor").appendChild(img);
+        		}
+
+        		// ** Clearing the input element of its image object **
+				$('input[type="file"]').replaceWith($('input[type="file"]').val('').clone(true));
+        		placeCaretAtEnd(document.getElementById("editor"));
+            }
+        }
+      }
+      
+      function hideMessageFilterIfVisible() {
+      	if(window.frameElement && window.frameElement.ownerDocument) {
+      		var parentDocument = window.frameElement.ownerDocument;
+      		if(parentDocument.getElementById("frmCSR_Message_flxFilter")) {
+          		parentDocument.getElementById("frmCSR_Message_flxFilter").style.display = "none";
+        	}
+      	}
+      }
+
+      function getCursorSeparatedContent() {
+      	var editorText = document.getElementById("editor").innerHTML.replace(/<br>/g, "");
+
+        var tempDiv = document.createElement('div');
+        tempDiv.innerHTML = editorText;
+        var editorTextWithoutElements = String(tempDiv.innerText);
+
+        var cursorPosition = document.getElementById("cursorPosition").value;
+
+      	return {
+      		leftHandText : editorTextWithoutElements.substring(0, cursorPosition),
+      		rightHandText : editorTextWithoutElements.substring(cursorPosition)
+      	}
+      }
+
+      function manageCursorPosition() {
+    	if (document.activeElement != null && document.activeElement.id === "editor") {
+        	var cursorPosition = getCursorPosition(document.activeElement);
+
+        	if (cursorPosition != null) {
+        		document.getElementById("cursorPosition").value = cursorPosition;
+        	}
+		}
+	  }
+
+	  function getCursorPosition(editor) {
+    	var selection = window.getSelection();
+
+    	if (selection != null && selection.rangeCount > 0) {
+        	var range = selection.getRangeAt(0);
+
+        	return getTextLength(document.getElementById("editor"), range.startContainer, range.startOffset);
+    	}
+	  }
+
+	  function getTextLength(parent, node, offset) {
+    	var textLength = 0;
+
+    	if (node.nodeName == '#text') {
+        	textLength += offset;
+    	}
+    	else for (var i = 0; i < offset; i++) {
+        	textLength += getNodeTextLength(node.childNodes[i]);
+    	}
+
+    	if (node != parent) {
+        	textLength += getTextLength(parent, node.parentNode, getNodeOffset(node));
+    	}
+
+    	return textLength;
+	  }
+
+	  function getNodeTextLength(node) {
+    	var textLength = 0;
+
+    	if (node.nodeName == 'BR') {
+        	textLength = 1;
+    	}
+    	else if (node.nodeName == '#text') {
+        	textLength = node.nodeValue.length;
+    	}
+    	else if (node.childNodes != null) {
+        	for (var i = 0; i < node.childNodes.length; i++) {
+            	textLength += getNodeTextLength(node.childNodes[i]);
+        	}
+    	}
+
+    	return textLength;
+	  }
+
+	  function getNodeOffset(node) {
+    	return node == null ? -1 : getNodeOffset(node.previousSibling) + 1;
+	  }
+    </script>
+  </body>
+</html>

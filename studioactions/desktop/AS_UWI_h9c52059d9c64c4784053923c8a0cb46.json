@@ -1,0 +1,25 @@
+{
+    "AS_UWI_h9c52059d9c64c4784053923c8a0cb46": {
+        "id": "AS_UWI_h9c52059d9c64c4784053923c8a0cb46",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmProduct",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h1e7dfebcda54e16960419eea034b5ae"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a9964556d21949718ab16fb8b937b49d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "closeAddProductComponent",
+            "display": "closeAddProductComponent",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

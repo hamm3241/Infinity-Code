@@ -1,0 +1,24 @@
+{
+    "AS_ListBox_ddd49aa9f7e741f497c50a84f892e442": {
+        "id": "AS_ListBox_ddd49aa9f7e741f497c50a84f892e442",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c63a07a7bba146bba632f42316910d9b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.lstBoxLoanTypeGuestSimulation.skin = \"sknlstbx485c7513px\";\nthis.view.lblGuestSimulationLoanTypeError.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_b312ec9d7e6f47d1a4e40fa63f8f81e9": {
+        "id": "AS_Button_b312ec9d7e6f47d1a4e40fa63f8f81e9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ce540fbb05d14eac9c903cd97a746e13",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var newPassword = this.view.flxForgotPassword.txtNewPassword1.text;\nvar currentPassword = this.view.flxForgotPassword.txtCurrentPassword1.text;\nvar userName = kony.mvc.MDAApplication.getSharedInstance().appContext.userName;\nthis.presenter.toResetPassword(userName,currentPassword,newPassword);",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "106px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s4886d30205846ce90dddbeb96d1d6ef",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ButtonApprove": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i0ace069311a46329345b01833ef1a9f",
+                "srcKUID": "dd87ce9a90c94134a5a08127615d69b6",
+                "wType": "Button"
+            }
+        },
+        "ButtonReject": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ge533dcd86344bbd881067f84c5ec55b",
+                "srcKUID": "edd998c1545e4d12ab7610749135c2c7",
+                "wType": "Button"
+            }
+        },
+        "FlexContainerForApproveAndReject": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "acd7164d8b2f4dfaa189540d733af7ad",
+                "srcKUID": "ie07eaadebc94280a94351a423b5d440",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnAddNewOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a43ccf68bc2d450a8530b87c3a5a3240",
+                "srcKUID": "ada5d4a4ecde43cca0304c5882f66bb7",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.Faq.AddFaq",
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "0px"
+                }
+            },
+            "text": "ADD FAQ"
+        },
+        "btnDropdownList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b0e1c909faf04219a592ea4d7ec7ae72",
+                "srcKUID": "b43698c27a4f4d988b5a7d3585c0a45b",
+                "wType": "Button"
+            },
+            "isVisible": true
+        },
+        "flxAddNewOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d1af54587edc4e55a230f6ed2078d981",
+                "srcKUID": "gcf4f343946b48eb8cfdddb8ea99ee15",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g31e5d7ec57a4d5cbee20971a007dd2e",
+                "srcKUID": "ie1e60199eb3482b836d57a31097ad15",
+                "wType": "FlexContainer"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "56px"
+                }
+            }
+        },
+        "flxDownloadList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fa07523ab8984dbca7f78f96c64059ba",
+                "srcKUID": "hed9c70306a244ed9913ad2c67adf9b5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeaderSeperator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ieab7e1df6934624ad4cca444e9fabbb",
+                "srcKUID": "d5e902ebe40e41059acd4452ef74ee71",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeaderUserOptions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a02924e72ec34a9f999d880f1e5cca16",
+                "srcKUID": "e340add28ee8424ab0f160b52c1c3c49",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMainHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jf18cd4eed434bb8bad5bc058fae1aee",
+                "srcKUID": "b5acbdce2d1f4b79be60f46a616882ae",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgLogout": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i6a9c97db8cf45f6a286ac065ebb8e02",
+                "srcKUID": "ff744a337cf24ffa97ecc82ef9964a85",
+                "wType": "Image"
+            }
+        },
+        "lblAddNewOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a766ac3a3c944d8d83d152f73cd865eb",
+                "srcKUID": "b3a6223eaac240c2aec04f4e88d4c9a7",
+                "wType": "Label"
+            }
+        },
+        "lblDownloadList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aa834afe442d42bca08222eff7ccf781",
+                "srcKUID": "b6599b7f52704e498d2f53cc4ab1f6e7",
+                "wType": "Label"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bc4a66501c1a47a6bf7f61c7f7c06dff",
+                "srcKUID": "a773cdbb83be4b82acfb733f2e46eb06",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmFAQController.FAQs",
+            "text": "FAQ's"
+        },
+        "lblUserName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d3facf48ac1246bd9a26f03fd9f890e2",
+                "srcKUID": "i605a8166a1941eead62b15cbf43026c",
+                "wType": "Label"
+            }
+        },
+        "mainHeader": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ed3217638b2b47588bed1b23f14345fc",
+                "srcKUID": "a90b792b68af4d448d2757e88c7e1671",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0"
+                }
+            }
+        }
+    },
+    "id": "mainHeader",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ed3217638b2b47588bed1b23f14345fc",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMainHeader",
+    "pf": "frmFAQ",
+    "snaptogrid": true,
+    "sourceUserWidget": "a90b792b68af4d448d2757e88c7e1671",
+    "wType": "UserWidgetInstance"
+}

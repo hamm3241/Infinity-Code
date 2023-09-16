@@ -1,0 +1,26 @@
+{
+    "AS_TextField_g7c4679c44cb4cce8c09c80a3befda1f": {
+        "id": "AS_TextField_g7c4679c44cb4cce8c09c80a3befda1f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "cf56d9a4a1994d2ab055121894c79d6f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i6034b66b83e44cdbbded0626eb38613",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.btnResetPassword.setEnabled(false);\nthis.view.btnResetPassword.skin=\"btnSkinGrey\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

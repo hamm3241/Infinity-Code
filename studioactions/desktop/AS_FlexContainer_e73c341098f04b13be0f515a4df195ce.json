@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_e73c341098f04b13be0f515a4df195ce": {
+        "id": "AS_FlexContainer_e73c341098f04b13be0f515a4df195ce",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segRoles",
+            "type": "templates",
+            "platform": "",
+            "KUID": "da190d5d0244488684303ff648233eba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e0fd9dd208254be4accbb95b2720c2e6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"hello\");\nthis.executeOnParent(\"showViewRoleSegmentAndPermissionHeader\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

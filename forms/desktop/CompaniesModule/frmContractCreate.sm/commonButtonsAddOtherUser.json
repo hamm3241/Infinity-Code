@@ -1,0 +1,148 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "80px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": ""
+    },
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hd404538dc244e8c89b450d23bdf145c",
+                "srcKUID": "hb7e8e6dc73a4044aaa1636cb1f70704",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.secureimage.CANCEL"
+        },
+        "btnNext": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a07f3dc4eb514c9aa6fbb521f0532080",
+                "srcKUID": "if89a3cc957141078b03996441e09d8c",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmCustomerManagementController.prop331",
+            "isVisible": false,
+            "text": "SAVE AND SELECT ANOTHER"
+        },
+        "btnSave": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i94232d94db041939fe1020c871b0889",
+                "srcKUID": "af70c434338f4068a24a87b45c58f9ee",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmCustomerManagementController.prop330",
+            "text": "NEXT"
+        },
+        "commonButtons": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "b5f741fe1eb94654a953fe386f631f05",
+                "srcKUID": "cc441f293bdb4489aebfc9b06fe5513e",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0px"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            },
+            "zIndex": {
+                "Default": 20
+            }
+        },
+        "flxRightButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bb86eb021ac2492fb525f5b9b9c15dba",
+                "srcKUID": "beae25c502d54e038c70de835ec18eca",
+                "wType": "FlexContainer"
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "10px"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "355px"
+                }
+            }
+        }
+    },
+    "id": "commonButtonsAddOtherUser",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "b5f741fe1eb94654a953fe386f631f05",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCommonButtonAddOtherUser",
+    "pf": "frmContractCreate",
+    "snaptogrid": true,
+    "sourceUserWidget": "cc441f293bdb4489aebfc9b06fe5513e",
+    "wType": "UserWidgetInstance",
+    "zindex": 20
+}

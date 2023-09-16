@@ -1,0 +1,59 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.command.login.datadriven",
+      "CommandHandler": "TestCase_Auth_doLogin_DataDriven"
+    }, {
+      "CommandId": "testcase.command.login.successflow",
+      "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.login.inCorrectUserName",
+      "CommandHandler": "TestCase_Auth_doLogin_IncorrectUserName"
+    }, {
+      "CommandId": "testcase.presenter.getpermisions.successflow",
+      "CommandHandler": "TestCase_Permissions_GetPermissions"
+    }, {
+      "CommandId": "testcase.presenter.updatePermissionStatus",
+      "CommandHandler": "TestCase_Permissions_UpdatePermissionStatus"
+    }, {
+      "CommandId": "testcase.presenter.editPermission",
+      "CommandHandler": "TestCase_Permissions_EditPermission"
+    }, {
+      "CommandId": "testcase.presenter.incorrect.editPermission",
+      "CommandHandler": "TestCase_Permissions_IncorrectEditPermission"
+    }, {
+      "CommandId": "testcase.presenter.permissionChecker",
+      "CommandHandler": "TestCase_Permissions_PermissionChecker"
+    }, {
+      "CommandId": "testcase.presenter.datadriven.updatePermissionChecker",
+      "CommandHandler": "TestCase_UpdatePermission_CheckerDataDriven"
+    }, {
+      "CommandId": "testcase.presenter.datadriven.viewPermissionChecker",
+      "CommandHandler": "TestCase_ViewPermission_CheckerDataDriven"
+    }, {
+      "CommandId": "testcase.presenter.disabledPermissionChecker",
+      "CommandHandler": "TestCase_Permissions_DisabledPermissionChecker"
+    }, {
+      "CommandId": "testcase.presenter.getTermACond.successflow",
+      "CommandHandler": "TestCase_TermsAndCond_GetTermsAndCond"
+    }, {
+      "CommandId": "testcase.presenter.createTermAndCond.successflow",
+      "CommandHandler": "TestCase_TermsAndCond_CreateTermCondition"
+    }, {
+      "CommandId": "testcase.presenter.editTermAndCond.successflow",
+      "CommandHandler": "TestCase_TermsAndCond_EditTermsAndCond"
+    }, {
+      "CommandId": "testcase.presenter.deleteTermAndCond.successflow",
+      "CommandHandler": "TestCase_TermsAndCond_DeleteTermsAndCond"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

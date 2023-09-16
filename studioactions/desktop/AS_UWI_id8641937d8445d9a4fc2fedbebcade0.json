@@ -1,0 +1,31 @@
+{
+    "AS_UWI_id8641937d8445d9a4fc2fedbebcade0": {
+        "id": "AS_UWI_id8641937d8445d9a4fc2fedbebcade0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "openPopup",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmProduct",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h1e7dfebcda54e16960419eea034b5ae"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i4d50f070ea546a097fb426ba7ce6224",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "alignAddProductPopups",
+            "display": "alignAddProductPopups",
+            "inputparams": [{
+                "name": "openPopup",
+                "value": " openPopup"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

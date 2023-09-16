@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_a74a80a28cf84a7194adc9149c578a33": {
+        "id": "AS_FlexContainer_a74a80a28cf84a7194adc9149c578a33",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_b1aa6b07e24444fa93f3be23340d6e5b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ondeleteFourthIncome",
+            "display": "ondeleteFourthIncome",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

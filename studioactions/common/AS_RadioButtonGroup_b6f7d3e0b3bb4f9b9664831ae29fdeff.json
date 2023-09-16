@@ -1,0 +1,23 @@
+{
+    "AS_RadioButtonGroup_b6f7d3e0b3bb4f9b9664831ae29fdeff": {
+        "id": "AS_RadioButtonGroup_b6f7d3e0b3bb4f9b9664831ae29fdeff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwudf95f18ad474257b27b3a90d339191e",
+            "type": "userwidgets",
+            "KUID": "udf95f18ad474257b27b3a90d339191e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i77d1f6395c74061869d8fa47bff59d3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.rbgYearsCoA.selectedKey == \"rbg2\"){\n  this.view.flxAddress2CoA.isVisible=true\n}else{\n  this.view.flxAddress2CoA.isVisible=false;\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

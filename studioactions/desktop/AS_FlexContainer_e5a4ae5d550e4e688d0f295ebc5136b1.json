@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_e5a4ae5d550e4e688d0f295ebc5136b1": {
+        "id": "AS_FlexContainer_e5a4ae5d550e4e688d0f295ebc5136b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segPermissionsHeader",
+            "type": "templates",
+            "platform": "",
+            "KUID": "b8b529d6137b4bb9a7955fe659bc27a3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fa33c348237d4b21966655caf08b97e5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print('roles sort');",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

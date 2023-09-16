@@ -1,0 +1,24 @@
+{
+    "AS_Form_af28b8dd4547421b91987dc073f49cfa": {
+        "id": "AS_Form_af28b8dd4547421b91987dc073f49cfa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef96bb3c9d2a44059e8d20563a5bbe4b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jeae6f09a4424bcfb98aceb7cc5188ab",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.util.deleteSSOToken();\nkony.sdk.util.deleteSSOTokenForProvider(\"KonyBankingAdminConsoleIdentityService\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

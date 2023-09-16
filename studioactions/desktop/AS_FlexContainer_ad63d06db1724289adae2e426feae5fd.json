@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_ad63d06db1724289adae2e426feae5fd": {
+        "id": "AS_FlexContainer_ad63d06db1724289adae2e426feae5fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPermissions",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eff2add8f99c4151bcc345f1c2ae5bfd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g20612e8f9df4d9eae4ed09efb568ddb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showAddNewPermissions();",
+            "parentId": null
+        }]
+    }
+}

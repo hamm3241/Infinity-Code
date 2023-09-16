@@ -1,0 +1,35 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.presenter.getAllServices",
+      "CommandHandler": "TestCase_ServicesManagement_GetAllServices"
+    }, {
+      "CommandId": "testcase.presenter.getAllServiceMasterData",
+      "CommandHandler": "TestCase_ServicesManagement_GetAllServiceMasterData"
+    }, {
+      "CommandId": "testcase.presenter.getAllServiceChannelData",
+      "CommandHandler": "TestCase_ServicesManagement_getAllServiceChannelData"
+    }, {
+      "CommandId": "testcase.presenter.getAllServiceCatData",
+      "CommandHandler": "TestCase_ServicesManagement_getAllServiceCatData"
+    }, {
+      "CommandId": "testcase.presenter.createService",
+      "CommandHandler": "TestCase_ServicesManagement_CreateService"
+    }, {
+      "CommandId": "testcase.presenter.updateService",
+      "CommandHandler": "TestCase_ServicesManagement_UpdateService"
+    }, {
+      "CommandId": "testcase.presenter.updateStatusOfService",
+      "CommandHandler": "TestCase_ServicesManagement_UpdateStatusOfService"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

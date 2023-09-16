@@ -1,0 +1,34 @@
+{
+    "AS_Image_g110bcb2577e46aa856d8df3f2ce3f16": {
+        "id": "AS_Image_g110bcb2577e46aa856d8df3f2ce3f16",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCustomerManagement",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ibab815510c54e1b8df244eb9fa4a7e8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_a52711a38a144b58b8d665bc6d657dd8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET_ide_onTouchStart_de397f68dfc445a891656a380f2c0158",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.imgLogout_onTouchStart();",
+            "callbackType": null
+        }]
+    }
+}

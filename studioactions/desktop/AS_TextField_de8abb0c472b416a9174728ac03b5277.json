@@ -1,0 +1,24 @@
+{
+    "AS_TextField_de8abb0c472b416a9174728ac03b5277": {
+        "id": "AS_TextField_de8abb0c472b416a9174728ac03b5277",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j3f485b87cc9486fab3c534d854ceca2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "eventobject.skin = \"sknTbxFFFFFFBorDEDEDE13pxKA\";\nthis.view[this.fieldsToVAlidateInPersonalInfo[eventobject.id].errorLabel].setVisibility(false);\nif(eventobject.text.trim() === \"\"){\n  this.fieldsToVAlidateInPersonalInfo[eventobject.id].isValidated = false;\n}else{\n  this.fieldsToVAlidateInPersonalInfo[eventobject.id].isValidated = true;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

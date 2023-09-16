@@ -1,0 +1,92 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.command.login.datadriven",
+      "CommandHandler": "TestCase_Auth_doLogin_DataDriven"
+    }, {
+      "CommandId": "testcase.command.login.successflow",
+      "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+    }, {
+      "CommandId": "testcase.presenter.fetchRequests",
+      "CommandHandler": "TestCase_Messages_fetchRequests"
+    }, {
+      "CommandId": "testcase.presenter.fetchRequestsFirst",
+      "CommandHandler": "TestCase_Messages_fetchRequestsFirst"
+    }, {
+      "CommandId": "testcase.presenter.fetchMyQueueRequests",
+      "CommandHandler": "TestCase_Messages_fetchMyQueueRequests"
+    }, {
+      "CommandId": "testcase.presenter.fetchSearchRequests",
+      "CommandHandler": "TestCase_Messages_fetchSearchRequests"
+    }, {
+      "CommandId": "testcase.presenter.fetchQueueSearchMyRequests",
+      "CommandHandler": "TestCase_Messages_fetchQueueSearchMyRequests"
+    }, {
+      "CommandId": "testcase.presenter.fetchEmailMessages",
+      "CommandHandler": "TestCase_Messages_fetchEmailMessages"
+    }, {
+      "CommandId": "testcase.presenter.fetchAssignedToUser",
+      "CommandHandler": "TestCase_Messages_fetchAssignedToUser"
+    }, {
+      "CommandId": "testcase.presenter.fetchAllCustomers",
+      "CommandHandler": "TestCase_Messages_fetchAllCustomers"
+    }, {
+      "CommandId": "testcase.presenter.fetchAllTemplates",
+      "CommandHandler": "TestCase_Messages_fetchAllTemplates"
+    }, {
+      "CommandId": "testcase.presenter.fetchTemplateByID",
+      "CommandHandler": "TestCase_Messages_fetchTemplateByID"
+    }, {
+      "CommandId": "testcase.presenter.fetchAllEmailTemplates",
+      "CommandHandler": "TestCase_Messages_fetchAllEmailTemplates"
+    }, {
+      "CommandId": "testcase.presenter.fetchEmailTemplates",
+      "CommandHandler": "TestCase_Messages_fetchEmailTemplates"
+    },{
+      "CommandId": "testcase.presenter.createNewTemplate",
+      "CommandHandler": "TestCase_Messages_createNewTemplate"
+    }, {
+      "CommandId": "testcase.presenter.deleteTemplate",
+      "CommandHandler": "TestCase_Messages_deleteTemplate"
+    }, {
+      "CommandId": "testcase.presenter.editTemplate",
+      "CommandHandler": "TestCase_Messages_editTemplate"
+    }, {
+      "CommandId": "testcase.presenter.createNewMessage",
+      "CommandHandler": "TestCase_Messages_createNewMessage"
+    }, {
+      "CommandId": "testcase.presenter.draftMessage",
+      "CommandHandler": "TestCase_Messages_draftMessage"
+    },
+	{
+      "CommandId": "testcase.presenter.discardMessage",
+      "CommandHandler": "TestCase_Messages_discardMessage"
+    },
+	{
+      "CommandId": "testcase.presenter.updateRequestStatus",
+      "CommandHandler": "TestCase_Messages_updateRequestStatus"
+    },
+	{
+      "CommandId": "testcase.presenter.updateAssignTo",
+      "CommandHandler": "TestCase_Messages_updateAssignTo"
+    },
+	{
+      "CommandId": "testcase.presenter.downloadAttachment",
+      "CommandHandler": "TestCase_Messages_downloadAttachment"
+    },
+	{
+      "CommandId": "testcase.presenter.fetchAllCategories",
+      "CommandHandler": "TestCase_Messages_fetchAllCategories"
+    }
+	],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

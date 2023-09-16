@@ -1,0 +1,68 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.presenter.getGroups",
+      "CommandHandler": "TestCase_Groups_getGroups"
+    }, {
+      "CommandId": "testcase.presenter.editGroup",
+      "CommandHandler": "TestCase_Groups_editGroup"
+    }, {
+      "CommandId": "testcase.presenter.editGroupStatus",
+      "CommandHandler": "TestCase_Groups_editGroupStatus"
+    }, {
+      "CommandId": "testcase.presenter.createGroup",
+      "CommandHandler": "TestCase_Groups_createGroup"
+    }, {
+      "CommandId": "testcase.presenter.fetchAllEntitlements",
+      "CommandHandler": "TestCase_Groups_fetchAllEntitlements"
+    }, {
+      "CommandId": "testcase.presenter.fetchEntitlementsOfGroup",
+      "CommandHandler": "TestCase_Groups_fetchEntitlementsOfGroup"
+    }, {
+      "CommandId": "testcase.presenter.fetchCustomersOfGroup",
+      "CommandHandler": "TestCase_Groups_fetchCustomersOfGroup"
+    }, {
+      "CommandId": "testcase.presenter.searchCustomers",
+      "CommandHandler": "TestCase_Groups_searchCustomers"
+    }, {
+      "CommandId": "testcase.presenter.fetchAllProducts",
+      "CommandHandler": "TestCase_Groups_fetchAllProducts"
+    }, {
+      "CommandId": "testcase.presenter.fetchAllCities",
+      "CommandHandler": "TestCase_Groups_fetchAllCities"
+    }, {
+      "CommandId": "testcase.presenter.fetchAllBranch",
+      "CommandHandler": "TestCase_Groups_fetchAllBranch"
+    }, {
+      "CommandId": "testcase.command.getGroupsView",
+      "CommandHandler": "TestCase_Groups_getGroupsView_CH"
+    }, {
+      "CommandId": "testcase.command.editGroup",
+      "CommandHandler": "TestCase_Groups_editGroup_CH"
+    }, {
+      "CommandId": "testcase.command.editGroupStatus",
+      "CommandHandler": "TestCase_Groups_editGroupStatus_CH"
+    }, {
+      "CommandId": "testcase.command.createGroup",
+      "CommandHandler": "TestCase_Groups_createGroup_CH"
+    }, {
+      "CommandId": "testcase.command.fetchEntitlementsOfGroup",
+      "CommandHandler": "TestCase_Groups_fetchEntitlementsOfGroup_CH"
+    }, {
+      "CommandId": "testcase.command.fetchCustomersOfGroup",
+      "CommandHandler": "TestCase_Groups_fetchCustomersOfGroup_CH"
+    }, {
+      "CommandId": "testcase.command.getProductsList",
+      "CommandHandler": "TestCase_Groups_getProductsList_CH"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_ba0ac59c9b1643d186cdd3e9de34e0f7": {
+        "id": "AS_ListBox_ba0ac59c9b1643d186cdd3e9de34e0f7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmViewPermissions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "abe59b77afba4cf989f7ad71c7861109"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_a45788340bee40d29412dc9cd422fddc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.gotoPage();",
+            "callbackType": null
+        }]
+    }
+}

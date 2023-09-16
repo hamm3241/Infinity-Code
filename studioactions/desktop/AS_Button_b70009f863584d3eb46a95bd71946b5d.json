@@ -1,0 +1,24 @@
+{
+    "AS_Button_b70009f863584d3eb46a95bd71946b5d": {
+        "id": "AS_Button_b70009f863584d3eb46a95bd71946b5d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPolicies",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2427a7b16d442dbae6643bff1abc5df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bd2b0ebe9770431aaf48f762f57522c5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickCloseEditPolicy();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

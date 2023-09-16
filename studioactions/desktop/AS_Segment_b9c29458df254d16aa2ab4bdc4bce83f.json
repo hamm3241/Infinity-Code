@@ -1,0 +1,30 @@
+{
+    "AS_Segment_b9c29458df254d16aa2ab4bdc4bce83f": {
+        "id": "AS_Segment_b9c29458df254d16aa2ab4bdc4bce83f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMFAConfigurations",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f1340942e47845e4bbee2454b13fe581"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e78e9c45d24b4abaa9366d2754f16ed3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onMFAConfigsSegRowClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

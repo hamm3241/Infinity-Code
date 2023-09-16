@@ -1,0 +1,17 @@
+{
+    "AS_RadioButtonGroup_d3ecc4939c434e068ca9bd4d818765b5": {
+        "id": "AS_RadioButtonGroup_d3ecc4939c434e068ca9bd4d818765b5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_cbd416e8a05942fd9b785a07a8600394",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.rbgYears.selectedKey == \"rbg2\"){\n  this.view.flxAddress2.isVisible=true;\n}else{\n  this.view.flxAddress2.isVisible=false;\n}\n",
+            "callbackType": null
+        }]
+    }
+}

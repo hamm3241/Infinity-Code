@@ -1,0 +1,147 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "fontIconStatusImg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblEmailId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "john.doe@kony.com"
+            },
+            "lblFontIconOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblFullName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Doe"
+            },
+            "lblPermissions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25"
+            },
+            "lblRole": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "."
+            },
+            "lblUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "john.doe"
+            },
+            "lblUsersStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Active"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "250px"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "2px"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segUsers",
+    "ide_onRowClick": "AS_Segment_b65f72fdb84d4d02b8d7803ed21c5782",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "j79a21b6ff344ab0a785907dec191d9d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegmentUsers",
+    "pf": "frmViewUsers",
+    "retainselection": false,
+    "rowTemplateId": "d24c84732c1f4195b63f0e6bb4f3991b",
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s587c8a9e5804ec88f65e379570597f6",
+    "rowtemplate": "flxUsers",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxOptions": "flxOptions",
+        "flxStatus": "flxStatus",
+        "flxUsers": "flxUsers",
+        "flxUsersContainer": "flxUsersContainer",
+        "fontIconStatusImg": "fontIconStatusImg",
+        "lblEmailId": "lblEmailId",
+        "lblFontIconOptions": "lblFontIconOptions",
+        "lblFullName": "lblFullName",
+        "lblPermissions": "lblPermissions",
+        "lblRole": "lblRole",
+        "lblSeperator": "lblSeperator",
+        "lblUsername": "lblUsername",
+        "lblUsersStatus": "lblUsersStatus"
+    },
+    "zindex": 10
+}

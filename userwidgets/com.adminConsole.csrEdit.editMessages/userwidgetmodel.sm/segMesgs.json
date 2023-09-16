@@ -1,0 +1,155 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "35px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "35px"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "btnDraft": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Draft"
+                },
+                "imgAttatch": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "attachment_2x.png"
+                },
+                "lblAttach": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "12 December 2017 09:30 a.m."
+                },
+                "lblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Nicky Paretla"
+                },
+                "lblSeperator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "'"
+                },
+                "rtxDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "\nLorem ipsum dolor sit amet, <br>\nconsectetur adipiscing elit......"
+                }
+            }
+        ],
+        "rowTemplateId": "j8bb818306c148e280aaa0f40008fd8f",
+        "rowtemplate": "flxMain",
+        "widgetdatamap": {
+            "btnDraft": "btnDraft",
+            "flxAttatchment": "flxAttatchment",
+            "flxHeader": "flxHeader",
+            "flxHeading": "flxHeading",
+            "flxMain": "flxMain",
+            "imgAttatch": "imgAttatch",
+            "lblAttach": "lblAttach",
+            "lblDate": "lblDate",
+            "lblName": "lblName",
+            "lblSeperator": "lblSeperator",
+            "rtxDescription": "rtxDescription"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segMesgs",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "a3cd6027626a4870b9c55c58b9901794",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxDraft",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": "flxMain",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnDraft": "btnDraft",
+        "flxAttatchment": "flxAttatchment",
+        "flxHeader": "flxHeader",
+        "flxHeading": "flxHeading",
+        "flxMain": "flxMain",
+        "imgAttatch": "imgAttatch",
+        "lblAttach": "lblAttach",
+        "lblDate": "lblDate",
+        "lblName": "lblName",
+        "lblSeperator": "lblSeperator",
+        "rtxDescription": "rtxDescription"
+    },
+    "zindex": 1
+}

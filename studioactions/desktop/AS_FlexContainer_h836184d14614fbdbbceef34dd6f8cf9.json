@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_h836184d14614fbdbbceef34dd6f8cf9": {
+        "id": "AS_FlexContainer_h836184d14614fbdbbceef34dd6f8cf9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segServiceAndFaq",
+            "type": "templates",
+            "platform": "",
+            "KUID": "a988c261d4294dbc8e237b38cc9b3391"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b0be3778c6c84ea6aa323d8b6676e180",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"toggleContextualMenu\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

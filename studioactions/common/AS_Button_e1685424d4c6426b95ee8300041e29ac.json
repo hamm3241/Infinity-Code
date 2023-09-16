@@ -1,0 +1,23 @@
+{
+    "AS_Button_e1685424d4c6426b95ee8300041e29ac": {
+        "id": "AS_Button_e1685424d4c6426b95ee8300041e29ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwi9b2bbb8a8a64edd9f42d4114d5ecacb",
+            "type": "userwidgets",
+            "KUID": "i9b2bbb8a8a64edd9f42d4114d5ecacb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f4d8c9f441454c3981c7336d549abb30",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var self = this ;\nvar parentid = eventobject.parent.parent.parent.id ;\nvar editId = parentid.replace(\"view\",\"edit\");\nif($KG.__currentForm.flxViewLoanDetails)\n  $KG.__currentForm.flxViewLoanDetails.setVisibility(false) ;\nif($KG.__currentForm.flxEditLoanInformation) {\n  $KG.__currentForm.flxEditLoanInformation.setVisibility(true);\n // $KG.__currentForm.flxEditLoanInformation.flxEditLoanInformation1.scrollToWidget($KG.__currentForm.flxEditLoanInformation.flxEditLoanInformation1[editId]);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

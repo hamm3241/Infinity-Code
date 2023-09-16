@@ -1,0 +1,229 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "contactNumber": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f066e6d38a9f4920a8eb72aea57711e5",
+                "srcKUID": "ibc3e5b3edb84d259fd2067931a782e9",
+                "wType": "FlexContainer"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "30dp"
+                }
+            }
+        },
+        "flxContactNumberWrapper": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a6a645d5c2174699a35098c1fbaee533",
+                "srcKUID": "b758e1a12339403aa650221ca965e0a3",
+                "wType": "FlexContainer"
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "flxError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ab626ff99fe7436fa428fdff1f12a209",
+                "srcKUID": "d82fbddca9a54c57af6370deb63a1b7b",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "isVisible": false,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "40dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "lblDash": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f2f2ddd8e0744f478a0d611b20fc3f68",
+                "srcKUID": "e219e548a8294d4ca5a93959705c8968",
+                "wType": "Label"
+            },
+            "isVisible": true,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "33%"
+                }
+            }
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i8ce5d7a1ee6448d9978a86e4fcf6281",
+                "srcKUID": "ead8fe02893644c58598435384cbeebd",
+                "wType": "Label"
+            }
+        },
+        "lblErrorText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a4c22bd86c4a4dda9e3c986e84b08101",
+                "srcKUID": "ab774d00a69e4ee9985202f915601945",
+                "wType": "Label"
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "txtContactNumber": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c7ed426e84864715bd015cd5ff88da6b",
+                "srcKUID": "a248bc5d195649d9ba617e4df7f1da81",
+                "wType": "TextField"
+            },
+            "i18n_placeholder": "i18n.userwidgetmodel.lblSearchParam4",
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "placeholder": "Company Contact Number",
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "61%"
+                }
+            }
+        },
+        "txtISDCode": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ie299ab4424043eea49f81d2122a3658",
+                "srcKUID": "b0b9033e30e247db83facee8c2040959",
+                "wType": "TextField"
+            },
+            "isVisible": true,
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "30%"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "contractContactNumber",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f066e6d38a9f4920a8eb72aea57711e5",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContractDetailsContactNo",
+    "pf": "frmEnrollCustomer",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ibc3e5b3edb84d259fd2067931a782e9",
+    "wType": "UserWidgetInstance"
+}

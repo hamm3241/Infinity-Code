@@ -1,0 +1,31 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "DetailsModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmGuestDashboard": {
+                "Controller": "DetailsModule/frmGuestDashboardController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "DetailsModule/frmGuestDashboard",
+                "friendlyName": "frmGuestDashboard"
+            }
+        }
+    },
+    "ModuleName": "DetailsModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "DetailsModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn",
+                "ApplicationFramework"
+            ]
+        }
+    }
+}

@@ -1,0 +1,223 @@
+define({
+  formPreshow :  function(){
+    var scope = this;
+    this.view.flxRejectPopup.setVisibility(false);
+    this.view.detailHeader.flxHeader1.onClick = function(){
+      scope.setApprovalData();
+    };
+    this.view.detailHeader.flxHeader2.onClick = function(){
+      scope.setHistoryData();
+    };
+    this.view.btnRejectNo.onClick = function(){
+      scope.closePopup();
+    };
+    this.view.btnRejectYes.onClick = function(){
+      scope.view.flxRejectPopup.setVisibility(false);
+      scope.setHistoryData();
+    };
+    this.view.lblPopUpClose.onTouchEnd = function(){
+      scope.closePopup();
+    }
+  },
+  
+  closePopup : function(){
+    this.view.flxRejectPopup.setVisibility(false);
+  },
+  
+  postShow : function(){
+    
+  },
+  
+  willUpdateUI : function(viewModel){
+    var scope = this;
+    if(viewModel.split !== undefined){
+      if(viewModel.split(":")[0] === "HistoryCount"){
+        scope.setApprovalData(viewModel.split(":")[1],viewModel.split(":")[2]);
+      }
+      if(viewModel.split(":")[0] === "PendingCount"){
+        scope.setHistoryData(viewModel.split(":")[1],viewModel.split(":")[2]);
+      }
+    }
+    if(viewModel.action === "fromBackend"){
+      if(viewModel.approvalData)
+        scope.setApprovalValuesInList(viewModel.approvalData);
+      if(viewModel.historyData)
+        scope.setHistoryValuesInList(viewModel.historyData);
+    }
+    this.updateLeftMenu(viewModel);
+  },
+  shouldUpdateUI: function (viewModel) {
+    return viewModel !== undefined;
+  },
+  
+  setApprovalValuesInList : function(response){
+    var self = this;
+    if(response.length > 0){
+     var dataMap = {
+      "flxSegMainValue" : "flxSegMainValue",
+      "flxMsgSegMainValue" : "flxMsgSegMainValue",
+      "lblModuleNameValue" : "lblModuleNameValue",
+      "lblRequestTypeValue" : "lblRequestTypeValue",
+      "lblRecievedDateValue" : "lblRecievedDateValue",
+      "lblRecievedFromValue" : "lblRecievedFromValue",
+      "lblMoreInfoValue" : "lblMoreInfoValue",
+      "flxOptions" : "flxOptions",
+      "lblDeny" : "lblDeny",
+      "lblApprove" : "lblApprove",
+      "lblSeperator" : "lblSeperator",
+      "imgDeny" : "imgDeny",
+      "imgApprove" : "imgApprove"
+    };
+    
+    var data = [];
+      var statusList=[];
+      if (typeof response !== 'undefined') {
+        data = response.Requests.map(function(roleViewData) {
+          const selectedRowData = roleViewData;
+          
+          return {
+            "lblModuleNameValue": roleViewData.feature,
+            "lblRequestTypeValue":roleViewData.action,
+            "lblRecievedDateValue": roleViewData.createdts,
+            "lblRecievedFromValue": roleViewData.createdby,
+            "lblMoreInfoValue": {"text":"View Details",
+                                "skin": "sknBtnLato11abeb12px",
+                                "onTouchEnd" : function(){
+                                   self.viewRequestDetails(selectedRowData)
+                                 }},
+            "imgDeny" : {"src" : "close_red.png",
+                         "onTouchEnd" : function(){
+                           self.openRejectPopup();
+                         }},
+            "imgApprove" : {"src" : "selectedtick.png",
+                            "onTouchEnd" : function(){
+                              self.setHistoryData();
+                            }},
+            "lblSeperator" : kony.i18n.getLocalizedString("i18n.frmCSR.lblSeperator")
+          };
+
+        });
+      }
+      this.view.SegSearchResult.setVisibility(true);
+      this.view.FlexNoResult.setVisibility(false);
+    this.view.SegSearchResult.widgetDataMap=dataMap;
+    this.view.SegSearchResult.rowTemplate = "flxRequestsResults";
+    this.view.SegSearchResult.setData(data);
+    }
+    else{
+      this.view.SegSearchResult.setVisibility(false);
+      this.view.FlexNoResult.setVisibility(true);
+    }
+    
+  },
+  
+  setTabCountData : function(){
+    this.view.detailHeader.lblCount1.text = this.approvalCount;
+    this.view.detailHeader.lblCount2.text = this.historyCount;
+  },
+  
+  setApprovalData : function(approvalCount,historyCount){
+    var self = this;
+    self.view.detailHeader.flxHeader1.skin = "sknflxffffffop0i2986200ef4e48cursor";
+    self.view.detailHeader.flxHeader2.skin = "sknflxffffffop0jb4a0a5ca39742Cursor";
+    this.view.flxScrollMessages.setVisibility(true);
+    this.view.flxScrollHistory.setVisibility(false);
+    if(approvalCount !== undefined && historyCount !== undefined){
+      this.approvalCount = approvalCount;
+      this.historyCount = historyCount;
+    }
+    this.setTabCountData();
+    this.presenter.callingApprovalsData();
+  },
+  
+  openRejectPopup : function(){
+    this.view.flxRejectPopup.setVisibility(true);
+  },
+  
+  navigateToViewDetails :  function(roleViewData){
+    this.presenter.navToViewDetails([roleViewData]);
+  },
+  
+  setHistoryValuesInList : function(response){
+    if(response.length > 0){
+      var dataMap = {
+        "flxSegMainValue" : "flxSegMainValue",
+        "flxMsgSegMainValue" : "flxMsgSegMainValue",
+        "lblModuleNameValue" : "lblModuleNameValue",
+        "lblRequestTypeValue" : "lblRequestTypeValue",
+        "lblRecievedDateValue" : "lblRecievedDateValue",
+        "lblRecievedFromValue" : "lblRecievedFromValue",
+        "flxStatus" : "flxStatus",
+        "imgStatus" : "imgStatus",
+        "lblStatusImage" : "lblStatusImage",
+        "lblStatus" : "lblStatus",
+        "imgComments" : "imgComments",
+        "lblApprovedByValue" : "lblApprovedByValue",
+        "flxApproveDate" : "flxApproveDate",
+        "lblApproveDate" : "lblApproveDate",
+        "lblApproveDateTime" : "lblApproveDateTime",
+        "lblSeperator" : "lblSeperator"
+      };
+
+      var data = [];
+      var statusList=[];
+      var statusImage;
+      var bool;
+      var comments;
+      if (typeof response !== 'undefined') {
+        data = response.map(function(roleViewData) {
+          if(roleViewData.status === "Approved"){
+            statusImage = "active_circle2x.png";
+            bool = false;
+            comments = "";
+          }
+          else{
+            statusImage = "close_red.png";
+            bool = true;
+            comments = roleViewData.reason;
+          }
+          return {
+            "lblModuleNameValue": roleViewData.feature,
+            "lblRequestTypeValue":roleViewData.action,
+            "lblRecievedDateValue": roleViewData.createdts,
+            "lblRecievedFromValue": roleViewData.createdby,
+            "imgStatus" : {"src" : statusImage},
+            "lblStatus": roleViewData.status,
+            "lblStatusImage" : roleViewData.ApprovalRequestId,
+            "imgComments" : {"isVisible" : bool,
+                             "toolTip":comments},
+            "lblApprovedByValue": roleViewData.checkedBy,
+            "lblApproveDate" : roleViewData.checkedts,
+            "lblSeperator" : kony.i18n.getLocalizedString("i18n.frmCSR.lblSeperator")
+          };
+
+        });
+      }
+      this.view.segResultHistory.setVisibility(true);
+      this.view.FlexNoResult.setVisibility(false);
+      this.view.segResultHistory.widgetDataMap=dataMap;
+      this.view.segResultHistory.rowTemplate = "flxRequestHeader";
+      this.view.segResultHistory.setData(data);
+    }
+    else{
+      this.view.segResultHistory.setVisibility(false);
+      this.view.FlexNoResult.setVisibility(true);
+    }
+  },
+  
+  setHistoryData :  function(approvalCount,historyCount){
+    var self = this;
+    self.view.detailHeader.flxHeader2.skin = "sknflxffffffop0i2986200ef4e48cursor";
+    self.view.detailHeader.flxHeader1.skin = "sknflxffffffop0jb4a0a5ca39742Cursor";
+    this.view.flxScrollMessages.setVisibility(false);
+    this.view.flxScrollHistory.setVisibility(true);
+    if(approvalCount !== undefined && historyCount !== undefined){
+      this.approvalCount = approvalCount;
+      this.historyCount = historyCount;
+    }
+    this.setTabCountData();
+    this.presenter.callingHistoryData();
+  }
+
+ 
+});

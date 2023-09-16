@@ -1,0 +1,29 @@
+{
+    "AS_Image_b743e2f2fb4c4c0abdd9be7ad03df7a6": {
+        "id": "AS_Image_b743e2f2fb4c4c0abdd9be7ad03df7a6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmViewPermissions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "abe59b77afba4cf989f7ad71c7861109"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_da9d071cd1bc4de4aa81df88378bca7a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.nextPage();",
+            "callbackType": null
+        }]
+    }
+}

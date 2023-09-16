@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_d9f275df03bb4f2c9c87f0aca8dac598": {
+        "id": "AS_AppEvents_d9f275df03bb4f2c9c87f0aca8dac598",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g0ffed0574f14814a4072f97bbbe7c71",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var qpExists = window.location.href.indexOf(\"qp=\");\nif (qpExists !== -1) {\n  return \"frmErrorLogin\";\n}\nelse {\n  return \"frmLogin\";\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

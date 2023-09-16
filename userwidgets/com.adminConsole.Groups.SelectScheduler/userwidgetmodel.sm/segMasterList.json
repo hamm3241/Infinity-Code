@@ -1,0 +1,136 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "desktop": {
+        "_data_": [
+            {
+                "imgCheckbox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "radio_notselected.png"
+                },
+                "lblSchedulerName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "24x7 Scheduler"
+                }
+            },
+            {
+                "imgCheckbox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "radioselected_2x.png"
+                },
+                "lblSchedulerName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Bi-Weekly"
+                }
+            }
+        ],
+        "rowTemplateId": "ied6cf41a3dc4586907ae7b879b7a0f6",
+        "rowtemplate": "flxMasterList",
+        "selectionBehaviorConfig": {},
+        "widgetdatamap": {
+            "flxCheckbox": "flxCheckbox",
+            "flxMain": "flxMain",
+            "flxMasterList": "flxMasterList",
+            "imgCheckbox": "imgCheckbox",
+            "lblSchedulerName": "lblSchedulerName"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segMasterList",
+    "ide_onRowClick": "AS_Segment_b767df7c8e0647a087391c42e1b9d453",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "b54838d5f71349fc80f22bb45bcf1637",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMasterList",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 1,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s17853f0395142b0a9ef0600294a8123",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": {},
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCheckbox": "flxCheckbox",
+        "flxMain": "flxMain",
+        "flxMasterList": "flxMasterList",
+        "imgCheckbox": "imgCheckbox",
+        "lblSchedulerName": "lblSchedulerName"
+    },
+    "zindex": 1
+}

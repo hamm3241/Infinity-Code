@@ -1,0 +1,35 @@
+{
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "LeadManagementModule/BusinessControllers/BusinessController"
+    },
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [
+              "Navigation_Presentation_Extn"
+            ],
+            "PresentationControllerClass": "LeadManagementModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmLeadManagement": {                
+                "Controller": "LeadManagementModule/frmLeadManagementController",
+                "ControllerExtensions": [
+                  	"AdminConsoleCommonUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "TabUtil_FormExtn",
+                  	"DateTimeUtils_FormExtn",
+                    "Regexes"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "LeadManagementModule/frmLeadManagement",
+                "friendlyName": "frmLeadManagement"
+            }
+        }
+    },
+    "ModuleName": "LeadManagementModule"
+}

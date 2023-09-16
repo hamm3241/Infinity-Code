@@ -1,0 +1,26 @@
+{
+    "AS_TextField_c5d1043151de41138cd62d17f17922ca": {
+        "id": "AS_TextField_c5d1043151de41138cd62d17f17922ca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "cf56d9a4a1994d2ab055121894c79d6f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f4e4ba754f3b47e8bae9ebcf47e56b32",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//var oldPassword=kony.mvc.MDAApplication.getSharedInstance().appContext.password;\n//this.validateCurrentPassword(oldPassword,this.view.txtCurrentPassword.text);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

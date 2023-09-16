@@ -1,0 +1,23 @@
+{
+    "AS_Button_a40da13d68f649268797800239df3758": {
+        "id": "AS_Button_a40da13d68f649268797800239df3758",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "cf56d9a4a1994d2ab055121894c79d6f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c6e4e46ec8e74ca9924c1e5cd2aeb796",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.presenter.showLoginScreen({\"action\":\"login\"});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

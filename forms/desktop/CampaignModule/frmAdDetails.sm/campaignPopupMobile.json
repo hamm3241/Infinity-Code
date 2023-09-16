@@ -1,0 +1,213 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300px"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnNo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a57e5cf44fa04467bd0c4daa94fa43fa",
+                "srcKUID": "e21d6f695ab54799aa43b27980d392c5",
+                "wType": "Button"
+            }
+        },
+        "btnYes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ad3b0049359945758c6f356cf85fb87d",
+                "srcKUID": "bffc797707ec4c4299749320893260d8",
+                "wType": "Button"
+            }
+        },
+        "campaignPopupMobile": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ec99a247f61e4999b9cbf8779079f31c",
+                "srcKUID": "d889d031faee40fbad7b4ee4524b3c94",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "300px"
+                }
+            }
+        },
+        "flxButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "df4d771200ec43b095690e213b49f18f",
+                "srcKUID": "f59fa067af2b4719a10fff4e3f3f6141",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCampaignDescription": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a267dd29090743cba36b6322b175a87d",
+                "srcKUID": "a1a3bcd8f8d34579b14caa94d9d0d5f5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCampaignHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ce9eb69ee31940b7b2a919b2eb21f197",
+                "srcKUID": "bce51f573f1f4ff4b5661055a39884ea",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCampaignImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e40df35fe6914b78bdea630cdb82b5f5",
+                "srcKUID": "d74e0a6978ea4470a5c0571851443807",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ab587d53532d440b8fe9038cfd012188",
+                "srcKUID": "b7d033de5f0c47e88658e6d861cdfa04",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fe12bf17b01648948db8305ac2ac926e",
+                "srcKUID": "c97834649f734ef285cb7452d3b839f3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopup": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j13957d1804f4ba6b2ffb728709d83d5",
+                "srcKUID": "be492b5a5bab4b78b99701e82f37d05e",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgPopup": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d6be50b6f2a647e3b0caa32c2ba2dd58",
+                "srcKUID": "a6a78ba221a84204ac673d47f8e57796",
+                "wType": "Image"
+            },
+            "src": "campaign_bonus.png"
+        },
+        "lblCampaignLink": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ab88dd9dd9f54822b38c6a787aff5920",
+                "srcKUID": "e98ea2fee8df46559b9d5f82b2de2449",
+                "wType": "Label"
+            }
+        },
+        "lblClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ba1367836e9a48b4840f64ec8a7b0efe",
+                "srcKUID": "df23893286f6423394873d1b29e62ab0",
+                "wType": "Label"
+            }
+        },
+        "lblDescription": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d86ec64ec3d44b4c865e0df753c0aae9",
+                "srcKUID": "ifb6f47c3821460293bf9af94fe45c14",
+                "wType": "Label"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a014821c487d43f79fedbc02ff23ef3b",
+                "srcKUID": "f5f2afa4b64347b9ab830d9ee96501e3",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "campaignPopupMobile",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ec99a247f61e4999b9cbf8779079f31c",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxPopScreenMobile",
+    "pf": "frmAdDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "d889d031faee40fbad7b4ee4524b3c94",
+    "wType": "UserWidgetInstance"
+}

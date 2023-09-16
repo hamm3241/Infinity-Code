@@ -1,0 +1,21 @@
+{
+    "AS_Button_f858e8a9337049459c858f5168e97b86": {
+        "id": "AS_Button_f858e8a9337049459c858f5168e97b86",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_g0d826c1470b4eb3ac5e244ab40c0999",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "closeAddInfoPopUp",
+            "display": "closeAddInfoPopUp",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

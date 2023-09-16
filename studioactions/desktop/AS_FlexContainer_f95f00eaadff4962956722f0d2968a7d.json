@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_f95f00eaadff4962956722f0d2968a7d": {
+        "id": "AS_FlexContainer_f95f00eaadff4962956722f0d2968a7d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ee69cd766e6847c29c989e5059020909",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showVehicleLoanPersonalInfo",
+            "display": "showVehicleLoanPersonalInfo",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

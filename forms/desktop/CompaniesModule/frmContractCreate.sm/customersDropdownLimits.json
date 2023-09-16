@@ -1,0 +1,249 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnPrimary": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cfedfa1a021948a0a30ea827a4b3b708",
+                "srcKUID": "jd88068ef39746998972cc6ae1042ab7",
+                "wType": "Button"
+            }
+        },
+        "customersDropdown": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "dca7a3d0bffe4dc5bd9fe54611e5e7e9",
+                "srcKUID": "ff4d811ecc9643b9b1b3988d3fcbc11d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxClearSearchImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a63a2a1a04754ab1be774eca1d7e1de4",
+                "srcKUID": "i92b7909fca44a8a8e94b8da748ba9a7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDropdown": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ic66f8f8fd0a4159aec5f40051e68605",
+                "srcKUID": "b2114ca161054b12b31b1b16c1fc9d3e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxNoResult": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ga486da2c4c3480c93ec2b3a4c30cf33",
+                "srcKUID": "i2f0e72e04aa40adbc6306d802820d43",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bac8759b00c340f39c3789447191d8e8",
+                "srcKUID": "e0fb0ba678fe427aabdbc042aee167c2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSegmentList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e8fac37e29344a779da8820eb1620789",
+                "srcKUID": "j995dee928944688a02a1a5f7ae0d8c1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSelectedText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j3053720ab824c008b85edcbfd8ef4c6",
+                "srcKUID": "a2392784b8ac475cb1d2f04e6dcb01dc",
+                "wType": "FlexContainer"
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "270px"
+                }
+            }
+        },
+        "fontIconClearSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b3cea791805a41bda64c7e56489f35f6",
+                "srcKUID": "f7cac6a395e54316b33f32279565a6e9",
+                "wType": "Label"
+            }
+        },
+        "fontIconSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c69453af559f4a89882f5a38abc024cb",
+                "srcKUID": "b8179919ab92415894b6985349fe57f7",
+                "wType": "Label"
+            }
+        },
+        "lblIconDropdown": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f39525b7d0744c138f228495dce5f3d6",
+                "srcKUID": "a333ea3556584c3b87fcc0972d83b6f9",
+                "wType": "Label"
+            }
+        },
+        "lblNoResult": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e5836a7b513d401faabbfb3db9cce795",
+                "srcKUID": "iaaefb2ec10c4332ada2a78a12213502",
+                "wType": "Label"
+            }
+        },
+        "lblSearchSeparator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bfa7f677b90d45fd94cd8963578910be",
+                "srcKUID": "f852395c6fa34a6ba8ba5c5ef8366a62",
+                "wType": "Label"
+            }
+        },
+        "lblSelectedValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e3d761188e6d486dadc843d82025cf8f",
+                "srcKUID": "gfb202ee046448adb76712930abb41b0",
+                "wType": "Label"
+            },
+            "text": "Temenos India Private Li...",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "segList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b206337d74024fc1be51e2baf2663577",
+                "srcKUID": "g17bf1c5785741d2a4b69a3c21b59ce2",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    {
+                        "btnPrimaryCustomers": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Primary"
+                        },
+                        "lblCustomerName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        }
+                    },
+                    {
+                        "btnPrimaryCustomers": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Primary"
+                        },
+                        "lblCustomerName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        }
+                    },
+                    {
+                        "btnPrimaryCustomers": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Primary"
+                        },
+                        "lblCustomerName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        }
+                    },
+                    {
+                        "btnPrimaryCustomers": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Primary"
+                        },
+                        "lblCustomerName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        }
+                    }
+                ]
+            }
+        },
+        "tbxSearchBox": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "baef342126ae41d99ea49875c3ee4a81",
+                "srcKUID": "e2d8311a6263449798ee9572b538be8b",
+                "wType": "TextField"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "customersDropdownLimits",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "dca7a3d0bffe4dc5bd9fe54611e5e7e9",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCustomerDropdownLimits",
+    "pf": "frmContractCreate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ff4d811ecc9643b9b1b3988d3fcbc11d",
+    "wType": "UserWidgetInstance"
+}

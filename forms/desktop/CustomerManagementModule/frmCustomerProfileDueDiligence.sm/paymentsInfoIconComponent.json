@@ -1,0 +1,135 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa24d0cc4aa3494da591359f9103f6a5",
+    "_top_": {
+        "type": "number",
+        "value": "205"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "160px"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxArrowImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f2e53884a8a14cf0ae713763186821f4",
+                "srcKUID": "c254095edc7746e0a97f5e8ed2c1ae5f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e2b0ebedd47d4c50b4e7bc5486b8fc6f",
+                "srcKUID": "e25dcb4fdbc94e0fa6bc4e6c3df2f773",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxUpgrade": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i6ddcaecdfed43f5bea97204a4de4cde",
+                "srcKUID": "c6c35eddd0b04dae87356892e5595b9a",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgUpArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ac3fcb1b28b148f69877742eb257c9ad",
+                "srcKUID": "be90efd677e04369b39d8da5c300abdb",
+                "wType": "Image"
+            },
+            "src": "uparrow_2x.png"
+        },
+        "infoIconComponent": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "acbc5e4aab964118bfdb0bed39d8f646",
+                "srcKUID": "ccbccb3820ea4c4087dffc008fd4ef15",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "40%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "number",
+                    "value": "205"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "160px"
+                }
+            },
+            "zIndex": {
+                "Default": 10
+            }
+        },
+        "lblOption2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a6ddf0318ad34c138b4d95ee0b2e2122",
+                "srcKUID": "ac1760f7c802424bab0ceb73d50b783e",
+                "wType": "Label"
+            },
+            "i18n_text": "kony.customers.dueDiligence.EstmateSendPayNumber"
+        }
+    },
+    "enablescrolling": true,
+    "id": "paymentsInfoIconComponent",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "acbc5e4aab964118bfdb0bed39d8f646",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxSendPaymentsDetailsContainer",
+    "pf": "frmCustomerProfileDueDiligence",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ccbccb3820ea4c4087dffc008fd4ef15",
+    "wType": "UserWidgetInstance",
+    "zindex": 10
+}

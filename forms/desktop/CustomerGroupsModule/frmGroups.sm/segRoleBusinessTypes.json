@@ -1,0 +1,136 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "15px"
+    },
+    "_data_": [
+        {
+            "imgCheckBoxDefault": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "checkbox.png"
+            },
+            "imgCheckBoxSelect": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "checkbox.png"
+            },
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Mobile App"
+            }
+        },
+        {
+            "imgCheckBoxDefault": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "checkbox.png"
+            },
+            "imgCheckBoxSelect": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "checkbox.png"
+            },
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Trust"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segRoleBusinessTypes",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "e71eba861c544a46b94367bca5e961ab",
+    "masterdata": {},
+    "maxheight": {
+        "type": "string",
+        "value": "300px"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxBusinessTypes",
+    "pf": "frmGroups",
+    "retainselection": false,
+    "rowTemplateId": "d534cf1abbb348f892d66230099448a7",
+    "rowcounter": 1,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s587c8a9e5804ec88f65e379570597f6",
+    "rowtemplate": "flxRoleBusinessTypes",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCheckboxDefault": "flxCheckboxDefault",
+        "flxCheckboxSelect": "flxCheckboxSelect",
+        "flxRoleBusinessTypes": "flxRoleBusinessTypes",
+        "imgCheckBoxDefault": "imgCheckBoxDefault",
+        "imgCheckBoxSelect": "imgCheckBoxSelect",
+        "lblDescription": "lblDescription"
+    },
+    "zindex": 1
+}

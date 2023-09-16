@@ -1,0 +1,120 @@
+{
+    "classname": "deviceAuthenticator",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h874463af7824416a45306bbb31a8eb5",
+                    "paramList": [
+                        {
+                            "name": "userId"
+                        }
+                    ],
+                    "propertyKey": "fetchAuthenticators",
+                    "pw": {
+                        "displayName": "fetchAuthenticators",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "be19ea6b07544bce9f879ec0b69deecc",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fbefa3ebcd2d4c7e8bbb0c53c11d98ca",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "formUpdateUI",
+                    "pw": {
+                        "displayName": "formUpdateUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "be19ea6b07544bce9f879ec0b69deecc",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Get Authenticators Service Details"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAObjectServices",
+                    "group": "Get Authenticators Service Details",
+                    "kuid": "daf5c95178654ac188e08e880f66f25f",
+                    "originalPropertyKey": "getAuthenticatorsObjectServiceName",
+                    "propertyIndex": 1,
+                    "propertyKey": "getAuthenticatorsObjectServiceName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "be19ea6b07544bce9f879ec0b69deecc",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Authenticator",
+                    "group": "Get Authenticators Service Details",
+                    "kuid": "aa3ad4b021f8494a85cd3bfa229f3647",
+                    "originalPropertyKey": "getAuthenticatorsObjectName",
+                    "propertyIndex": 2,
+                    "propertyKey": "getAuthenticatorsObjectName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "be19ea6b07544bce9f879ec0b69deecc",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "getUserAuthenticators",
+                    "group": "Get Authenticators Service Details",
+                    "kuid": "f84e7d0a80ff44b6a17db2acff4db5ae",
+                    "originalPropertyKey": "getAuthenticatorsVerbName",
+                    "propertyIndex": 3,
+                    "propertyKey": "getAuthenticatorsVerbName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Verb Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "be19ea6b07544bce9f879ec0b69deecc",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.adminConsole.DeviceManagement",
+    "version": "1.0.0"
+}

@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "sf172fb41e5e4367a8dd3a164a2a68b1",
+    "_top_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s8e2b9bc59214798999099f19e4148ae",
+    "groupcells": false,
+    "id": "listBoxLoanTypes",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f5d47f78b5d8453db54f6ae858f045af",
+    "masterdata": [
+        [
+            "PERSONAL_LOAN",
+            "Personal",
+            "i18n.frmCustomerManagementController.Personal"
+        ],
+        [
+            "VEHICLE_LOAN",
+            "Vehicle",
+            "i18n.frmNewCustomer.vehicle"
+        ],
+        [
+            "CREDITCARD_LOAN",
+            "Credit Card",
+            "i18n.frmNewCustomer.creditCard"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxLoans",
+    "pf": "frmNewCustomer",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

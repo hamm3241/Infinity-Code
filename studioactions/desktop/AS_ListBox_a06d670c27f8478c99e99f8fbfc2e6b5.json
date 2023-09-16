@@ -1,0 +1,24 @@
+{
+    "AS_ListBox_a06d670c27f8478c99e99f8fbfc2e6b5": {
+        "id": "AS_ListBox_a06d670c27f8478c99e99f8fbfc2e6b5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e94a6a8bcfb04f55a11510410affe228",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "eventobject.skin = \"sknlstbx485c7513px\";\nthis.view.flxPersonalInfo.scrollToEnd();\nthis.view[this.fieldsToVAlidateInPersonalInfo[eventobject.id].errorLabel].setVisibility(false);\nif((eventobject.selectedKey.toLocaleLowerCase()) === \"select\"){\n  this.fieldsToVAlidateInPersonalInfo[eventobject.id].isValidated = false;\n}else{\n  this.fieldsToVAlidateInPersonalInfo[eventobject.id].isValidated = true;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

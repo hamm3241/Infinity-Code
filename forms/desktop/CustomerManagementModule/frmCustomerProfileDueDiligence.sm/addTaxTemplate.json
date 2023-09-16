@@ -1,0 +1,139 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s80c0d93da844a46b7a9eedf96f7a74a",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "addTemplate": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c3abd6d3c5f94ca28e424c0949c4295b",
+                "srcKUID": "a7c30537821e4fe8b1fa9a39cf5693d8",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true,
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "btnAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d9a8545f29454304be00b583faa5c75c",
+                "srcKUID": "cd5514e44de24620ba08f407f29466f9",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.ConfigurationBundles.buttonAdd"
+        },
+        "flxAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i4c51585e64a401e89df211f90544f80",
+                "srcKUID": "a098629894454ec29ff5df965ddf1ba0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDetails1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j0a3d144a82b4c428f0a65fd4bca4cff",
+                "srcKUID": "af196e23c2d84b03831da49b64682db8",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f5f366ad9cd544e3a54d44453d10416a",
+                "srcKUID": "b3ca8a5ad97c41c5ac9ac762f35c6e76",
+                "wType": "Image"
+            },
+            "src": "customerrole.png"
+        },
+        "lblAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f0221c93c0f14618bc92bd065ed3d64d",
+                "srcKUID": "iec643557b8342b9a1677b3fc8df32fb",
+                "wType": "Label"
+            },
+            "i18n_text": "kony.customers.dueDiligence.ToAddTaxDetails",
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                },
+                "desktopweb": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "text": "To add Tax details click the ADD button"
+        },
+        "lblHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cc088530a5554a678c1d8302e58aad77",
+                "srcKUID": "e969c7f038c04934bf83c379a6243b92",
+                "wType": "Label"
+            },
+            "i18n_text": "kony.customers.dueDiligence.TaxDetails",
+            "text": "Tax Details"
+        }
+    },
+    "enablescrolling": true,
+    "id": "addTaxTemplate",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "c3abd6d3c5f94ca28e424c0949c4295b",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCitizenshipAndTax",
+    "pf": "frmCustomerProfileDueDiligence",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a7c30537821e4fe8b1fa9a39cf5693d8",
+    "wType": "UserWidgetInstance"
+}

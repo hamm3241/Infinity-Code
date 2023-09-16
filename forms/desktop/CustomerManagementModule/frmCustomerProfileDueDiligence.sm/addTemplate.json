@@ -1,0 +1,127 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s80c0d93da844a46b7a9eedf96f7a74a",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "addTemplate": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c973d952a84b481e98efa68b33212c7d",
+                "srcKUID": "a7c30537821e4fe8b1fa9a39cf5693d8",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "btnAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "afa0734496a64b21a6ce283d0f922a35",
+                "srcKUID": "cd5514e44de24620ba08f407f29466f9",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.DragBox.ADD"
+        },
+        "flxAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j7bb73d720ed4b86a7d71e5a5695e5e1",
+                "srcKUID": "a098629894454ec29ff5df965ddf1ba0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDetails1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bc59a57d0eea415e8ccb93212de9c565",
+                "srcKUID": "af196e23c2d84b03831da49b64682db8",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d101b6a71c2046a38530b93557509e8c",
+                "srcKUID": "b3ca8a5ad97c41c5ac9ac762f35c6e76",
+                "wType": "Image"
+            },
+            "src": "customerrole.png"
+        },
+        "lblAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e7fdf4fd9f5948b397b6906e4e80270c",
+                "srcKUID": "iec643557b8342b9a1677b3fc8df32fb",
+                "wType": "Label"
+            },
+            "i18n_text": "kony.customers.dueDiligence.employmentDetailsClick",
+            "text": "To add Employment details click the ADD button"
+        },
+        "lblHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bd48165f510d4470b84fa4e454ee0096",
+                "srcKUID": "e969c7f038c04934bf83c379a6243b92",
+                "wType": "Label"
+            },
+            "i18n_text": "kony.customers.dueDiligence.employmentDetails",
+            "text": "Employment Details"
+        }
+    },
+    "enablescrolling": true,
+    "id": "addTemplate",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "c973d952a84b481e98efa68b33212c7d",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxEmploymentRightDetails",
+    "pf": "frmCustomerProfileDueDiligence",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a7c30537821e4fe8b1fa9a39cf5693d8",
+    "wType": "UserWidgetInstance"
+}

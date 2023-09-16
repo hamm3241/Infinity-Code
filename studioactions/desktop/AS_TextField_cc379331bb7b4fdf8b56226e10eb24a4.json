@@ -1,0 +1,27 @@
+{
+    "AS_TextField_cc379331bb7b4fdf8b56226e10eb24a4": {
+        "id": "AS_TextField_cc379331bb7b4fdf8b56226e10eb24a4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmErrorLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297ec624b3647e99b0e95d9a173b2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e3c5374060e542e1ad0b79bdc51efd61",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.btnResetPassword.setEnabled(false);\nthis.view.btnResetPassword.skin = \"btnSkinGrey\";\nthis.view.txtReenterPassword.skin=\"skinPasswordTextField\"; //normal skin\nthis.view.lblPasswordDontMatch.isVisible=false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

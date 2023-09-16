@@ -1,0 +1,34 @@
+{
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "SCAModule/BusinessControllers/BusinessController"
+    },
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn",
+                "WidgetPermission_Checker_FormExtns",
+                "Sorting_FormExtn"
+            ],
+            "PresentationControllerClass": "SCAModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmSCAScenarios": {
+                "ControllerExtensions": [
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "Sorting_FormExtn",
+                    "AdminConsoleCommonUtilities",
+                    "CurrencyUtils_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SCAModule/frmSCAScenariosController",
+                "FormName": "SCAModule/frmSCAScenarios",
+                "friendlyName": "frmSCAScenarios"
+            }
+        }
+    },
+    "ModuleName": "SCAModule"
+}

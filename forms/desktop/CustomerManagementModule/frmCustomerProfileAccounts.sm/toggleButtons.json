@@ -1,0 +1,105 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnToggleLeft": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b4494604e8c842e6be956c9f755ec154",
+                "srcKUID": "f075464c36144af889f3621a3f72af92",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmCustomerManagementController.RetailBanking"
+        },
+        "btnToggleRight": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bdeb0884227d44939f245afff8a1ee2c",
+                "srcKUID": "afcdfd65bfbb474ba809d2c17f36d2cb",
+                "wType": "Button"
+            },
+            "i18n_text": null,
+            "text": "Business Banking"
+        },
+        "toggleButtons": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c92b5c9ee2694335baffd20880ddd1f0",
+                "srcKUID": "bfdbefa34d444c70966c3b1c6d58c9f8",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "30dp"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "toggleButtons",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "c92b5c9ee2694335baffd20880ddd1f0",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxToggleButtonsContainer",
+    "pf": "frmCustomerProfileAccounts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "bfdbefa34d444c70966c3b1c6d58c9f8",
+    "wType": "UserWidgetInstance"
+}

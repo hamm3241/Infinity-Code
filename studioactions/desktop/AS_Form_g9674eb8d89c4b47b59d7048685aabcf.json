@@ -1,0 +1,28 @@
+{
+    "AS_Form_g9674eb8d89c4b47b59d7048685aabcf": {
+        "id": "AS_Form_g9674eb8d89c4b47b59d7048685aabcf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c531da55caa8470ab397d81f4f3b7af6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "frmLoansDashboardPreShow",
+            "display": "frmLoansDashboardPreShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

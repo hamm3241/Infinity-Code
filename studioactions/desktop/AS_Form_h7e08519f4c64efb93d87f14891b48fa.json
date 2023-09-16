@@ -1,0 +1,23 @@
+{
+    "AS_Form_h7e08519f4c64efb93d87f14891b48fa": {
+        "id": "AS_Form_h7e08519f4c64efb93d87f14891b48fa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmContractCreate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c4cc37025d64433e8a985167e26474fc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_dcfa447050984aa68e734eb830f18fca",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.contractCreatePreshow();",
+            "parentId": null
+        }]
+    }
+}

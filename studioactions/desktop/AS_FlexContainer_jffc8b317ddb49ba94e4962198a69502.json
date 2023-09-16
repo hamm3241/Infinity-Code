@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_jffc8b317ddb49ba94e4962198a69502": {
+        "id": "AS_FlexContainer_jffc8b317ddb49ba94e4962198a69502",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bbdbcc8bbc3a4843a20884046ef60d63",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.guestDashboardEmploymentInfoClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

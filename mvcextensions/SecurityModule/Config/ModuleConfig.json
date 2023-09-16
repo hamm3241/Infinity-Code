@@ -1,0 +1,43 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "SecurityModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmSecureImage": {
+                "Controller": "SecurityModule/frmSecureImageController",
+                "ControllerExtensions": [
+                    "WidgetPermission_Checker_FormExtns",
+                    "Sorting_FormExtn",
+                    "Navigation_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "SecurityModule/frmSecureImage",
+                "friendlyName": "frmSecureImage"
+            },
+            "frmSecurityQuestions": {
+                "Controller": "SecurityModule/frmSecurityQuestionsController",
+                "ControllerExtensions": [
+                    "WidgetPermission_Checker_FormExtns",
+                    "Sorting_FormExtn",
+                    "Navigation_Form_Extn",
+                    "AdminConsoleCommonUtilities"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "SecurityModule/frmSecurityQuestions",
+                "friendlyName": "frmSecurityQuestions"
+            }
+        }
+    },
+    "ModuleName": "SecurityModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "SecurityModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "SecurityModule/PresentationControllers/PresentationController_Extn",
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

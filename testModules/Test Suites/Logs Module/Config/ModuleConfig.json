@@ -1,0 +1,47 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.command.login.successflow",
+      "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+    },{
+      "CommandId": "testcase.presenter.getAllFilters",
+      "CommandHandler": "TestCase_Logs_GetAllFilters"
+    }, {
+      "CommandId": "testcase.presenter.getAllServicesList",
+      "CommandHandler": "TestCase_Logs_GetAllServicesList"
+    }, {
+      "CommandId": "testcase.presenter.getCustomerActivityMasterData",
+      "CommandHandler": "TestCase_Logs_GetCustomerActivityMasterData"
+    }, {
+      "CommandId": "testcase.presenter.getTransactionFiltersMasterData",
+      "CommandHandler": "TestCase_Logs_GetTransactionFiltersMasterData"
+    }, {
+      "CommandId": "testcase.presenter.getAdminFiltersMasterData",
+      "CommandHandler": "TestCase_Logs_GetAdminFiltersMasterData"
+    },{
+      "CommandId": "testcase.presenter.getCustomerActivityLogs",
+      "CommandHandler": "TestCase_Logs_GetCustomerActivityLogs"
+    },{
+      "CommandId": "testcase.presenter.getAdminConsoleLogs",
+      "CommandHandler": "TestCase_Logs_GetAdminConsoleLogs"
+    },{
+      "CommandId": "testcase.presenter.getTransactionLogs",
+      "CommandHandler": "TestCase_Logs_GetTransactionLogs"
+    }, {
+      "CommandId": "testcase.presenter.createFilter",
+      "CommandHandler": "TestCase_Logs_CreateFilter"
+    },{
+      "CommandId": "testcase.presenter.deleteFilter",
+      "CommandHandler": "TestCase_Logs_DeleteFilter"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

@@ -1,0 +1,29 @@
+{
+    "AS_TextArea_c708c44f39cf4c0b82b43ff1b7e72655": {
+        "id": "AS_TextArea_c708c44f39cf4c0b82b43ff1b7e72655",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwffbd090b2d18480f975b5e9d22e8dc7a",
+            "type": "userwidgets",
+            "KUID": "ffbd090b2d18480f975b5e9d22e8dc7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a4cf23dc255c4068a8b1c46ed46171bb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onDescriptionKeyUp",
+            "display": "onDescriptionKeyUp",
+            "inputparams": [{
+                "name": "eventObject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

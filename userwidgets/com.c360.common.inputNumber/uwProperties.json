@@ -1,0 +1,163 @@
+{
+    "classname": "inputNumber",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c37c0307b049438b8b4c231b95c9ffbe",
+                    "paramList": [],
+                    "propertyKey": "getValue",
+                    "pw": {
+                        "displayName": "getValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a2688d071898429d932694f53452bbe2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a904995e5bd9491c8389bf9c2929ee49",
+                    "paramList": [],
+                    "propertyKey": "enableFocus",
+                    "pw": {
+                        "displayName": "enableFocus",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a2688d071898429d932694f53452bbe2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "acee76f6b56246f0acaa6ccb627e40f4",
+                    "paramList": [],
+                    "propertyKey": "disableFocus",
+                    "pw": {
+                        "displayName": "disableFocus",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a2688d071898429d932694f53452bbe2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "jddb20790b6b434fb71e709ad7582d5c",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onChange",
+                    "pw": {
+                        "displayName": "onChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a2688d071898429d932694f53452bbe2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b9b3c6ab7e6b450e9d8498250fc30f5c",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onLimitExceeds",
+                    "pw": {
+                        "displayName": "onLimitExceeds",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a2688d071898429d932694f53452bbe2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fb5c6a69618b4d09a8f90b2ad90cf697",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "onLimitLowers",
+                    "pw": {
+                        "displayName": "onLimitLowers",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a2688d071898429d932694f53452bbe2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 5,
+                    "group": "General",
+                    "kuid": "f3119bc1ff1f4149b7b1fbc52e9b63fb",
+                    "originalPropertyKey": "maxLimit",
+                    "propertyIndex": 1,
+                    "propertyKey": "maxLimit",
+                    "pw": {
+                        "displayName": "maxLimit",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "a2688d071898429d932694f53452bbe2",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 0,
+                    "group": "General",
+                    "kuid": "fcfa0c192212415d9167675639ff6628",
+                    "originalPropertyKey": "minLimit",
+                    "propertyIndex": 2,
+                    "propertyKey": "minLimit",
+                    "pw": {
+                        "displayName": "minLimit",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "a2688d071898429d932694f53452bbe2",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 3,
+                    "group": "General",
+                    "kuid": "b441075c61aa4aa4b45c51d62cb150c5",
+                    "originalPropertyKey": "defaultValue",
+                    "propertyIndex": 3,
+                    "propertyKey": "defaultValue",
+                    "pw": {
+                        "displayName": "defaultValue",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "a2688d071898429d932694f53452bbe2",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.c360.common",
+    "version": "1.0.0"
+}

@@ -1,0 +1,469 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "associatedRoles": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "b920679bf2d74e2e93a61e3e0398f284",
+                "srcKUID": "h4556106a74b404f9811bd7d2d1e20ac",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "maxHeight": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "maxWidth": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "minHeight": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "minWidth": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "backToRolesList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c7ef8c41fd4f4289a1b4998b079b9a5e",
+                "srcKUID": "fb9d4ff284964281b2da874645f8df22",
+                "wType": "UserWidgetInstance"
+            },
+            "isVisible": false
+        },
+        "backToRolesList.btnBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dece138e15fb4ae4920419a718e2afd0",
+                "srcKUID": "dbfa245e7b8140d886587f5d65f601db",
+                "wType": "Button"
+            }
+        },
+        "backToRolesList.flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cf750293e7f9474481898681dc099500",
+                "srcKUID": "e54439c3fd2d493185ddcb2b7992f59f",
+                "wType": "FlexContainer"
+            }
+        },
+        "backToRolesList.fontIconBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f23a6e84a047453d82f1230e63ab1d27",
+                "srcKUID": "dddc85da7adb476eb758755e16d86ecb",
+                "wType": "Label"
+            }
+        },
+        "btnAdd": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aaa7796cf2884d04afd203cc961a88da",
+                "srcKUID": "e2fb1952317945309838e1c11370d39c",
+                "wType": "Button"
+            }
+        },
+        "btnCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cc3ad684cb1349aca81d5010b9621d23",
+                "srcKUID": "d14fb23790e747fabc03ae895b5a8287",
+                "wType": "Button"
+            }
+        },
+        "btnChangeDefaultRole": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i6f2d55c90574f26a59b7bbb505d1b6b",
+                "srcKUID": "f403051612a744fd93f107e56acbc6d9",
+                "wType": "Button"
+            }
+        },
+        "btnUpdate": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f6d279344aea4080a044c4be8ab426de",
+                "srcKUID": "caf8599f1b68445db55ff40a875ac832",
+                "wType": "Button"
+            }
+        },
+        "commonButtonsRoles": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b69c80b5787e4415a264223dec963559",
+                "srcKUID": "if0d64fd944a4a0caa773fd3e8711ae0",
+                "wType": "UserWidgetInstance"
+            }
+        },
+        "commonButtonsRoles.btnCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ac0b053e416e43d892cba9234707c0a7",
+                "srcKUID": "b9a1568f74c340d5b0515dd728426630",
+                "wType": "Button"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "140px"
+                }
+            }
+        },
+        "commonButtonsRoles.btnNext": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d52cffdf977b43fe946fe8e6e8ff9d5a",
+                "srcKUID": "ebcdc48db78c43a4af58cbe3d9f039d7",
+                "wType": "Button"
+            }
+        },
+        "commonButtonsRoles.btnSave": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f8f8e3c76aa340ddb2a6af734a8f9f7e",
+                "srcKUID": "d23ab9165ad74256825fa188293d88e5",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.permission.SAVE",
+            "text": "",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100px"
+                }
+            }
+        },
+        "commonButtonsRoles.flxRightButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "he93b3853ad74a44bb4bc487a61e241f",
+                "srcKUID": "c34355d757034c1693d3c75e9a9f7cc0",
+                "wType": "FlexContainer"
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "330px"
+                }
+            }
+        },
+        "flxAssociatedRoles": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ee038216f8c54712915f38f203cce63f",
+                "srcKUID": "babae3b070f6435081005ce1a2184fe8",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxClearSearchImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d7a689e6346f4ee2a978ddeec2c5af1b",
+                "srcKUID": "fbd40ff18087492ba69fb328d6cbdedf",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCommonButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c508dac5dd294faa9ec8032371c64794",
+                "srcKUID": "ce10dfb6ca614458a05d0139280da3b6",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxCommonButtonsRolesSave": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i1dff9a9f55a464d862aaa223eb2fa92",
+                "srcKUID": "db6e88dda4c8441b9e84f85f839a3487",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "flxCommonButtonsRolesSeparator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c3630899d1a446938109fa82535e48ff",
+                "srcKUID": "fb3d0f281c074696bab2ef529b12e937",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRightButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b3a2c0b3f05444558bb1788781487058",
+                "srcKUID": "a9aed92e2f4e4f75ae8d13b32933ee47",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRoleUndoHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j6da4bb32ac942b2b56a038ca7fd9d12",
+                "srcKUID": "ddd7a88995584bdb9899c6c077271534",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxRolesEdit": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g1ef7f9715b446999db3f30830a98bbc",
+                "srcKUID": "f1cb0760ae3a419bbf651dc2f28323ed",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "flxRolesHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f73b65f42c3746a6a5125501e17577ec",
+                "srcKUID": "dfe8b73b2df748b58358be66d424c77f",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "flxRolesSegment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a35fd83d83104afab022926ccbd3ab29",
+                "srcKUID": "g2b1ec52442a4a6087814f7306b704ba",
+                "wType": "FlexScrollContainer"
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "75%"
+                }
+            }
+        },
+        "flxSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f3c4b3b599014e9286dc0ac05a1c6561",
+                "srcKUID": "fb108e1a24e549f59e1ca75fdef339e9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gc96886e185a42c7b0d87876dfa1070f",
+                "srcKUID": "b989c29b5b9f44fca30cc3dedc2ff0de",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSeparator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i4d33f3ee9fe4b2c89c23a25e613f394",
+                "srcKUID": "i355e66b69ec44878d7f1f17cb4a140c",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true,
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "9dp"
+                }
+            }
+        },
+        "fontIconCross": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fdb194530543471a95d602bcef7cb074",
+                "srcKUID": "d6425db45ce44fa285c21c0ef69a5e0a",
+                "wType": "Label"
+            }
+        },
+        "fontIconSearchImg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g4f50a95b64b4b99989720cb07141de9",
+                "srcKUID": "b92c9923116a428ca404f2048df05258",
+                "wType": "Label"
+            }
+        },
+        "lblDefaultRole": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j54330bb66944667b3dd12fa01a13d97",
+                "srcKUID": "ee4a654500684579a873135e12401d3c",
+                "wType": "Label"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e9319adbc46745a99b163426f867065e",
+                "srcKUID": "i73e103025be454f8cdce1100216af76",
+                "wType": "Label"
+            }
+        },
+        "lblSelectedLegalEntity": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e7ad4d110530473883e32c32704a18c1",
+                "srcKUID": "e74b4395e2024db6b11c37ba446b38f2",
+                "wType": "Label"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "69dp"
+                }
+            },
+            "text": "Label",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "23dp"
+                }
+            }
+        },
+        "segAssociatedRoles": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ecbf1f6cda9c409692eb1d6f56092bcf",
+                "srcKUID": "eadcdf7e3ef44a77a27460b7d40dfc5a",
+                "wType": "Segment"
+            }
+        },
+        "tbxSearchBox": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hbd890ea603e497d81d045351ca0a340",
+                "srcKUID": "fe0fc82de79c411ab02be1ac3411cfad",
+                "wType": "TextField"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "associatedRoles",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "b920679bf2d74e2e93a61e3e0398f284",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxAssignRoles",
+    "pf": "frmServiceDefinition",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "h4556106a74b404f9811bd7d2d1e20ac",
+    "wType": "UserWidgetInstance"
+}

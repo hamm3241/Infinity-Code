@@ -1,0 +1,108 @@
+{
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "CompaniesModule/BusinessControllers/BusinessController"
+    },
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn",
+                "WidgetPermission_Checker_FormExtns",
+                "Sorting_FormExtn"
+            ],
+            "PresentationControllerClass": "CompaniesModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmCompanies": {
+                "ControllerExtensions": [
+                    "Navigation_Form_Extn",
+                    "TabUtil_FormExtn",
+                    "AdminConsoleCommonUtilities",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "Sorting_FormExtn",
+                    "CustomerManagement_Search_Extn",
+                    "AdminConsoleCommonUtilities",
+                    "downloadCSV_Extn",
+                    "ErrorInterceptor",
+                    "WidgetPermission_Checker_FormExtns",
+					"LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "CompaniesModule/frmCompaniesController",
+                "FormName": "CompaniesModule/frmCompanies",
+                "friendlyName": "frmCompanies"
+            },
+            "frmBusinessTypes": {
+                "ControllerExtensions": [
+                    "Navigation_Form_Extn",
+                    "TabUtil_FormExtn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "Sorting_FormExtn",
+                    "AdminConsoleCommonUtilities",
+                    "downloadCSV_Extn",
+                    "ErrorInterceptor",
+                    "WidgetPermission_Checker_FormExtns"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "CompaniesModule/frmBusinessTypesController",
+                "FormName": "CompaniesModule/frmBusinessTypes",
+                "friendlyName": "frmBusinessTypes"
+            },
+            "frmEnrollmentRequests": {
+                "ControllerExtensions": [
+                    "Navigation_Form_Extn",
+                    "AdminConsoleCommonUtilities",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "Sorting_FormExtn",
+                    "ErrorInterceptor",
+                    "WidgetPermission_Checker_FormExtns"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "CompaniesModule/frmEnrollmentRequestsController",
+                "FormName": "CompaniesModule/frmEnrollmentRequests",
+                "friendlyName": "frmEnrollmentRequests"
+            },
+            "frmContractCreate": {
+                "ControllerExtensions": [
+                    "Navigation_Form_Extn",
+                    "TabUtil_FormExtn",
+                    "AdminConsoleCommonUtilities",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "Sorting_FormExtn",
+                    "CustomerManagement_Search_Extn",
+                    "AdminConsoleCommonUtilities",
+                    "downloadCSV_Extn",
+                    "ErrorInterceptor",
+                    "WidgetPermission_Checker_FormExtns",
+					"LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "CompaniesModule/frmContractCreateController",
+                "FormName": "CompaniesModule/frmContractCreate",
+                "friendlyName": "frmContractCreate"
+            },
+			"frmContractSearch": {
+                "ControllerExtensions": [
+                "Navigation_Form_Extn",
+                    "AdminConsoleCommonUtilities",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "Sorting_FormExtn",
+                    "ErrorInterceptor",
+					"LegalEntityPermission_Form_Extn",
+                    "WidgetPermission_Checker_FormExtns"],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "CompaniesModule/frmContractSearchController",
+                "FormName": "CompaniesModule/frmContractSearch",
+                "friendlyName": "frmContractSearch"
+            }
+        }
+    },
+    "ModuleName": "CompaniesModule"
+}

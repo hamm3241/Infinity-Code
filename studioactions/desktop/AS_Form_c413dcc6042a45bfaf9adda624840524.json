@@ -1,0 +1,23 @@
+{
+    "AS_Form_c413dcc6042a45bfaf9adda624840524": {
+        "id": "AS_Form_c413dcc6042a45bfaf9adda624840524",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateProfile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jc7d3e37b24c43b18247129265994a1f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_g1f819612c8e48d6bc964a208f3b88e6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.createProfilePreShow();",
+            "parentId": null
+        }]
+    }
+}

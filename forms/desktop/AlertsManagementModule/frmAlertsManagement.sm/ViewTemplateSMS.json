@@ -1,0 +1,141 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": ""
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s094cf034ba74d778fe9c91095115ace",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ViewTemplate": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "dd5d33b4660044e9b3e3642b6b73a6c1",
+                "srcKUID": "fa300c5038b8494bbc0c4447b948a771",
+                "wType": "FlexContainer"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        },
+        "flxChannelText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b5f33794d31d4f1ba1f4c41123570cbd",
+                "srcKUID": "d43d67b258d4427b926b19bd254e58ea",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b8650c1cc79d446eb11891da699d07b8",
+                "srcKUID": "f05917deddab4378af4c230047d80870",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "lblChannelMsg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e016da1a9d0241bdbcb909e305686bea",
+                "srcKUID": "h9426ec6e12149bcb44dff9caf814ef9",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.YouHaveSuccessfully",
+            "text": "You have successfully changed your digital banking password. If you did not make this change, contact DBX bank immediately"
+        },
+        "lblChannelName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f50f9a46f2e147baaaf68a04161f2d10",
+                "srcKUID": "i6388c8fd3d34dab81b47a52108b63bd",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.SMSText",
+            "text": "SMS/Text"
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b1f644e246804601b89a4580d5d1566b",
+                "srcKUID": "f6a2d712033f42c99c00c0066dd03162",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.TitleColon"
+        },
+        "lblTitleValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d0ba37106b3242bcb0d48c0579efa3ae",
+                "srcKUID": "ef9826216ec445d18cc4fa44e7f2db8a",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "ViewTemplateSMS",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "dd5d33b4660044e9b3e3642b6b73a6c1",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxViewSMSTemplate",
+    "pf": "frmAlertsManagement",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "fa300c5038b8494bbc0c4447b948a771",
+    "wType": "UserWidgetInstance"
+}

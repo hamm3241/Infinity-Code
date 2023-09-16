@@ -1,0 +1,489 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_data_": [
+        {},
+        {}
+    ],
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "-15dp"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "10",
+    "desktop": {
+        "_data_": [
+            [
+                {
+                    "imgActionHeaderCheckbox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "checkboxnormal.png"
+                    },
+                    "imgSectionCheckbox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "checkboxnormal.png"
+                    },
+                    "imgTopCheckbox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "checkboxnormal.png"
+                    },
+                    "lblAccountHolder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmEnrollCustomer.OwnershipType_UC",
+                        "text": ""
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCompanies.ACCOUNTNAME",
+                        "text": ""
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCompanies.ACCOUNTNUMBER",
+                        "text": ""
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCompanies.ACCOUNTTYPE",
+                        "text": ""
+                    },
+                    "lblActionDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmAdManagement.DescriptionCAPS",
+                        "text": "DESCRIPTION"
+                    },
+                    "lblActionName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "ACTIONS"
+                    },
+                    "lblActionSeperator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblActionStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.statusCaps",
+                        "text": "STATUS"
+                    },
+                    "lblAvailableActions": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Available Actions:"
+                    },
+                    "lblCountActions": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2"
+                    },
+                    "lblFeatureName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblIconAccNameSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconActionNameSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconFilterAccType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconSortAccHolder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconSortAccName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmAlertsManagement.lblViewAlertStatusKey",
+                        "text": ""
+                    },
+                    "lblIconToggleArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblSectionLine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "John Doe"
+                    },
+                    "lblSeperator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblStatusValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.secureimage.Active",
+                        "text": "Active"
+                    },
+                    "lblTotalActions": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "of 2"
+                    }
+                },
+                [
+                    {
+                        "imgCheckbox": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "lblCustom": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblFeatureName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblIconStatus": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblStatus": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "imgActionHeaderCheckbox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "checkboxnormal.png"
+                    },
+                    "imgSectionCheckbox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "checkboxnormal.png"
+                    },
+                    "imgTopCheckbox": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "checkboxnormal.png"
+                    },
+                    "lblAccountHolder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmEnrollCustomer.OwnershipType_UC",
+                        "text": ""
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCompanies.ACCOUNTNAME",
+                        "text": ""
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCompanies.ACCOUNTNUMBER",
+                        "text": ""
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCompanies.ACCOUNTTYPE",
+                        "text": ""
+                    },
+                    "lblActionDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmAdManagement.DescriptionCAPS",
+                        "text": "DESCRIPTION"
+                    },
+                    "lblActionName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "ACTIONS"
+                    },
+                    "lblActionSeperator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblActionStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.statusCaps",
+                        "text": "STATUS"
+                    },
+                    "lblAvailableActions": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Available Actions:"
+                    },
+                    "lblCountActions": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2"
+                    },
+                    "lblFeatureName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblIconAccNameSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconActionNameSort": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconFilterAccType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconSortAccHolder": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconSortAccName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblIconStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmAlertsManagement.lblViewAlertStatusKey",
+                        "text": ""
+                    },
+                    "lblIconToggleArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblSectionLine": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "John Doe"
+                    },
+                    "lblSeperator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblStatusValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.secureimage.Active",
+                        "text": "Active"
+                    },
+                    "lblTotalActions": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "of 2"
+                    }
+                },
+                [
+                    {
+                        "imgCheckbox": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "lblCustom": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblFeatureName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblIconStatus": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblSeperator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblStatus": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "e39417f363784a52be823e135cf77e2c",
+        "rowtemplate": "flxContractEnrollFeaturesEditRow",
+        "sectionHeaderTemplateId": "d1285cc6c3ec474eb86713fa9f786f04",
+        "sectionheadertemplate": "flxEnrollSelectedAccountsSec",
+        "widgetdatamap": {
+            "flxAccountHolder": "flxAccountHolder",
+            "flxAccountName": "flxAccountName",
+            "flxAccountNumCont": "flxAccountNumCont",
+            "flxAccountSectionCont": "flxAccountSectionCont",
+            "flxAccountType": "flxAccountType",
+            "flxActionCheckbox": "flxActionCheckbox",
+            "flxActionDescriptionHeading": "flxActionDescriptionHeading",
+            "flxActionNameHeading": "flxActionNameHeading",
+            "flxActionStatusHeading": "flxActionStatusHeading",
+            "flxActionsHeaderContainer": "flxActionsHeaderContainer",
+            "flxCheckbox": "flxCheckbox",
+            "flxContractEnrollFeaturesEditRow": "flxContractEnrollFeaturesEditRow",
+            "flxDetailsCont": "flxDetailsCont",
+            "flxEnrollSelectedAccountsSec": "flxEnrollSelectedAccountsSec",
+            "flxFeatureNameCont": "flxFeatureNameCont",
+            "flxHeaderContainer": "flxHeaderContainer",
+            "flxHeadingCheckbox": "flxHeadingCheckbox",
+            "flxLeftDetailsCont": "flxLeftDetailsCont",
+            "flxRight": "flxRight",
+            "flxRow2": "flxRow2",
+            "flxStatus": "flxStatus",
+            "flxToggleArrow": "flxToggleArrow",
+            "imgActionHeaderCheckbox": "imgActionHeaderCheckbox",
+            "imgCheckbox": "imgCheckbox",
+            "imgSectionCheckbox": "imgSectionCheckbox",
+            "imgTopCheckbox": "imgTopCheckbox",
+            "lblAccountHolder": "lblAccountHolder",
+            "lblAccountName": "lblAccountName",
+            "lblAccountNumber": "lblAccountNumber",
+            "lblAccountType": "lblAccountType",
+            "lblActionDescription": "lblActionDescription",
+            "lblActionName": "lblActionName",
+            "lblActionSeperator": "lblActionSeperator",
+            "lblActionStatus": "lblActionStatus",
+            "lblAvailableActions": "lblAvailableActions",
+            "lblCountActions": "lblCountActions",
+            "lblCustom": "lblCustom",
+            "lblFeatureName": "lblFeatureName",
+            "lblIconAccNameSort": "lblIconAccNameSort",
+            "lblIconActionNameSort": "lblIconActionNameSort",
+            "lblIconFilterAccType": "lblIconFilterAccType",
+            "lblIconSortAccHolder": "lblIconSortAccHolder",
+            "lblIconSortAccName": "lblIconSortAccName",
+            "lblIconStatus": "lblIconStatus",
+            "lblIconToggleArrow": "lblIconToggleArrow",
+            "lblSectionLine": "lblSectionLine",
+            "lblSeperator": "lblSeperator",
+            "lblStatus": "lblStatus",
+            "lblStatusValue": "lblStatusValue",
+            "lblTotalActions": "lblTotalActions"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segAddFacilityFeatures",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ef4262e52a474e60b87e88be01b39a12",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegAddFeaturesCont",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": "Flex0a5b79132b7884c",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAccountHolder": "flxAccountHolder",
+        "flxAccountName": "flxAccountName",
+        "flxAccountNumCont": "flxAccountNumCont",
+        "flxAccountSectionCont": "flxAccountSectionCont",
+        "flxAccountType": "flxAccountType",
+        "flxActionCheckbox": "flxActionCheckbox",
+        "flxActionDescriptionHeading": "flxActionDescriptionHeading",
+        "flxActionNameHeading": "flxActionNameHeading",
+        "flxActionStatusHeading": "flxActionStatusHeading",
+        "flxActionsHeaderContainer": "flxActionsHeaderContainer",
+        "flxCheckbox": "flxCheckbox",
+        "flxContractEnrollFeaturesEditRow": "flxContractEnrollFeaturesEditRow",
+        "flxDetailsCont": "flxDetailsCont",
+        "flxEnrollSelectedAccountsSec": "flxEnrollSelectedAccountsSec",
+        "flxFeatureNameCont": "flxFeatureNameCont",
+        "flxHeaderContainer": "flxHeaderContainer",
+        "flxHeadingCheckbox": "flxHeadingCheckbox",
+        "flxLeftDetailsCont": "flxLeftDetailsCont",
+        "flxRight": "flxRight",
+        "flxRow2": "flxRow2",
+        "flxStatus": "flxStatus",
+        "flxToggleArrow": "flxToggleArrow",
+        "imgActionHeaderCheckbox": "imgActionHeaderCheckbox",
+        "imgCheckbox": "imgCheckbox",
+        "imgSectionCheckbox": "imgSectionCheckbox",
+        "imgTopCheckbox": "imgTopCheckbox",
+        "lblAccountHolder": "lblAccountHolder",
+        "lblAccountName": "lblAccountName",
+        "lblAccountNumber": "lblAccountNumber",
+        "lblAccountType": "lblAccountType",
+        "lblActionDescription": "lblActionDescription",
+        "lblActionName": "lblActionName",
+        "lblActionSeperator": "lblActionSeperator",
+        "lblActionStatus": "lblActionStatus",
+        "lblAvailableActions": "lblAvailableActions",
+        "lblCountActions": "lblCountActions",
+        "lblCustom": "lblCustom",
+        "lblFeatureName": "lblFeatureName",
+        "lblIconAccNameSort": "lblIconAccNameSort",
+        "lblIconActionNameSort": "lblIconActionNameSort",
+        "lblIconFilterAccType": "lblIconFilterAccType",
+        "lblIconSortAccHolder": "lblIconSortAccHolder",
+        "lblIconSortAccName": "lblIconSortAccName",
+        "lblIconStatus": "lblIconStatus",
+        "lblIconToggleArrow": "lblIconToggleArrow",
+        "lblSectionLine": "lblSectionLine",
+        "lblSeperator": "lblSeperator",
+        "lblStatus": "lblStatus",
+        "lblStatusValue": "lblStatusValue",
+        "lblTotalActions": "lblTotalActions"
+    },
+    "zindex": 1
+}

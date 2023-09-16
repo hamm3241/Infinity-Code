@@ -1,0 +1,32 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "TermsAndConditionsModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmTermsAndConditions": {
+                "Controller": "TermsAndConditionsModule/frmTermsAndConditionsController",
+                "ControllerExtensions": [
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "Sorting_FormExtn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleCommonUtilities"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "TermsAndConditionsModule/frmTermsAndConditions",
+                "friendlyName": "frmTermsAndConditions"
+            }
+        }
+    },
+    "ModuleName": "TermsAndConditionsModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "TermsAndConditionsModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

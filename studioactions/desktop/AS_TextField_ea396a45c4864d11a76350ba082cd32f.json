@@ -1,0 +1,27 @@
+{
+    "AS_TextField_ea396a45c4864d11a76350ba082cd32f": {
+        "id": "AS_TextField_ea396a45c4864d11a76350ba082cd32f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmErrorLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297ec624b3647e99b0e95d9a173b2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a7b3ef545bbf4400b67d00b87f318ffd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.txtCurrentPassword.text===\"\")\n{this.view.btnResetPassword.setEnabled(false);\nthis.view.btnResetPassword.skin = \"btnSkinGrey\";}\n\nif(this.view.txtCurrentPassword.text!==\"\" \n   && this.view.txtNewPassword.text!==\"\" \n   && this.view.txtReenterPassword.text!==\"\")\n{this.view.btnResetPassword.setEnabled(true);\nthis.view.btnResetPassword.skin = \"btnSkinBlueEnabled\";}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

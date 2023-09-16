@@ -1,0 +1,159 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.command.login.successflow",
+      "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+    }, {
+      "CommandId": "testcase.presenter.getCustomerDevices_CH",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerDevices_CH"
+    }, {
+      "CommandId": "testcase.presenter.customerUpdateDeviceInformation_CH",
+      "CommandHandler": "TestCase_CustomerManagement_CustomerUpdateDeviceInformation_CH"
+    }, {
+      "CommandId": "testcase.presenter.getCustomerDevices",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerDevices"
+    }, {
+      "CommandId": "testcase.presenter.customerUpdateDeviceInformation",
+      "CommandHandler": "TestCase_CustomerManagement_CustomerUpdateDeviceInformation"
+    }, {
+      "CommandId": "testcase.presenter.getLastNCustomerSessions_CH",
+      "CommandHandler": "TestCase_CustomerManagement_GetLastNCustomerSessions_CH"
+    }, {
+      "CommandId": "testcase.presenter.getAllActivitiesInACustomerSession_CH",
+      "CommandHandler": "TestCase_CustomerManagement_GetAllActivitiesInACustomerSession_CH"
+    }, {
+      "CommandId": "testcase.presenter.getLastNCustomerSessions",
+      "CommandHandler": "TestCase_CustomerManagement_GetLastNCustomerSessions"
+    }, {
+      "CommandId": "testcase.presenter.getAllActivitiesInACustomerSession",
+      "CommandHandler": "TestCase_CustomerManagement_GetAllActivitiesInACustomerSession"
+    },{
+      "CommandId": "testcase.presenter.customerSearch",
+      "CommandHandler": "TestCase_CustomerManagement_CustomerSearch"
+    },{
+      "CommandId": "testcase.presenter.getCustomerBasicInfo",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerBasicInformation"
+    },{
+      "CommandId": "testcase.presenter.editCustomerBasicInfo",
+      "CommandHandler": "TestCase_CustomerManagement_EditCustomerBasicInformation"
+    },{
+      "CommandId": "testcase.presenter.enrollACustomer",
+      "CommandHandler": "TestCase_CustomerManagement_EnrollACustomer"
+    },{
+      "CommandId": "testcase.presenter.getStatus",
+      "CommandHandler": "TestCase_CustomerManagement_GetStatus"
+    },{
+      "CommandId": "testcase.presenter.getCustomerNotes",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerNotes"
+    },{
+      "CommandId": "testcase.presenter.getApplicantNotes",
+      "CommandHandler": "TestCase_CustomerManagement_GetApplicantNotes"
+    },{
+      "CommandId": "testcase.presenter.createCustomerOrApplicantNotes",
+      "CommandHandler": "TestCase_CustomerManagement_CreateCustomerOrApplicantNotes"
+    }, {
+      "CommandId": "testcase.presenter.getAllGroups",
+      "CommandHandler": "TestCase_CustomerManagement_GetAllGroups"
+    }, {
+      "CommandId": "testcase.presenter.getAllGroups_CH",
+      "CommandHandler": "TestCase_CustomerManagement_GetAllGroups_CH"
+    },{
+      "CommandId": "testcase.presenter.getCustomerGroups",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerGroups"
+    },{
+      "CommandId": "testcase.presenter.getCustomerGroups_CH",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerGroups_CH"
+    },{
+      "CommandId": "testcase.presenter.editCustomerGroups",
+      "CommandHandler": "TestCase_CustomerManagement_EditCustomerGroups"
+    },{
+      "CommandId": "testcase.presenter.editCustomerGroups_CH",
+      "CommandHandler": "TestCase_CustomerManagement_EditCustomerGroups_CH"
+    },{
+      "CommandId": "testcase.presenter.getAllEntitlements_CH",
+      "CommandHandler": "TestCase_CustomerManagement_GetAllEntitlements_CH"
+     },{
+      "CommandId": "testcase.presenter.getCustomerEntitlement_CH",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerEntitlement_CH"
+    },{
+      "CommandId": "testcase.presenter.getCustomerEntitlement",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerEntitlement"
+    },{
+      "CommandId": "testcase.presenter.getIndirectEntitlements_CH",
+      "CommandHandler": "TestCase_CustomerManagement_GetIndirectEntitlements_CH"
+    },{
+      "CommandId": "testcase.presenter.editCustomerEntitlements_CH",
+      "CommandHandler": "TestCase_CustomerManagement_EditCustomerEntitlements_CH"
+      },{
+      "CommandId": "testcase.presenter.editCustomerEntitlements",
+      "CommandHandler": "TestCase_CustomerManagement_EditCustomerEntitlements"
+        },{
+      "CommandId": "testcase.presenter.getCustomerProducts_CH",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerProducts_CH"
+         },{
+      "CommandId": "testcase.presenter.getCustomerProducts",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerProducts"
+         },{
+      "CommandId": "testcase.presenter.updateEstatementStatus_CH",
+      "CommandHandler": "TestCase_CustomerManagement_UpdateEstatementStatus_CH"
+         },{
+      "CommandId": "testcase.presenter.updateEstatementStatus",
+      "CommandHandler": "TestCase_CustomerManagement_UpdateEstatementStatus"
+    }, {
+      "CommandId": "testcase.presenter.getTravelNotifications",
+      "CommandHandler": "TestCase_CustomerManagement_GetTravelNotifications"
+    }, {
+      "CommandId": "testcase.presenter.updateCustomerContactInfo",
+      "CommandHandler": "TestCase_CustomerManagement_UpdateCustomerContactInfo"
+    }, {
+      "CommandId": "testcase.presenter.cancelTravelNotifications",
+      "CommandHandler": "TestCase_CustomerManagement_CancelTravelNotifications"
+    },{
+      "CommandId": "testcase.presenter.getAlertPrefrences",
+      "CommandHandler": "TestCase_CustomerManagement_GetAlertPrefrences"
+    },{
+      "CommandId": "testcase.presenter.getCustomerNotifications",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerNotifications"
+    },{
+      "CommandId": "testcase.command.getAlertPrefrences",
+      "CommandHandler": "TestCase_CustomerManagement_GetAlertPrefrences_CH"
+    },{
+      "CommandId": "testcase.command.getCustomerNotifications",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerNotifications_CH"
+    },{
+	  "CommandId": "testcase.presenter.getCustomerCards",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerCards"
+	},{
+	  "CommandId": "testcase.command.getCustomerCards",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerCards_CH"
+	},{
+	  "CommandId": "testcase.presenter.getCardRequests",
+      "CommandHandler": "TestCase_CustomerManagement_GetCardRequests"
+	},{
+	  "CommandId": "testcase.command.getCardRequests",
+      "CommandHandler": "TestCase_CustomerManagement_GetCardRequests_CH"
+	},{
+	  "CommandId": "testcase.presenter.getRequests",
+      "CommandHandler": "TestCase_CustomerManagement_GetRequests"
+	},{
+	  "CommandId": "testcase.command.getRequests",
+      "CommandHandler": "TestCase_CustomerManagement_GetRequests_CH"
+	},{
+	  "CommandId": "testcase.presenter.getCustomerRequestAndNotificationCount",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerRequestAndNotificationCount"
+	},{
+	  "CommandId": "testcase.command.getCustomerRequestAndNotificationCount",
+      "CommandHandler": "TestCase_CustomerManagement_GetCustomerRequestAndNotificationCount_CH"
+	}
+  ],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

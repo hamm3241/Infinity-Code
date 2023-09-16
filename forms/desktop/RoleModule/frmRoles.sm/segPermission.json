@@ -1,0 +1,134 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "ImageCopyPer": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "log_1x.png"
+            },
+            "btnAddPermission": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Permissions"
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Money Bank Argentina"
+            },
+            "lblPermissions1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblRowSeparator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "20px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segPermission",
+    "ide_onRowClick": "AS_Segment_a225fd5ab30541a49a8f65f44e68f77f",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "dd74e8497dac4aac93f2ba492c3f355a",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegPermission",
+    "pf": "frmRoles",
+    "retainselection": false,
+    "rowTemplateId": "f959f009ea794e779d948d46a5fb69a9",
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s587c8a9e5804ec88f65e379570597f6",
+    "rowtemplate": "flxPermissions1",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "ImageCopyPer": "ImageCopyPer",
+        "btnAddPermission": "btnAddPermission",
+        "flxPermissions1": "flxPermissions1",
+        "flxRolesContainer": "flxRolesContainer",
+        "lblLegalEntity": "lblLegalEntity",
+        "lblPermissions1": "lblPermissions1",
+        "lblRowSeparator": "lblRowSeparator",
+        "lblSeperator": "lblSeperator"
+    },
+    "zindex": 1
+}

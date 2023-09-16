@@ -1,0 +1,53 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.command.login.successflow",
+      "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.addImage_CH",
+      "CommandHandler": "TestCase_Security_addImage_CH_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.getImages_CH",
+      "CommandHandler": "TestCase_Security_getImages_CH_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.editImageStatus_CH",
+      "CommandHandler": "TestCase_Security_editImageStatus_CH_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.deleteImage_CH",
+      "CommandHandler": "TestCase_Security_deleteImage_CH_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.getPhraseStatus_CH",
+      "CommandHandler": "TestCase_Security_getPhraseStatus_CH_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.editPhraseStatus_CH",
+      "CommandHandler": "TestCase_Security_editPhraseStatus_CH_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.addImage_PC",
+      "CommandHandler": "TestCase_Security_addImage_PC_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.getImages_PC",
+      "CommandHandler": "TestCase_Security_getImages_PC_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.editImageStatus_PC",
+      "CommandHandler": "TestCase_Security_editImageStatus_PC_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.deleteImage_PC",
+      "CommandHandler": "TestCase_Security_deleteImage_PC_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.getPhraseStatus_PC",
+      "CommandHandler": "TestCase_Security_getPhraseStatus_PC_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.securityImage.editPhraseStatus_PC",
+      "CommandHandler": "TestCase_Security_editPhraseStatus_PC_CommandHandler"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

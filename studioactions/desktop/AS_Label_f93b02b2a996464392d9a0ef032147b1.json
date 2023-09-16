@@ -1,0 +1,30 @@
+{
+    "AS_Label_f93b02b2a996464392d9a0ef032147b1": {
+        "id": "AS_Label_f93b02b2a996464392d9a0ef032147b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCustomerManagement",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ibab815510c54e1b8df244eb9fa4a7e8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h8eb877cff2a4c139862e178cac600ee",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var detailsModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"DetailsModule\");\n detailsModule.presentationController.showGuestDashboard();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnToggleLeft": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cda25dca5a614b27922bfb0ff01c8080",
+                "srcKUID": "f075464c36144af889f3621a3f72af92",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmEnrollCustomer.ByCustomer"
+        },
+        "btnToggleRight": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c204bdd93774445f948c0e50fa6f1fb1",
+                "srcKUID": "afcdfd65bfbb474ba809d2c17f36d2cb",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmEnrollCustomer.ByAccounts",
+            "text": "Option 2"
+        },
+        "toggleButtons": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d5c9c2de901041f0a78ee1772343f156",
+                "srcKUID": "bfdbefa34d444c70966c3b1c6d58c9f8",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "80%"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "toggleButtonsLimits",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "d5c9c2de901041f0a78ee1772343f156",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxLimitsToggleButtons",
+    "pf": "frmCompanies",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "bfdbefa34d444c70966c3b1c6d58c9f8",
+    "wType": "UserWidgetInstance"
+}

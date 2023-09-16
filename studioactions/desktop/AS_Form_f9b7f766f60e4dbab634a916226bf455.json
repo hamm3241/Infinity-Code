@@ -1,0 +1,24 @@
+{
+    "AS_Form_f9b7f766f60e4dbab634a916226bf455": {
+        "id": "AS_Form_f9b7f766f60e4dbab634a916226bf455",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMoneyMovementScheduling",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c31535724b484d988bbf7d680d6bbfc4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e2a1800728ab4978be62b673807912a9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.formPreshow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "classname": "MasterReset",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d6bbbfcf903c48e187634669248b85a2",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h163abc4dd4a4b0b831ee8c5ad7d7203",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e5c35177d6b54e3e87548d8f4b628070",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "formUpdateUI",
+                    "pw": {
+                        "displayName": "formUpdateUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h163abc4dd4a4b0b831ee8c5ad7d7203",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Master Reset Service Details"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAObjectServices",
+                    "group": "Master Reset Service Details",
+                    "kuid": "f0cb33f2cc354a10bc987c1977f878ff",
+                    "originalPropertyKey": "resetObjectServiceName",
+                    "propertyIndex": 1,
+                    "propertyKey": "resetObjectServiceName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "h163abc4dd4a4b0b831ee8c5ad7d7203",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "MasterReset",
+                    "group": "Master Reset Service Details",
+                    "kuid": "f8c3d03d80434f549596bdd083d99815",
+                    "originalPropertyKey": "resetObjectName",
+                    "propertyIndex": 2,
+                    "propertyKey": "resetObjectName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "h163abc4dd4a4b0b831ee8c5ad7d7203",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "reset",
+                    "group": "Master Reset Service Details",
+                    "kuid": "d01bb9560dda48da8ed9e210021ea05b",
+                    "originalPropertyKey": "resetVerbName",
+                    "propertyIndex": 3,
+                    "propertyKey": "resetVerbName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Verb Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "h163abc4dd4a4b0b831ee8c5ad7d7203",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.adminConsole.DeviceManagement",
+    "version": "1.0.0"
+}

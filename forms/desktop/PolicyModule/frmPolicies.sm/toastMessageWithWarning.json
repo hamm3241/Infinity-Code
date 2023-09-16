@@ -1,0 +1,235 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "string",
+        "value": "70px"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_responsiveData_": {},
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnToastLink": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d1276cfe2a8f4c2fb102057c7aa8dc07",
+                "srcKUID": "cc8a0746fc764e20b98ace41d19d63bc",
+                "wType": "Button"
+            }
+        },
+        "flxLeftImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cb3ca97b928d40c1a2a1779416eae788",
+                "srcKUID": "g23c14b2bc5f4296b1f7475757151fb0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMessageWrapper": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "if6da3ccf0794c3e93cafe40e3801c2b",
+                "srcKUID": "h5512dc2f10d45be91a763f17f0ebdb3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRightImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e92c8ede5c19494184c443ab48bcfd27",
+                "srcKUID": "d5c3feabaf8e4098b2332098b5bbdb02",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxToastContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ee762206205a4d6b937a20b9578f40ff",
+                "srcKUID": "c9bb522396a34932859bfcb7a0120ff7",
+                "wType": "FlexContainer"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        },
+        "fontIconImgLeft": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j8e9d4b3b6044e7e89f8e880d2a5b8d3",
+                "srcKUID": "ed8b827482d9485da11b831d89436742",
+                "wType": "Label"
+            }
+        },
+        "lblIconRight": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e8de680b87084bb48ba7c0313d128a1b",
+                "srcKUID": "de48dd4a726444dc9353c785ce8ba71f",
+                "wType": "Label"
+            }
+        },
+        "lblToastMessageLeft": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h619e823a9de4d4d91ff3e2dbad6a4fe",
+                "srcKUID": "j2e50145cc384882b528ae4c36b262ed",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmPolicies.Please_update_statements",
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "2px"
+                }
+            },
+            "text": "Please update following statements as per the updated change in the above mentioned"
+        },
+        "lblToastMessageRight": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g379ce5ba27347119918a4d2a2c5675a",
+                "srcKUID": "f6e829775aa34e6b8fc2fc86c94085aa",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmPolicies.usernamePoliciesForCustomers",
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "5px"
+                }
+            },
+            "text": "username policies for customers"
+        },
+        "toastMessageWithWarning": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f0a62b2c975c4e0688abd698bbeee951",
+                "srcKUID": "hadcee09ff3d40aa9409ee9a09e8b2ef",
+                "wType": "FlexContainer"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "isVisible": false,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "5dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "toastMessageWithWarning",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "f0a62b2c975c4e0688abd698bbeee951",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxToastMsg",
+    "pf": "frmPolicies",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "hadcee09ff3d40aa9409ee9a09e8b2ef",
+    "wType": "UserWidgetInstance"
+}

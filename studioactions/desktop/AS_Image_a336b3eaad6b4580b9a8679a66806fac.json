@@ -1,0 +1,30 @@
+{
+    "AS_Image_a336b3eaad6b4580b9a8679a66806fac": {
+        "id": "AS_Image_a336b3eaad6b4580b9a8679a66806fac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g5dd0eab2f334c82bfe5ec6e6b8b2c81",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.logoutAction();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

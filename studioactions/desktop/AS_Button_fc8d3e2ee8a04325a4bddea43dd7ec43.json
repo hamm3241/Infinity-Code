@@ -1,0 +1,23 @@
+{
+    "AS_Button_fc8d3e2ee8a04325a4bddea43dd7ec43": {
+        "id": "AS_Button_fc8d3e2ee8a04325a4bddea43dd7ec43",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPermissions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "eff2add8f99c4151bcc345f1c2ae5bfd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e4d9b891a6d14901898cc2af657f9b9e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var self = this;\nvar ntf = new kony.mvc.Navigation(\"frmCreateNewUser\");\nntf.navigate();",
+            "callbackType": null
+        }]
+    }
+}

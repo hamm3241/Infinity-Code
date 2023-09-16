@@ -1,0 +1,38 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "AlertsManagementModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmAlertsManagement": {
+                "Controller": "AlertsManagementModule/frmAlertsManagementController",
+                "ControllerExtensions": [
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "Navigation_Form_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "TabUtil_FormExtn",
+                    "ErrorInterceptor",
+                    "AdminConsoleCommonUtilities",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AlertsManagementModule/frmAlertsManagement",
+                "friendlyName": "frmAlertsManagement"
+            }
+        }
+    },
+    "ModuleName": "AlertsManagementModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "AlertsManagementModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn",
+                "LegalEntityPermission_Form_Extn"
+            ]
+        }
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "94dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "490dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "181dp"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ToolTip": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a45832461c4c4dda991dae90cbd9f8f9",
+                "srcKUID": "d2e8e05418294939bb169899d92582ca",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "94dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "490dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "181dp"
+                }
+            }
+        },
+        "flxToolTipMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de4307088ae84f81a425ebd6ac50b360",
+                "srcKUID": "cd78a1e8c5f4485887810951944b2775",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        },
+        "imgUpArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eec94bd35575450a896283771a6d4b98",
+                "srcKUID": "ab640cc0601546c3ae3ffeb8b31c0833",
+                "wType": "Image"
+            }
+        },
+        "lblDownArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d190871e754a4650b440a6ec6da52344",
+                "srcKUID": "d79a3a7f0a154f35b73e2b72d3e16d6e",
+                "wType": "Label"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "10px"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "55dp"
+                }
+            }
+        },
+        "lblNoConcentToolTip": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f90f4f7aeb7c4932a235c3ce350883b2",
+                "srcKUID": "c2397e5b3585463faa9fed82f0f10286",
+                "wType": "Label"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": "5px"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "i18n_text": "i18n.frmAdManagement.smsEmailPushNotification",
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "10px"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "10px"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "3px"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        },
+        "lblarrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef8e2ac4ee6a4999833889f295235aa1",
+                "srcKUID": "db1c452d6a2b41ba8fffadcdfc88f362",
+                "wType": "Label"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "10px"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "BusinessTypesToolTip",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": false,
+    "kuid": "a45832461c4c4dda991dae90cbd9f8f9",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxGroupDetails",
+    "pf": "frmGroups",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "d2e8e05418294939bb169899d92582ca",
+    "wType": "UserWidgetInstance"
+}

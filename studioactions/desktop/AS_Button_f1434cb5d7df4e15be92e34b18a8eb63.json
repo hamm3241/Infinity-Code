@@ -1,0 +1,24 @@
+{
+    "AS_Button_f1434cb5d7df4e15be92e34b18a8eb63": {
+        "id": "AS_Button_f1434cb5d7df4e15be92e34b18a8eb63",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPasswordAgeAndLockoutSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i860fd5238df49cdb488d81dd8523689"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__abeeed1815394468952711ca18f52e42",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.closeAndShowSettingsViewPage();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

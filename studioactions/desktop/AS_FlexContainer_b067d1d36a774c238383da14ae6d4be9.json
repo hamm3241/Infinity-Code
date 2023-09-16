@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_b067d1d36a774c238383da14ae6d4be9": {
+        "id": "AS_FlexContainer_b067d1d36a774c238383da14ae6d4be9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segOutage",
+            "type": "templates",
+            "platform": "",
+            "KUID": "h4e4a0685eb142689ac7cdc73b71b5ee"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c546a6ad511c44e09a5bbc10b22cd531",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleCheckbox2();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

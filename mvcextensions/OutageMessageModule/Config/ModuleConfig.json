@@ -1,0 +1,35 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "OutageMessageModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmOutageMessage": {
+                "Controller": "OutageMessageModule/frmOutageMessageController",
+                "ControllerExtensions": [
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "Sorting_FormExtn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleCommonUtilities",
+                    "TabUtil_FormExtn",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "OutageMessageModule/frmOutageMessage",
+                "friendlyName": "frmOutageMessage"
+            }
+        }
+    },
+    "ModuleName": "OutageMessageModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "OutageMessageModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

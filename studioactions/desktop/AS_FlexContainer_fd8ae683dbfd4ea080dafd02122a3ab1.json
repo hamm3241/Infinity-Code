@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_fd8ae683dbfd4ea080dafd02122a3ab1": {
+        "id": "AS_FlexContainer_fd8ae683dbfd4ea080dafd02122a3ab1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segServiceAndFaq",
+            "type": "templates",
+            "platform": "",
+            "KUID": "a988c261d4294dbc8e237b38cc9b3391"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c8e3165447824aa3a9aee1249ed445b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleCheckbox2();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_e78d6699e06940a982c48b8a1a432aac": {
+        "id": "AS_Form_e78d6699e06940a982c48b8a1a432aac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCSR",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fd4206700ca8455cb6149d1b2276465e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_b7eba3a7bac7433697cc767a74dc3cd7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setFlowActions();",
+            "callbackType": null
+        }]
+    }
+}

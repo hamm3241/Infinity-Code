@@ -1,0 +1,922 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblAutoDenyLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i8n.companies.autoDenyLimits_UC",
+                    "text": ""
+                },
+                "lblDailyCurrencyADLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblDailyCurrencyPreLimit": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblDailyTransactionLimitDollar": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblDailyTransactionLimitValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "20,000"
+                },
+                "lblDailyTransactionLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.companies.dailyTransactionLimits_SC",
+                    "text": ""
+                },
+                "lblErrorIcon11": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon12": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon21": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon22": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon31": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon32": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorMsg11": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.decisionManagement.nameError",
+                    "text": ""
+                },
+                "lblErrorMsg12": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblErrorMsg21": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblErrorMsg22": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblErrorMsg31": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblErrorMsg32": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblFeatureName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Transfer to account in other FIs"
+                },
+                "lblPerCurrencyADLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblPerCurrencyPreLimit": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblPerTransactionLimitDollar": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblPerTransactionLimitValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$20,000"
+                },
+                "lblPreApprovedLimit": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.companies.preApprovedLimit_UC",
+                    "text": ""
+                },
+                "lblSeperator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "."
+                },
+                "lblTransactionLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i8n.companies.transactionLimits_UC",
+                    "text": ""
+                },
+                "lblTransactionType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAScenarios.Transaction_Type_Caps",
+                    "text": ""
+                },
+                "lblWeeklyCurrencyADLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblWeeklyCurrencyPreLimit": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblWeeklyTransactionLimitDollar": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblWeeklyTransactionLimitValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "20,000"
+                },
+                "lblWeeklyTransactionLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.companies.weeklyTransLimits_SC",
+                    "text": ""
+                },
+                "lblperTransactionLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.companies.perTransactionLimits_SC",
+                    "text": ""
+                },
+                "statusIcon": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmAlertsManagement.lblViewAlertStatusKey",
+                    "text": ""
+                },
+                "statusValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.secureimage.Active",
+                    "text": "Active"
+                },
+                "txtDailyTransAutoDenyLimits": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtDailyTransPreApprovedLimit": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtPerTransAutoDenyLimits": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtPerTransPreApprovedLimit": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtWeeklyTransAutoDenyLimits": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtWeeklyTransPreApprovedLimit": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                }
+            },
+            [
+                {
+                    "lblAutoDenyLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i8n.companies.autoDenyLimits_UC",
+                        "text": ""
+                    },
+                    "lblDailyCurrencyADLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblDailyCurrencyPreLimit": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblDailyTransactionLimitDollar": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblDailyTransactionLimitValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "20,000"
+                    },
+                    "lblDailyTransactionLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.companies.dailyTransactionLimits_SC",
+                        "text": ""
+                    },
+                    "lblErrorIcon11": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon12": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon21": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon22": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon31": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon32": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorMsg11": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.decisionManagement.nameError",
+                        "text": ""
+                    },
+                    "lblErrorMsg12": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblErrorMsg21": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblErrorMsg22": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblErrorMsg31": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblErrorMsg32": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblFeatureName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Transfer to account in other FIs"
+                    },
+                    "lblPerCurrencyADLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblPerCurrencyPreLimit": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblPerTransactionLimitDollar": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblPerTransactionLimitValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$20,000"
+                    },
+                    "lblPreApprovedLimit": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.companies.preApprovedLimit_UC",
+                        "text": ""
+                    },
+                    "lblSeperator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "."
+                    },
+                    "lblTransactionLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i8n.companies.transactionLimits_UC",
+                        "text": ""
+                    },
+                    "lblTransactionType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAScenarios.Transaction_Type_Caps",
+                        "text": ""
+                    },
+                    "lblWeeklyCurrencyADLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblWeeklyCurrencyPreLimit": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblWeeklyTransactionLimitDollar": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblWeeklyTransactionLimitValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "20,000"
+                    },
+                    "lblWeeklyTransactionLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.companies.weeklyTransLimits_SC",
+                        "text": ""
+                    },
+                    "lblperTransactionLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.companies.perTransactionLimits_SC",
+                        "text": ""
+                    },
+                    "statusIcon": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmAlertsManagement.lblViewAlertStatusKey",
+                        "text": ""
+                    },
+                    "statusValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.secureimage.Active",
+                        "text": "Active"
+                    },
+                    "txtDailyTransAutoDenyLimits": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtDailyTransPreApprovedLimit": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtPerTransAutoDenyLimits": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtPerTransPreApprovedLimit": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtWeeklyTransAutoDenyLimits": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtWeeklyTransPreApprovedLimit": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblAutoDenyLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i8n.companies.autoDenyLimits_UC",
+                    "text": ""
+                },
+                "lblDailyCurrencyADLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblDailyCurrencyPreLimit": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblDailyTransactionLimitDollar": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblDailyTransactionLimitValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "20,000"
+                },
+                "lblDailyTransactionLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.companies.dailyTransactionLimits_SC",
+                    "text": ""
+                },
+                "lblErrorIcon11": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon12": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon21": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon22": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon31": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorIcon32": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblErrorMsg11": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.decisionManagement.nameError",
+                    "text": ""
+                },
+                "lblErrorMsg12": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblErrorMsg21": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblErrorMsg22": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblErrorMsg31": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblErrorMsg32": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                    "text": ""
+                },
+                "lblFeatureName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Transfer to account in other FIs"
+                },
+                "lblPerCurrencyADLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblPerCurrencyPreLimit": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblPerTransactionLimitDollar": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblPerTransactionLimitValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$20,000"
+                },
+                "lblPreApprovedLimit": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.companies.preApprovedLimit_UC",
+                    "text": ""
+                },
+                "lblSeperator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "."
+                },
+                "lblTransactionLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i8n.companies.transactionLimits_UC",
+                    "text": ""
+                },
+                "lblTransactionType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmMFAScenarios.Transaction_Type_Caps",
+                    "text": ""
+                },
+                "lblWeeklyCurrencyADLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblWeeklyCurrencyPreLimit": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblWeeklyTransactionLimitDollar": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$"
+                },
+                "lblWeeklyTransactionLimitValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "20,000"
+                },
+                "lblWeeklyTransactionLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.companies.weeklyTransLimits_SC",
+                    "text": ""
+                },
+                "lblperTransactionLimits": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.companies.perTransactionLimits_SC",
+                    "text": ""
+                },
+                "statusIcon": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.frmAlertsManagement.lblViewAlertStatusKey",
+                    "text": ""
+                },
+                "statusValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.secureimage.Active",
+                    "text": "Active"
+                },
+                "txtDailyTransAutoDenyLimits": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtDailyTransPreApprovedLimit": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtPerTransAutoDenyLimits": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtPerTransPreApprovedLimit": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtWeeklyTransAutoDenyLimits": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                },
+                "txtWeeklyTransPreApprovedLimit": {
+                    "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                    "placeholder": "",
+                    "text": ""
+                }
+            },
+            [
+                {
+                    "lblAutoDenyLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i8n.companies.autoDenyLimits_UC",
+                        "text": ""
+                    },
+                    "lblDailyCurrencyADLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblDailyCurrencyPreLimit": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblDailyTransactionLimitDollar": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblDailyTransactionLimitValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "20,000"
+                    },
+                    "lblDailyTransactionLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.companies.dailyTransactionLimits_SC",
+                        "text": ""
+                    },
+                    "lblErrorIcon11": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon12": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon21": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon22": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon31": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorIcon32": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblErrorMsg11": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.decisionManagement.nameError",
+                        "text": ""
+                    },
+                    "lblErrorMsg12": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblErrorMsg21": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblErrorMsg22": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblErrorMsg31": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblErrorMsg32": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAConfigurations.Value_cannot_be_more_than",
+                        "text": ""
+                    },
+                    "lblFeatureName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Transfer to account in other FIs"
+                    },
+                    "lblPerCurrencyADLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblPerCurrencyPreLimit": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblPerTransactionLimitDollar": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblPerTransactionLimitValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$20,000"
+                    },
+                    "lblPreApprovedLimit": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.companies.preApprovedLimit_UC",
+                        "text": ""
+                    },
+                    "lblSeperator": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "."
+                    },
+                    "lblTransactionLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i8n.companies.transactionLimits_UC",
+                        "text": ""
+                    },
+                    "lblTransactionType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmMFAScenarios.Transaction_Type_Caps",
+                        "text": ""
+                    },
+                    "lblWeeklyCurrencyADLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblWeeklyCurrencyPreLimit": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblWeeklyTransactionLimitDollar": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$"
+                    },
+                    "lblWeeklyTransactionLimitValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "20,000"
+                    },
+                    "lblWeeklyTransactionLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.companies.weeklyTransLimits_SC",
+                        "text": ""
+                    },
+                    "lblperTransactionLimits": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.companies.perTransactionLimits_SC",
+                        "text": ""
+                    },
+                    "statusIcon": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmAlertsManagement.lblViewAlertStatusKey",
+                        "text": ""
+                    },
+                    "statusValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.secureimage.Active",
+                        "text": "Active"
+                    },
+                    "txtDailyTransAutoDenyLimits": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtDailyTransPreApprovedLimit": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtPerTransAutoDenyLimits": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtPerTransPreApprovedLimit": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtWeeklyTransAutoDenyLimits": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    },
+                    "txtWeeklyTransPreApprovedLimit": {
+                        "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                        "placeholder": "",
+                        "text": ""
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "10",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segCustomerAssignLimits",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "ha0c150e7b864d4fb3ddec694f8cdab7",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxLimitsScroll",
+    "pf": "frmCustomerCreate",
+    "retainselection": false,
+    "rowTemplateId": "e82c5e9f530d4656af0590ab59e8cdb7",
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": "flxAssignLimits",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "e82c5e9f530d4656af0590ab59e8cdb7",
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "sectionheadertemplate": "flxAssignLimits",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAssignLimits": "flxAssignLimits",
+        "flxColumn11": "flxColumn11",
+        "flxColumn12": "flxColumn12",
+        "flxColumn21": "flxColumn21",
+        "flxColumn22": "flxColumn22",
+        "flxColumn31": "flxColumn31",
+        "flxColumn32": "flxColumn32",
+        "flxDailyCurrencyADLimits": "flxDailyCurrencyADLimits",
+        "flxDailyCurrencyPreLimit": "flxDailyCurrencyPreLimit",
+        "flxDailyTransactionLimit": "flxDailyTransactionLimit",
+        "flxErrorRow1": "flxErrorRow1",
+        "flxErrorRow2": "flxErrorRow2",
+        "flxErrorRow3": "flxErrorRow3",
+        "flxHeader": "flxHeader",
+        "flxLeft": "flxLeft",
+        "flxLimits": "flxLimits",
+        "flxLimitsContainer": "flxLimitsContainer",
+        "flxLimitsContent": "flxLimitsContent",
+        "flxLimitsHeader": "flxLimitsHeader",
+        "flxPerCurrencyADLimits": "flxPerCurrencyADLimits",
+        "flxPerCurrencyPreLimit": "flxPerCurrencyPreLimit",
+        "flxPerTransactionLimit": "flxPerTransactionLimit",
+        "flxRight": "flxRight",
+        "flxRow1": "flxRow1",
+        "flxRow2": "flxRow2",
+        "flxRow3": "flxRow3",
+        "flxWeeklyCurrencyADLimits": "flxWeeklyCurrencyADLimits",
+        "flxWeeklyCurrencyPreLimit": "flxWeeklyCurrencyPreLimit",
+        "flxWeeklyTransactionLimit": "flxWeeklyTransactionLimit",
+        "lblAutoDenyLimits": "lblAutoDenyLimits",
+        "lblDailyCurrencyADLimits": "lblDailyCurrencyADLimits",
+        "lblDailyCurrencyPreLimit": "lblDailyCurrencyPreLimit",
+        "lblDailyTransactionLimitDollar": "lblDailyTransactionLimitDollar",
+        "lblDailyTransactionLimitValue": "lblDailyTransactionLimitValue",
+        "lblDailyTransactionLimits": "lblDailyTransactionLimits",
+        "lblErrorIcon11": "lblErrorIcon11",
+        "lblErrorIcon12": "lblErrorIcon12",
+        "lblErrorIcon21": "lblErrorIcon21",
+        "lblErrorIcon22": "lblErrorIcon22",
+        "lblErrorIcon31": "lblErrorIcon31",
+        "lblErrorIcon32": "lblErrorIcon32",
+        "lblErrorMsg11": "lblErrorMsg11",
+        "lblErrorMsg12": "lblErrorMsg12",
+        "lblErrorMsg21": "lblErrorMsg21",
+        "lblErrorMsg22": "lblErrorMsg22",
+        "lblErrorMsg31": "lblErrorMsg31",
+        "lblErrorMsg32": "lblErrorMsg32",
+        "lblFeatureName": "lblFeatureName",
+        "lblPerCurrencyADLimits": "lblPerCurrencyADLimits",
+        "lblPerCurrencyPreLimit": "lblPerCurrencyPreLimit",
+        "lblPerTransactionLimitDollar": "lblPerTransactionLimitDollar",
+        "lblPerTransactionLimitValue": "lblPerTransactionLimitValue",
+        "lblPreApprovedLimit": "lblPreApprovedLimit",
+        "lblSeperator": "lblSeperator",
+        "lblTransactionLimits": "lblTransactionLimits",
+        "lblTransactionType": "lblTransactionType",
+        "lblWeeklyCurrencyADLimits": "lblWeeklyCurrencyADLimits",
+        "lblWeeklyCurrencyPreLimit": "lblWeeklyCurrencyPreLimit",
+        "lblWeeklyTransactionLimitDollar": "lblWeeklyTransactionLimitDollar",
+        "lblWeeklyTransactionLimitValue": "lblWeeklyTransactionLimitValue",
+        "lblWeeklyTransactionLimits": "lblWeeklyTransactionLimits",
+        "lblperTransactionLimits": "lblperTransactionLimits",
+        "statusIcon": "statusIcon",
+        "statusValue": "statusValue",
+        "txtDailyTransAutoDenyLimits": "txtDailyTransAutoDenyLimits",
+        "txtDailyTransPreApprovedLimit": "txtDailyTransPreApprovedLimit",
+        "txtPerTransAutoDenyLimits": "txtPerTransAutoDenyLimits",
+        "txtPerTransPreApprovedLimit": "txtPerTransPreApprovedLimit",
+        "txtWeeklyTransAutoDenyLimits": "txtWeeklyTransAutoDenyLimits",
+        "txtWeeklyTransPreApprovedLimit": "txtWeeklyTransPreApprovedLimit"
+    },
+    "zindex": 1
+}

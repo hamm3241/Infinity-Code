@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_bfe51f206d024a2f919f09d75413b2ac": {
+        "id": "AS_FlexContainer_bfe51f206d024a2f919f09d75413b2ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segMasterList",
+            "type": "templates",
+            "platform": "",
+            "KUID": "ied6cf41a3dc4586907ae7b879b7a0f6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cd25dac7ad7840d4a68e631c3948c3b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleCheckbox();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

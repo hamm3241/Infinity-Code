@@ -1,0 +1,2741 @@
+{
+    "classname": "manageProducts",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d0f88dd34f06417c9d7b0b8913fdc3d5",
+                    "paramList": [],
+                    "propertyKey": "getProductLinesGroupsFeatures",
+                    "pw": {
+                        "displayName": "getProductLinesGroupsFeatures",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h4a360da42f64437ab013b9445eb05cd",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "formUpdateUI",
+                    "pw": {
+                        "displayName": "formUpdateUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Get Product Line Service",
+                "Create Product Line Sevice",
+                "Update Product Line Sevice",
+                "Get Product Group Service",
+                "Create Product Group Sevice",
+                "Update Product Group Sevice",
+                "Get Product Feature Service",
+                "Create Product Feature Sevice",
+                "Update Product Feature Sevice",
+                "Product Tab",
+                "Product Top Header",
+                "Add Product Button",
+                "Product Search Box",
+                "Product Segment List",
+                "Product Popup Common",
+                "Product Line Popup",
+                "Product Group Popup",
+                "Product Feature Popup"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Get Product Line Service",
+                    "kuid": "f962f271a20c4b3eb2ed1fe9cdcd162f",
+                    "originalPropertyKey": "objSeviceName",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName",
+                    "pw": {
+                        "displayName": "Object Sevice Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Create Product Line Sevice",
+                    "kuid": "bcb4e5ffb11f4eab9bd96d22f7c2be86",
+                    "originalPropertyKey": "objSeviceName1",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName1",
+                    "pw": {
+                        "displayName": "Object Sevice Name 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Update Product Line Sevice",
+                    "kuid": "e36a5c2f4c5b49f9b0e5c263600d43a6",
+                    "originalPropertyKey": "objSeviceName2",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName2",
+                    "pw": {
+                        "displayName": "Object Sevice Name 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Get Product Group Service",
+                    "kuid": "c2bab95773624aff967bdf4d5f0a7de1",
+                    "originalPropertyKey": "objSeviceName3",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName3",
+                    "pw": {
+                        "displayName": "Object Sevice Name 3",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Create Product Group Sevice",
+                    "kuid": "ec5cd73982fb4794a4499a2a7aa46387",
+                    "originalPropertyKey": "objSeviceName4",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName4",
+                    "pw": {
+                        "displayName": "Object Sevice Name 4",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Update Product Group Sevice",
+                    "kuid": "b04711e105bb4449a37e9b27a6655801",
+                    "originalPropertyKey": "objSeviceName5",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName5",
+                    "pw": {
+                        "displayName": "Object Sevice Name 5",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Get Product Feature Service",
+                    "kuid": "cb964b32c152447e8f9472caf1fc4941",
+                    "originalPropertyKey": "objSeviceName6",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName6",
+                    "pw": {
+                        "displayName": "Object Sevice Name 6",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Create Product Feature Sevice",
+                    "kuid": "b85e5005b7104f19bcd72310e86d5e51",
+                    "originalPropertyKey": "objSeviceName7",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName7",
+                    "pw": {
+                        "displayName": "Object Sevice Name 7",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Update Product Feature Sevice",
+                    "kuid": "a42aa5e93db6487ab98964c9ee879d30",
+                    "originalPropertyKey": "objSeviceName8",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName8",
+                    "pw": {
+                        "displayName": "Object Sevice Name 8",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBorderTop006CCA3px",
+                    "group": "Product Tab",
+                    "kuid": "e20a6cb302fc448fba2c735d38295d5e",
+                    "originalPropertyKey": "ProductTabSkinOnSelect",
+                    "propertyIndex": 1,
+                    "propertyKey": "ProductTabSkinOnSelect",
+                    "pw": {
+                        "displayName": "Product Tab Skin OnSelect",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Lines",
+                    "group": "Product Top Header",
+                    "kuid": "f10bcd10f2ac4846be6ec03a6f0d4658",
+                    "originalPropertyKey": "ProductLineTopHeaderTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "ProductLineTopHeaderTxt",
+                    "pw": {
+                        "displayName": "Product Line Top Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Add Product Line",
+                    "group": "Add Product Button",
+                    "kuid": "j13a5bcbcff74338ab81e21e0b50fd4d",
+                    "originalPropertyKey": "AddLineProductBtnTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "AddLineProductBtnTxt",
+                    "pw": {
+                        "displayName": "Add Line Product Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxd5d9ddop100",
+                    "group": "Product Search Box",
+                    "kuid": "ecad20e219f4455a9b27de3fddb47292",
+                    "originalPropertyKey": "flxSearchBoxSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "flxSearchBoxSkin",
+                    "pw": {
+                        "displayName": "Flex Search Box Container Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato696c7311px",
+                    "group": "Product Segment List",
+                    "kuid": "cd1efc6097c84cb4aa107ffadeaf515f",
+                    "originalPropertyKey": "LblSegmentHeaderSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "LblSegmentHeaderSkin",
+                    "pw": {
+                        "displayName": "Label Segment Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.common.Edit",
+                    "group": "Product Popup Common",
+                    "kuid": "i84a70913bab4565aae7dbdff5c4fbe1",
+                    "originalPropertyKey": "PopupDetailsEditBtnTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "PopupDetailsEditBtnTxt",
+                    "pw": {
+                        "displayName": "Popup Details Edit Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Add Product Line",
+                    "group": "Product Line Popup",
+                    "kuid": "e2a5885e361749188e7a85e53f5075b3",
+                    "originalPropertyKey": "PopupAddProductLineTopHeaderTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "PopupAddProductLineTopHeaderTxt",
+                    "pw": {
+                        "displayName": "Popup Add Product Line Top Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Add Product Group",
+                    "group": "Product Group Popup",
+                    "kuid": "dd3db82913db43cda3266346caefffa2",
+                    "originalPropertyKey": "PopupAddProductGrpTopHeaderTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "PopupAddProductGrpTopHeaderTxt",
+                    "pw": {
+                        "displayName": "Popup Add Product Group Top Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Add Product Features",
+                    "group": "Product Feature Popup",
+                    "kuid": "ec275b2de6fc4db0bea18df3638efeff",
+                    "originalPropertyKey": "PopupAddFeatureTopHeaderTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "PopupAddFeatureTopHeaderTxt",
+                    "pw": {
+                        "displayName": "Popup Add Feature Top Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxBgFFFFFFBorE4E6ECsz1pxR3px",
+                    "group": "General",
+                    "kuid": "ee3543f5114c4745a0a308dca16995fe",
+                    "originalPropertyKey": "MainPageBgSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "MainPageBgSkin",
+                    "pw": {
+                        "displayName": "Main Page Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Get Product Line Service",
+                    "kuid": "c1b7508c2d2b478694dcc7661da75b78",
+                    "originalPropertyKey": "objName",
+                    "propertyIndex": 2,
+                    "propertyKey": "objName",
+                    "pw": {
+                        "displayName": "object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Create Product Line Sevice",
+                    "kuid": "gc1461fa06ff4a4884ad51b2de9fef89",
+                    "originalPropertyKey": "objName1",
+                    "propertyIndex": 2,
+                    "propertyKey": "objName1",
+                    "pw": {
+                        "displayName": "object Name 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Update Product Line Sevice",
+                    "kuid": "de1ce06beb70451e9d25c59dabf0696f",
+                    "originalPropertyKey": "objName2",
+                    "propertyIndex": 2,
+                    "propertyKey": "objName2",
+                    "pw": {
+                        "displayName": "object Name 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "GetProductGroups",
+                    "group": "Get Product Group Service",
+                    "kuid": "i5e0b26dc78e4871bfe9c07e87842e0a",
+                    "originalPropertyKey": "operationName3",
+                    "propertyIndex": 2,
+                    "propertyKey": "operationName3",
+                    "pw": {
+                        "displayName": "Operation Name 3",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Create Product Group Sevice",
+                    "kuid": "bb44b49a307e413fbbe06631d74e582a",
+                    "originalPropertyKey": "objName4",
+                    "propertyIndex": 2,
+                    "propertyKey": "objName4",
+                    "pw": {
+                        "displayName": "object Name 5",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Update Product Group Sevice",
+                    "kuid": "b166ddcc705d49adb3687feb410ca7ca",
+                    "originalPropertyKey": "objName5",
+                    "propertyIndex": 2,
+                    "propertyKey": "objName5",
+                    "pw": {
+                        "displayName": "object Name 5",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Get Product Feature Service",
+                    "kuid": "dbd310ff3a0241dc892dea84ec59ab8b",
+                    "originalPropertyKey": "objName6",
+                    "propertyIndex": 2,
+                    "propertyKey": "objName6",
+                    "pw": {
+                        "displayName": "object Name 6",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Create Product Feature Sevice",
+                    "kuid": "e0d6ceddbcb34b56a3fc4f74a6704ba8",
+                    "originalPropertyKey": "objName7",
+                    "propertyIndex": 2,
+                    "propertyKey": "objName7",
+                    "pw": {
+                        "displayName": "object Name 7",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Update Product Feature Sevice",
+                    "kuid": "g674a4591114410987fdd0948e5b7a12",
+                    "originalPropertyKey": "objName8",
+                    "propertyIndex": 2,
+                    "propertyKey": "objName8",
+                    "pw": {
+                        "displayName": "object Name8",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBorderE4E6EC1px",
+                    "group": "Product Tab",
+                    "kuid": "b57a512382b14bb7bc855f6ae72a62b8",
+                    "originalPropertyKey": "ProductTabSkinUnSelect",
+                    "propertyIndex": 2,
+                    "propertyKey": "ProductTabSkinUnSelect",
+                    "pw": {
+                        "displayName": "Product Tab Skin UnSelect",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Groups",
+                    "group": "Product Top Header",
+                    "kuid": "a01f60029a6547229ed4a9a80efc1cb4",
+                    "originalPropertyKey": "ProductGroupTopHeaderTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "ProductGroupTopHeaderTxt",
+                    "pw": {
+                        "displayName": "Product Group Top Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Add Product Group",
+                    "group": "Add Product Button",
+                    "kuid": "ef6f5b3f476346f69a82cfd3ff609a65",
+                    "originalPropertyKey": "AddGroupProductBtnTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "AddGroupProductBtnTxt",
+                    "pw": {
+                        "displayName": "Add Group Product Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skntbxffffffNoBorderlato35475f14px",
+                    "group": "Product Search Box",
+                    "kuid": "e51b39c3760c4009a0fc94b8d286a098",
+                    "originalPropertyKey": "SeachTxtBoxSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "SeachTxtBoxSkin",
+                    "pw": {
+                        "displayName": "Seach Text Box Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknIcon15px",
+                    "group": "Product Segment List",
+                    "kuid": "e7633047b0a545ab996efd306b20d9ab",
+                    "originalPropertyKey": "IconSortSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "IconSortSkin",
+                    "pw": {
+                        "displayName": "Icon Sort Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skn222b35",
+                    "group": "Product Popup Common",
+                    "kuid": "ca48bce045384186a3ac90e57789513c",
+                    "originalPropertyKey": "PopupContinerTranslucentBgSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "PopupContinerTranslucentBgSkin",
+                    "pw": {
+                        "displayName": "Popup Continer Translucent Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Edit Product Line",
+                    "group": "Product Line Popup",
+                    "kuid": "a29ac3a4f42b493ebeb28334c578cb5d",
+                    "originalPropertyKey": "PopupEditProductLineTopHeaderTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "PopupEditProductLineTopHeaderTxt",
+                    "pw": {
+                        "displayName": "Popup Edit Product Line Top Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Edit Product Group",
+                    "group": "Product Group Popup",
+                    "kuid": "eb27d04fd9f940829df0cd7fa7cf8035",
+                    "originalPropertyKey": "PopupEditProductGrpTopHeaderTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "PopupEditProductGrpTopHeaderTxt",
+                    "pw": {
+                        "displayName": "Popup Edit Product Group Top Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Edit Product Features",
+                    "group": "Product Feature Popup",
+                    "kuid": "i84bd40e5a9b4718918a119f49963742",
+                    "originalPropertyKey": "PopupEditFeatureTopHeaderTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "PopupEditFeatureTopHeaderTxt",
+                    "pw": {
+                        "displayName": "Popup Edit Feature Top Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "GetProductLines",
+                    "group": "Get Product Line Service",
+                    "kuid": "ee74e2f2955a49d4851cf12440066244",
+                    "originalPropertyKey": "operationName",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName",
+                    "pw": {
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "CreateProductLine",
+                    "group": "Create Product Line Sevice",
+                    "kuid": "a26f28b887cc44878b617869cc8d20b6",
+                    "originalPropertyKey": "operationName1",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName1",
+                    "pw": {
+                        "displayName": "Operation Name 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "UpdateProductLine",
+                    "group": "Update Product Line Sevice",
+                    "kuid": "dd7b93281723465580dfccbaf18f9eec",
+                    "originalPropertyKey": "operationName2",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName2",
+                    "pw": {
+                        "displayName": "Operation Name 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Get Product Group Service",
+                    "kuid": "de44e5263b9b4b54832b18d6a96f5610",
+                    "originalPropertyKey": "objName3",
+                    "propertyIndex": 3,
+                    "propertyKey": "objName3",
+                    "pw": {
+                        "displayName": "object Name 3",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "CreateProductGroup",
+                    "group": "Create Product Group Sevice",
+                    "kuid": "c0aed3fc51664d55adbcb307c0775362",
+                    "originalPropertyKey": "operationName4",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName4",
+                    "pw": {
+                        "displayName": "Operation Name 4",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "UpdateProductGroup",
+                    "group": "Update Product Group Sevice",
+                    "kuid": "cdc32cd5ee60461baae8caeaf488cd58",
+                    "originalPropertyKey": "operationName5",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName5",
+                    "pw": {
+                        "displayName": "Operation Name 5",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "GetFeatures",
+                    "group": "Get Product Feature Service",
+                    "kuid": "c718e65d15dd4c4086224b41e908acda",
+                    "originalPropertyKey": "operationName6",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName6",
+                    "pw": {
+                        "displayName": "Operation Name 6",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "CreateFeature",
+                    "group": "Create Product Feature Sevice",
+                    "kuid": "a3f45125dcb247be82bc82da82a66315",
+                    "originalPropertyKey": "operationName7",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName7",
+                    "pw": {
+                        "displayName": "Operation Name 7",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "UpdateFeature",
+                    "group": "Update Product Feature Sevice",
+                    "kuid": "ef1c03f9a2ff4a6e873b5ed6efd1f24c",
+                    "originalPropertyKey": "operationName8",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName8",
+                    "pw": {
+                        "displayName": "Operation Name 8",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skn485C75LatoRegular11Px",
+                    "group": "Product Tab",
+                    "kuid": "i285359a0b6a4db5a21cdf473b9171ed",
+                    "originalPropertyKey": "ProductTabLblNameSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "ProductTabLblNameSkin",
+                    "pw": {
+                        "displayName": "Product Tab Label Name Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Features",
+                    "group": "Product Top Header",
+                    "kuid": "f0425fab1a9c4a24aa7078e59ed1d106",
+                    "originalPropertyKey": "ProductFeatureTopHeaderTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "ProductFeatureTopHeaderTxt",
+                    "pw": {
+                        "displayName": "Product Feature Top Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Add Product Feature",
+                    "group": "Add Product Button",
+                    "kuid": "g994e5540bea4aa2808834b348c81200",
+                    "originalPropertyKey": "AddFeatureProductBtnTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "AddFeatureProductBtnTxt",
+                    "pw": {
+                        "displayName": "Add Feature Product Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\" }",
+                    "group": "Product Search Box",
+                    "kuid": "af88979093be4f0191c33ceafa4af9e6",
+                    "originalPropertyKey": "IconSearchTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "IconSearchTxt",
+                    "pw": {
+                        "displayName": "Icon Search Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\" }",
+                    "group": "Product Segment List",
+                    "kuid": "c41d3ac9095f497c9b874d5a9b7daf3e",
+                    "originalPropertyKey": "IconSortTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "IconSortTxt",
+                    "pw": {
+                        "displayName": "Icon Sort Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "flxNoShadowNoBorder",
+                    "group": "Product Popup Common",
+                    "kuid": "g13da13238da4acfbcbba7299f4b0db4",
+                    "originalPropertyKey": "PopupMainBgSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "PopupMainBgSkin",
+                    "pw": {
+                        "displayName": "Popup Main Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "180px",
+                    "group": "Product Line Popup",
+                    "kuid": "b02c7890eca9495eb6ee0f492dc85675",
+                    "originalPropertyKey": "PopupAddProductLineBtnWidth",
+                    "propertyIndex": 3,
+                    "propertyKey": "PopupAddProductLineBtnWidth",
+                    "pw": {
+                        "displayName": "Popup Add Product Line Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Associated Product Line",
+                    "group": "Product Group Popup",
+                    "kuid": "hc55f2bf311541d4b67cba134b778f9a",
+                    "originalPropertyKey": "PopupLblAssociatedProductLineNameTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "PopupLblAssociatedProductLineNameTxt",
+                    "pw": {
+                        "displayName": "Popup Label Associated Product Line Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Feature Name",
+                    "group": "Product Feature Popup",
+                    "kuid": "d63704aff1244210ab092864e099c774",
+                    "originalPropertyKey": "PopupLblFeatureNameTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "PopupLblFeatureNameTxt",
+                    "pw": {
+                        "displayName": "Popup Label Feature Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Line Name",
+                    "group": "Product Line Popup",
+                    "kuid": "b549bb1bec5947fe804da837885a4ebc",
+                    "originalPropertyKey": "PopupLblProductLineNameTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "PopupLblProductLineNameTxt",
+                    "pw": {
+                        "displayName": "Popup Label Product Line Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485c75LatoBold13px",
+                    "group": "Product Tab",
+                    "kuid": "af1bfc1d87ca43bc9e3fd26b28677f51",
+                    "originalPropertyKey": "ProductTabLblCountSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "ProductTabLblCountSkin",
+                    "pw": {
+                        "displayName": "Product Tab Label Count Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLatoRegular192B4516px",
+                    "group": "Product Top Header",
+                    "kuid": "j49fb875d05540f090f63826965b1c5d",
+                    "originalPropertyKey": "ProductTopHeaderSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "ProductTopHeaderSkin",
+                    "pw": {
+                        "displayName": "Product Top Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknbtnf7f7faLatoReg13px485c75Rad20px",
+                    "group": "Add Product Button",
+                    "kuid": "dd3b64f79ce04c6180f20573dfcc757c",
+                    "originalPropertyKey": "AddProductBtnSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "AddProductBtnSkin",
+                    "pw": {
+                        "displayName": "Add Product Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\" }",
+                    "group": "Product Search Box",
+                    "kuid": "g5fc67c7ed8f4c81a02848f04b9e69b4",
+                    "originalPropertyKey": "IconSearchClearTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "IconSearchClearTxt",
+                    "pw": {
+                        "displayName": "Icon Search Clear Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT LINE",
+                    "group": "Product Segment List",
+                    "kuid": "f76be32665e9453fb0cbe363b5d41227",
+                    "originalPropertyKey": "LblSegmentHeader1Txt",
+                    "propertyIndex": 4,
+                    "propertyKey": "LblSegmentHeader1Txt",
+                    "pw": {
+                        "displayName": "Label Segment Header 1 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxInfoToastBg357C9ENoRadius",
+                    "group": "Product Popup Common",
+                    "kuid": "c2f4b2a836704f9a9d1f8e3ed51ddab8",
+                    "originalPropertyKey": "PopupTopBarSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "PopupTopBarSkin",
+                    "pw": {
+                        "displayName": "Popup Top Bar Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Group Name",
+                    "group": "Product Group Popup",
+                    "kuid": "d2f7ac30411b484384852b34338d44a4",
+                    "originalPropertyKey": "PopupLblProductGrpNameTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "PopupLblProductGrpNameTxt",
+                    "pw": {
+                        "displayName": "Popup Label Product Group Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Feature Group",
+                    "group": "Product Feature Popup",
+                    "kuid": "ab9f975c15db4282b53a6b4d907eb30b",
+                    "originalPropertyKey": "PopupLblFeatureGrpTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "PopupLblFeatureGrpTxt",
+                    "pw": {
+                        "displayName": "Popup Label Feature Group Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Line Reference",
+                    "group": "Product Line Popup",
+                    "kuid": "e94dd8c41ae64d429529715a2b891444",
+                    "originalPropertyKey": "PopupLblProductLineRefTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "PopupLblProductLineRefTxt",
+                    "pw": {
+                        "displayName": "Popup Label Product Line Reference Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Lines",
+                    "group": "Product Tab",
+                    "kuid": "ab93a1d393fb45ef94ea1adf6dac36a1",
+                    "originalPropertyKey": "ProductLineTabLblNameTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "ProductLineTabLblNameTxt",
+                    "pw": {
+                        "displayName": "Product Line Tab Label Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "141px",
+                    "group": "Add Product Button",
+                    "kuid": "b8c9fe4c812942d1acc49369f232d438",
+                    "originalPropertyKey": "AddLineProductBtnWidth",
+                    "propertyIndex": 5,
+                    "propertyKey": "AddLineProductBtnWidth",
+                    "pw": {
+                        "displayName": "Add Line Product Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknfontIconSearch",
+                    "group": "Product Search Box",
+                    "kuid": "d3eb932c6520446dbb193f95b0c7da71",
+                    "originalPropertyKey": "IconSearchSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "IconSearchSkin",
+                    "pw": {
+                        "displayName": "Icon Search Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT REFERENCE",
+                    "group": "Product Segment List",
+                    "kuid": "f5f6f5b676a44c5781a6529ca60b182c",
+                    "originalPropertyKey": "LblSegmentHeader2Txt",
+                    "propertyIndex": 5,
+                    "propertyKey": "LblSegmentHeader2Txt",
+                    "pw": {
+                        "displayName": "Label Segment Header 2 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknfontIconListbox15px",
+                    "group": "Product Popup Common",
+                    "kuid": "f5137e9122a14446bf17d15c0db7a270",
+                    "originalPropertyKey": "PopupCloseIconSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "PopupCloseIconSkin",
+                    "pw": {
+                        "displayName": "Popup Close Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Group Reference",
+                    "group": "Product Group Popup",
+                    "kuid": "f716e1393c6f488ebe6d10e6dfcb7b96",
+                    "originalPropertyKey": "PopupLblProductGrpRefTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "PopupLblProductGrpRefTxt",
+                    "pw": {
+                        "displayName": "Popup Label Product Group Reference Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Feature Type",
+                    "group": "Product Feature Popup",
+                    "kuid": "ca98ee502b4749e8b717c76b1ceaee5c",
+                    "originalPropertyKey": "PopupLblFeatureTypeTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "PopupLblFeatureTypeTxt",
+                    "pw": {
+                        "displayName": "Popup Label Feature Type Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Line Name",
+                    "group": "Product Line Popup",
+                    "kuid": "b41f022729f941faba69a011c98eac74",
+                    "originalPropertyKey": "PopupTextBoxProductLineNamePlaceholderTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "PopupTextBoxProductLineNamePlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Product Line Name Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Groups",
+                    "group": "Product Tab",
+                    "kuid": "j12e6d4b5a1945bc9f0d5099c7ae37c4",
+                    "originalPropertyKey": "ProductGroupTabLblNameTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "ProductGroupTabLblNameTxt",
+                    "pw": {
+                        "displayName": "Product Group Tab Label Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "151px",
+                    "group": "Add Product Button",
+                    "kuid": "f1ff8aaedf7e4406a48f3c444b53af71",
+                    "originalPropertyKey": "AddGroupProductBtnWidth",
+                    "propertyIndex": 6,
+                    "propertyKey": "AddGroupProductBtnWidth",
+                    "pw": {
+                        "displayName": "Add Group Product Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Search by product line",
+                    "group": "Product Search Box",
+                    "kuid": "ee20019f3ea14141b6a19f60c40b379c",
+                    "originalPropertyKey": "SeachTxtBoxPlaceholder1Txt",
+                    "propertyIndex": 6,
+                    "propertyKey": "SeachTxtBoxPlaceholder1Txt",
+                    "pw": {
+                        "displayName": "Seach Txt Box Placeholder 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT GROUP",
+                    "group": "Product Segment List",
+                    "kuid": "c2cc9880d7ac4a5db38245f1fda27d18",
+                    "originalPropertyKey": "LblSegmentHeader3Txt",
+                    "propertyIndex": 6,
+                    "propertyKey": "LblSegmentHeader3Txt",
+                    "pw": {
+                        "displayName": "Label Segment Header 3 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\" }",
+                    "group": "Product Popup Common",
+                    "kuid": "a131e5a38ea24b6a8862aaaa09afd9d1",
+                    "originalPropertyKey": "PopupCloseIconTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "PopupCloseIconTxt",
+                    "pw": {
+                        "displayName": "Popup Close Icon Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.common.description",
+                    "group": "Product Group Popup",
+                    "kuid": "ea4da383efd348ba9adde87b5103fd48",
+                    "originalPropertyKey": "PopupLblProductGrpDescTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "PopupLblProductGrpDescTxt",
+                    "pw": {
+                        "displayName": "Popup Label Product Group Description Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.common.description",
+                    "group": "Product Feature Popup",
+                    "kuid": "g257826b5c6a4941a07ee70470094c7b",
+                    "originalPropertyKey": "PopupLblFeatureDescTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "PopupLblFeatureDescTxt",
+                    "pw": {
+                        "displayName": "Popup Label Feature Description Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Line Reference",
+                    "group": "Product Line Popup",
+                    "kuid": "gd84241e86194c2ca6388f3653a4a95e",
+                    "originalPropertyKey": "PopupTextBoxProductLineRefPlaceholderTxt",
+                    "propertyIndex": 7,
+                    "propertyKey": "PopupTextBoxProductLineRefPlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Product Line Reference Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Features",
+                    "group": "Product Tab",
+                    "kuid": "j88189f3d1514b1b9c77bd2adc0b865d",
+                    "originalPropertyKey": "ProductFeatureTabLblNameTxt",
+                    "propertyIndex": 7,
+                    "propertyKey": "ProductFeatureTabLblNameTxt",
+                    "pw": {
+                        "displayName": "Product Feature Tab Label Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "165px",
+                    "group": "Add Product Button",
+                    "kuid": "e0f9b7e6f8a748d699c2890783868608",
+                    "originalPropertyKey": "AddFeatureProductBtnWidth",
+                    "propertyIndex": 7,
+                    "propertyKey": "AddFeatureProductBtnWidth",
+                    "pw": {
+                        "displayName": "Add Feature Product Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Search by product group",
+                    "group": "Product Search Box",
+                    "kuid": "f75884facb9140e6950a1ac95723f7a6",
+                    "originalPropertyKey": "SeachTxtBoxPlaceholder2Txt",
+                    "propertyIndex": 7,
+                    "propertyKey": "SeachTxtBoxPlaceholder2Txt",
+                    "pw": {
+                        "displayName": "Seach Txt Box Placeholder 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "GROUP REFERENCE",
+                    "group": "Product Segment List",
+                    "kuid": "jdfeb06932c64781899c1f6e3aba9fce",
+                    "originalPropertyKey": "LblSegmentHeader4Txt",
+                    "propertyIndex": 7,
+                    "propertyKey": "LblSegmentHeader4Txt",
+                    "pw": {
+                        "displayName": "Label Segment Header 4 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknbtnf7f7faLatoRegular4f555dBorder1px8b96a5",
+                    "group": "Product Popup Common",
+                    "kuid": "e3b591885eaa4da0b315fb1ba9f2bbd4",
+                    "originalPropertyKey": "PopupCancelBtnSkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "PopupCancelBtnSkin",
+                    "pw": {
+                        "displayName": "Popup Cancel Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Detailed Description ",
+                    "group": "Product Group Popup",
+                    "kuid": "f9957d315d5346cc96169b3f434ebb3a",
+                    "originalPropertyKey": "PopupLblProductGrpDetailedDescTxt",
+                    "propertyIndex": 7,
+                    "propertyKey": "PopupLblProductGrpDetailedDescTxt",
+                    "pw": {
+                        "displayName": "Popup Label Product Group Detailed Description Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Feature Name",
+                    "group": "Product Feature Popup",
+                    "kuid": "fc06ec7762084cf693676b44ad3dee96",
+                    "originalPropertyKey": "PopupTextBoxFeatureNamePlaceholderTxt",
+                    "propertyIndex": 7,
+                    "propertyKey": "PopupTextBoxFeatureNamePlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Feature Name Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Please enter product line name",
+                    "group": "Product Line Popup",
+                    "kuid": "c010eb5086f546e2bdd01bcb3250f444",
+                    "originalPropertyKey": "PopupErrMsgProductLineNameTxt",
+                    "propertyIndex": 8,
+                    "propertyKey": "PopupErrMsgProductLineNameTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Product Line Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Search by product feature",
+                    "group": "Product Search Box",
+                    "kuid": "f1341ecb846541c5a2b08a01492f387f",
+                    "originalPropertyKey": "SeachTxtBoxPlaceholder3Txt",
+                    "propertyIndex": 8,
+                    "propertyKey": "SeachTxtBoxPlaceholder3Txt",
+                    "pw": {
+                        "displayName": "Seach Txt Box Placeholder 3",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT LINE",
+                    "group": "Product Segment List",
+                    "kuid": "e7eb518b00e44d98a6fda3e8daf1f7a2",
+                    "originalPropertyKey": "LblSegmentHeader5Txt",
+                    "propertyIndex": 8,
+                    "propertyKey": "LblSegmentHeader5Txt",
+                    "pw": {
+                        "displayName": "Label Segment Header 5 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "110px",
+                    "group": "Product Popup Common",
+                    "kuid": "abcdc1c446e34717ac4f9c6803c5c98d",
+                    "originalPropertyKey": "PopupCancelBtnWidth",
+                    "propertyIndex": 8,
+                    "propertyKey": "PopupCancelBtnWidth",
+                    "pw": {
+                        "displayName": "Popup Cancel Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Image Type",
+                    "group": "Product Group Popup",
+                    "kuid": "g7d57a66d58a4965a1169b0a40a60069",
+                    "originalPropertyKey": "PopupLblImgTypeTxt",
+                    "propertyIndex": 8,
+                    "propertyKey": "PopupLblImgTypeTxt",
+                    "pw": {
+                        "displayName": "Popup Label Image Type Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Feature Group",
+                    "group": "Product Feature Popup",
+                    "kuid": "f36c4eee66104c04b105546dc0b7c770",
+                    "originalPropertyKey": "PopupTextBoxFeatureGrpPlaceholderTxt",
+                    "propertyIndex": 8,
+                    "propertyKey": "PopupTextBoxFeatureGrpPlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Feature Group Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Please enter product line reference",
+                    "group": "Product Line Popup",
+                    "kuid": "g7242b6c0094453d8dd8db2c72f7fba4",
+                    "originalPropertyKey": "PopupErrMsgProductLineRefTxt",
+                    "propertyIndex": 9,
+                    "propertyKey": "PopupErrMsgProductLineRefTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Product Line Reference Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "FEATURE NAME",
+                    "group": "Product Segment List",
+                    "kuid": "fce52cb5f4364c2fb49615a25baa9544",
+                    "originalPropertyKey": "LblSegmentHeader6Txt",
+                    "propertyIndex": 9,
+                    "propertyKey": "LblSegmentHeader6Txt",
+                    "pw": {
+                        "displayName": "Label Segment Header 6 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.permission.CANCEL",
+                    "group": "Product Popup Common",
+                    "kuid": "j04bfbb18e9b4bfe81e66a53738a4c6f",
+                    "originalPropertyKey": "PopupCancelBtnTxt",
+                    "propertyIndex": 9,
+                    "propertyKey": "PopupCancelBtnTxt",
+                    "pw": {
+                        "displayName": "Popup Cancel Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Image URL",
+                    "group": "Product Group Popup",
+                    "kuid": "gb75fba271b846bcbe558b3e7798344b",
+                    "originalPropertyKey": "PopupLblImgUrlTxt",
+                    "propertyIndex": 9,
+                    "propertyKey": "PopupLblImgUrlTxt",
+                    "pw": {
+                        "displayName": "Popup Label Image Url Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Feature Type",
+                    "group": "Product Feature Popup",
+                    "kuid": "fc886a5f7b684e3fb90a12484386f49f",
+                    "originalPropertyKey": "PopupTextBoxFeatureTypePlaceholderTxt",
+                    "propertyIndex": 9,
+                    "propertyKey": "PopupTextBoxFeatureTypePlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Feature Type Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "slFbox0ebc847fa67a243Search",
+                    "group": "Product Search Box",
+                    "kuid": "j147393458364467b32dfddd5cb4cc03",
+                    "originalPropertyKey": "flxSearchBoxOnFocusSkin",
+                    "propertyIndex": 9,
+                    "propertyKey": "flxSearchBoxOnFocusSkin",
+                    "pw": {
+                        "displayName": "Flex Search Box Container On Focus Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ADD PRODUCT LINE",
+                    "group": "Product Line Popup",
+                    "kuid": "cc743fa678724eebb06b4c51d769bf54",
+                    "originalPropertyKey": "PopupAddProductLineBtnTxt",
+                    "propertyIndex": 10,
+                    "propertyKey": "PopupAddProductLineBtnTxt",
+                    "pw": {
+                        "displayName": "Popup Add Product Line Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "FEATURE GROUP",
+                    "group": "Product Segment List",
+                    "kuid": "ec46914185dc4350aa071711f7533abd",
+                    "originalPropertyKey": "LblSegmentHeader7Txt",
+                    "propertyIndex": 10,
+                    "propertyKey": "LblSegmentHeader7Txt",
+                    "pw": {
+                        "displayName": "Label Segment Header 7 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn003E75LatoRegular13pxFFFFFFRad20px",
+                    "group": "Product Popup Common",
+                    "kuid": "ba95678aa33c43f58f5a1eb90630523d",
+                    "originalPropertyKey": "PopupSaveBtnSkin",
+                    "propertyIndex": 10,
+                    "propertyKey": "PopupSaveBtnSkin",
+                    "pw": {
+                        "displayName": "Popup Save Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Group Name",
+                    "group": "Product Group Popup",
+                    "kuid": "e008490f1dba4af9a6a8cb5944e79c6f",
+                    "originalPropertyKey": "PopupTextBoxProductGrpNamePlaceholderTxt",
+                    "propertyIndex": 10,
+                    "propertyKey": "PopupTextBoxProductGrpNamePlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Product Group Name Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.common.description",
+                    "group": "Product Feature Popup",
+                    "kuid": "eb7b0ece814e438089fc2f1682dcfc61",
+                    "originalPropertyKey": "PopupTextBoxFeatureDescPlaceholderTxt",
+                    "propertyIndex": 10,
+                    "propertyKey": "PopupTextBoxFeatureDescPlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Feature Description Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "UPDATE",
+                    "group": "Product Line Popup",
+                    "kuid": "g7f6fccfce214f0db13e67ad3e416074",
+                    "originalPropertyKey": "PopupEditProductLineBtnTxt",
+                    "propertyIndex": 11,
+                    "propertyKey": "PopupEditProductLineBtnTxt",
+                    "pw": {
+                        "displayName": "Popup Edit Product Line Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "FEATURE TYPE",
+                    "group": "Product Segment List",
+                    "kuid": "haa9b6bd25144ccab8bac00956c89cef",
+                    "originalPropertyKey": "LblSegmentHeader8Txt",
+                    "propertyIndex": 11,
+                    "propertyKey": "LblSegmentHeader8Txt",
+                    "pw": {
+                        "displayName": "Label Segment Header 8 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl192b45LatoReg16px",
+                    "group": "Product Popup Common",
+                    "kuid": "d7f70668fdef440492d5587874a2c6a8",
+                    "originalPropertyKey": "PopupTopHeaderSkin",
+                    "propertyIndex": 11,
+                    "propertyKey": "PopupTopHeaderSkin",
+                    "pw": {
+                        "displayName": "Popup Top Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Select Product Line",
+                    "group": "Product Group Popup",
+                    "kuid": "b08d0a259ba24d1a91b3cf21772acb17",
+                    "originalPropertyKey": "PopupListBoxProductLinePlaceholderTxt",
+                    "propertyIndex": 11,
+                    "propertyKey": "PopupListBoxProductLinePlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup List Box Product Line Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Enter Feature Name",
+                    "group": "Product Feature Popup",
+                    "kuid": "a4d74ad8f1294860b45ad0cf242e73ea",
+                    "originalPropertyKey": "PopupErrMsgFeatureNameTxt",
+                    "propertyIndex": 11,
+                    "propertyKey": "PopupErrMsgFeatureNameTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Feature Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485C75LatoRegular13Px",
+                    "group": "Product Segment List",
+                    "kuid": "e9f6b8ada7894f519a4f20e71f994db9",
+                    "originalPropertyKey": "LblSegmentSkin",
+                    "propertyIndex": 12,
+                    "propertyKey": "LblSegmentSkin",
+                    "pw": {
+                        "displayName": "Label Segment Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblLato485c7513px",
+                    "group": "Product Popup Common",
+                    "kuid": "c9f9d318dcac4a9ba3d26ccde086adf3",
+                    "originalPropertyKey": "PopupTextFieldCountSkin",
+                    "propertyIndex": 12,
+                    "propertyKey": "PopupTextFieldCountSkin",
+                    "pw": {
+                        "displayName": "Popup Text Field Count Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "110px",
+                    "group": "Product Line Popup",
+                    "kuid": "adc89dd1ac1a47efb60f512d8fc3c8de",
+                    "originalPropertyKey": "PopupEditProductLineBtnWidth",
+                    "propertyIndex": 12,
+                    "propertyKey": "PopupEditProductLineBtnWidth",
+                    "pw": {
+                        "displayName": "Popup Edit Product Line Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Group Reference",
+                    "group": "Product Group Popup",
+                    "kuid": "e90204c63cc640d988036dee093687f7",
+                    "originalPropertyKey": "PopupTextBoxProductGrpRefPlaceholderTxt",
+                    "propertyIndex": 12,
+                    "propertyKey": "PopupTextBoxProductGrpRefPlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Product Group Reference Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Enter Feature Group ",
+                    "group": "Product Feature Popup",
+                    "kuid": "g9b0459e3a85450c86d8ca1383d4effb",
+                    "originalPropertyKey": "PopupErrMsgFeatureGrpTxt",
+                    "propertyIndex": 12,
+                    "propertyKey": "PopupErrMsgFeatureGrpTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Feature Group Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblSeparator696C73",
+                    "group": "Product Segment List",
+                    "kuid": "jf9db3a17a3549698e45dea099efd087",
+                    "originalPropertyKey": "HeaderSeparatorSkin",
+                    "propertyIndex": 13,
+                    "propertyKey": "HeaderSeparatorSkin",
+                    "pw": {
+                        "displayName": "Header Separator Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblLato485c7513px",
+                    "group": "Product Popup Common",
+                    "kuid": "da10a4a7345a4b3b9dbb606cba8ad414",
+                    "originalPropertyKey": "PopupFieldHeaderSkin",
+                    "propertyIndex": 13,
+                    "propertyKey": "PopupFieldHeaderSkin",
+                    "pw": {
+                        "displayName": "Popup Field Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.common.description",
+                    "group": "Product Group Popup",
+                    "kuid": "j1185e384aa341a1ac25a645b7c0d890",
+                    "originalPropertyKey": "PopupTextBoxProductGrpDescPlaceholderTxt",
+                    "propertyIndex": 13,
+                    "propertyKey": "PopupTextBoxProductGrpDescPlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Product Group Description Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Enter Feature Type",
+                    "group": "Product Feature Popup",
+                    "kuid": "j133a80f78424b53b11a01a7f40db7b9",
+                    "originalPropertyKey": "PopupErrMsgFeatureTypeTxt",
+                    "propertyIndex": 13,
+                    "propertyKey": "PopupErrMsgFeatureTypeTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Feature Type Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblSeperatorD7D9E0",
+                    "group": "Product Segment List",
+                    "kuid": "jefe1e9242464b848eaac607f1ffffca",
+                    "originalPropertyKey": "SegmentSeparatorSkin",
+                    "propertyIndex": 14,
+                    "propertyKey": "SegmentSeparatorSkin",
+                    "pw": {
+                        "displayName": "Segment Separator Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "txtD7d9e0",
+                    "group": "Product Popup Common",
+                    "kuid": "b15344ba847748deb9fe96f409cf57bb",
+                    "originalPropertyKey": "PopupTextBoxSkin",
+                    "propertyIndex": 14,
+                    "propertyKey": "PopupTextBoxSkin",
+                    "pw": {
+                        "displayName": "Popup Text Box Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Detailed Description ",
+                    "group": "Product Group Popup",
+                    "kuid": "c12af17e94bd4f35b26d7a36b92a6dce",
+                    "originalPropertyKey": "PopupTextBoxProductGrpDetailedDescPlaceholderTxt",
+                    "propertyIndex": 14,
+                    "propertyKey": "PopupTextBoxProductGrpDetailedDescPlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Product Group Detailed Description Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.ProfileManagement.errMsgFieldCantEmpty",
+                    "group": "Product Feature Popup",
+                    "kuid": "b794c95dd9834fb88ec7305f2deded67",
+                    "originalPropertyKey": "PopupErrMsgFeatureDescTxt",
+                    "propertyIndex": 14,
+                    "propertyKey": "PopupErrMsgFeatureDescTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Feature Description Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknIcon20px",
+                    "group": "Product Segment List",
+                    "kuid": "g5c99aa63e5348b797c4be76c474614c",
+                    "originalPropertyKey": "SegmentEditIconSkin",
+                    "propertyIndex": 15,
+                    "propertyKey": "SegmentEditIconSkin",
+                    "pw": {
+                        "displayName": "Segment Edit Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skntxtAread7d9e0",
+                    "group": "Product Popup Common",
+                    "kuid": "c418b1c0fb2747618cdbb010d68cd7a0",
+                    "originalPropertyKey": "PopupTextAreaSkin",
+                    "propertyIndex": 15,
+                    "propertyKey": "PopupTextAreaSkin",
+                    "pw": {
+                        "displayName": "Popup Text Area Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Select Image Type",
+                    "group": "Product Group Popup",
+                    "kuid": "e541584188574aa9a987db9775d43403",
+                    "originalPropertyKey": "PopupListBoxImgTypePlaceholderTxt",
+                    "propertyIndex": 15,
+                    "propertyKey": "PopupListBoxImgTypePlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup List Box Image Type Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ADD FEATURE",
+                    "group": "Product Feature Popup",
+                    "kuid": "b50e6dcd6f1d4caf9ba7df8215e2dee1",
+                    "originalPropertyKey": "PopupAddFeatureBtnTxt",
+                    "propertyIndex": 15,
+                    "propertyKey": "PopupAddFeatureBtnTxt",
+                    "pw": {
+                        "displayName": "Popup Add Feature Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue91e\"}",
+                    "group": "Product Segment List",
+                    "kuid": "c4e78eac011d4a9abfb7cfe523981ec7",
+                    "originalPropertyKey": "SegmentEditIconTxt",
+                    "propertyIndex": 16,
+                    "propertyKey": "SegmentEditIconTxt",
+                    "pw": {
+                        "displayName": "Segment Edit Icon Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbxborderd7d9e03pxradius",
+                    "group": "Product Popup Common",
+                    "kuid": "j6e581ad26ad4de1a655d6163e2a91a3",
+                    "originalPropertyKey": "PopupListBoxSkin",
+                    "propertyIndex": 16,
+                    "propertyKey": "PopupListBoxSkin",
+                    "pw": {
+                        "displayName": "Popup List Box Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Image URL",
+                    "group": "Product Group Popup",
+                    "kuid": "d51e9f5e06d4484bb21c599cf88ce6dd",
+                    "originalPropertyKey": "PopupTextBoxImgUrlPlaceholderTxt",
+                    "propertyIndex": 16,
+                    "propertyKey": "PopupTextBoxImgUrlPlaceholderTxt",
+                    "pw": {
+                        "displayName": "Popup Text Box Image Url Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "UPDATE & SAVE",
+                    "group": "Product Feature Popup",
+                    "kuid": "c25b022f6ce94e5287dfab7b3dbaae79",
+                    "originalPropertyKey": "PopupEditFeatureBtnTxt",
+                    "propertyIndex": 16,
+                    "propertyKey": "PopupEditFeatureBtnTxt",
+                    "pw": {
+                        "displayName": "Popup Edit Feature Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skinredbg",
+                    "group": "Product Popup Common",
+                    "kuid": "d1e9affce579428a9643340d46c2a32d",
+                    "originalPropertyKey": "PopupTextBoxErrSkin",
+                    "propertyIndex": 17,
+                    "propertyKey": "PopupTextBoxErrSkin",
+                    "pw": {
+                        "displayName": "Popup Text Box Error Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "+ Add Image",
+                    "group": "Product Group Popup",
+                    "kuid": "gcac04e8813142e29139a3e7c5e1ee02",
+                    "originalPropertyKey": "PopupLblAddImgFieldTxt",
+                    "propertyIndex": 17,
+                    "propertyKey": "PopupLblAddImgFieldTxt",
+                    "pw": {
+                        "displayName": "Popup Label Add Image Field Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "150px",
+                    "group": "Product Feature Popup",
+                    "kuid": "b5b0a766ccf34f2193062f6e546e561d",
+                    "originalPropertyKey": "PopupAddFeatureBtnWidth",
+                    "propertyIndex": 17,
+                    "propertyKey": "PopupAddFeatureBtnWidth",
+                    "pw": {
+                        "displayName": "Popup Add Feature Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknTxtError",
+                    "group": "Product Popup Common",
+                    "kuid": "fdab468c19244e8892d2a779ae88fcd2",
+                    "originalPropertyKey": "PopupTextAreaErrSkin",
+                    "propertyIndex": 18,
+                    "propertyKey": "PopupTextAreaErrSkin",
+                    "pw": {
+                        "displayName": "Popup Text Area Error Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblLatoReg117eb013px",
+                    "group": "Product Group Popup",
+                    "kuid": "c42ee004c89d45308c6d417a6a407c6e",
+                    "originalPropertyKey": "PopupLblAddImgFieldSkin",
+                    "propertyIndex": 18,
+                    "propertyKey": "PopupLblAddImgFieldSkin",
+                    "pw": {
+                        "displayName": "Popup Label Add Image Field Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "160px",
+                    "group": "Product Feature Popup",
+                    "kuid": "c60ce4218abc4e67954e5eeb8ea6a554",
+                    "originalPropertyKey": "PopupEditFeatureBtnWidth",
+                    "propertyIndex": 18,
+                    "propertyKey": "PopupEditFeatureBtnWidth",
+                    "pw": {
+                        "displayName": "Popup Edit Feature Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlbxeb30173px",
+                    "group": "Product Popup Common",
+                    "kuid": "i9587ca4bac1477caf5d22b5a3b9825b",
+                    "originalPropertyKey": "PopupListBoxErrSkin",
+                    "propertyIndex": 19,
+                    "propertyKey": "PopupListBoxErrSkin",
+                    "pw": {
+                        "displayName": "Popup List Box Error Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Enter Product Group Name",
+                    "group": "Product Group Popup",
+                    "kuid": "b7192f2ebef643bfaf9d2088f7bf941b",
+                    "originalPropertyKey": "PopupErrMsgProductGrpNameTxt",
+                    "propertyIndex": 19,
+                    "propertyKey": "PopupErrMsgProductGrpNameTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Product Group Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblError",
+                    "group": "Product Popup Common",
+                    "kuid": "abe311fbf4634cb6885549ca104f41a2",
+                    "originalPropertyKey": "ErrMsgTextSkin",
+                    "propertyIndex": 20,
+                    "propertyKey": "ErrMsgTextSkin",
+                    "pw": {
+                        "displayName": "Error Message Text Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Select Associated Product Line",
+                    "group": "Product Group Popup",
+                    "kuid": "ha2e8aa49bf34c609fdb8c0fcd12b34e",
+                    "originalPropertyKey": "PopupErrMsgAssociatedProductLineNameTxt",
+                    "propertyIndex": 20,
+                    "propertyKey": "PopupErrMsgAssociatedProductLineNameTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Associated Product Line Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknErrorIcon",
+                    "group": "Product Popup Common",
+                    "kuid": "b9aeb9d57b3047f88e28b7f58f5baa3d",
+                    "originalPropertyKey": "ErrMsgIconSkin",
+                    "propertyIndex": 21,
+                    "propertyKey": "ErrMsgIconSkin",
+                    "pw": {
+                        "displayName": "Error Message Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Enter Product Group Reference",
+                    "group": "Product Group Popup",
+                    "kuid": "b7dd1607866d4df0814203db6044ca41",
+                    "originalPropertyKey": "PopupErrMsgProductGrpRefTxt",
+                    "propertyIndex": 21,
+                    "propertyKey": "PopupErrMsgProductGrpRefTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Product Group Reference Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\"}",
+                    "group": "Product Popup Common",
+                    "kuid": "cb768547075c44d380732586bbbbe7b2",
+                    "originalPropertyKey": "ErrMsgIconTxt",
+                    "propertyIndex": 22,
+                    "propertyKey": "ErrMsgIconTxt",
+                    "pw": {
+                        "displayName": "Error Message Icon Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.ProfileManagement.errMsgFieldCantEmpty",
+                    "group": "Product Group Popup",
+                    "kuid": "a48e9ae578d24a409a4f5d0f30e0c71a",
+                    "originalPropertyKey": "PopupErrMsgProductGrpDescTxt",
+                    "propertyIndex": 22,
+                    "propertyKey": "PopupErrMsgProductGrpDescTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Product Group Description Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl192b45LatoReg16px",
+                    "group": "Product Popup Common",
+                    "kuid": "d81a7dfa15f24b79b7bdc1778b00db74",
+                    "originalPropertyKey": "PopupViewTopHeaderSkin",
+                    "propertyIndex": 23,
+                    "propertyKey": "PopupViewTopHeaderSkin",
+                    "pw": {
+                        "displayName": "Popup View Top Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.ProfileManagement.errMsgFieldCantEmpty",
+                    "group": "Product Group Popup",
+                    "kuid": "gd7a14c0f38f44a9912814c53dac4949",
+                    "originalPropertyKey": "PopupErrMsgProductGrpDetailedDescTxt",
+                    "propertyIndex": 23,
+                    "propertyKey": "PopupErrMsgProductGrpDetailedDescTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Product Group Detailed Description Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblSeperatorD7D9E0",
+                    "group": "Product Popup Common",
+                    "kuid": "c65b4365276e483bba352da79b1f559c",
+                    "originalPropertyKey": "PopupViewTopHeaderSeparatorSkin",
+                    "propertyIndex": 24,
+                    "propertyKey": "PopupViewTopHeaderSeparatorSkin",
+                    "pw": {
+                        "displayName": "Popup View Top Header Separator Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.ProfileManagement.errMsgFieldCantEmpty",
+                    "group": "Product Group Popup",
+                    "kuid": "cae696bf68f3458f87f048a5bf480e9d",
+                    "originalPropertyKey": "PopupErrMsgImgTypeTxt",
+                    "propertyIndex": 24,
+                    "propertyKey": "PopupErrMsgImgTypeTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Image Type Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato696c7311px",
+                    "group": "Product Popup Common",
+                    "kuid": "e5c08e94f8494e1fba68ecbd691cec9c",
+                    "originalPropertyKey": "PopupViewDetailsHeaderSkin",
+                    "propertyIndex": 25,
+                    "propertyKey": "PopupViewDetailsHeaderSkin",
+                    "pw": {
+                        "displayName": "Popup View Details Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.ProfileManagement.errMsgFieldCantEmpty",
+                    "group": "Product Group Popup",
+                    "kuid": "ab69092dc97f4eaaa45021a40812404a",
+                    "originalPropertyKey": "PopupErrMsgImgUrlTxt",
+                    "propertyIndex": 25,
+                    "propertyKey": "PopupErrMsgImgUrlTxt",
+                    "pw": {
+                        "displayName": "Popup Error Message Image Url Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblLato485c7513px",
+                    "group": "Product Popup Common",
+                    "kuid": "d676734108eb4694bebeba9219b7e4ef",
+                    "originalPropertyKey": "PopupViewDetailsSkin",
+                    "propertyIndex": 26,
+                    "propertyKey": "PopupViewDetailsSkin",
+                    "pw": {
+                        "displayName": "Popup View Details Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\" }",
+                    "group": "Product Group Popup",
+                    "kuid": "cb8f35c0bd354ffd8b5b93d8a7a8ff5c",
+                    "originalPropertyKey": "AddImgFieldDeleteIconTxt",
+                    "propertyIndex": 26,
+                    "propertyKey": "AddImgFieldDeleteIconTxt",
+                    "pw": {
+                        "displayName": "Add Image Field Delete Icon Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknbtnf7f7faLatoReg13px485c75Rad20px",
+                    "group": "Product Popup Common",
+                    "kuid": "fff338aa68ac4fca8ddd40e3f88f8420",
+                    "originalPropertyKey": "PopupDetailsEditBtnSkin",
+                    "propertyIndex": 27,
+                    "propertyKey": "PopupDetailsEditBtnSkin",
+                    "pw": {
+                        "displayName": "Popup Details Edit Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknIcon20px",
+                    "group": "Product Group Popup",
+                    "kuid": "f4356b4302f740e9925e67ac2abbec89",
+                    "originalPropertyKey": "AddImgFieldDeleteIconSkin",
+                    "propertyIndex": 27,
+                    "propertyKey": "AddImgFieldDeleteIconSkin",
+                    "pw": {
+                        "displayName": "Add Image Field Delete Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ADD PRODUCT GROUP",
+                    "group": "Product Group Popup",
+                    "kuid": "c18164f8844e4fa49fd05833500c35ae",
+                    "originalPropertyKey": "PopupAddProductGrpBtnTxt",
+                    "propertyIndex": 28,
+                    "propertyKey": "PopupAddProductGrpBtnTxt",
+                    "pw": {
+                        "displayName": "Popup Add Product Group Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknbtnffffffLatoRegular4f555dBorder1px485c75",
+                    "group": "Product Popup Common",
+                    "kuid": "h96a8ad8d6a74abf91201146bb0aa60c",
+                    "originalPropertyKey": "PopupCancelBtnSkinHover",
+                    "propertyIndex": 28,
+                    "propertyKey": "PopupCancelBtnSkinHover",
+                    "pw": {
+                        "displayName": "Popup Cancel Button Hover Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "UPDATE & SAVE",
+                    "group": "Product Group Popup",
+                    "kuid": "ia1c95ae68af4b919a563b18502cbf5c",
+                    "originalPropertyKey": "PopupEditProductGrpBtnTxt",
+                    "propertyIndex": 29,
+                    "propertyKey": "PopupEditProductGrpBtnTxt",
+                    "pw": {
+                        "displayName": "Popup Edit Product Group Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn005198LatoRegular13pxFFFFFFRad20px",
+                    "group": "Product Popup Common",
+                    "kuid": "e5dbe6b0e3d449d58e8434f591c12466",
+                    "originalPropertyKey": "PopupSaveBtnSkinHover",
+                    "propertyIndex": 29,
+                    "propertyKey": "PopupSaveBtnSkinHover",
+                    "pw": {
+                        "displayName": "Popup Save Button Hover Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "210px",
+                    "group": "Product Group Popup",
+                    "kuid": "e062431973d643ccb12b48c6b0471f2b",
+                    "originalPropertyKey": "PopupAddProductGrpBtnWidth",
+                    "propertyIndex": 30,
+                    "propertyKey": "PopupAddProductGrpBtnWidth",
+                    "pw": {
+                        "displayName": "Popup Add Product Group Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "txtD7d9e0disabledf3f3f3",
+                    "group": "Product Popup Common",
+                    "kuid": "b313f96910c94be08804aa111a80a314",
+                    "originalPropertyKey": "PopupTextBoxDisabledSkin",
+                    "propertyIndex": 30,
+                    "propertyKey": "PopupTextBoxDisabledSkin",
+                    "pw": {
+                        "displayName": "Popup Text Box Disabled Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "160px",
+                    "group": "Product Group Popup",
+                    "kuid": "f56f6dcebdf74303b5535efecbaa076a",
+                    "originalPropertyKey": "PopupEditProductGrpBtnWidth",
+                    "propertyIndex": 31,
+                    "propertyKey": "PopupEditProductGrpBtnWidth",
+                    "pw": {
+                        "displayName": "Popup Edit Product Group Button Width",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbxborderd7d9e03pxradiusF3F3F3Disabled",
+                    "group": "Product Popup Common",
+                    "kuid": "d2720451aff8410b910988ffa4cc0eb5",
+                    "originalPropertyKey": "PopupListBoxDisabledSkin",
+                    "propertyIndex": 31,
+                    "propertyKey": "PopupListBoxDisabledSkin",
+                    "pw": {
+                        "displayName": "Popup List Box Disabled Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxBgFFFFFFBorE4E6ECsz1pxR3px",
+                    "group": "Product Group Popup",
+                    "kuid": "h1835da91cdc4a55afa2d20db4152bb4",
+                    "originalPropertyKey": "ImgDetailsViewBgSkin",
+                    "propertyIndex": 32,
+                    "propertyKey": "ImgDetailsViewBgSkin",
+                    "pw": {
+                        "displayName": "Image Details View Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"data\":[{\"imageType\":\"Banner\",\"height\":1366,\"width\":556,\"lstBoxText\":\"Banner (1366 X 556 px)\"},{\"imageType\":\"Icon\",\"height\":40,\"width\":40,\"lstBoxText\":\"Icon (40 X 40 px)\"},{\"imageType\":\"Banner_Large\",\"height\":2732,\"width\":1112,\"lstBoxText\":\"Large Banner (2732 X 1112 px)\"}]}",
+                    "group": "Product Group Popup",
+                    "kuid": "cd2e6435d428494cb0151b8c1fa147e0",
+                    "originalPropertyKey": "ImageTypeDetailsJsonData",
+                    "propertyIndex": 33,
+                    "propertyKey": "ImageTypeDetailsJsonData",
+                    "pw": {
+                        "displayName": "Image Type Details Json Data",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dc6a7d0291b34ae48601774f35dd1b33",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f7a5c7a051b040aaaec7926a398fa515",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skin2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxAddProductGroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "gbde6b2d4d004dfda9ca71e51589ead0"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.adminConsole.productManagement",
+    "version": "1.0.0"
+}

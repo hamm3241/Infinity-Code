@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_d01abe772a6a4c09b140ae1057a7a0f2": {
+        "id": "AS_FlexContainer_d01abe772a6a4c09b140ae1057a7a0f2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segOptionAdded",
+            "type": "templates",
+            "platform": "",
+            "KUID": "fd0ef20113544c75ac17068366b68988"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hd1345c8f3fd4e77a9608dcb2a7b6952",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"unSelectedOption\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

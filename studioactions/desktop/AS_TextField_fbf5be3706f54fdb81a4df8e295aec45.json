@@ -1,0 +1,27 @@
+{
+    "AS_TextField_fbf5be3706f54fdb81a4df8e295aec45": {
+        "id": "AS_TextField_fbf5be3706f54fdb81a4df8e295aec45",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmErrorLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297ec624b3647e99b0e95d9a173b2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e9fc476238614343a5162ed1a2b29b84",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.validateNewPassword(this.view.txtNewPassword1.text);\nthis.validateConfirmPassword(this.view.txtReenterPassword1.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_hb03b43b9250438b86a59ca846addead": {
+        "id": "AS_Button_hb03b43b9250438b86a59ca846addead",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmErrorLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297ec624b3647e99b0e95d9a173b2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a1b98e9884bd4f96a83f898db6f78e20",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " this.presenter.showLoginScreen({\n            \"action\": \"login\"\n        });",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "StatusswitchToggle": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 0
+            },
+            "fontIconDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblAddSecurityQuestionSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "."
+            },
+            "lblCharCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0/1000"
+            },
+            "lblQuestionStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.permission.Active",
+                "text": "Active"
+            },
+            "txtAddSecurityQuestion": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "400dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segAddQuestions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "e2f77ac659ee46a094ddad2638d60bcb",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxAddQuestionsSegment",
+    "pf": "frmSecurityQuestions",
+    "retainselection": false,
+    "rowTemplateId": "d1deb02e40384d5a83a93f53bf265048",
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s587c8a9e5804ec88f65e379570597f6",
+    "rowtemplate": "flxAddSecurityQuestion",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "StatusswitchToggle": "StatusswitchToggle",
+        "flxAddSecurityQuestion": "flxAddSecurityQuestion",
+        "flxDelete": "flxDelete",
+        "flxQuestionStatus": "flxQuestionStatus",
+        "flxQuestionStatusSwitch": "flxQuestionStatusSwitch",
+        "flxQuestions": "flxQuestions",
+        "fontIconDelete": "fontIconDelete",
+        "lblAddSecurityQuestionSeperator": "lblAddSecurityQuestionSeperator",
+        "lblCharCount": "lblCharCount",
+        "lblQuestionStatus": "lblQuestionStatus",
+        "txtAddSecurityQuestion": "txtAddSecurityQuestion"
+    },
+    "zindex": 10
+}

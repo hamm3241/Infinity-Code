@@ -1,0 +1,96 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "errorMsg": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ff778cf96f644f46af6ca2473a2e86b1",
+                "srcKUID": "a23c55c15b3d49f6ba6a08000114f1cf",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "80dp"
+                }
+            }
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ge04b685dd9648b283630501b18d2ed6",
+                "srcKUID": "ec7d71f61f014241a619fd96c59b0435",
+                "wType": "Label"
+            }
+        },
+        "lblErrorText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hfa916ed7e4d436bb6ab6bdc7b384a2b",
+                "srcKUID": "ia85a4bdb50f477ebcfd44610c2f56ae",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAdManagement.ErrorEndDate",
+            "isVisible": true
+        }
+    },
+    "enablescrolling": true,
+    "id": "CitizenshipEndDateError",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "ff778cf96f644f46af6ca2473a2e86b1",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxEndDateCitizenship",
+    "pf": "frmCustomerProfileDueDiligence",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a23c55c15b3d49f6ba6a08000114f1cf",
+    "wType": "UserWidgetInstance"
+}

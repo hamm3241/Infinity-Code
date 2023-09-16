@@ -1,0 +1,203 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnOk": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fa106d6cf2f64274ae84ff84f7ca4804",
+                "srcKUID": "ed281b805b7449289b459012522f596d",
+                "wType": "Button"
+            }
+        },
+        "customListbox": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "i6dfb1e998854966a45eb38eb414144f",
+                "srcKUID": "a0d03f7297684284a4b6dc01befcf287",
+                "wType": "FlexContainer"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "25dp"
+                }
+            },
+            "zIndex": {
+                "Default": 5
+            }
+        },
+        "flxCheckBox": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e06275728025489d9ff0d9f66226372e",
+                "srcKUID": "i3a6ffce732348bbbacf8ad91962a97f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDropdown": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c57b40536878435ca6c9af3c6f27d8f1",
+                "srcKUID": "f85b0f605ebe4c2e98705aa34635a85c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxListboxError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f117ac95a78e4d74aa28231134fe9854",
+                "srcKUID": "j124d8c4cf8144e590de603096a49899",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSegmentList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a5ed5a4f613f4396bac4207102cfb108",
+                "srcKUID": "f4459396b0bd46f2a3f88e56629645df",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSelectAll": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g91736930419403a9b342303617377df",
+                "srcKUID": "h125cc4ca69849339090bf982d88f514",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSelectedText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c5bbaed50cdf41349f165aeb0ee1f289",
+                "srcKUID": "a812f38b0b4e47c69cb7bf6508c941f0",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgCheckBox": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f44d09be8e474cb9b8b69018bd530bc7",
+                "srcKUID": "baf316df1d4c40af83715394a042411a",
+                "wType": "Image"
+            },
+            "src": "checkboxnormal.png"
+        },
+        "lblDescription": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jb3ba183c3f3425ca312b80d9f7c573c",
+                "srcKUID": "ec9d7b94345b4aaba233c349f129a6d7",
+                "wType": "Label"
+            }
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ed65549b292140159f43a5e34d84626a",
+                "srcKUID": "aab32b39f5fa4b57a655ac1477106a9f",
+                "wType": "Label"
+            }
+        },
+        "lblErrorMsg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b52d6c8a00224831a71de715595f330a",
+                "srcKUID": "ba5803ef249a4423aa327e96333adcb0",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.SelectApplicableAppsError",
+            "text": "Please select app types",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "90%"
+                }
+            }
+        },
+        "lblIconDropdown": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d6154c16f08f4e3b92d95a33b021b63f",
+                "srcKUID": "he58ef6db0ab4fa6a16de8ac326c5040",
+                "wType": "Label"
+            },
+            "text": ""
+        },
+        "lblSelectedValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dbfe4c78141841fc8b6ea7c38e380cd1",
+                "srcKUID": "i1dfa6f533554bfdb9ae13c2ad526fd0",
+                "wType": "Label"
+            }
+        },
+        "segList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "he9924ee1b98459a94a3a41f8428d0c8",
+                "srcKUID": "e2b8ae70a4a74f2b9c6475f3a65ec737",
+                "wType": "Segment"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "customListboxAlertApps",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "i6dfb1e998854966a45eb38eb414144f",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxAddAlertCol22",
+    "pf": "frmAlertsManagement",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a0d03f7297684284a4b6dc01befcf287",
+    "wType": "UserWidgetInstance",
+    "zindex": 5
+}

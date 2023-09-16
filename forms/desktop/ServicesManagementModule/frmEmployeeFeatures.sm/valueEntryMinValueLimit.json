@@ -1,0 +1,124 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ValueEntry": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c27668e240ff4ab2b76a7bbd2e86b3ae",
+                "srcKUID": "g86dfee60dbd4ce88ab40cd54efeab40",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "40dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "30%"
+                }
+            }
+        },
+        "flxValueTextBox": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d36077834a654a97870dba91dabb725f",
+                "srcKUID": "af863ec24b9145ad9dcef209fdeda7ac",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblCurrencySymbol": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h449f193006f4e1796b7798fb5fcc0ed",
+                "srcKUID": "j5c46f3b9aba477a95bcebed658275e6",
+                "wType": "Label"
+            }
+        },
+        "tbxEnterValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c0ff42dd0ffe43d38f4d50742d1b8570",
+                "srcKUID": "db19877a74894ab182700b2730762334",
+                "wType": "TextField"
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "placeholder": "",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "valueEntryMinValueLimit",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "c27668e240ff4ab2b76a7bbd2e86b3ae",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxActionLimitsTextbox",
+    "pf": "frmEmployeeFeatures",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "g86dfee60dbd4ce88ab40cd54efeab40",
+    "wType": "UserWidgetInstance"
+}

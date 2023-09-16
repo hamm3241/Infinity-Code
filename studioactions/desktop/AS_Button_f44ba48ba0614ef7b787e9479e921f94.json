@@ -1,0 +1,22 @@
+{
+    "AS_Button_f44ba48ba0614ef7b787e9479e921f94": {
+        "id": "AS_Button_f44ba48ba0614ef7b787e9479e921f94",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "ab9b978ca35a4d1caa6272c8aae08afa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d70e021ddacd47bba8536e67b823f9a5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var self = this;\nvar ntf = new kony.mvc.Navigation(\"frmCreateNewUser\");\nntf.navigate();",
+            "callbackType": null
+        }]
+    }
+}

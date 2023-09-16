@@ -1,0 +1,23 @@
+{
+    "AS_UWI_a53723056fab40399874c72817315a18": {
+        "id": "AS_UWI_a53723056fab40399874c72817315a18",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "context",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmViewUsers",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e8b73bb83a4b409d8aa7f00d16afadba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d9503e252fbc46cf8fde593cc2b7e3c1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.rejectRequestYesCallback(context);",
+            "parentId": null
+        }]
+    }
+}

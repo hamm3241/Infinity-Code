@@ -1,0 +1,24 @@
+{
+    "AS_Button_da68b5596c4a4014851a1d9f28a67bbe": {
+        "id": "AS_Button_da68b5596c4a4014851a1d9f28a67bbe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPasswordAgeAndLockoutSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i860fd5238df49cdb488d81dd8523689"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bc6af22141324ac7937c28fefaecc1f6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onCancelButtonClicked();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_bce8bef0561d47e58ba120fc9eb15c83": {
+        "id": "AS_FlexContainer_bce8bef0561d47e58ba120fc9eb15c83",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPermissions",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eff2add8f99c4151bcc345f1c2ae5bfd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f134aa973e234ce7a9baf000ad2a839c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.presenter.downloadCSV();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

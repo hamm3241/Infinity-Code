@@ -1,0 +1,2201 @@
+{
+    "classname": "viewProducts",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ja8379bd2977453080b8d9772d33cc7f",
+                    "paramList": [],
+                    "propertyKey": "getProducts",
+                    "pw": {
+                        "displayName": "getProducts",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c0821354d9ee48aab422a791ce42638f",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "formUpdateUI",
+                    "pw": {
+                        "displayName": "formUpdateUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Get Products",
+                "Update Product",
+                "Delete Product",
+                "Extra Fields",
+                "Product Sub Header",
+                "Product List Header",
+                "Product List Segement",
+                "Select Option Menu",
+                "Product Filter Menu",
+                "Product Details Top",
+                "Product Details Bottom",
+                "Popup"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Get Products",
+                    "kuid": "bb0fdbcaeecd4b0c9160827c1350099e",
+                    "originalPropertyKey": "objSeviceName",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Sevice Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Update Product",
+                    "kuid": "d9ea8dde849b49948fbb376a8624cdee",
+                    "originalPropertyKey": "objSeviceName1",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Sevice Name 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "Delete Product",
+                    "kuid": "g27b3fcf62eb498bb5f2a68e2148b483",
+                    "originalPropertyKey": "objSeviceName2",
+                    "propertyIndex": 1,
+                    "propertyKey": "objSeviceName2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Sevice Name 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "h871425fadb2425a868567101fc4964a",
+                    "originalPropertyKey": "Label1",
+                    "propertyIndex": 1,
+                    "propertyKey": "Label1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "slFbox0b7aaa2e3bfa340",
+                    "group": "Product Sub Header",
+                    "kuid": "f597f906b4d344639f5e6e4c03ca7849",
+                    "originalPropertyKey": "SubHeaderSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "SubHeaderSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Sub Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato696c7312px",
+                    "group": "Product List Header",
+                    "kuid": "a1a94f5b7be64e4a8699b68ad8164a34",
+                    "originalPropertyKey": "ProductListHeaderSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "ProductListHeaderSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product List Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLatoBold35475f14px",
+                    "group": "Product List Segement",
+                    "kuid": "jfa20e88b905482a821374be5f238bf0",
+                    "originalPropertyKey": "LblProductSegmentSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "LblProductSegmentSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label In Product Segment Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxffffffop100dbdbe6Radius3px",
+                    "group": "Select Option Menu",
+                    "kuid": "h1f114966a6e4c32bbd8fb897b04c80a",
+                    "originalPropertyKey": "OptionMenuSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "OptionMenuSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option Menu Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxffffffop100dbdbe6Radius3px",
+                    "group": "Product Filter Menu",
+                    "kuid": "e1064f7f19084033b178c8b26d3830da",
+                    "originalPropertyKey": "FilterMenuSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "FilterMenuSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Filter Menu Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxBgFFFFFFBorE4E6ECsz1pxR3px",
+                    "group": "Product Details Top",
+                    "kuid": "hee4d60397734ddfa5f2828e9bb5ba95",
+                    "originalPropertyKey": "TopDetailsBgSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "TopDetailsBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Top Details Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxBgFFFFFFBorE4E6ECsz1pxR3px",
+                    "group": "Product Details Bottom",
+                    "kuid": "eff5d6e7b432499d87d1f6779dacb6af",
+                    "originalPropertyKey": "BottomDetailsBgSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "BottomDetailsBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Bottom Details Backgroung Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skn222b35",
+                    "group": "Popup",
+                    "kuid": "jcd8ae89535c40a885dbc3b8923f126f",
+                    "originalPropertyKey": "PopupOuterShadowBgSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "PopupOuterShadowBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Outer Shadow Backgroung Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxffffffop100Bordercbcdd1Radius3px",
+                    "group": "General",
+                    "kuid": "be6ebcdf269f46a283762c1c48bdb199",
+                    "originalPropertyKey": "ProductListBgSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "ProductListBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product List Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "getProducts",
+                    "group": "Get Products",
+                    "kuid": "hfcd19b99bc747aca150ea91d1a33e0e",
+                    "originalPropertyKey": "operationName",
+                    "propertyIndex": 2,
+                    "propertyKey": "operationName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "UpdateProduct",
+                    "group": "Update Product",
+                    "kuid": "f3166bd986ce41d0adc5017a00a464ac",
+                    "originalPropertyKey": "operationName1",
+                    "propertyIndex": 2,
+                    "propertyKey": "operationName1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Delete Product",
+                    "kuid": "e19af251a373406dbd172672433f710d",
+                    "originalPropertyKey": "objName2",
+                    "propertyIndex": 2,
+                    "propertyKey": "objName2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "d3e9d52063294c1eb8b042c80fc7e3b7",
+                    "originalPropertyKey": "Label2",
+                    "propertyIndex": 2,
+                    "propertyKey": "Label2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxd5d9ddop100",
+                    "group": "Product Sub Header",
+                    "kuid": "cc7651889f9348ccb638727e78df1ae2",
+                    "originalPropertyKey": "SearchContainerSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "SearchContainerSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Search Container Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT GROUP",
+                    "group": "Product List Header",
+                    "kuid": "dfd88e5c38b64759afa3e2009851a543",
+                    "originalPropertyKey": "LblProductGroupTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "LblProductGroupTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Product Group Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconActivate",
+                    "group": "Product List Segement",
+                    "kuid": "i9003fe0a68e41c6bea5d1a544213bf7",
+                    "originalPropertyKey": "IconStatusActiveSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "IconStatusActiveSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Status Active Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconOptionMenuRow",
+                    "group": "Select Option Menu",
+                    "kuid": "daca26b9977b47439e2a3410c445dae2",
+                    "originalPropertyKey": "IconOptionMenuSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "IconOptionMenuSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option Menu Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skntbxffffffNoBorderlato35475f14px",
+                    "group": "Product Filter Menu",
+                    "kuid": "g9aea65dcdb74b7cba671beb70f3422e",
+                    "originalPropertyKey": "FilterMenuSearchBoxSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "FilterMenuSearchBoxSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Filter Menu Search Box Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLatoRegular192B4518px",
+                    "group": "Product Details Top",
+                    "kuid": "a58e27a66ab74ad785a46df4333e3c32",
+                    "originalPropertyKey": "ProductNameSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "ProductNameSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Name Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblTabUtilActive",
+                    "group": "Product Details Bottom",
+                    "kuid": "f26c44fef5ed49eca6409435a2cd9bcb",
+                    "originalPropertyKey": "TabSelectedSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "TabSelectedSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Tab Selected Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "flxNoShadowNoBorder",
+                    "group": "Popup",
+                    "kuid": "ac81a769ca8b45dbb38bd57320fcf5ed",
+                    "originalPropertyKey": "PopupBgSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "PopupBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Backgroung Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "bankProduct",
+                    "group": "Get Products",
+                    "kuid": "dfcecf4aee08441e86ac413ca65b285f",
+                    "originalPropertyKey": "objName",
+                    "propertyIndex": 3,
+                    "propertyKey": "objName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "Update Product",
+                    "kuid": "fa38674d40834c5bb134cc9852fea2e7",
+                    "originalPropertyKey": "objName1",
+                    "propertyIndex": 3,
+                    "propertyKey": "objName1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "DeleteProduct",
+                    "group": "Delete Product",
+                    "kuid": "c8c5b52b7b9b452baa8ae963a3936c95",
+                    "originalPropertyKey": "operationName2",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "ad21a4acafd3459683131a26ef8f3807",
+                    "originalPropertyKey": "Label3",
+                    "propertyIndex": 3,
+                    "propertyKey": "Label3",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 3",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconSearchImg20px",
+                    "group": "Product Sub Header",
+                    "kuid": "f84efe96cb2043c6aac8f2d8d9c9c061",
+                    "originalPropertyKey": "SearchIconSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "SearchIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Search Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue916\"}",
+                    "group": "Product List Header",
+                    "kuid": "d25d216ceacb401991ed182dbc6df4c5",
+                    "originalPropertyKey": "IconProductGroup",
+                    "propertyIndex": 3,
+                    "propertyKey": "IconProductGroup",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Product Group",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknfontIconInactive",
+                    "group": "Product List Segement",
+                    "kuid": "dd2ed1244e9b4dd18cc7e31e7c63086d",
+                    "originalPropertyKey": "IconStatusDeactiveSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "IconStatusDeactiveSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Status Deactive Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue91e\"}",
+                    "group": "Select Option Menu",
+                    "kuid": "cb2d59aaaf9c43b79748fb5476b7bae1",
+                    "originalPropertyKey": "IconEdit",
+                    "propertyIndex": 3,
+                    "propertyKey": "IconEdit",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Edit",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconSearchImg20px",
+                    "group": "Product Filter Menu",
+                    "kuid": "cf175a4feae34fb0b71cd62d5039c447",
+                    "originalPropertyKey": "FilterMenuSearchIconSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "FilterMenuSearchIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Filter Menu Search Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato11px696C73",
+                    "group": "Product Details Top",
+                    "kuid": "d91f6187d54042c880cc5255e32541c9",
+                    "originalPropertyKey": "ProductDetailHeaderSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "ProductDetailHeaderSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Detail Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLatoRegular485c7512px",
+                    "group": "Product Details Bottom",
+                    "kuid": "b183dfd77cf74c388151e5b0ccc91544",
+                    "originalPropertyKey": "TabUnselectedSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "TabUnselectedSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Tab Unselected Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxInfoToastBg357C9ENoRadius",
+                    "group": "Popup",
+                    "kuid": "a9fe763925db460fbbfc6798a3b8b647",
+                    "originalPropertyKey": "PopupTopBarSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "PopupTopBarSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Top Bar Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "g6384abcad934d45889ff1f0823783ad",
+                    "originalPropertyKey": "Label4",
+                    "propertyIndex": 4,
+                    "propertyKey": "Label4",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 4",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue923\"}",
+                    "group": "Product Sub Header",
+                    "kuid": "a223720947394bbbae63ed7f66846ac9",
+                    "originalPropertyKey": "SearchIconText",
+                    "propertyIndex": 4,
+                    "propertyKey": "SearchIconText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Search Icon Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT LINE",
+                    "group": "Product List Header",
+                    "kuid": "jd929efbfc2441808bc5a285fbc2edfe",
+                    "originalPropertyKey": "LblProductLineTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "LblProductLineTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Product Line Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue921\"}",
+                    "group": "Product List Segement",
+                    "kuid": "a799ab45cd2042c3a812d79fe5da1aa4",
+                    "originalPropertyKey": "IconStatusActiveDeactive",
+                    "propertyIndex": 4,
+                    "propertyKey": "IconStatusActiveDeactive",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Status Active Deactive",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue91b\"}",
+                    "group": "Select Option Menu",
+                    "kuid": "ca374451da604a328cc1b8177e526c32",
+                    "originalPropertyKey": "IconDelete",
+                    "propertyIndex": 4,
+                    "propertyKey": "IconDelete",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Delete",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconSearchCross16px",
+                    "group": "Product Filter Menu",
+                    "kuid": "bd9ec298d9fe4cc2be81c4a98afafaf9",
+                    "originalPropertyKey": "FilterMenuCrossIconSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "FilterMenuCrossIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Filter Menu Cross Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlbl485C75LatoSemiBold13px",
+                    "group": "Product Details Top",
+                    "kuid": "id0dea46d75b45e8af842d4999e9d289",
+                    "originalPropertyKey": "ProductDetailSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "ProductDetailSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Detail Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT FEATURES",
+                    "group": "Product Details Bottom",
+                    "kuid": "b19175a46edb45f0b00788ae81b8032e",
+                    "originalPropertyKey": "Tab1Text",
+                    "propertyIndex": 4,
+                    "propertyKey": "Tab1Text",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Tab 1 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblSeperatorD7D9E0",
+                    "group": "Popup",
+                    "kuid": "b15cfbce8e12421289d6f959da51e46d",
+                    "originalPropertyKey": "PopupTopHeaderSeparatorSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "PopupTopHeaderSeparatorSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Top Header Separator Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "j759d652fd4c428eb64a9e1c1a489eba",
+                    "originalPropertyKey": "Label5",
+                    "propertyIndex": 5,
+                    "propertyKey": "Label5",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 5",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconSearchCross16px",
+                    "group": "Product Sub Header",
+                    "kuid": "eee9f10f2cbd45dfbcbd1822b69a306e",
+                    "originalPropertyKey": "CrossIconSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "CrossIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Cross Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue916\"}",
+                    "group": "Product List Header",
+                    "kuid": "g62cc290edf3473baf49945993d59a98",
+                    "originalPropertyKey": "IconProductLine",
+                    "propertyIndex": 5,
+                    "propertyKey": "IconProductLine",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Product Line",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconOptionMenu",
+                    "group": "Product List Segement",
+                    "kuid": "a335e17db82848dfa4f11bbcf243c635",
+                    "originalPropertyKey": "IconOptionSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "IconOptionSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Option Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue931\"}",
+                    "group": "Select Option Menu",
+                    "kuid": "f8fbdb152dea4fb687acfe278c71c42d",
+                    "originalPropertyKey": "IconActivate",
+                    "propertyIndex": 5,
+                    "propertyKey": "IconActivate",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Activate",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLble1e5edOp100",
+                    "group": "Product Filter Menu",
+                    "kuid": "i50c790b453848c7ad9239b9907b2423",
+                    "originalPropertyKey": "FilterMenuSearchSeparatorSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "FilterMenuSearchSeparatorSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Filter Menu Search Separator Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT LINE",
+                    "group": "Product Details Top",
+                    "kuid": "i5b96e802dde4bf0885d69c6372ddc38",
+                    "originalPropertyKey": "LblProductLineHeader",
+                    "propertyIndex": 5,
+                    "propertyKey": "LblProductLineHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Product Line Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "IMAGE DETAILS",
+                    "group": "Product Details Bottom",
+                    "kuid": "h7586a3f2a114aaaaf7e7dc38aee03e8",
+                    "originalPropertyKey": "Tab2Text",
+                    "propertyIndex": 5,
+                    "propertyKey": "Tab2Text",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Tab 2 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknfontIconListbox15px",
+                    "group": "Popup",
+                    "kuid": "e3489f1183794d92beabce0072cf6958",
+                    "originalPropertyKey": "PopupCloseIconSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "PopupCloseIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Close Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "f5df95d25bda4b87aaafed5ed59bdce2",
+                    "originalPropertyKey": "Label6",
+                    "propertyIndex": 6,
+                    "propertyKey": "Label6",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 6",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue929\"}",
+                    "group": "Product Sub Header",
+                    "kuid": "c18d6a90c5284ab6968718fa8eafef51",
+                    "originalPropertyKey": "CrossIconText",
+                    "propertyIndex": 6,
+                    "propertyKey": "CrossIconText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Cross Icon Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "STATUS",
+                    "group": "Product List Header",
+                    "kuid": "jfbefccb7f4a473fbe45b6795fe7e801",
+                    "originalPropertyKey": "LblProductStatusTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "LblProductStatusTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Product Status Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue91f\"}",
+                    "group": "Product List Segement",
+                    "kuid": "fac365e668804a05b1e70bb3f87faa9a",
+                    "originalPropertyKey": "IconOption",
+                    "propertyIndex": 6,
+                    "propertyKey": "IconOption",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Option",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue91c\"}",
+                    "group": "Select Option Menu",
+                    "kuid": "fded15a0563d4d17adcdc9c55eab07a1",
+                    "originalPropertyKey": "IconDeactivate",
+                    "propertyIndex": 6,
+                    "propertyKey": "IconDeactivate",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Deactivate",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLatoBold35475f14px",
+                    "group": "Product Filter Menu",
+                    "kuid": "ef10c7be8a8940d3822bb4f3a07114cc",
+                    "originalPropertyKey": "FilterMenuSegLblSkin",
+                    "propertyIndex": 6,
+                    "propertyKey": "FilterMenuSegLblSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Filter Menu Segment Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT GROUP",
+                    "group": "Product Details Top",
+                    "kuid": "c58a7cb7cd344c07b98f0b884561f384",
+                    "originalPropertyKey": "LblProductGroupHeader",
+                    "propertyIndex": 6,
+                    "propertyKey": "LblProductGroupHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Product Group Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ADDITIONAL ATTRIBUTES",
+                    "group": "Product Details Bottom",
+                    "kuid": "c75625ccb11041ad837e7c8ae539a69f",
+                    "originalPropertyKey": "Tab3Text",
+                    "propertyIndex": 6,
+                    "propertyKey": "Tab3Text",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Tab 3 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl192b45LatoReg16px",
+                    "group": "Popup",
+                    "kuid": "d6c309da0d4d43b2b66dfc8930ac8a64",
+                    "originalPropertyKey": "LblPopupReadMoreHeaderSkin",
+                    "propertyIndex": 6,
+                    "propertyKey": "LblPopupReadMoreHeaderSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Popup Read More Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "ga5a168c837c4d0b8318605da87c0b39",
+                    "originalPropertyKey": "Label7",
+                    "propertyIndex": 7,
+                    "propertyKey": "Label7",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 7",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skntbxffffffNoBorderlato35475f14px",
+                    "group": "Product Sub Header",
+                    "kuid": "ja1cbd8f412449ab9515dad2a4797f3e",
+                    "originalPropertyKey": "SearchTextBoxSkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "SearchTextBoxSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Search Text Box Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue916\"}",
+                    "group": "Product List Header",
+                    "kuid": "b518f81647c94ee1b6014bf9b9c11e9a",
+                    "originalPropertyKey": "IconProductStatus",
+                    "propertyIndex": 7,
+                    "propertyKey": "IconProductStatus",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Product Status",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblSeperator",
+                    "group": "Product List Segement",
+                    "kuid": "fa6eadba7b4344e2b98dfd804e466e54",
+                    "originalPropertyKey": "SegRowSeparatorSkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "SegRowSeparatorSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Segment Row Separator Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue907\"}",
+                    "group": "Select Option Menu",
+                    "kuid": "c050b59ae79d439d8597785d4546600f",
+                    "originalPropertyKey": "IconCopy",
+                    "propertyIndex": 7,
+                    "propertyKey": "IconCopy",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Copy",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485C75LatoRegular13Px",
+                    "group": "Product Filter Menu",
+                    "kuid": "ed2100d2d6b241b0bbf7a937ec2a1530",
+                    "originalPropertyKey": "FilterMenuNoResultLblSkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "FilterMenuNoResultLblSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Filter Menu No Result Found Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT REFERENCE",
+                    "group": "Product Details Top",
+                    "kuid": "be7a2d8db4e74abebda1acb176ab2331",
+                    "originalPropertyKey": "LblProductRefHeader",
+                    "propertyIndex": 7,
+                    "propertyKey": "LblProductRefHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Product Reference Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblSeperator",
+                    "group": "Product Details Bottom",
+                    "kuid": "ace405379c73452bb594c846fd51e1d9",
+                    "originalPropertyKey": "SeparatorBottomDetailsSkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "SeparatorBottomDetailsSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Separator Bottom Details Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLatoRegular192B4518px",
+                    "group": "Popup",
+                    "kuid": "d2d08020624a48b7b525d449af4b3f25",
+                    "originalPropertyKey": "LblAgreementTermsSkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "LblAgreementTermsSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Agreement Terms Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "jc064bef33f9491bad0a893c28d63e52",
+                    "originalPropertyKey": "Label8",
+                    "propertyIndex": 8,
+                    "propertyKey": "Label8",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 8",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Search by Product Name, Group and Line",
+                    "group": "Product Sub Header",
+                    "kuid": "b56287a2d4e042daac688fea18681e6c",
+                    "originalPropertyKey": "SearchTextBoxPlaceholder",
+                    "propertyIndex": 8,
+                    "propertyKey": "SearchTextBoxPlaceholder",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Search Text Box Placeholder",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblTableHeaderLine",
+                    "group": "Product List Header",
+                    "kuid": "d8f5e221c81a4d44a37e59edd70e3fc5",
+                    "originalPropertyKey": "HeaderSeparatorSkin",
+                    "propertyIndex": 8,
+                    "propertyKey": "HeaderSeparatorSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Header Separator Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485C75LatoRegular13Px",
+                    "group": "Product List Segement",
+                    "kuid": "ed9d708d3afb4b69aac291a503788c74",
+                    "originalPropertyKey": "SegNoResultLblSkin",
+                    "propertyIndex": 8,
+                    "propertyKey": "SegNoResultLblSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Segment No Result Found Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PURPOSE",
+                    "group": "Product Details Top",
+                    "kuid": "e3d085fa005b45f6b610745ade6627a5",
+                    "originalPropertyKey": "LblPurposeHeader",
+                    "propertyIndex": 8,
+                    "propertyKey": "LblPurposeHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Purpose Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485C75LatoRegular13Px",
+                    "group": "Product Details Bottom",
+                    "kuid": "f202eb247cc64873a2f095710f6cd299",
+                    "originalPropertyKey": "LblNoResultSkin",
+                    "propertyIndex": 8,
+                    "propertyKey": "LblNoResultSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label No Result Found Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "AGREEMENT TO TERMS",
+                    "group": "Popup",
+                    "kuid": "e29b2c38b65242dc83a518147b569397",
+                    "originalPropertyKey": "LblAgreementTermsText",
+                    "propertyIndex": 8,
+                    "propertyKey": "LblAgreementTermsText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Agreement Terms Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "c6e11b9338a64f8b804bc04b716773ce",
+                    "originalPropertyKey": "Label9",
+                    "propertyIndex": 9,
+                    "propertyKey": "Label9",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 9",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "AVAILABLE FROM DATE",
+                    "group": "Product Details Top",
+                    "kuid": "id8c1d38e7d54d468aacc976002f8211",
+                    "originalPropertyKey": "LblAvailableFromDateHeader",
+                    "propertyIndex": 9,
+                    "propertyKey": "LblAvailableFromDateHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Available From Date Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "No features found.",
+                    "group": "Product Details Bottom",
+                    "kuid": "efa31ea6a97d40b084cbab7d5fc7d40d",
+                    "originalPropertyKey": "NofeaturesText",
+                    "propertyIndex": 9,
+                    "propertyKey": "NofeaturesText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "No features Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLatoRegular192B4518px",
+                    "group": "Popup",
+                    "kuid": "cb9fedba9a614099abc6ceaa27340f7e",
+                    "originalPropertyKey": "LblReadMoreDetailsSkin",
+                    "propertyIndex": 9,
+                    "propertyKey": "LblReadMoreDetailsSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Read More Details Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PRODUCT NAME",
+                    "group": "Product List Header",
+                    "kuid": "ia120bdcf0c24ac5a946bbb29f7d4aab",
+                    "originalPropertyKey": "LblProductNameTxt",
+                    "propertyIndex": 9,
+                    "propertyKey": "LblProductNameTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Product Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "g0c219c53dd24dda8ddad1e01d6cb773",
+                    "originalPropertyKey": "Label10",
+                    "propertyIndex": 10,
+                    "propertyKey": "Label10",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 10",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "AVAILABLE TO DATE",
+                    "group": "Product Details Top",
+                    "kuid": "h2497874929644d3a84483044b02e18e",
+                    "originalPropertyKey": "LblAvailableToDateHeader",
+                    "propertyIndex": 10,
+                    "propertyKey": "LblAvailableToDateHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Available To Date Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato696c7311px",
+                    "group": "Product Details Bottom",
+                    "kuid": "a2d3abeeafd24af7a5bf76f4e5534900",
+                    "originalPropertyKey": "ImgHeaderSkin",
+                    "propertyIndex": 10,
+                    "propertyKey": "ImgHeaderSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Image Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxBgE4E6EC",
+                    "group": "Popup",
+                    "kuid": "d2aad4a6938b4bcf924b06495825243a",
+                    "originalPropertyKey": "PopupButtonConatinerBgSkin",
+                    "propertyIndex": 10,
+                    "propertyKey": "PopupButtonConatinerBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Button Conatiner Backgroung Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "ge7a67443bd141619f73f0a761f1d022",
+                    "originalPropertyKey": "Label11",
+                    "propertyIndex": 11,
+                    "propertyKey": "Label11",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 11",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl192b45LatoReg16px",
+                    "group": "Product Details Top",
+                    "kuid": "c9f98db2f4834e08ba67168838e8bcd7",
+                    "originalPropertyKey": "ProductDescriptionHeaderSkin",
+                    "propertyIndex": 11,
+                    "propertyKey": "ProductDescriptionHeaderSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Description Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "IMAGE TYPE",
+                    "group": "Product Details Bottom",
+                    "kuid": "b80c453196014865afcbb51ab530920b",
+                    "originalPropertyKey": "LblImgTypeHeader",
+                    "propertyIndex": 11,
+                    "propertyKey": "LblImgTypeHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Image Type Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn003E75LatoRegular13pxFFFFFFRad20px",
+                    "group": "Popup",
+                    "kuid": "e6f9cabeaf2145078b0a781843500b45",
+                    "originalPropertyKey": "PopupButtonCloseSkin",
+                    "propertyIndex": 11,
+                    "propertyKey": "PopupButtonCloseSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Button Close Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "cc1a0281143745dda98532159b93a0a3",
+                    "originalPropertyKey": "Label12",
+                    "propertyIndex": 12,
+                    "propertyKey": "Label12",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 12",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Product Description",
+                    "group": "Product Details Top",
+                    "kuid": "c071e5058146475fa6d426888858f710",
+                    "originalPropertyKey": "LblProductDescriptionHeader",
+                    "propertyIndex": 12,
+                    "propertyKey": "LblProductDescriptionHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Product Description Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "IMAGE URL",
+                    "group": "Product Details Bottom",
+                    "kuid": "b407f4a4bda64f18a5bd8a3b6480d38c",
+                    "originalPropertyKey": "LblImgUrlHeader",
+                    "propertyIndex": 12,
+                    "propertyKey": "LblImgUrlHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Image Url Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn005198LatoRegular13pxFFFFFFRad20px",
+                    "group": "Popup",
+                    "kuid": "e72cf501b6cc455886c3d474a8ccce4d",
+                    "originalPropertyKey": "PopupButtonCloseHoverSkin",
+                    "propertyIndex": 12,
+                    "propertyKey": "PopupButtonCloseHoverSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Button Close Hover Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "a5d9aaefd21b4491bbf361be9a58ac5a",
+                    "originalPropertyKey": "Label13",
+                    "propertyIndex": 13,
+                    "propertyKey": "Label13",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 13",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknIcon6E7178Sz15px",
+                    "group": "Product Details Top",
+                    "kuid": "h9c74ef0ac8545f899fc9bd054453589",
+                    "originalPropertyKey": "IconDropdownSkin",
+                    "propertyIndex": 13,
+                    "propertyKey": "IconDropdownSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Dropdown Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485C75LatoRegular13Px",
+                    "group": "Product Details Bottom",
+                    "kuid": "j9f8e06837f84c93a1bccbd19e0890f3",
+                    "originalPropertyKey": "SegImgLabelSkin",
+                    "propertyIndex": 13,
+                    "propertyKey": "SegImgLabelSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Segment Image Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxebb54cOp100",
+                    "group": "Popup",
+                    "kuid": "dd4b294727b645e0bc289e94e48c00d4",
+                    "originalPropertyKey": "PopupWarningTopBarSkin",
+                    "propertyIndex": 13,
+                    "propertyKey": "PopupWarningTopBarSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Warning Top Bar Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "cb449abbbc6f416393ea3dc9557a3f56",
+                    "originalPropertyKey": "Label14",
+                    "propertyIndex": 14,
+                    "propertyKey": "Label14",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 14",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue922\"}",
+                    "group": "Product Details Top",
+                    "kuid": "e0c5a5a2d98c4e99b1f7fc48303770ef",
+                    "originalPropertyKey": "IconDropdownCollapse",
+                    "propertyIndex": 14,
+                    "propertyKey": "IconDropdownCollapse",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Dropdown Collapse",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "No images found.",
+                    "group": "Product Details Bottom",
+                    "kuid": "d6f70ab3a9604ee58347e7387313b3fb",
+                    "originalPropertyKey": "NoImagesText",
+                    "propertyIndex": 14,
+                    "propertyKey": "NoImagesText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "No Images Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxBge61919",
+                    "group": "Popup",
+                    "kuid": "ae6bc0c3be46423b8381cc5bbd4a5e3d",
+                    "originalPropertyKey": "PopupAlertTopBarSkin",
+                    "propertyIndex": 14,
+                    "propertyKey": "PopupAlertTopBarSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Alert Top Bar Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Extra Fields",
+                    "kuid": "h01f98fab5ee46d19558608ef6453997",
+                    "originalPropertyKey": "Label15",
+                    "propertyIndex": 15,
+                    "propertyKey": "Label15",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 15",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{ \"text\" : \"\\ue915\"}",
+                    "group": "Product Details Top",
+                    "kuid": "b585c59133f24cce826b3e26df64bca7",
+                    "originalPropertyKey": "IconDropdownExpand",
+                    "propertyIndex": 15,
+                    "propertyKey": "IconDropdownExpand",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Dropdown Expand",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato696c7311px",
+                    "group": "Product Details Bottom",
+                    "kuid": "c119b5b12eeb41db82ef04287641ae76",
+                    "originalPropertyKey": "AttributeHeaderSkin",
+                    "propertyIndex": 15,
+                    "propertyKey": "AttributeHeaderSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Attribute Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLatoBold35475f23px",
+                    "group": "Popup",
+                    "kuid": "j32ce46a8c9b4ca8847f727ad43d3c34",
+                    "originalPropertyKey": "PopupMainHeaderSkin",
+                    "propertyIndex": 15,
+                    "propertyKey": "PopupMainHeaderSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Main Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "DESCRIPTION",
+                    "group": "Product Details Top",
+                    "kuid": "aebeb36065dc4f1390f18093d297383f",
+                    "originalPropertyKey": "LblDescriptionHeader",
+                    "propertyIndex": 16,
+                    "propertyKey": "LblDescriptionHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Description Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ATTRIBUTE1",
+                    "group": "Product Details Bottom",
+                    "kuid": "a0d86dcc73f94e6abcd8bd5ed8a12148",
+                    "originalPropertyKey": "LblAttribute1Header",
+                    "propertyIndex": 16,
+                    "propertyKey": "LblAttribute1Header",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Attribute 1 Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknrtxLato0df8337c414274d",
+                    "group": "Popup",
+                    "kuid": "ea9ba3ed87bb494a96ea29ee2ef0cc5e",
+                    "originalPropertyKey": "PopupDisclaimerSkin",
+                    "propertyIndex": 16,
+                    "propertyKey": "PopupDisclaimerSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Disclaimer Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "DETAILED DESCRIPTION",
+                    "group": "Product Details Top",
+                    "kuid": "ef6551640c8b4be0863801df85390e84",
+                    "originalPropertyKey": "LblDetailedDescHeader",
+                    "propertyIndex": 17,
+                    "propertyKey": "LblDetailedDescHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Detailed Description Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ATTRIBUTE2",
+                    "group": "Product Details Bottom",
+                    "kuid": "a18470a086984040a0e4cfd26174d23b",
+                    "originalPropertyKey": "LblAttribute2Header",
+                    "propertyIndex": 17,
+                    "propertyKey": "LblAttribute2Header",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Attribute 2 Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknbtnf7f7faLatoRegular4f555dBorder1px8b96a5",
+                    "group": "Popup",
+                    "kuid": "a5ed70856ef241daa797e7703cb54786",
+                    "originalPropertyKey": "PopupButtonNoSkin",
+                    "propertyIndex": 17,
+                    "propertyKey": "PopupButtonNoSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Button No Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "NOTES",
+                    "group": "Product Details Top",
+                    "kuid": "f6e2b6760ae2455dac836734305a3ca0",
+                    "originalPropertyKey": "LblNotesHeader",
+                    "propertyIndex": 18,
+                    "propertyKey": "LblNotesHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Notes Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485C75LatoRegular13Px",
+                    "group": "Product Details Bottom",
+                    "kuid": "e418affbc73945e589e9186981a99ff3",
+                    "originalPropertyKey": "SegAttributeLabelSkin",
+                    "propertyIndex": 18,
+                    "propertyKey": "SegAttributeLabelSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Segment Attribute Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknbtnffffffLatoRegular4f555dBorder1px485c75",
+                    "group": "Popup",
+                    "kuid": "g32e7d7d3ba04a168861afb50c3ca692",
+                    "originalPropertyKey": "PopupButtonNoHoverSkin",
+                    "propertyIndex": 18,
+                    "propertyKey": "PopupButtonNoHoverSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Button No Hover Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "DISCLOSURE",
+                    "group": "Product Details Top",
+                    "kuid": "d0a127560b68484f9af40538a363501d",
+                    "originalPropertyKey": "LblDisclosureHeader",
+                    "propertyIndex": 19,
+                    "propertyKey": "LblDisclosureHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Disclosure Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "No additional attributes found.",
+                    "group": "Product Details Bottom",
+                    "kuid": "ad95304dd3d64fa79481f36f285da876",
+                    "originalPropertyKey": "NoAttributesText",
+                    "propertyIndex": 19,
+                    "propertyKey": "NoAttributesText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "No Attributes Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn003E75LatoRegular13pxFFFFFFRad20px",
+                    "group": "Popup",
+                    "kuid": "hd27c1e48011480981a36fd4955aea14",
+                    "originalPropertyKey": "PopupButtonYesSkin",
+                    "propertyIndex": 19,
+                    "propertyKey": "PopupButtonYesSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Button Yes Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "TERMS AND CONDITIONS",
+                    "group": "Product Details Top",
+                    "kuid": "hf442df24fb44533b0b389cc7a131d76",
+                    "originalPropertyKey": "LblTermsAndConditionsHeader",
+                    "propertyIndex": 20,
+                    "propertyKey": "LblTermsAndConditionsHeader",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Terms And Conditions Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn005198LatoRegular13pxFFFFFFRad20px",
+                    "group": "Popup",
+                    "kuid": "e14be973082845628d265ccde580c200",
+                    "originalPropertyKey": "PopupButtonYesHoverSkin",
+                    "propertyIndex": 20,
+                    "propertyKey": "PopupButtonYesHoverSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Button Yes Hover Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblLatoReg117eb013px",
+                    "group": "Product Details Top",
+                    "kuid": "he0b9cdba8674bc5ab5893211cb29f73",
+                    "originalPropertyKey": "ReadMoreSkin",
+                    "propertyIndex": 21,
+                    "propertyKey": "ReadMoreSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Read More Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Read More",
+                    "group": "Product Details Top",
+                    "kuid": "b7a58cc085e34c75aa2b2b63185c8c3f",
+                    "originalPropertyKey": "LblReadMore",
+                    "propertyIndex": 22,
+                    "propertyKey": "LblReadMore",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Read More",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g99b6c8fad974952a41bdb789fe08c2e",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.adminConsole.productManagement",
+    "version": "1.0.0"
+}

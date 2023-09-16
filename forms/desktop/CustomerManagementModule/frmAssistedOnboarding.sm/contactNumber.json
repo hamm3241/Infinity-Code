@@ -1,0 +1,140 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "contactNumber": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ff2ba46abdbc42369d734bac95bdc1a9",
+                "srcKUID": "ibc3e5b3edb84d259fd2067931a782e9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContactNumberWrapper": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dd6daddee4b6422f977b9c0c21634d85",
+                "srcKUID": "b758e1a12339403aa650221ca965e0a3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aee0bb7c5d5946a08c2db7d8178de26e",
+                "srcKUID": "d82fbddca9a54c57af6370deb63a1b7b",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "lblDash": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "haeea8ba4b2b46ca81db1ebfa89a529d",
+                "srcKUID": "e219e548a8294d4ca5a93959705c8968",
+                "wType": "Label"
+            }
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "af9807cdb264496999d7cc2b8f126f27",
+                "srcKUID": "ead8fe02893644c58598435384cbeebd",
+                "wType": "Label"
+            }
+        },
+        "lblErrorText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a04f77cda50f4bc099ac45a0ccff0f1c",
+                "srcKUID": "ab774d00a69e4ee9985202f915601945",
+                "wType": "Label"
+            }
+        },
+        "txtContactNumber": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g6d91df82b16451ea63413623a4a0bf4",
+                "srcKUID": "a248bc5d195649d9ba617e4df7f1da81",
+                "wType": "TextField"
+            },
+            "textInputMode": "A",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "130dp"
+                }
+            }
+        },
+        "txtISDCode": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef14254202474373930a2130e3efaea9",
+                "srcKUID": "b0b9033e30e247db83facee8c2040959",
+                "wType": "TextField"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "contactNumber",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ff2ba46abdbc42369d734bac95bdc1a9",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxPhoneNumberContainer",
+    "pf": "frmAssistedOnboarding",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ibc3e5b3edb84d259fd2067931a782e9",
+    "wType": "UserWidgetInstance"
+}

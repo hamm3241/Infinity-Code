@@ -1,0 +1,369 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s39233a8d65f40d5b9120e116f6d9ef6",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnPopUpCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cc67fd3b6e4a438fa6a3b50716344840",
+                "srcKUID": "jb66c253ecf241d5a38a7c9cbab2f267",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.PopUp.NoLeaveAsIS",
+            "minWidth": {
+                "Default": {
+                    "type": "number",
+                    "value": "81"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "20px"
+                }
+            },
+            "text": "NO",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "btnPopUpDelete": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a8d5c41eaa054543a4b653d9180caae7",
+                "srcKUID": "cb58b22a7667452eb318a31dde73b8f5",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.PopUp.YesDeactivate",
+            "minWidth": {
+                "Default": {
+                    "type": "string",
+                    "value": "83px"
+                }
+            },
+            "text": "Yes"
+        },
+        "flxDependencyActionCodeHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cbf1d2e68b224351850d2dffa13afbdd",
+                "srcKUID": "i9ddfd44308c42e7977ca889bb48f175",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyActionNameHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ccdf24e0c05f4aa79b32e502db4f0a83",
+                "srcKUID": "e1dbd0e5038446c198b1cd1df921973e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyFeatureNameHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j1721c44c93a46e88c79486ee64f009c",
+                "srcKUID": "c13ea4132e5d40a688aa760c2e1ba8bd",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e441d0e19ede4222a0ecd2e5877cfeb2",
+                "srcKUID": "aca4f81af9bc4e448cde8c5463d572e5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fda5f5395203470eb5f74431393647db",
+                "srcKUID": "b37250f9f63f4677bb55a13bec8279e5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e308dd21e10248d8a7239a5775e7cf83",
+                "srcKUID": "e97c7a76d35f4655be521a13b90a4d9c",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "flxDependencySegment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h0ca12710a594802857ca597c15c622c",
+                "srcKUID": "ce51f49c17a44eb58e2944e422834eb1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencySegmentHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b76c8ab237294f2faac9d4887e075788",
+                "srcKUID": "da9f6326b3784053bebb6857de46ee6d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyViewContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e99b6676dc384300b567c2e2f26e2ace",
+                "srcKUID": "d73c189da1db45008463fb957501f38a",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f9cba11537ca44e3b47acb32a6d11546",
+                "srcKUID": "e6216270f96c4f7d8ac20033cd80f4e2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cb62920c05854dd2831b3d3429f72fcc",
+                "srcKUID": "ad4aa75a27a6433d996568e82aec576c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef365f281b1242d585ec1c4abdd718ee",
+                "srcKUID": "d3432e3e00244cff9b6bfd392f838dad",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpTopColor": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c2dc1aec060e4f4682ddd5ef12914cbd",
+                "srcKUID": "a4757555cb1e44429898c9d6fd01fed9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopupHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e9823162961f41f0bf3e980093aed3a6",
+                "srcKUID": "j5cbe68e2b14479ab3f7e81c520c959f",
+                "wType": "FlexContainer"
+            }
+        },
+        "fontIconSortDependencyActionCode": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i3669f44651f4f17a5bdd9a2b4d0ba44",
+                "srcKUID": "c83625297e094efd93040e47df410569",
+                "wType": "Label"
+            }
+        },
+        "fontIconSortDependencyActionName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dde0d283b85944f38728feaf5673ba76",
+                "srcKUID": "i328897ddd9f448e978023c946365f75",
+                "wType": "Label"
+            }
+        },
+        "fontIconSortDependencyFeatureName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c68f10ab0c2f4ed685dbc8660809c6b1",
+                "srcKUID": "f001ef4dbe5146e7aa19bc108674c448",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyActionCodeHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i1adbaae0bf34e60a052af42839c4ebc",
+                "srcKUID": "a0850a1009774bc4bdbba02176aa1bdf",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyActionNameHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g8bd5ea2b7e74a84ad411e71b5059dae",
+                "srcKUID": "e13954b78bc240fa8d8a841bc2356977",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ed007b9d70d54369bbe5494eaf5f3742",
+                "srcKUID": "c22d93f2cd8443cead5c3141b79660f2",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyHeaderSeparator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gacdbd03167d413ab828bd355f1ad319",
+                "srcKUID": "j4ddb05949014448be05f82ffcd832ec",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d1dd9daeaf1d4866a6ea1a5287234a15",
+                "srcKUID": "b48c421d193649ecbce0c73dfa9c9a46",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyListNoResultsFound": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c44c7d0ca9104d399cf00c38198d6b77",
+                "srcKUID": "i8d433b2db984ad786e1611c14d8e10b",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyNameHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d391648512b948c2b8f643cca938bc32",
+                "srcKUID": "h9563c5ba4954e84ab6b930f513f70cb",
+                "wType": "Label"
+            }
+        },
+        "lblPopUpMainMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d96a30c6aac545f4bddc55335b8dfcd9",
+                "srcKUID": "bd2429502d234d2aa474223ffc9db0ca",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmUsersController.prop1155",
+            "text": "Deactivate User"
+        },
+        "lblPopupClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "iefcf96722a8422dbdf7ac953c98a1a5",
+                "srcKUID": "c8198072e0974262936aba7e2ee6505b",
+                "wType": "Label"
+            }
+        },
+        "lblSeparatorLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dee39ef00c75469c8d7696dff4bf2e88",
+                "srcKUID": "fb1fa46d66834302aada593571bf12dc",
+                "wType": "Label"
+            }
+        },
+        "lblSeperatorLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fdca24666e6442aca2e8d114734c9ad3",
+                "srcKUID": "h505e6998af44ff6999b3bf5638cd8fa",
+                "wType": "Label"
+            }
+        },
+        "popUp1": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "gd2bd71ebdb34b54b9ce52009977f09a",
+                "srcKUID": "ibfff9ef405b470eac1a81d74649265c",
+                "wType": "FlexContainer"
+            }
+        },
+        "rtxPopUpDisclaimer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j1aa3506adc54b999c30eb037f7ae2c1",
+                "srcKUID": "d2f8d6f352f44ec8929e278450906b94",
+                "wType": "RichText"
+            },
+            "i18n_text": "i18n.frmUsersController.prop1173",
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "text": "Are you sure to deactivate the user \"John Doe\"?<br><br>\nThe User has been assigned to a role. Deactivating this may impact the user’s ability to perform certain actions",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "93%"
+                }
+            }
+        },
+        "segDependencyList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b4ca86cd40994618a2511af419c91237",
+                "srcKUID": "f5402d32494c42da83e5ca392430fd6b",
+                "wType": "Segment"
+            }
+        }
+    },
+    "id": "popUp",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "gd2bd71ebdb34b54b9ce52009977f09a",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxDeactivateUser",
+    "pf": "frmUsers",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "ibfff9ef405b470eac1a81d74649265c",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

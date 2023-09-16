@@ -1,0 +1,31 @@
+{
+    "AS_UWI_bed5cd153f1a4711856e36f4df8fcdc7": {
+        "id": "AS_UWI_bed5cd153f1a4711856e36f4df8fcdc7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "context",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmCustomerProfileDeviceInfo",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d008542927d348e39f0442586c3181e2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i8f631fa24ed468d921f58da232700e7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "willUpdateUI",
+            "display": "willUpdateUI",
+            "inputparams": [{
+                "name": "context",
+                "value": "context"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

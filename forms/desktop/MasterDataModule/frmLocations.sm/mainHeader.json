@@ -1,0 +1,202 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "106px"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4886d30205846ce90dddbeb96d1d6ef",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnAddNewOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de4102c9cf314f4793ed5d64f9696722",
+                "srcKUID": "e99a5f8a6de448d59faf8a58411130cb",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmLocations.btnImport",
+            "text": ""
+        },
+        "btnDropdownList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "da0ca559ec6545f0ba052eeeac80e621",
+                "srcKUID": "dc57d5eed10b42518a9a478594b9e340",
+                "wType": "Button"
+            }
+        },
+        "flxAddNewOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b511153c41d6438e8fad8c0dc53db741",
+                "srcKUID": "d0540cd5bad7413ea77ea770eef3db3e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e71e8ddfd1d844d9928b556b1cade82a",
+                "srcKUID": "c1dcfe748d674c358a344f470b4e3a8c",
+                "wType": "FlexContainer"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "56px"
+                }
+            }
+        },
+        "flxDownload": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "efe478d5290d48c1af641848c546345e",
+                "srcKUID": "id4d918f3d3b4e6c88c49228217989ba",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDownloadList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e399057e827c4572b7e270561e787e12",
+                "srcKUID": "f2dfdbd537114521aeea8ef93ef7f7d8",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "flxHeaderSeperator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a261bb687f574d5ab763e84f8d3d6a9b",
+                "srcKUID": "hf5e752c3ce0488ca99b7c32fd589d3f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeaderUserOptions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bab93bb3a23c4ccda185ed2b8f05ff12",
+                "srcKUID": "b60f9fd2226e4969859c3603de862056",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMainHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b1339ebc4cd544f889455806075e34dd",
+                "srcKUID": "a87b4838e0064331b61e1507fb75bbfa",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgLogout": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fcc15fe238164b3ab69bb05697ad279e",
+                "srcKUID": "f5f8b512b5d44476a1e5417be2358316",
+                "wType": "Image"
+            },
+            "src": "img_logout.png"
+        },
+        "lblAddNewOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e47c3116e6c94bcfaa82c538e65f6096",
+                "srcKUID": "jb1f4ce0c0f5438caa03f270a7ffdd6e",
+                "wType": "Label"
+            }
+        },
+        "lblDownloadList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "je18708a143441baa2e88b4136a7846a",
+                "srcKUID": "h24d736240dd4b34b2f69bf43be4e6ab",
+                "wType": "Label"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "iace2628e0554fdeb798a52b8ec8f528",
+                "srcKUID": "a09fcf8b5ff446c9ab48f31d44ec0517",
+                "wType": "Label"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "lblIconDownload": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef601e09c0a849f8a29a881da34c32d5",
+                "srcKUID": "d9d2f52a773e43ccb08abda481b30be9",
+                "wType": "Label"
+            }
+        },
+        "lblUserName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f7c513a1d08b48d2bb4a0876b18f9e3a",
+                "srcKUID": "ba3b9b4d90434bb196a369e9086a936f",
+                "wType": "Label"
+            }
+        },
+        "mainHeader": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ada9aa71d6704e25a2450bf8b3a34f7b",
+                "srcKUID": "e24c30322ddf4521bbf00afd6c716dc1",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "mainHeader",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ada9aa71d6704e25a2450bf8b3a34f7b",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMainHeader",
+    "pf": "frmLocations",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "e24c30322ddf4521bbf00afd6c716dc1",
+    "wType": "UserWidgetInstance"
+}

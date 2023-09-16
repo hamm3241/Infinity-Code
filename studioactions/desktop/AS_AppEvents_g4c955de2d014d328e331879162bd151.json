@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_g4c955de2d014d328e331879162bd151": {
+        "id": "AS_AppEvents_g4c955de2d014d328e331879162bd151",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__aced478eb0a64d18996d70253d59de50",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var self = this;\nvar formID = eventobject.launchparams.formID;\nif (formID !== undefined) {\n  var paramsExists = formID.indexOf(\"?\");\n  if (paramsExists !== -1) {\n    var params = formID.substring(paramsExists + 1);\n    var qpExists = params.indexOf(\"qp=\");\n    if (qpExists !== -1) {\n\n      var qp = params.substring(qpExists + 3);\n      var authModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"AuthModule\");\n      authModule.presentationController.openResetPasswordForm({\"qp\": qp});\n    }\n  }\n}\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

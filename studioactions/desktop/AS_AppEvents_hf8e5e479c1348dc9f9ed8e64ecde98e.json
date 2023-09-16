@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_hf8e5e479c1348dc9f9ed8e64ecde98e": {
+        "id": "AS_AppEvents_hf8e5e479c1348dc9f9ed8e64ecde98e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cc4650a1dab74292a5300aaaa4c41339",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " loadCommonFiles(); \n var authModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"AuthModule\");\n clearCache();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

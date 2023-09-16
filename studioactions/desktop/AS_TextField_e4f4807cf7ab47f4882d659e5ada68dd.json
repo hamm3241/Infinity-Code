@@ -1,0 +1,30 @@
+{
+    "AS_TextField_e4f4807cf7ab47f4882d659e5ada68dd": {
+        "id": "AS_TextField_e4f4807cf7ab47f4882d659e5ada68dd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f4cd5627e421462da22ec6243c0f0e71",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onTouchSegModelOptions();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

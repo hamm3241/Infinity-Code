@@ -1,0 +1,20 @@
+{
+    "AS_TextField_e272a6b25d764816b930f511ad3df45e": {
+        "id": "AS_TextField_e272a6b25d764816b930f511ad3df45e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onEndEditing_ad53bbfd465e4e588e5968e9a28e575b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.validateNewPassword(this.view.txtNewPassword1.text);",
+            "callbackType": null
+        }]
+    }
+}

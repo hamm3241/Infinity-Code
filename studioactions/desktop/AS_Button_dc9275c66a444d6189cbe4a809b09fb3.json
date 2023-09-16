@@ -1,0 +1,21 @@
+{
+    "AS_Button_dc9275c66a444d6189cbe4a809b09fb3": {
+        "id": "AS_Button_dc9275c66a444d6189cbe4a809b09fb3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_i550c8519d204540b0e07a7b3f71cca6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayContactInfoOnGuestDashboardAfterSaving",
+            "display": "displayContactInfoOnGuestDashboardAfterSaving",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

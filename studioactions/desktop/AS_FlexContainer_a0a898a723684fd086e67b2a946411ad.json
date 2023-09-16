@@ -1,0 +1,19 @@
+{
+    "AS_FlexContainer_a0a898a723684fd086e67b2a946411ad": {
+        "id": "AS_FlexContainer_a0a898a723684fd086e67b2a946411ad",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f2d139b90b9c4048bb268e21d452ab96",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.executeOnParent(\"onClickOptions\");\nthis.executeOnParent(\"toggleContextualMenu\",65,85);"
+        }]
+    }
+}

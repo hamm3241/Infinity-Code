@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_h44f59d4f5964018a43ebc2d9a41961f": {
+        "id": "AS_FlexContainer_h44f59d4f5964018a43ebc2d9a41961f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hf5becefd9bc476eb3dee244bdab01b8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.startLoansGuestSimulation();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

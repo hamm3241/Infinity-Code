@@ -1,0 +1,27 @@
+{
+    "AS_Button_fa163d0f68044aaaa7f73ec7e3863105": {
+        "id": "AS_Button_fa163d0f68044aaaa7f73ec7e3863105",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segAddRole",
+            "type": "templates",
+            "platform": "",
+            "KUID": "b0cc259905f9480cb2271c9dc1b00b43"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e3c504a20c224c72a7769dce5bb5a520",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.addRole();\n//this.executeOnParent(\"addRoleRowInOptionsSelected\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

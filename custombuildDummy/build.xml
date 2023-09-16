@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CustomBuildTask" basedir=".">
+    <target name="postbuild"  description="post build for spa/desktopweb">
+    <osfamily property="os.family"/>
+        <echo message="Post Build Started for Project :: ${projname}" />
+        <!-- Code to generate protected artifact from chosen obfucator and replacing the existing webartifact -->
+        <!-- App Developer Code start -->
+
+        <if>
+    	<equals arg1="${os.family}" arg2="windows"/>
+    	<then>
+    		<exec executable="C:\Program Files\Git\git-bash.exe" failonerror="true">
+            <arg line="${project.loc}\custombuild\CustomObf.sh ${webartifactpath}" />
+            <redirector output="${basedir}\protected_ob.log" alwayslog="true"></redirector>
+        </exec>
+    	</then>
+    	<else>
+	        <exec executable="/bin/sh" failonerror="true">
+            <arg line="${project.loc}/custombuild/CustomObf.sh ${webartifactpath}" />
+            <redirector output="${basedir}/protected_ob.log" alwayslog="true"></redirector>
+        </exec>
+    	</else>
+    </if>	
+        
+        <!-- start error message code - to halt the system when any error occurs -->
+        <loadfile srcfile="${basedir}\protected_ob.log" property="errorline">
+            <filterchain>
+                <linecontains>
+                    <contains value="ERROR, UNEXPECTED EXCEPTION"></contains>
+                </linecontains>
+            </filterchain>
+        </loadfile>
+        <fail message="Unable to obfuscate - ${errorline}">
+            <condition>
+                <contains string="${errorline}" substring="ERROR, UNEXPECTED EXCEPTION"/>
+            </condition>
+        </fail>
+        <!-- error message Code end -->
+        <!-- replacing old artifact with protected artifact start-->
+        <!-- <move  file="${webartifactfolder}/${projname}.${webartifacttype}" tofile="${webartifactfolder}/${projname}-old.${webartifacttype}"/>
+        <move  file="${basedir}/protected_${projname}.${webartifacttype}" tofile="${webartifactfolder}/${projname}.${webartifacttype}"/> -->
+        <!-- replacing old artifact with protected artifact end-->
+        <!-- App Developer Code end -->
+    </target>
+</project>

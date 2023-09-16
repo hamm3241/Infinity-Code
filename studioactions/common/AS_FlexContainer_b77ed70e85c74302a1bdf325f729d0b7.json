@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_b77ed70e85c74302a1bdf325f729d0b7": {
+        "id": "AS_FlexContainer_b77ed70e85c74302a1bdf325f729d0b7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_je81f99fb6a9438da25b8feef6d4ea22",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ondeleteThirdIncome",
+            "display": "ondeleteThirdIncome",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

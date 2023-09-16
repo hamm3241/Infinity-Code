@@ -1,0 +1,36 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "PermissionsModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmPermissions": {
+                "Controller": "PermissionsModule/frmPermissionsController",
+                "ControllerExtensions": [
+                    "Pagination_FormExtn",
+					"downloadCSV_Extn",
+                    "Sorting_FormExtn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "AdminConsoleCommonUtilities",
+                    "TabUtil_FormExtn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleCommonUtilities"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "PermissionsModule/frmPermissions",
+                "friendlyName": "frmPermissions"
+            }
+        }
+    },
+    "ModuleName": "PermissionsModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "PermissionsModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

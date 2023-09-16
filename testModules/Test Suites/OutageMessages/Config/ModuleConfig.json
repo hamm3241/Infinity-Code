@@ -1,0 +1,35 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.presenter.getOutageMessages",
+      "CommandHandler": "TestCase_OutageMessages_getOutageMessages"
+    }, {
+      "CommandId": "testcase.presenter.getServicesView",
+      "CommandHandler": "TestCase_OutageMessages_getServicesView"
+    }, {
+      "CommandId": "testcase.presenter.getAddedData",
+      "CommandHandler": "TestCase_OutageMessages_getAddedData"
+    }, {
+      "CommandId": "testcase.presenter.editOutageMessage",
+      "CommandHandler": "TestCase_OutageMessages_EditOutageMessage"
+    }, {
+      "CommandId": "testcase.presenter.addOutageMessage",
+      "CommandHandler": "TestCase_OutageMessages_AddOutageMessage"
+    }, {
+      "CommandId": "testcase.presenter.updateStatusOutageMessage",
+      "CommandHandler": "TestCase_OutageMessages_UpdateStatusOutageMessage"
+    }, {
+      "CommandId": "testcase.presenter.deleteOutageMessage",
+      "CommandHandler": "TestCase_OutageMessages_DeleteOutageMessage"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

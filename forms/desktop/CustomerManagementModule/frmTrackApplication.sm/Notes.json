@@ -1,0 +1,249 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {
+        "render": true
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {
+        "render": true
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_responsiveData_": {},
+    "_skin_": "s002eff99f314a6ca6c1e855a9339351",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": "0dp",
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Notes": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d038b03905464e9f958bf3bc4fe63956",
+                "srcKUID": "655ab9f93d964f79a2d91e49a9b0d260",
+                "wType": "FlexContainer"
+            }
+        },
+        "addBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e426792dd08c4675be8292b66242957f",
+                "srcKUID": "bb297ee6d8f14666b71d4bbfff875bb7",
+                "wType": "Button"
+            }
+        },
+        "flxCloseNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c02e26be01a14a39b8d661a52dcae156",
+                "srcKUID": "d5241977a1f3449c8457c8be17a21996",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fb4c82bc1d9c41e899792425958d72be",
+                "srcKUID": "f517bd93838e41fab40b4dd0b3bd4215",
+                "wType": "FlexContainer"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "flxNotesHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e1ce044828df481699c1c2946159159d",
+                "srcKUID": "a0710e2d63b84ad58f36fbc6cab8851b",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxNotesSegment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ia72582f64264fcb890d1348cf86d98b",
+                "srcKUID": "f75b6813fb46480d98653db1764e2be1",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "imgCloseNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a21d8ecbc30742cb8143251021827ce4",
+                "srcKUID": "dce71c543d524f76bd71fd06ad621298",
+                "wType": "Image"
+            },
+            "src": "close_blue.png"
+        },
+        "lblNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c63f204369014067b11de8f520e93b88",
+                "srcKUID": "g6698350090a44249e44975428fe2631",
+                "wType": "Label"
+            }
+        },
+        "lblNotesSize": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f27ed0ecbe4249e680ab9abd27c186ea",
+                "srcKUID": "j86e28804b0d4dfa9b3d3e982ab1f626",
+                "wType": "Label"
+            }
+        },
+        "rtxMsgNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g12ebfb6d10146cb83211e8cd4234363",
+                "srcKUID": "d0899cfa28d44e4e9a826999fbd05107",
+                "wType": "RichText"
+            }
+        },
+        "segNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b38ecdd2ec0248a99f5f0f9152793427",
+                "srcKUID": "d31089bbee204a1db1ff801c87989086",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    [
+                        {
+                            "fonticonArrow": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "imgArrow": {
+                                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                "src": "img_down_arrow.png"
+                            },
+                            "lblDate": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "October 21, 2017"
+                            }
+                        },
+                        [
+                            {
+                                "imgUser": {
+                                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                    "src": "option3.png"
+                                },
+                                "lblTime": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": " 6:46 am"
+                                },
+                                "lblUserName": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": "John Doe"
+                                },
+                                "rtxNotesDescription": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                }
+                            },
+                            {
+                                "imgUser": {
+                                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                    "src": "option3.png"
+                                },
+                                "lblTime": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": " 6:46 am"
+                                },
+                                "lblUserName": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": "John Doe"
+                                },
+                                "rtxNotesDescription": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        },
+        "txtAreaNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f96341ded5e9418db968b1e2a2793962",
+                "srcKUID": "e94c92e3de2043f5a907e8edd7941a33",
+                "wType": "TextArea"
+            }
+        }
+    },
+    "id": "Notes",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "d038b03905464e9f958bf3bc4fe63956",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxNote",
+    "pf": "frmTrackApplication",
+    "snaptogrid": true,
+    "sourceUserWidget": "655ab9f93d964f79a2d91e49a9b0d260",
+    "vizprops": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "UserWidgetInstance"
+}

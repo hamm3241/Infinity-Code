@@ -1,0 +1,27 @@
+{
+    "AS_TextField_a4f02cb0805d4fd2a83a27d69585f181": {
+        "id": "AS_TextField_a4f02cb0805d4fd2a83a27d69585f181",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef96bb3c9d2a44059e8d20563a5bbe4b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fe710c81bf334cc3be9adf8e3eebee25",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxErrorAlert.isVisible=false;\nthis.view.flxTimeExpired.isVisible=false;\nthis.view.lblPasswordErrorMsg.isVisible=false;\nthis.view.txtPassword.skin='skinPasswordLogin';",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

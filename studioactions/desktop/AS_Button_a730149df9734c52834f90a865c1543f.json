@@ -1,0 +1,28 @@
+{
+    "AS_Button_a730149df9734c52834f90a865c1543f": {
+        "id": "AS_Button_a730149df9734c52834f90a865c1543f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i01045e1e48f4ec4ad6a5d0355defcdf",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayContactInfoOnGuestDashboardAfterSaving",
+            "display": "displayContactInfoOnGuestDashboardAfterSaving",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

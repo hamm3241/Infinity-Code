@@ -1,0 +1,24 @@
+{
+    "AS_TextField_e8c388d96b1544f1a7586083433ea064": {
+        "id": "AS_TextField_e8c388d96b1544f1a7586083433ea064",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRoles",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed49d022d9444ea5ab8531521040fd7e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__af667e2924924e86b08df059fc7b48c6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.searchFromList();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

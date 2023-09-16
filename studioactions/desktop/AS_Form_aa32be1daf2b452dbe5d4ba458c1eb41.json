@@ -1,0 +1,30 @@
+{
+    "AS_Form_aa32be1daf2b452dbe5d4ba458c1eb41": {
+        "id": "AS_Form_aa32be1daf2b452dbe5d4ba458c1eb41",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLogs",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e06f110de9804a77ba6e1ea8eee6b81f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f77e65d2ed6e46a6b12643056a962a99",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxbreadcrumbList.setVisibility(false);\nthis.view.flxTypesList.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

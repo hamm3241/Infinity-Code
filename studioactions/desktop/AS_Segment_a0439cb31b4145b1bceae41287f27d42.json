@@ -1,0 +1,30 @@
+{
+    "AS_Segment_a0439cb31b4145b1bceae41287f27d42": {
+        "id": "AS_Segment_a0439cb31b4145b1bceae41287f27d42",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmPermissions",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eff2add8f99c4151bcc345f1c2ae5bfd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__eaa25d0c84704a1793639e2236862256",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showViewRoleSegmentAndPermissionHeader();\nthis.setPermissionsDataOnRowClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

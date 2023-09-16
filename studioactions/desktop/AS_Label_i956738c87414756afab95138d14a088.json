@@ -1,0 +1,30 @@
+{
+    "AS_Label_i956738c87414756afab95138d14a088": {
+        "id": "AS_Label_i956738c87414756afab95138d14a088",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a733b736362942f5a6d97aa59bb082d8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxEligibilityCheck.isVisible=true;\nthis.view.rbgResponse.selectedKey=null;\nthis.view.FlxResponseMsg.isVisible=false;\nthis.view.flxErrorMsgMEC.isVisible=false;\nthis.view.forceLayout();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Segment_e500cd8176d941ed8e4584fa2138fa68": {
+        "id": "AS_Segment_e500cd8176d941ed8e4584fa2138fa68",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h3c72f89cd0149f0bd902938f91cbb47",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.simulationResultSelected();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

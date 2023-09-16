@@ -1,0 +1,968 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxAddressCity": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fbb815c0cb3b4064b7c7d280a020ca99",
+                "srcKUID": "e6d170d15b584a1ab73d9df3e6330acc",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddressCountry": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e8fc7c27c669447a8f029edefb6a093c",
+                "srcKUID": "j508fe93599d48aba26c777c00dfa82e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddressCountryDtls": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j4f651eb0eb64e5db8a1946dfe6914b6",
+                "srcKUID": "eba5952392d045baa7ba3eb512f11070",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddressLine1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d59634bd64d84def877a1d38ec82c877",
+                "srcKUID": "c283b693ff8644c1b4ca01342acec2b8",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddressLine2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b7a234002194467e912f5c2357c396c7",
+                "srcKUID": "b60243b43ea6422396a37cdae75fb1ad",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddressState": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bdfc463784a34e8ea0586067f489922b",
+                "srcKUID": "j7cd4250ad98441cbb291b2eb36d25a1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddressZip": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h4f436adcf3b48b2b8fc20e06a5c7e8f",
+                "srcKUID": "f49dc249262044c38de21ba93c460e4a",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddressZipCode": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f4a1015609ec4e42a1a4d61f14a3385c",
+                "srcKUID": "c822e900d2d84790a2f10dd0b4060885",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDescription": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e359249fe34542de96c82032c073b801",
+                "srcKUID": "f107657990aa4aef9546740edfea5ee6",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDesignation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b20ba0e7e8bb4e10a3b6809800996b1e",
+                "srcKUID": "i0214376734a45b9b7af6592d04c7b5e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDesignationMilitary": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b8468414a4f24052b413e9c48037c011",
+                "srcKUID": "d4850aa33afc483cb729303645b0605a",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEmpStartDateMilitary": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h8f315dda7b34ca68c92372e246903af",
+                "srcKUID": "iadbc91c89f848098906fedf6ce1c172",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEmpType": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b671d71b52e44c2a9d3ea45d7f3d36d1",
+                "srcKUID": "gc34ab1e8dc649a686e8598672635926",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEmployerDtls": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gefceb5cc9ee4fd09be31d2afa746435",
+                "srcKUID": "f9f610f28bfc4f6d94f96e98f1cc0ea3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEmployerInfo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dedbd0ba3a044158ab4af50aa732427c",
+                "srcKUID": "fc3c7b45f3214a0ca9aaf74c8b5ad3f3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEmployerName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a99bbd51ee184c32a027fcbff8d93031",
+                "srcKUID": "gb8cee89c5574c13b767fd178f513a8d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxGrossIncome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j81838a462904774a43fa9f05ce23078",
+                "srcKUID": "h229e5db3fd44138900c11219716035f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxGrossIncomeMilitary": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e9c4d022cb314cbc9f4a9ac38ec14b63",
+                "srcKUID": "d4ae69d00bd744d09dd33291336282be",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxGrossIncomeOther": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cc8d0af827604da18e025479102a8889",
+                "srcKUID": "fc87d82f144e498cafe7a29b26214e86",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxOtherEmp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g77f00f3b73c4ed7aa43e852d9429628",
+                "srcKUID": "f0403535726b424bb05d765c7d3637d0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxOtherRow2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a93e18cd4a334786bd7861caad316f0b",
+                "srcKUID": "df36cbe725f3442cb6f212607f54bb9c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPayPeriod": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fff5819ae17e4482bc0bb9e043292320",
+                "srcKUID": "bf3f9a4709294449b526d8af45c05618",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPayPeriodOther": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a60122e771e449aab753794e8dea3e73",
+                "srcKUID": "ae3646f7dfde4527b6cd4ff943810037",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPresentEmployment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ea97e890dd8e41d593d8b4a508a12139",
+                "srcKUID": "de272542f707443b8882058706a99265",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevAddressCity": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aca56d84ab864c62811f147659f0eac7",
+                "srcKUID": "jf1698823da34c959736e3c3373eb18a",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevAddressCountry": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "daef9a7f1c0340649c35b26c10739812",
+                "srcKUID": "cc29b142a05742b5bdfdf9fa5d13e0ef",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevAddressCountryDtls": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j3bea3bf5b4c48c3acc077ac1225bb85",
+                "srcKUID": "e11d7b56f9474f529a245c3e1b2e3817",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevAddressLine1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c4e8b46b0e0f4533a6b0c37438b81c01",
+                "srcKUID": "h804eef8584a4169b155395347a1097d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevAddressLine2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b833cfdeca084f538eb8c8939415bbf5",
+                "srcKUID": "ad326b8f11fe42b59f128cd7db481143",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevAddressState": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i6884214d8f44fe88197be739d2f7171",
+                "srcKUID": "ed919be50bb7466fa839ceaeb234c5d0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevAddressZip": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "df0a64d494534b39a32fa2113f93a7e3",
+                "srcKUID": "fe3fe5864839426f81d5f4bf1adfddc5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevAddressZipCode": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b119e1901d14486d82bbbe54766d286c",
+                "srcKUID": "c20963c322884a80a6c2c0992a7c09ad",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevDesignation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f941822e02a2471faa68193f4bfec45f",
+                "srcKUID": "ff71506cc8ba4374a239c0fc4e9276bd",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevEmployerDtls": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ed1337e474794fab8b5d6664129729ca",
+                "srcKUID": "i37434aaf1be4b4e8ec1352a6e08a447",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevEmployerName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b2b3fb9929094b42bc7c3cc252ff6022",
+                "srcKUID": "a81e6adbc59544119d5beb1324418f01",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPrevRow1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fdeb5f526e5b4f9382e01f3eb8bd8424",
+                "srcKUID": "d054bd59f6d94dffacbb2ba739420c3e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPreviousEmpDtls": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d917adc3733a418ca61739b0a11dd9ca",
+                "srcKUID": "j24e49d9797d4da4b3b3c63d73050d79",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPreviousEmployer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de5fe1a695774523b25ee554ffb3fcf1",
+                "srcKUID": "a4a62f03834e41afbb3753e2005beda3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRow1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j2797e5e3f9343709cac832804446e73",
+                "srcKUID": "jcbe9a28d251407581f030a37e1d2844",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRow2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f0393782d6c84b779087ceec9798a931",
+                "srcKUID": "id1244dbca0b444ea7d66f642e0386e2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRowMilitary": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b4d30e62544049ab94c1a556f64e5272",
+                "srcKUID": "g51882f8f42447de8bccecf280fc75d9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxStartDate": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e50c83c1e9e44ec1a6339a74d77f8b52",
+                "srcKUID": "b1969f010beb4dad8bbbaf58cc8472c6",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxTotalWorkingHrs": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i98514328b8f46aca81cb595cb3e585d",
+                "srcKUID": "ba40817ffb95497d9ba5d8c194f06548",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblAddress1Country": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e51bcd94e8e84b868ad134b20f7a9687",
+                "srcKUID": "i7749f741f154a08b1c497cc7a22adae",
+                "wType": "Label"
+            }
+        },
+        "lblAddressCity": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f99d2fd5a2ad49aa98a712d0f6040cf2",
+                "srcKUID": "c7eebcba6fc34b59922158c8f9148bcc",
+                "wType": "Label"
+            }
+        },
+        "lblAddressLine1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "deedc23c53c0428e92ba44486b93e643",
+                "srcKUID": "j4a542cb72284846b6d6c2e95faebca7",
+                "wType": "Label"
+            }
+        },
+        "lblAddressLine1Value": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c1284cec330c405c986c6ed6e0f17c56",
+                "srcKUID": "b9413549ae4b459193818be29d719419",
+                "wType": "Label"
+            }
+        },
+        "lblAddressLine2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a3bdd2b38d514ffaa2b9737cf2889506",
+                "srcKUID": "d9b4b1dc89bb4651a4220128a42a317c",
+                "wType": "Label"
+            }
+        },
+        "lblAddressLine2Value": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c2eba95eee5f4652a009cafc68ce39b8",
+                "srcKUID": "hca0491979c7478382d744d9cd4f521c",
+                "wType": "Label"
+            }
+        },
+        "lblAddressState": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e70678fb2669452cbd7ed02639a8a90f",
+                "srcKUID": "ba63e43742794349b0f44aa3c44258a7",
+                "wType": "Label"
+            }
+        },
+        "lblAddressZipCode": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b2e622fc2b3a414481b3e574f9e188e8",
+                "srcKUID": "d679fda5683c43d79992fe371ae70019",
+                "wType": "Label"
+            }
+        },
+        "lblCityValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b41ebd0391e543eb818d78e998ae56af",
+                "srcKUID": "a44c978f8b444dc4998bbf65ac97cf25",
+                "wType": "Label"
+            }
+        },
+        "lblCountryValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g456e7f9820b4616ba4def330764e48e",
+                "srcKUID": "d8bc2bf5dec54ff3a45c70c1dede882f",
+                "wType": "Label"
+            }
+        },
+        "lblDescription": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bf6df0dfb5954bd4845e837a827f5263",
+                "srcKUID": "edce20746c4241be8783868fe76c0e51",
+                "wType": "Label"
+            }
+        },
+        "lblDescriptionValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef33479c80034ace975cea94ca8600a2",
+                "srcKUID": "b820347f2714453a8202c17baaf54dca",
+                "wType": "Label"
+            }
+        },
+        "lblDesignation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a37cbea6d96545be88fa102308811128",
+                "srcKUID": "d081a376699f4e95b55627e4b4505e8f",
+                "wType": "Label"
+            }
+        },
+        "lblDesignationMilitary": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j1ec8af9732d485ea8d65e8050d21cca",
+                "srcKUID": "j9a1fc67fa8e41dd82344e16e3d13d46",
+                "wType": "Label"
+            }
+        },
+        "lblDesignationValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a13629a856e643a7ba4113707cb57b34",
+                "srcKUID": "a7427da84cd14022af6644fb379fdb7f",
+                "wType": "Label"
+            }
+        },
+        "lblDesignationValueMilitary": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i0b6798cdeff4c79bd89710e7c380db7",
+                "srcKUID": "ce51d5c03af44f02b1aa3748c60bf19f",
+                "wType": "Label"
+            }
+        },
+        "lblEmpType": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hcfe596d8c9d40d8a9f8843d6f869255",
+                "srcKUID": "ea3491b709da4e48b09c2e87e722eabb",
+                "wType": "Label"
+            }
+        },
+        "lblEmpTypeValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b892526cbc014beaa290a3a638be7b51",
+                "srcKUID": "ee79391dfd1746b8ad4769479dd4f3a8",
+                "wType": "Label"
+            }
+        },
+        "lblEmployerName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hf71a6e0199d410b95046190c0dc8e8c",
+                "srcKUID": "f104c91f358146c5a7e8c82be3294911",
+                "wType": "Label"
+            }
+        },
+        "lblEmployerNameValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jc66ed12e0be43bead03cfa00c25f874",
+                "srcKUID": "b44238f0d4a14a5aa67cfe63c39d2b01",
+                "wType": "Label"
+            }
+        },
+        "lblGrossIncome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c4b83504b6824b18b7c7decef7f541a1",
+                "srcKUID": "aa829f5234dc405a88f8f23366df94f3",
+                "wType": "Label"
+            }
+        },
+        "lblGrossIncomeMilitary": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ea492d12a13948318f3ea08ae5e2fd53",
+                "srcKUID": "d64e599f686d4dc68837ca3971051e3b",
+                "wType": "Label"
+            }
+        },
+        "lblGrossIncomeMilitaryValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a67ec56930f64d73b56d594a7e4c0f5a",
+                "srcKUID": "bd186d3ff1da4fab9b3183935ab18131",
+                "wType": "Label"
+            }
+        },
+        "lblGrossIncomeOther": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e7f685621e2e4174a2fd6ad8d9cadde9",
+                "srcKUID": "hd8ddfe81171471aa3e7a10650681834",
+                "wType": "Label"
+            }
+        },
+        "lblGrossIncomeOtherValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g0a758251b49462ea7c51fc2b1ccf866",
+                "srcKUID": "ib4b46f11c684a74b658511dcf25d1cc",
+                "wType": "Label"
+            }
+        },
+        "lblGrossIncomeValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a263d6aef7ae4f54b6283588efb66341",
+                "srcKUID": "f24adefc33814fd3b0635802e01b5e2b",
+                "wType": "Label"
+            }
+        },
+        "lblPayPeriod": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aecfd29f68f44ac09e76378bb12c1d68",
+                "srcKUID": "ad0459bfd5274a2a82a99a5c4e11e921",
+                "wType": "Label"
+            }
+        },
+        "lblPayPeriodOther": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ecd181287ba3468c9fd00a867536cf9d",
+                "srcKUID": "d5cdfee9bdcc4c1b95a14b3ba24619fd",
+                "wType": "Label"
+            }
+        },
+        "lblPayPeriodOtherValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d8fc1add4f074e8ca96b61cc526fa17f",
+                "srcKUID": "a161f13fc85846ba9733431f899bfa2b",
+                "wType": "Label"
+            }
+        },
+        "lblPayPeriodValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g5c81dddb76a4ab095926f2b762bc1bb",
+                "srcKUID": "b3d7c104bfa9405ead2cacc55406d613",
+                "wType": "Label"
+            }
+        },
+        "lblPrevAddress1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h277ab1d7cb249f9aa44c42c1b39b0ef",
+                "srcKUID": "cf27bcee166a4f3c8b9eca32fee4ea45",
+                "wType": "Label"
+            }
+        },
+        "lblPrevAddressCity": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "da70a95a464646e894268a3be360dc1b",
+                "srcKUID": "b4a9752992494150ab82e0414b82f09a",
+                "wType": "Label"
+            }
+        },
+        "lblPrevAddressLine1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ee020c8772954aecba8ab39a58678ff3",
+                "srcKUID": "e863f82318b2412da816e834b23b166b",
+                "wType": "Label"
+            }
+        },
+        "lblPrevAddressLine1Value": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d73fad44dca842b6ba8ef87ee66d61f0",
+                "srcKUID": "a3fb080a08f44f0597106069e9330d6f",
+                "wType": "Label"
+            }
+        },
+        "lblPrevAddressLine2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gf9cae2c776c437aad8f6257c75e63b1",
+                "srcKUID": "db606ea94f88450faa997c2e96293b1a",
+                "wType": "Label"
+            }
+        },
+        "lblPrevAddressLine2Value": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d58bc3e344924dc2895e4ff05a829ed5",
+                "srcKUID": "c05a68c427f84dedaedab8dcd52b76a7",
+                "wType": "Label"
+            }
+        },
+        "lblPrevAddressState": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a2f6e914a6634b83ab9c367074b04c64",
+                "srcKUID": "e63cbde44b514ea79e8d34792ba90486",
+                "wType": "Label"
+            }
+        },
+        "lblPrevAddressZipCode": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eab3e9e4082646e6b8e2ac4249ec9a97",
+                "srcKUID": "j11013578df94499a26fc6f180075e44",
+                "wType": "Label"
+            }
+        },
+        "lblPrevCityValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h68ba832c13341dcb355aa3def0f56a1",
+                "srcKUID": "g67abcd08d6242288602ad1a1fd22e0b",
+                "wType": "Label"
+            }
+        },
+        "lblPrevCountryValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gecfdce4d64f4d2c8ed7d3e47048eb4b",
+                "srcKUID": "cf70b59894b54d53aeba34ad4010caa2",
+                "wType": "Label"
+            }
+        },
+        "lblPrevDesignation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bfb29c1831ec4ea8b9a82f72f9f2d566",
+                "srcKUID": "g3bb3cda5a364867944288c068808844",
+                "wType": "Label"
+            }
+        },
+        "lblPrevDesignationValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i0105eef2a4343e4ade05b30c43b92f6",
+                "srcKUID": "c0c016e514334dd69941e7019c72e128",
+                "wType": "Label"
+            }
+        },
+        "lblPrevEmployerName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e07540bc18a04c8bbb939914583c678c",
+                "srcKUID": "gd261df9b48d46bd8b084504efeb15af",
+                "wType": "Label"
+            }
+        },
+        "lblPrevEmployerNameValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ib1711753e784bba951c760e6961cd85",
+                "srcKUID": "h5c1cd614df34a4a98e0c2a95775c411",
+                "wType": "Label"
+            }
+        },
+        "lblPrevStateValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jeaf8a8fff4b4de69a90430a83dab1f1",
+                "srcKUID": "da80f106d0b6403cb29c9d90d8310496",
+                "wType": "Label"
+            }
+        },
+        "lblPrevZipCodeValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ad558254fb774dc9ba25af1a83a56b93",
+                "srcKUID": "c4f269f0bbb844e5b9ba3d921798d100",
+                "wType": "Label"
+            }
+        },
+        "lblPreviousEmp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dacd37715a1b47cd99a317488fbe63e9",
+                "srcKUID": "adb1c94528ef4f479be4ce31068241bc",
+                "wType": "Label"
+            }
+        },
+        "lblPreviousEmpValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "abfe6bc45638451c94c2133763a050ef",
+                "srcKUID": "h7257a6eb557464a99a60df3b1a78b92",
+                "wType": "Label"
+            }
+        },
+        "lblStartDate": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aeab8a550c4c4dd488ba231f6b03c1af",
+                "srcKUID": "d6da2889bba84589acfaca58319c58b1",
+                "wType": "Label"
+            }
+        },
+        "lblStartDateMilitary": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ife7b7e332ef464ab03951eeb6252f3e",
+                "srcKUID": "a1a9e83e439e4c13b5cdd88b7f8dad10",
+                "wType": "Label"
+            }
+        },
+        "lblStartDateMilitaryValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hc479ba191b9471bb170074f490d3e70",
+                "srcKUID": "d2e36ccec5654daba3b65b9960bd859c",
+                "wType": "Label"
+            }
+        },
+        "lblStartDateValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bda0d1ba897f48d5a8f521395517db75",
+                "srcKUID": "f8d8ea1ab4b643bb8012a6341ce0b22b",
+                "wType": "Label"
+            }
+        },
+        "lblStateValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e17ee0fa2c6c4c8e9e637152e606264b",
+                "srcKUID": "a0882af3cd7646ecaefc40b68c6463dd",
+                "wType": "Label"
+            }
+        },
+        "lblTotalWorkingHrs": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d75dd30ca72740b29869330748c2f7a0",
+                "srcKUID": "d7250b9a34c34f1eacd945e81c316ec6",
+                "wType": "Label"
+            }
+        },
+        "lblTotalWorkingHrsValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b19d67d68ad349069754632f3b1c04e2",
+                "srcKUID": "c6d06c16f39c488c894f06c543e540bf",
+                "wType": "Label"
+            }
+        },
+        "lblZipCodeValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ae13465ed9ed4a0eb6778491370ea23c",
+                "srcKUID": "c349c529450049d2ba7957a14d46562c",
+                "wType": "Label"
+            }
+        },
+        "loansSectionHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b1fbda28912e448aa75aca6d605bb854",
+                "srcKUID": "gdc55734f9674149a0981da2108dcef6",
+                "wType": "UserWidgetInstance"
+            }
+        },
+        "loansSectionHeader.btnEdit": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c27739dd039c452cacde1639bdc20e70",
+                "srcKUID": "hfb3afd984864c7fa7a4507e1992cd8a",
+                "wType": "Button"
+            }
+        },
+        "loansSectionHeader.flxSectionHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ja6ac5f84b5845008e849a596e9da285",
+                "srcKUID": "fe4657539ee04d38a573dc5cb4c98198",
+                "wType": "FlexContainer"
+            }
+        },
+        "loansSectionHeader.lblSectionHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i5a3d710d2414717a368a0d47ff98d72",
+                "srcKUID": "iffa48a1596c47b7b15e1bafae805b68",
+                "wType": "Label"
+            }
+        },
+        "loansSectionHeader.lblSeparator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ecfa727668964528b29e21fa05167fe3",
+                "srcKUID": "g4254066e6af430bb0295474e8e5dc4c",
+                "wType": "Label"
+            }
+        },
+        "loansSectionHeader1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f05b4bd1a23f42d6928f443898e01497",
+                "srcKUID": "cb0701047d91407084a4a768cbcc1105",
+                "wType": "UserWidgetInstance"
+            }
+        },
+        "loansSectionHeader1.btnEdit": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i408f942769e4c6a849ae44e2cf6e6c1",
+                "srcKUID": "a8cdbdbf227846c49f3fcc5e10c7a1db",
+                "wType": "Button"
+            }
+        },
+        "loansSectionHeader1.flxSectionHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f7fa892bc5644f6aab7d8da4015b2b98",
+                "srcKUID": "je741f2b4e744df0a7131c57786dd9d9",
+                "wType": "FlexContainer"
+            }
+        },
+        "loansSectionHeader1.lblSectionHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef085f59fb8d42fb8436fb9d275d927f",
+                "srcKUID": "cad2b0580b2b4e0c98d49a87f23f5c8e",
+                "wType": "Label"
+            }
+        },
+        "loansSectionHeader1.lblSeparator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a763b93ed9b947daa7d33ada5f3fade5",
+                "srcKUID": "bc30275c95464df5b3237cfe27739949",
+                "wType": "Label"
+            }
+        },
+        "viewEmployerDetails": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "gd842734399a4272af0ff910824d6164",
+                "srcKUID": "iba0e04e3696450d81e00efd12a47619",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "viewEmployerDetails",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "gd842734399a4272af0ff910824d6164",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "viewApplicantDetails",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "iba0e04e3696450d81e00efd12a47619",
+    "wType": "UserWidgetInstance"
+}

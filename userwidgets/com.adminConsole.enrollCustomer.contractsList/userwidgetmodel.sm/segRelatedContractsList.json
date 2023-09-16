@@ -1,0 +1,158 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "imgCheckbox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "imgSectionCheckbox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblContractAddress": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblContractId": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblContractName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblSeperator": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            }
+        ],
+        "rowTemplateId": "f0edbc54159541a184073eac4c07d6c5",
+        "rowtemplate": "Flex0h670b8ccd0d644",
+        "widgetdatamap": {
+            "flxCheckbox": "flxCheckbox",
+            "flxEnrollCustomerContractList": "flxEnrollCustomerContractList",
+            "flxSectionCheckbox": "flxSectionCheckbox",
+            "imgCheckbox": "imgCheckbox",
+            "imgSectionCheckbox": "imgSectionCheckbox",
+            "lblContractAddress": "lblContractAddress",
+            "lblContractId": "lblContractId",
+            "lblContractName": "lblContractName",
+            "lblSeperator": "lblSeperator"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segRelatedContractsList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j6e5c18c1259441ab49b7a70742715a9",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxBottomContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": "Flex0h670b8ccd0d644",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCheckbox": "flxCheckbox",
+        "flxEnrollCustomerContractList": "flxEnrollCustomerContractList",
+        "flxSectionCheckbox": "flxSectionCheckbox",
+        "imgCheckbox": "imgCheckbox",
+        "imgSectionCheckbox": "imgSectionCheckbox",
+        "lblContractAddress": "lblContractAddress",
+        "lblContractId": "lblContractId",
+        "lblContractName": "lblContractName",
+        "lblSeperator": "lblSeperator"
+    }
+}

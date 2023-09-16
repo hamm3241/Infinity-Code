@@ -1,0 +1,23 @@
+{
+    "AS_Form_e625a91a850a4fc1b0bf212b8edc7ca3": {
+        "id": "AS_Form_e625a91a850a4fc1b0bf212b8edc7ca3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmViewPermissions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "abe59b77afba4cf989f7ad71c7861109"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_cbc2041a7f304893b9bd78cdb0254d1a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.permissionPreShow();",
+            "callbackType": null
+        }]
+    }
+}

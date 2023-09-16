@@ -1,0 +1,30 @@
+{
+    "AS_RichText_h5497745e2d2497fa4ff628fbdb9cf6d": {
+        "id": "AS_RichText_h5497745e2d2497fa4ff628fbdb9cf6d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "linktext"
+        }, {
+            "datatype": "string",
+            "name": "attributes"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef96bb3c9d2a44059e8d20563a5bbe4b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ad6a3c23967445858e3810b04d655e49",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " this.presenter.showErrorLoginScreen({\n            action: \"forgotEmail\"\n        });",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

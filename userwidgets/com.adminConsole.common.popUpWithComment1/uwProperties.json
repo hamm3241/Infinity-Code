@@ -1,0 +1,129 @@
+{
+    "classname": "popUpWithComment1",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bb34e8f2322944aa93ee6b6c4bf93a6e",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onBtnNoClick",
+                    "pw": {
+                        "displayName": "onBtnNoClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e992e38cd7eb4fb7ad1fa2f68b40d1c2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "haf9031fa44a4be1967211764352994d",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onBtnYesClick",
+                    "pw": {
+                        "displayName": "onBtnYesClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e992e38cd7eb4fb7ad1fa2f68b40d1c2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c18fb042a1144a82940e3c86131598d2",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onCloseClick",
+                    "pw": {
+                        "displayName": "onCloseClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e992e38cd7eb4fb7ad1fa2f68b40d1c2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 150,
+                    "group": "General",
+                    "kuid": "h7b14696ad8c41cba8206f89e65b8507",
+                    "originalPropertyKey": "maxTextAreaLimit",
+                    "propertyIndex": 1,
+                    "propertyKey": "maxTextAreaLimit",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Max Text Limit",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "e992e38cd7eb4fb7ad1fa2f68b40d1c2",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "dfe22fb1ee3645d8abbd9e721eddf053",
+                    "originalPropertyKey": "heading",
+                    "propertyIndex": 2,
+                    "propertyKey": "heading",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Heading",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e992e38cd7eb4fb7ad1fa2f68b40d1c2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "b41afdef2c794752823abffd06d29613",
+                    "originalPropertyKey": "subheading",
+                    "propertyIndex": 3,
+                    "propertyKey": "subheading",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Sub Heading",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e992e38cd7eb4fb7ad1fa2f68b40d1c2",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.adminConsole.common",
+    "version": "1.0.0"
+}

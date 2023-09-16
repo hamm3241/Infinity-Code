@@ -1,0 +1,41 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.command.login.datadriven",
+      "CommandHandler": "TestCase_Auth_doLogin_DataDriven"
+    }, {
+      "CommandId": "testcase.command.login.successflow",
+      "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.login.inCorrectUserName",
+      "CommandHandler": "TestCase_Auth_doLogin_IncorrectUserName"
+    }, {
+      "CommandId": "testcase.command.fetchAllFAQ",
+      "CommandHandler": "TestCase_FAQ_fetchAllFAQ_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.fetchFAQCategories",
+      "CommandHandler": "TestCase_FAQ_fetchFAQCategories_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.updateFAQ",
+      "CommandHandler": "TestCase_FAQ_updateFAQ_CommandHandler"
+    }, {
+      "CommandId": "testcase.presenter.getFAQs",
+      "CommandHandler": "TestCase_FAQS_getFAQs"
+    }, {
+      "CommandId": "testcase.presenter.editFAQs",
+      "CommandHandler": "TestCase_FAQS_editFAQs"
+    }, {
+      "CommandId": "testcase.presenter.getFAQCategories",
+      "CommandHandler": "TestCase_FAQS_getFAQCategories"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

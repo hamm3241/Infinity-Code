@@ -1,0 +1,24 @@
+{
+    "AS_Form_f0882d29980c4ee19b28ebde8ad1bff0": {
+        "id": "AS_Form_f0882d29980c4ee19b28ebde8ad1bff0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerProfileEntitlements",
+            "type": "forms",
+            "platform": null,
+            "KUID": "adc5bdfaf6374569b61ba623b0f77f6e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e1e6e8a4616f45b29571e5429762eee8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.CustomerProfileFeaturesPreshow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

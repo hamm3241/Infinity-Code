@@ -1,0 +1,24 @@
+{
+    "AS_Form_e480b4ce691f4ca0a279c18a8ecc78ae": {
+        "id": "AS_Form_e480b4ce691f4ca0a279c18a8ecc78ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmReportsManagement",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i62af47a5379424facb60e3ce45a16e1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i8c7daf39b9e4fa6968d0a62e954d931",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.reportManagementPreshow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

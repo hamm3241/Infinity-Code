@@ -1,0 +1,27 @@
+{
+    "AS_Button_i5f0e1b1d621469bb17b0e21177ee705": {
+        "id": "AS_Button_i5f0e1b1d621469bb17b0e21177ee705",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segAddUsers",
+            "type": "templates",
+            "platform": "",
+            "KUID": "d3ba2b5913bb487b893750cb398feb5e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e4aaf13f751746e693459a205055aff0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"addUserstoRole\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "NotificationFlagMessage": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d382106903824ca98426097f94f265f6",
+                "srcKUID": "efd7810257a2499994f297571e3888ff",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "70dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "95%"
+                }
+            }
+        },
+        "flxFlagContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e373b97b54ca4825aba013f0b05cbab7",
+                "srcKUID": "a06d730b332f41a89a273bc9a2d38b8c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxIconContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j01a4b2d28fe4733ace51e0d64bafdb0",
+                "srcKUID": "b333ffb4a90648d58eedcce08e6b0e07",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c37c4094f37b4c1099e998007de64825",
+                "srcKUID": "d549b073ba254cb3ad8ab54456248f33",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.alertsFlagMessages",
+            "text": ""
+        },
+        "lblNotificationIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c5c8e52c48c34e0d8b79d59afd7c5739",
+                "srcKUID": "b460c4d5b4a944409edd9bf356356e36",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "AlertsFlagMessage",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "d382106903824ca98426097f94f265f6",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxAlertPrefrenceWrapper",
+    "pf": "frmCustomerProfileAlerts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "efd7810257a2499994f297571e3888ff",
+    "wType": "UserWidgetInstance"
+}

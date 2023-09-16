@@ -1,0 +1,193 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_responsiveData_": {},
+    "_skin_": "sa1da3732cdc486ca570a5e8ff70e826",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxOuterBorder": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a8f4c961232248a2a3929bc6d164dc7d",
+                "srcKUID": "b7e883bacd3f42bab854a43e4e8375d4",
+                "wType": "FlexContainer"
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "120px"
+                }
+            }
+        },
+        "lblColen": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f2790d552d6d4d02820452e4acb9ca75",
+                "srcKUID": "da3ad337a1264409abd4c6229c2cb784",
+                "wType": "Label"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "60px"
+                }
+            }
+        },
+        "lstbxAMPM": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d78ba65e36944a05b6aa239ee3115b69",
+                "srcKUID": "e82076af61f648caab38eafe6a8a2153",
+                "wType": "ListBox"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "130px"
+                }
+            }
+        },
+        "lstbxHours": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "idbf102d8981438cb667f42939cff52b",
+                "srcKUID": "c10fdd86c34649b1b91fc79de81cfdf4",
+                "wType": "ListBox"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "5px"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "48dp"
+                }
+            }
+        },
+        "lstbxMinutes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h43eca5781084c659cd3a7904d9743be",
+                "srcKUID": "g2403c38de9c40c9a8d5f20603cfdbbd",
+                "wType": "ListBox"
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "5px"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "48dp"
+                }
+            }
+        },
+        "timePicker": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "fa3133047c96428d942040f139fa7d62",
+                "srcKUID": "b604c326d930461e8bb2b154622cc234",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "isVisible": true,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "10dp"
+                }
+            }
+        }
+    },
+    "id": "timePicker1",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "fa3133047c96428d942040f139fa7d62",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxEndDateTime",
+    "pf": "frmOutageMessage",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "b604c326d930461e8bb2b154622cc234",
+    "wType": "UserWidgetInstance"
+}

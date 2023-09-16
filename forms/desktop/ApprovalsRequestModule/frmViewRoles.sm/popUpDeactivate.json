@@ -1,0 +1,445 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s39233a8d65f40d5b9120e116f6d9ef6",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {},
+    "androidwearos": {},
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnPopUpCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e6b61dd7638d47a48950b1264fc4931d",
+                "srcKUID": "jb66c253ecf241d5a38a7c9cbab2f267",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.PopUp.NoLeaveAsIS",
+            "minWidth": {
+                "Default": {
+                    "type": "string",
+                    "value": "81px"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "20px"
+                }
+            },
+            "text": "No, leave as is",
+            "width": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        },
+        "btnPopUpDelete": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b517a56c83ac4a6fb50a35fdb58dfc04",
+                "srcKUID": "cb58b22a7667452eb318a31dde73b8f5",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.PopUp.YesDeactivate",
+            "minWidth": {
+                "Default": {
+                    "type": "string",
+                    "value": "83px"
+                }
+            },
+            "text": "YES, DEACTIVATE"
+        },
+        "flxDependencyActionCodeHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d137d5b4e482473ba85620c6f41742eb",
+                "srcKUID": "i9ddfd44308c42e7977ca889bb48f175",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyActionNameHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g7ac5be3ebde41d7bbc50db641abf1b1",
+                "srcKUID": "e1dbd0e5038446c198b1cd1df921973e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyFeatureNameHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bd2ea844ca314bffb2c89763f568267a",
+                "srcKUID": "c13ea4132e5d40a688aa760c2e1ba8bd",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h4c22372144a4387925b4f7fa8a39e37",
+                "srcKUID": "aca4f81af9bc4e448cde8c5463d572e5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dcc726c55a8744d59758b0fcc9e3c3fb",
+                "srcKUID": "b37250f9f63f4677bb55a13bec8279e5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g0362f239aa4474193b2a8bb1c3bcb6d",
+                "srcKUID": "e97c7a76d35f4655be521a13b90a4d9c",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "flxDependencySegment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dc80634d6e844f1b80614f622c55ef4a",
+                "srcKUID": "ce51f49c17a44eb58e2944e422834eb1",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencySegmentHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "efb53145c7214963a05c90fd95874285",
+                "srcKUID": "da9f6326b3784053bebb6857de46ee6d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDependencyViewContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gb2b8ec70a1441b4974b5396febfed73",
+                "srcKUID": "d73c189da1db45008463fb957501f38a",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ed3fdb4f2da345bf901159c3f3577281",
+                "srcKUID": "e6216270f96c4f7d8ac20033cd80f4e2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "be2c8456dbe7481185f62ddf15aa976f",
+                "srcKUID": "ad4aa75a27a6433d996568e82aec576c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d883d8cd5919436faaa946d8388eb905",
+                "srcKUID": "d3432e3e00244cff9b6bfd392f838dad",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopUpTopColor": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e5576118334b4d1ba768084f93400660",
+                "srcKUID": "a4757555cb1e44429898c9d6fd01fed9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPopupHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eba17adc8df24241a91230aed3b8caa8",
+                "srcKUID": "j5cbe68e2b14479ab3f7e81c520c959f",
+                "wType": "FlexContainer"
+            }
+        },
+        "fontIconSortDependencyActionCode": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d142cb5b17b74ac7bbde2459fc8b1db7",
+                "srcKUID": "c83625297e094efd93040e47df410569",
+                "wType": "Label"
+            }
+        },
+        "fontIconSortDependencyActionName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i745b1c2fc95488488be9aa0d35b7324",
+                "srcKUID": "i328897ddd9f448e978023c946365f75",
+                "wType": "Label"
+            }
+        },
+        "fontIconSortDependencyFeatureName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jfc751896e654abbaf7204a09da56a27",
+                "srcKUID": "f001ef4dbe5146e7aa19bc108674c448",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyActionCodeHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a432de29849a47faba5c4ff202ea2dba",
+                "srcKUID": "a0850a1009774bc4bdbba02176aa1bdf",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyActionNameHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e13dc5b24ff9450d9687b889d67cdda4",
+                "srcKUID": "e13954b78bc240fa8d8a841bc2356977",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f60d8740153848b89f601cacd7da99d3",
+                "srcKUID": "c22d93f2cd8443cead5c3141b79660f2",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyHeaderSeparator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fec0cb6e6a2d44b28fb1f1a7ee9066b9",
+                "srcKUID": "j4ddb05949014448be05f82ffcd832ec",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c37025b1607147d09285b2f011d3cc6e",
+                "srcKUID": "b48c421d193649ecbce0c73dfa9c9a46",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyListNoResultsFound": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "da4da01f477c442b95e23e76bd8ff986",
+                "srcKUID": "i8d433b2db984ad786e1611c14d8e10b",
+                "wType": "Label"
+            }
+        },
+        "lblDependencyNameHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bb151774de2541e2b96e5c8b33be3b5f",
+                "srcKUID": "h9563c5ba4954e84ab6b930f513f70cb",
+                "wType": "Label"
+            }
+        },
+        "lblPopUpMainMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j3807954894540bcb0323b51900ad4c2",
+                "srcKUID": "bd2429502d234d2aa474223ffc9db0ca",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.roles.DeactivateRole",
+            "text": "Deactivate Role?"
+        },
+        "lblPopupClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fd10a5e4c8124efc96ed0c9844f52ab0",
+                "srcKUID": "c8198072e0974262936aba7e2ee6505b",
+                "wType": "Label"
+            }
+        },
+        "lblSeparatorLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cc43ea1fdaab4a5a902fd4c8eb2a4da1",
+                "srcKUID": "fb1fa46d66834302aada593571bf12dc",
+                "wType": "Label"
+            }
+        },
+        "lblSeperatorLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "db443e82ec8a443caef6cdf3ead99194",
+                "srcKUID": "h505e6998af44ff6999b3bf5638cd8fa",
+                "wType": "Label"
+            }
+        },
+        "popUp1": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "b2b8aace31b0420b9a2e3c4774cdcadd",
+                "srcKUID": "ibfff9ef405b470eac1a81d74649265c",
+                "wType": "FlexContainer"
+            }
+        },
+        "rtxPopUpDisclaimer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gdbd516818b44efaa10f17991ffa6469",
+                "srcKUID": "d2f8d6f352f44ec8929e278450906b94",
+                "wType": "RichText"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": "30px"
+                }
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "text": "Are you sure to deactivate \"<b>Role Admin</b>\"?<br><br>\nThe permission has been assigned to few roles and Users. Deactivation may impact their ability to perform certain actions.",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "93%"
+                }
+            }
+        },
+        "segDependencyList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hda5b09a5ea645b9afa7a22760a3cd65",
+                "srcKUID": "f5402d32494c42da83e5ca392430fd6b",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    {
+                        "lblActionCode": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblActionName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblFeatureName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblSeperatorLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        }
+                    },
+                    {
+                        "lblActionCode": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblActionName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblFeatureName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblSeperatorLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "desktopweb": {},
+    "id": "popUpDeactivate",
+    "info": null,
+    "ipad": {},
+    "iphone": {},
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kiosk": {},
+    "kuid": "b2b8aace31b0420b9a2e3c4774cdcadd",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxDeactivatePermission",
+    "pf": "frmViewRoles",
+    "responsiveData": {},
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "ibfff9ef405b470eac1a81d74649265c",
+    "spa": {},
+    "spaan": {},
+    "spaandroidtablet": {},
+    "spabb": {},
+    "spaip": {},
+    "spaipad": {},
+    "spamobile": {},
+    "spatablet": {},
+    "spawindowstablet": {},
+    "spawinphone8": {},
+    "tabrcandroid": {},
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "UserWidgetInstance",
+    "windows10": {},
+    "windows8": {},
+    "winphone10": {},
+    "winphone8": {},
+    "zindex": 1
+}

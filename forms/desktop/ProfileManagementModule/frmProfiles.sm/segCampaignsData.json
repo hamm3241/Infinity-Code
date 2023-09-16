@@ -1,0 +1,173 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "20"
+    },
+    "_data_": [
+        {
+            "fontIconStatusImg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "fonticonArrow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Promotion for Sapphire Credit Card, targeted  at all customers who live in Austin, TX Promotion for Sapphire Credit Card, targeted  at all customers who live in Austin, TX Promotion for Sapphire Credit Card, targeted  at all customers who live in Austin, TX Promotion for Sapphire Credit Card, targeted  at all customers who live in Austin, TX Promotion for Sapphire Credit Card, targeted  at all customers who live in Austin, TX"
+            },
+            "lblDescriptionHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ConfigurationBundles.descriptionInCaps",
+                "text": "Label"
+            },
+            "lblEndDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "08/31/2019 11:59 PM"
+            },
+            "lblEndDateTimeHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.common.endDateCaps",
+                "text": "Label"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SapphireCreditCard_Aug19"
+            },
+            "lblStartDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "08/01/2019 12:00 AM"
+            },
+            "lblStartDateTimeHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.common.startDateCaps",
+                "text": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Active"
+            },
+            "lblUsersCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "IN App : 2223 \n Offline : 896"
+            },
+            "lblUsersCountHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.reachedUsersCountCaps",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "20px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "20px"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCampaignsData",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g06c6b4a10484c209332628d10ffe388",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxCampaignsData",
+    "pf": "frmProfiles",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "j9cbd48ca4244330a871c496c8aa5d52",
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": "flxCampaignsDetails",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCampaignsDetails": "flxCampaignsDetails",
+        "flxCampaignsDetailsInner": "flxCampaignsDetailsInner",
+        "flxCollapse": "flxCollapse",
+        "flxDropdown": "flxDropdown",
+        "flxExpand": "flxExpand",
+        "flxStatus": "flxStatus",
+        "fontIconStatusImg": "fontIconStatusImg",
+        "fonticonArrow": "fonticonArrow",
+        "lblDescription": "lblDescription",
+        "lblDescriptionHeader": "lblDescriptionHeader",
+        "lblEndDateTime": "lblEndDateTime",
+        "lblEndDateTimeHeader": "lblEndDateTimeHeader",
+        "lblName": "lblName",
+        "lblStartDateTime": "lblStartDateTime",
+        "lblStartDateTimeHeader": "lblStartDateTimeHeader",
+        "lblStatus": "lblStatus",
+        "lblUsersCount": "lblUsersCount",
+        "lblUsersCountHeader": "lblUsersCountHeader"
+    },
+    "zindex": 1
+}

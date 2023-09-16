@@ -1,0 +1,133 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "lblViewEmailId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "john.doe@kony.com"
+            },
+            "lblViewFullName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Doe"
+            },
+            "lblViewSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "."
+            },
+            "lblViewUpdatedBy": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chester Dean"
+            },
+            "lblViewUpdatedDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "17/08/2017"
+            },
+            "lblViewUpdatedTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10:30 AM PST"
+            },
+            "lblViewUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "john.doe"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segViewSegment",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "d468e370e0894456ac467afb0415cb92",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxViewSegment",
+    "pf": "frmServiceDefinition",
+    "retainselection": false,
+    "rowTemplateId": "a2e7cc9344234a84a036706c76727c98",
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": "flxViewUsers",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxViewUsers": "flxViewUsers",
+        "lblViewEmailId": "lblViewEmailId",
+        "lblViewFullName": "lblViewFullName",
+        "lblViewSeperator": "lblViewSeperator",
+        "lblViewUpdatedBy": "lblViewUpdatedBy",
+        "lblViewUpdatedDate": "lblViewUpdatedDate",
+        "lblViewUpdatedTime": "lblViewUpdatedTime",
+        "lblViewUsername": "lblViewUsername"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,230 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_desktopweb_": {
+        "render": true
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_kiosk_": {
+        "render": true
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_responsiveData_": {},
+    "_skin_": "s002eff99f314a6ca6c1e855a9339351",
+    "_top_": "0dp",
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Notes": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "g25e5505461942ceace461b3324fcab0",
+                "srcKUID": "655ab9f93d964f79a2d91e49a9b0d260",
+                "wType": "FlexContainer"
+            }
+        },
+        "addBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c4d578d729904278b160bf407891c074",
+                "srcKUID": "bb297ee6d8f14666b71d4bbfff875bb7",
+                "wType": "Button"
+            }
+        },
+        "flxCloseNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c0755db858574d0b99e7c104ac34438e",
+                "srcKUID": "d5241977a1f3449c8457c8be17a21996",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bab8a5fa65194c70b9278b7732b4ce02",
+                "srcKUID": "f517bd93838e41fab40b4dd0b3bd4215",
+                "wType": "FlexContainer"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "flxNotesHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g8584371b463404c9156802d07371d5b",
+                "srcKUID": "a0710e2d63b84ad58f36fbc6cab8851b",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxNotesSegment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eb1041b28ff647dc9876f9a37ca447ad",
+                "srcKUID": "f75b6813fb46480d98653db1764e2be1",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "imgCloseNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e08f15efa80a439cbfb422bd14302b0e",
+                "srcKUID": "dce71c543d524f76bd71fd06ad621298",
+                "wType": "Image"
+            },
+            "src": "close_blue.png"
+        },
+        "lblNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e86c4e0ef031472b8cbd45113f11a936",
+                "srcKUID": "g6698350090a44249e44975428fe2631",
+                "wType": "Label"
+            }
+        },
+        "lblNotesSize": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gf91b6009a0b42e9abacf1905d0a19cf",
+                "srcKUID": "j86e28804b0d4dfa9b3d3e982ab1f626",
+                "wType": "Label"
+            }
+        },
+        "rtxMsgNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b164998b7f4246bfb674ad4e360b8740",
+                "srcKUID": "d0899cfa28d44e4e9a826999fbd05107",
+                "wType": "RichText"
+            }
+        },
+        "segNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ca93998e45e945349e31a6f9843fa58a",
+                "srcKUID": "d31089bbee204a1db1ff801c87989086",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    [
+                        {
+                            "fonticonArrow": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": ""
+                            },
+                            "imgArrow": {
+                                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                "src": "img_down_arrow.png"
+                            },
+                            "lblDate": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "October 21, 2017"
+                            }
+                        },
+                        [
+                            {
+                                "imgUser": {
+                                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                    "src": "option3.png"
+                                },
+                                "lblTime": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": " 6:46 am"
+                                },
+                                "lblUserName": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": "John Doe"
+                                },
+                                "rtxNotesDescription": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                }
+                            },
+                            {
+                                "imgUser": {
+                                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                    "src": "option3.png"
+                                },
+                                "lblTime": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": " 6:46 am"
+                                },
+                                "lblUserName": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": "John Doe"
+                                },
+                                "rtxNotesDescription": {
+                                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        },
+        "txtAreaNotes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cb827d3b10224162b2420d2b036e20f3",
+                "srcKUID": "e94c92e3de2043f5a907e8edd7941a33",
+                "wType": "TextArea"
+            }
+        }
+    },
+    "id": "Notes",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "g25e5505461942ceace461b3324fcab0",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxNote",
+    "pf": "frmLoansDashboard",
+    "snaptogrid": true,
+    "sourceUserWidget": "655ab9f93d964f79a2d91e49a9b0d260",
+    "vizprops": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "UserWidgetInstance"
+}

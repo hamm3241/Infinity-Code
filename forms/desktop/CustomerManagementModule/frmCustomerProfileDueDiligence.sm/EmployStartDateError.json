@@ -1,0 +1,95 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "errorMsg": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "df8fb7e1c39146d3bf6f1a68bb1c786c",
+                "srcKUID": "a23c55c15b3d49f6ba6a08000114f1cf",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "80dp"
+                }
+            }
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d87c1db56dc74005bfbf892a422d471e",
+                "srcKUID": "ec7d71f61f014241a619fd96c59b0435",
+                "wType": "Label"
+            }
+        },
+        "lblErrorText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ie1f327c2a684dc3925094001c2278f3",
+                "srcKUID": "ia85a4bdb50f477ebcfd44610c2f56ae",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.Calendar.startDateEmpty"
+        }
+    },
+    "enablescrolling": true,
+    "id": "EmployStartDateError",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "df8fb7e1c39146d3bf6f1a68bb1c786c",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxDateWrapper",
+    "pf": "frmCustomerProfileDueDiligence",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a23c55c15b3d49f6ba6a08000114f1cf",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,183 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_responsiveData_": {},
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "addNewRow": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "id6ca79d90dc4f77bc553e5e1c0caae6",
+                "srcKUID": "ff85355483fb47da8fa7d35cfe3a7175",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": 1,
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        },
+        "btnAddMore": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f5edf13207d547bfad68a03f4b707df4",
+                "srcKUID": "b504bb638b104e10bbccd30c9e6b5313",
+                "wType": "Button"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "40dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        },
+        "flxSegmentWrapper": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h3ad13445e2a443a96a9cc69583b943d",
+                "srcKUID": "afced577a04e4f70b901bff3edee84f0",
+                "wType": "FlexContainer"
+            }
+        },
+        "segData": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b36773199af14247af109fe8d7e0354e",
+                "srcKUID": "jfff9d7f77374de89985446e23468cdd",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    {
+                        "SwitchActive": {
+                            "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                            "selectedIndex": 0
+                        },
+                        "SwitchActiveStatus": {
+                            "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                            "selectedIndex": 0
+                        },
+                        "fontIconDelete": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "imgDelete": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "delete_2x.png"
+                        },
+                        "lblActive": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Active"
+                        },
+                        "lblActiveStatus": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Active"
+                        },
+                        "lblDash": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "-"
+                        },
+                        "lblErrorIcon": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblErrorText": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmLocations.lblNoPhnNumberError",
+                            "text": "Phone Number cannot be empty"
+                        },
+                        "lblNoEmailIDError": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Please enter a valid Email ID"
+                        },
+                        "lblNoPhoneNumberError": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Please enter a valid phone number"
+                        },
+                        "lblSeparator": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "."
+                        },
+                        "txtISDCode": {
+                            "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                            "text": ""
+                        },
+                        "txtbxEmailid": {
+                            "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                            "placeholder": "",
+                            "text": ""
+                        },
+                        "txtbxPhoneNumber": {
+                            "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                            "text": ""
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "id": "addNewRow",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f0c80a2fab034efdb1ddb17e9c59ffb9",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCustomerData",
+    "pf": "frmCustomerCare",
+    "snaptogrid": true,
+    "sourceUserWidget": "ff85355483fb47da8fa7d35cfe3a7175",
+    "wType": "UserWidgetInstance"
+}

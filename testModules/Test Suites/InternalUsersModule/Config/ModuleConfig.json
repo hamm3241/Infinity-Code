@@ -1,0 +1,71 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.presenter.getInternalUsersList",
+      "CommandHandler": "TestCase_Users_GetInternalUsersList"
+    }, {
+      "CommandId": "testcase.presenter.getAllRolePermissions",
+      "CommandHandler": "TestCase_Users_GetAllRolePermissions"
+    }, {
+      "CommandId": "testcase.presenter.getAllBranches",
+      "CommandHandler": "TestCase_Users_GetAllBranches"
+    }, {
+      "CommandId": "testcase.presenter.getUserDetails",
+      "CommandHandler": "TestCase_Users_GetUserDetails"
+    }, {
+      "CommandId": "testcase.presenter.updateUserStatus",
+      "CommandHandler": "TestCase_Users_UpdateUserStatus"
+    }, {
+      "CommandId": "testcase.presenter.sendResetPasswordEmail",
+      "CommandHandler": "TestCase_Users_SendResetPasswordEmail"
+    }, {
+      "CommandId": "testcase.presenter.createInternalUser",
+      "CommandHandler": "TestCase_Users_CreateInternalUser"
+    }, {
+      "CommandId": "testcase.presenter.editInternalUser",
+      "CommandHandler": "TestCase_Users_EditInternalUser"
+    }, {
+      "CommandId": "testcase.presenter.getAddressData",
+      "CommandHandler": "TestCase_Users_GetAddressData"
+    }, {
+      "CommandId": "testcase.command.getInternalUsersList_CH",
+      "CommandHandler": "TestCase_Users_GetInternalUsersList_CH"
+    }, {
+      "CommandId": "testcase.command.getAllRolePermissions_CH",
+      "CommandHandler": "TestCase_Users_GetAllRolePermissions_CH"
+    }, {
+      "CommandId": "testcase.command.getAllBranches_CH",
+      "CommandHandler": "TestCase_Users_GetAllBranches_CH"
+    }, {
+      "CommandId": "testcase.command.getUserDetails_CH",
+      "CommandHandler": "TestCase_Users_GetUserDetails_CH"
+    }, {
+      "CommandId": "testcase.command.updateUserStatus_CH",
+      "CommandHandler": "TestCase_Users_UpdateUserStatus_CH"
+    }, {
+      "CommandId": "testcase.command.createInternalUser_CH",
+      "CommandHandler": "TestCase_Users_CreateInternalUser_CH"
+    }, {
+      "CommandId": "testcase.command.editInternalUser_CH",
+      "CommandHandler": "TestCase_Users_EditInternalUser_CH"
+    }, {
+      "CommandId": "testcase.command.getCountryList_CH",
+      "CommandHandler": "TestCase_Users_GetCountryList_CH"
+    }, {
+      "CommandId": "testcase.command.getRegionList_CH",
+      "CommandHandler": "TestCase_Users_GetRegionList_CH"
+    }, {
+      "CommandId": "testcase.command.getCityList_CH",
+      "CommandHandler": "TestCase_Users_GetCityList_CH"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

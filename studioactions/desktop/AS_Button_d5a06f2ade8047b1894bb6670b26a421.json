@@ -1,0 +1,26 @@
+{
+    "AS_Button_d5a06f2ade8047b1894bb6670b26a421": {
+        "id": "AS_Button_d5a06f2ade8047b1894bb6670b26a421",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segAddOption",
+            "type": "templates",
+            "platform": null,
+            "KUID": "cdf41accdd0d4881a5f37f12db85ff11"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h4cb73bc1d8248aa846f88967073bed8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.addService();\n",
+            "callbackType": null
+        }]
+    }
+}

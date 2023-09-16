@@ -1,0 +1,275 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.kony</groupId>
+	<artifactId>DBXOLBAppAutomation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>DBXOLBAppAutomation</name>
+	<description>DBX OLB Test Automation</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<!-- <dependency>
+			<groupId>AutomAI</groupId>
+			<artifactId>AutomAI</artifactId>
+			<version>1.0</version>
+			<systemPath>${project.basedir}/Resources/AutomAI2.6.jar</systemPath>
+			<scope>system</scope>
+			<type>jar</type>
+			<optional>true</optional>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>AutomAIAgent</groupId>
+			<artifactId>AutomAIAgent</artifactId>
+			<version>2.8.6.i</version>
+			<systemPath>${project.basedir}/Resources/AutomAI2.8.6.i.jar</systemPath>
+			<scope>system</scope>
+			<type>jar</type>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.2</version>
+
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+
+			<!-- <plugin> <artifactId>maven-compiler-plugin</artifactId> <version>3.1</version> 
+				<configuration> <fork>true</fork> <executable>C:\Program Files\Java\jdk1.8.0_72\bin\javac.exe</executable> 
+				</configuration> </plugin> -->
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.12.1</version>
+
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>Testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<version>3.5.1</version>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${jdk.level}</source>
+					<target>${jdk.level}</target>
+					<fork>true</fork>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>test-jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.10</version>
+				<executions>
+					<execution>
+						<id>copy-dependencies</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/dependency-jars/</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.5.4</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<fileSets>
+								<fileSet>
+									<directory>${project.basedir}/PropData/</directory>
+									<outputDirectory>/</outputDirectory>
+									<includes>
+										<include>*.properties</include>
+									</includes>
+								</fileSet>
+								<fileSet>
+									<directory>${project.basedir}/XMLFiles/</directory>
+									<outputDirectory>/</outputDirectory>
+									<includes>
+										<include>*.xml</include>
+									</includes>
+								</fileSet>
+								<fileSet>
+									<directory>${project.basedir}/testScripts/</directory>
+									<outputDirectory>/</outputDirectory>
+									<includes>
+										<include>*.xslx</include>
+									</includes>
+								</fileSet>
+							</fileSets>
+							<finalName>zip-with-dependencies</finalName>
+							<appendAssemblyId>false</appendAssemblyId>
+							<descriptors>
+								<descriptor>src/main/assembly/zip.xml</descriptor>
+							</descriptors>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<!-- <plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.6.0</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>com.kony.base.TestResults</mainClass>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin> -->
+		</plugins>
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.apache.maven.plugins
+										</groupId>
+										<artifactId>
+											maven-dependency-plugin
+										</artifactId>
+										<versionRange>[2.10,)</versionRange>
+										<goals>
+											<goal>copy-dependencies</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+				<plugin>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>3.0.2</version>
+					<executions>
+						<execution>
+							<id>copy-PropData</id>						<!-- here the phase you need -->
+							<phase>validate</phase>
+							<goals>
+								<goal>copy-resources</goal>
+							</goals>
+							<configuration>
+								<outputDirectory>${project.build.directory}/PropData/</outputDirectory>
+								<resources>
+									<resource>
+										<directory>${basedir}/PropData</directory>
+										<filtering>true</filtering>
+									</resource>
+								</resources>
+								<testResources>
+									<testResource>
+										<directory>${project.basedir}/PropData</directory>
+									</testResource>
+								</testResources>
+							</configuration>
+
+						</execution>
+						<execution>
+							<id>copy-XMLfiles</id>						<!-- here the phase you need -->
+							<phase>validate</phase>
+							<goals>
+								<goal>copy-resources</goal>
+							</goals>
+							<configuration>
+								<outputDirectory>${project.build.directory}/XMLFiles/</outputDirectory>
+								<resources>
+									<resource>
+										<directory>${basedir}/XMLFiles</directory>
+										<filtering>true</filtering>
+									</resource>
+								</resources>
+								<testResources>
+									<testResource>
+										<directory>${project.basedir}/XMLFiles</directory>
+									</testResource>
+								</testResources>
+							</configuration>
+
+						</execution>
+
+						<execution>
+							<id>copy-xlsx</id>						<!-- here the phase you need -->
+							<phase>validate</phase>
+							<goals>
+								<goal>copy-resources</goal>
+							</goals>
+							<configuration>
+								<outputDirectory>${project.build.directory}/testScripts/</outputDirectory>
+								<resources>
+									<resource>
+										<directory>${basedir}/testScripts</directory>
+										<filtering>false</filtering>
+									</resource>
+								</resources>
+								<testResources>
+									<testResource>
+										<directory>${project.basedir}/testScripts</directory>
+									</testResource>
+								</testResources>
+							</configuration>
+
+						</execution>
+
+					</executions>
+				</plugin>
+				
+			</plugins>
+		</pluginManagement>
+	</build>
+
+
+</project>

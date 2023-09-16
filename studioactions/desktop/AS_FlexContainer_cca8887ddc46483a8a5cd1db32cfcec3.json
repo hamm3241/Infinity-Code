@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_cca8887ddc46483a8a5cd1db32cfcec3": {
+        "id": "AS_FlexContainer_cca8887ddc46483a8a5cd1db32cfcec3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": null,
+            "KUID": "eb35f5eba1b244b594509c8b5cbafe7b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_eafb9ec345744d189f0ea9cf414ba10e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.executeOnParent(toggleVisibility);\nthis.hide();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_i5d724a10e2a41fbb1e6158cf0d4ea6c": {
+        "id": "AS_FlexContainer_i5d724a10e2a41fbb1e6158cf0d4ea6c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segFAQ",
+            "type": "templates",
+            "platform": null,
+            "KUID": "bf1e6804e5ee4cd9bdcec947f5ff2e0a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b6a6c6fa798a4333a9c2cd05ec75425d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " this.executeOnParent(\"showSelectedRowServices\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.command.login.datadriven",
+      "CommandHandler": "TestCase_Auth_doLogin_DataDriven"
+    }, {
+      "CommandId": "testcase.command.login.successflow",
+      "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+    }, {
+      "CommandId": "testcase.command.login.inCorrectUserName",
+      "CommandHandler": "TestCase_Auth_doLogin_IncorrectUserName"
+    }, {
+      "CommandId": "testcase.presenter.getpermisions.successflow",
+      "CommandHandler": "TestCase_Permissions_GetPermissions"
+    }, {
+      "CommandId": "testcase.presenter.updatePermissionStatus",
+      "CommandHandler": "TestCase_Permissions_UpdatePermissionStatus"
+    }, {
+      "CommandId": "testcase.presenter.editPermission",
+      "CommandHandler": "TestCase_Permissions_EditPermission"
+    }, {
+      "CommandId": "testcase.presenter.incorrect.editPermission",
+      "CommandHandler": "TestCase_Permissions_IncorrectEditPermission"
+    }, {
+      "CommandId": "testcase.presenter.permissionChecker",
+      "CommandHandler": "TestCase_Permissions_PermissionChecker"
+    }, {
+      "CommandId": "testcase.presenter.datadriven.updatePermissionChecker",
+      "CommandHandler": "TestCase_UpdatePermission_CheckerDataDriven"
+    }, {
+      "CommandId": "testcase.presenter.datadriven.viewPermissionChecker",
+      "CommandHandler": "TestCase_ViewPermission_CheckerDataDriven"
+    }, {
+      "CommandId": "testcase.presenter.disabledPermissionChecker",
+      "CommandHandler": "TestCase_Permissions_DisabledPermissionChecker"
+    }, {
+      "CommandId": "testcase.presenter.fetchAlerts",
+      "CommandHandler": "TestCase_alertsManagment_FetchAlerts"
+    }, {
+      "CommandId": "testcase.presenter.editAlerts",
+      "CommandHandler": "TestCase_alertsManagment_EditAlerts"
+    }, {
+      "CommandId": "testcase.presenter.editAlertsList",
+      "CommandHandler": "TestCase_alertsManagment_EditAlertsList"
+    }, {
+      "CommandId": "testcase.presenter.deleteAlert",
+      "CommandHandler": "TestCase_alertsManagment_DeleteAlert"
+    }, {
+      "CommandId": "testcase.presenter.fetchAlerts_CH",
+      "CommandHandler": "TestCase_alertsManagment_FetchAlerts_CH"
+    }, {
+      "CommandId": "testcase.presenter.editAlerts_CH",
+      "CommandHandler": "TestCase_alertsManagment_EditAlerts_CH"
+    }, {
+      "CommandId": "testcase.presenter.editAlertsList_CH",
+      "CommandHandler": "TestCase_alertsManagment_EditAlertsList_CH"
+    }, {
+      "CommandId": "testcase.presenter.deleteAlert_CH",
+      "CommandHandler": "TestCase_alertsManagment_DeleteAlert_CH"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

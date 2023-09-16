@@ -1,0 +1,134 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "contactNumber": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "af40538489ee42cf98021b07bdc812bd",
+                "srcKUID": "ibc3e5b3edb84d259fd2067931a782e9",
+                "wType": "FlexContainer"
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "25dp"
+                }
+            }
+        },
+        "flxContactNumberWrapper": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c358b919fd0c4229b0a75d10412b26a1",
+                "srcKUID": "b758e1a12339403aa650221ca965e0a3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g8650e1cc9a845098503d9c5476ac92a",
+                "srcKUID": "d82fbddca9a54c57af6370deb63a1b7b",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "lblDash": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ea62f9f8252d43278cbd9920ec3f7119",
+                "srcKUID": "e219e548a8294d4ca5a93959705c8968",
+                "wType": "Label"
+            }
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fb6dd4987d1846d1869ccb98e879d2df",
+                "srcKUID": "ead8fe02893644c58598435384cbeebd",
+                "wType": "Label"
+            }
+        },
+        "lblErrorText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h23d5e7480db4e44b9349abffcbb549b",
+                "srcKUID": "ab774d00a69e4ee9985202f915601945",
+                "wType": "Label"
+            }
+        },
+        "txtContactNumber": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "df2db3aab3ef4b6e87aaebc617b0e04d",
+                "srcKUID": "a248bc5d195649d9ba617e4df7f1da81",
+                "wType": "TextField"
+            },
+            "maxTextLength": 15
+        },
+        "txtISDCode": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cee39d875c844e77bf6fdc49f684c005",
+                "srcKUID": "b0b9033e30e247db83facee8c2040959",
+                "wType": "TextField"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "contactNumber",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "af40538489ee42cf98021b07bdc812bd",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxPhoneNumber",
+    "pf": "frmLocations",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ibc3e5b3edb84d259fd2067931a782e9",
+    "wType": "UserWidgetInstance"
+}

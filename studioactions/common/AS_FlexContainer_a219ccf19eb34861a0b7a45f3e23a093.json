@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_a219ccf19eb34861a0b7a45f3e23a093": {
+        "id": "AS_FlexContainer_a219ccf19eb34861a0b7a45f3e23a093",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu1b335da5ea34b99bc07da9928637c2b",
+            "type": "userwidgets",
+            "KUID": "u1b335da5ea34b99bc07da9928637c2b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c6227787552a4e1f8f71a4b2637b5302",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.getCurrentForm().toastMessage.parent.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

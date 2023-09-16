@@ -1,0 +1,27 @@
+{
+    "AS_TextField_d0a530faafaa43fba889d7657d855371": {
+        "id": "AS_TextField_d0a530faafaa43fba889d7657d855371",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d6842b819ac1406c97b46520f3c474a1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.txtLoanAmountKA.skin = \"sknTbxFFFFFFBorDEDEDE13pxKA\";\nthis.view.lblSimulationLoanAmountError.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

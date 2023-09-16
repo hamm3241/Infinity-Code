@@ -1,0 +1,24 @@
+{
+    "AS_Button_a91f9cbc897548869238cd2214e0cc16": {
+        "id": "AS_Button_a91f9cbc897548869238cd2214e0cc16",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPermissions",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eff2add8f99c4151bcc345f1c2ae5bfd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a81f3293203549dd99aa421cfb88ab49",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.DeactivatePermission();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

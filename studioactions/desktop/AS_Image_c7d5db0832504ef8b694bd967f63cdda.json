@@ -1,0 +1,29 @@
+{
+    "AS_Image_c7d5db0832504ef8b694bd967f63cdda": {
+        "id": "AS_Image_c7d5db0832504ef8b694bd967f63cdda",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "segOutage",
+            "type": "templates",
+            "platform": null,
+            "KUID": "h4e4a0685eb142689ac7cdc73b71b5ee"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_g36ae9d0a47a4e0b9a301be6be1e09ba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.view.flxSelectOptions.isVisible = false;\n//this.view.forceLayout();",
+            "callbackType": null
+        }]
+    }
+}

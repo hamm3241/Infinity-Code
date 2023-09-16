@@ -1,0 +1,23 @@
+{
+    "AS_Form_j21b5d48d36c4fe58cb3a65f7dcaa022": {
+        "id": "AS_Form_j21b5d48d36c4fe58cb3a65f7dcaa022",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmViewRoles",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b85c11ec16924ecfa70c56c6a67cdbdc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_d3eb70b8e79045d89a36ed9f7d30cd94",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.rolesPreshow();\nthis.setViewPermissionSegmentData();\n",
+            "callbackType": null
+        }]
+    }
+}

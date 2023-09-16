@@ -1,0 +1,153 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "47%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxClearSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e5264794fb064c0c8f3410cbbeb634ab",
+                "srcKUID": "d0d3cdc382194a79a2e04f54befd4492",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxIconBackground": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a81b26b9accf4ca680a4a186456403de",
+                "srcKUID": "bde983666a564629ad888980e7e20b9e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchBoxContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f8a5d2dbb15a4bafbf9079ea5e00cb51",
+                "srcKUID": "ee8e3a36bb2c46a79f5ced10552d9c72",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblHorizSeperator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cc7c1c2d831240f49a14c5168dff92ae",
+                "srcKUID": "f1934e157e4d43e9822ef2660e0d346a",
+                "wType": "Label"
+            }
+        },
+        "lblIconClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b2a000ecdf2947a8a4500de02135fe90",
+                "srcKUID": "if8ded18a4704373ae79fe2c4a70cf78",
+                "wType": "Label"
+            }
+        },
+        "lblIconSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f6adae911bf54dad987d30c30fad3e4d",
+                "srcKUID": "dc41f83087904a3a94a7a5f8c1564e81",
+                "wType": "Label"
+            }
+        },
+        "searchBox": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a03565e0b9de42c89ab47327a305e122",
+                "srcKUID": "ec7c66cc2f2543e093d7b9ef800ab9e3",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "47%"
+                }
+            }
+        },
+        "tbxSearchBox": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c8428394dd364c188d41db7948c8fc4b",
+                "srcKUID": "f17ba1a9054243b590c3d27a88b3f4be",
+                "wType": "TextField"
+            },
+            "i18n_placeholder": "i18n.frmEnrollCustomer.SearchByFeatureActionName",
+            "placeholder": "Search byFeature Name, Action Name"
+        }
+    },
+    "enablescrolling": true,
+    "id": "searchBoxAM",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "a03565e0b9de42c89ab47327a305e122",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxSelectionSearchContAM",
+    "pf": "frmCompanies",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ec7c66cc2f2543e093d7b9ef800ab9e3",
+    "wType": "UserWidgetInstance"
+}

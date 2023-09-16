@@ -1,0 +1,129 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_data_": [
+        {
+            "lblViewFullName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Edward"
+            }
+        },
+        {
+            "lblViewFullName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Edward"
+            }
+        },
+        {
+            "lblViewFullName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Edward"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10px"
+    },
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "disabledSkins": {
+        "rowSkin": "s54014e0d4204ce9acd27107655ded87"
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCompanyDropdown",
+    "info": null,
+    "invokedProperty": "unselectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "df6266efcf75488c9bf7a27e04045f3c",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxCompanyDropdown",
+    "pf": "frmCustomerManagement",
+    "retainselection": false,
+    "rowTemplateId": "edfeb40ec73d473b8085ac4f1d496662",
+    "rowcounter": 2,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowtemplate": "flxAssignUsers",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectimage": "checkboxselected.png",
+    "selectionbehavior": "multiselect",
+    "selectionbehaviorconfig": {
+        "imageIdentifier": "imgCheckBox",
+        "selectedStateImage": "checkboxselected.png",
+        "unselectedStateImage": "checkbox.png"
+    },
+    "selectionindicator": "imgCheckBox",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "unselectimage": "checkbox.png",
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAssignUsers": "flxAssignUsers",
+        "lblViewFullName": "lblViewFullName"
+    },
+    "zindex": 500
+}

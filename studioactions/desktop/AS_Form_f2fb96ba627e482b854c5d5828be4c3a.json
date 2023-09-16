@@ -1,0 +1,24 @@
+{
+    "AS_Form_f2fb96ba627e482b854c5d5828be4c3a": {
+        "id": "AS_Form_f2fb96ba627e482b854c5d5828be4c3a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerProfileActivityHistory",
+            "type": "forms",
+            "platform": null,
+            "KUID": "jdda107287514d878205c8099bffc213"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j5f84b41cc5045219b0dd8c731ed09dd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.CustomerProfileActivityHistoryPreshow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

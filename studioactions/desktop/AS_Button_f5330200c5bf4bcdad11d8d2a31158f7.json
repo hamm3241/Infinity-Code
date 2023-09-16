@@ -1,0 +1,24 @@
+{
+    "AS_Button_f5330200c5bf4bcdad11d8d2a31158f7": {
+        "id": "AS_Button_f5330200c5bf4bcdad11d8d2a31158f7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bbcbcd86625c40dab91971b5cd589656",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToSearchCustomerScreen();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s438947e0b124486a93d616f381275f9",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnAddRecord": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i9e9f5cc63c34e23a05b625aa261c5a8",
+                "srcKUID": "h8354b2992bd4b4ea7873a165de1f601",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.products.AddProductFacility",
+            "text": "Add Product Facility",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "145dp"
+                }
+            }
+        },
+        "imgNoRecords": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d97bea6a2bf0460baf0b420e2fdb2777",
+                "srcKUID": "ef96d12f4a5b4f9db9b723ce34cc3312",
+                "wType": "Image"
+            },
+            "isVisible": true,
+            "src": "group.png",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "67dp"
+                }
+            }
+        },
+        "lblNoRecordsAvailable": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cc4f8e7c673347b1bceb90ac6362ba65",
+                "srcKUID": "e2b315945d674d5f9e6ca82032bb02c0",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.products.ProductFacilitiesCanBeAdded",
+            "text": "Product Facilities can be added"
+        },
+        "noResultsWithButton": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ef6e0d7564c4424a9247f3d503a942f1",
+                "srcKUID": "e8b270606f6b4af8b733af362617be25",
+                "wType": "FlexContainer"
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "noResultsFacilities",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ef6e0d7564c4424a9247f3d503a942f1",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxNoFacilitiesAdded",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "e8b270606f6b4af8b733af362617be25",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_a16511c8268f4751ac909afee384f0ee": {
+        "id": "AS_Form_a16511c8268f4751ac909afee384f0ee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerProfileAlerts",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j279409df1d54b68bd6c1e1462b6ac5d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__af1f3e601eb549ff942eeaa22fca432d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.CustomerProfileAlertsPreshow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

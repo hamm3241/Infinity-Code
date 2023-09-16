@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_b07e8d8dc1c6407d991f7ee4e2631ee1": {
+        "id": "AS_FlexContainer_b07e8d8dc1c6407d991f7ee4e2631ee1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segServiceAndFaq",
+            "type": "templates",
+            "platform": "",
+            "KUID": "a988c261d4294dbc8e237b38cc9b3391"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e772d97ec2a147bab716e7c9cb2e0625",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showSelectedRow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

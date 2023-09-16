@@ -1,0 +1,324 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {},
+    "androidwearos": {},
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "backToPageHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ga28c6e932704a10a84099a333c95c1f",
+                "srcKUID": "i5f1c0bc1ce54f42bacc8b0b7665e222",
+                "wType": "UserWidgetInstance"
+            }
+        },
+        "backToPageHeader.btnBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e6c8eb8b87fb4234a876f3f2676cc52a",
+                "srcKUID": "g98dd0fee7f44300b921df00699d8a27",
+                "wType": "Button"
+            }
+        },
+        "backToPageHeader.flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de9ec3f70fa24e7da9e5078b58fd7de5",
+                "srcKUID": "jaade176be984086b925c02c9b82ca8d",
+                "wType": "FlexContainer"
+            }
+        },
+        "backToPageHeader.fontIconBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e45e3d8c7e7242c389751c866a3e15e9",
+                "srcKUID": "cfe8704182924f19b19937571619df1e",
+                "wType": "Label"
+            }
+        },
+        "flxBackToPermmissionBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c782190e6e93424dad56906cc7b3c550",
+                "srcKUID": "ib6c3dbe953840ed99a284b9e6950b57",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCSRSegContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "af82a71b8e7b4e37b3dc135c19872130",
+                "srcKUID": "j0afa49ddce04f6c8e76551e84456cae",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ab92533dc6214af0a9d21e330ad2b74c",
+                "srcKUID": "c77f17d7771f47d19c35f80b3a592b44",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeadingSegment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bb49eab0f0a14e1a8d682948dd81963b",
+                "srcKUID": "dd32eefe69a94c2fba0c0144d9fe473b",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ab962e7d131b425d954e9b57b0657149",
+                "srcKUID": "ae369eb2c52a478b93b5f3c2a969deab",
+                "wType": "Label"
+            }
+        },
+        "lblTopLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f665b3d5dcbd4c81aa24d4b0ce9fc700",
+                "srcKUID": "e802fcadb6e746a9831ac0e9eaa1be37",
+                "wType": "Label"
+            }
+        },
+        "segViewConfigureCSR": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a2045b70f5a4496b8d051e4b132b5be5",
+                "srcKUID": "f7371f8191b947eb879c16280de5df7a",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    {
+                        "lblEnable": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.ViewConfigureCSR.Enable",
+                            "text": "Enable"
+                        },
+                        "lblEnabled": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.ViewConfigureCSR.Enabled",
+                            "text": "Enabled"
+                        },
+                        "lblHeadingDesc": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.permission.DESCRIPTION",
+                            "text": "DESCRIPTION"
+                        },
+                        "lblIconArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.fontIconBreadcrumbsRight",
+                            "text": ""
+                        },
+                        "lblIconGreenTick": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblLine2": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Account Transfers"
+                        },
+                        "rtxDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        },
+                        "switchToggle": {
+                            "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                            "selectedIndex": 1
+                        }
+                    },
+                    {
+                        "lblEnable": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.ViewConfigureCSR.Enable",
+                            "text": "Enable"
+                        },
+                        "lblEnabled": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.ViewConfigureCSR.Enabled",
+                            "text": "Enabled"
+                        },
+                        "lblHeadingDesc": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.permission.DESCRIPTION",
+                            "text": "DESCRIPTION"
+                        },
+                        "lblIconArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.fontIconBreadcrumbsRight",
+                            "text": ""
+                        },
+                        "lblIconGreenTick": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblLine2": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Account Transfers"
+                        },
+                        "rtxDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        },
+                        "switchToggle": {
+                            "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                            "selectedIndex": 1
+                        }
+                    },
+                    {
+                        "lblEnable": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.ViewConfigureCSR.Enable",
+                            "text": "Enable"
+                        },
+                        "lblEnabled": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.ViewConfigureCSR.Enabled",
+                            "text": "Enabled"
+                        },
+                        "lblHeadingDesc": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.permission.DESCRIPTION",
+                            "text": "DESCRIPTION"
+                        },
+                        "lblIconArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.fontIconBreadcrumbsRight",
+                            "text": ""
+                        },
+                        "lblIconGreenTick": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblLine2": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Account Transfers"
+                        },
+                        "rtxDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        },
+                        "switchToggle": {
+                            "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                            "selectedIndex": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "viewConfigureCSRAssist": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e49cc93ac63f44a7a70c07699deb7adf",
+                "srcKUID": "ce37290691ee403bb90672ebec7ee7a8",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "desktopweb": {},
+    "id": "viewConfigureCSRAssist",
+    "info": null,
+    "ipad": {},
+    "iphone": {},
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kiosk": {},
+    "kuid": "e49cc93ac63f44a7a70c07699deb7adf",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxViewConfigureCSRPermissions",
+    "pf": "frmViewUsers",
+    "responsiveData": {},
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "ce37290691ee403bb90672ebec7ee7a8",
+    "spa": {},
+    "spaan": {},
+    "spaandroidtablet": {},
+    "spabb": {},
+    "spaip": {},
+    "spaipad": {},
+    "spamobile": {},
+    "spatablet": {},
+    "spawindowstablet": {},
+    "spawinphone8": {},
+    "tabrcandroid": {},
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "UserWidgetInstance",
+    "windows10": {},
+    "windows8": {},
+    "winphone10": {},
+    "winphone8": {}
+}

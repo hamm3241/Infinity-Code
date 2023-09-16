@@ -1,0 +1,38 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.presenter.getPrivacyPolicy",
+      "CommandHandler": "TestCase_PrivacyPolicy_getPrivacyPolicy"
+    }, {
+      "CommandId": "testcase.presenter.editPrivacyPolicy",
+      "CommandHandler": "TestCase_PrivacyPolicy_editPrivacyPolicy"
+    }, {
+      "CommandId": "testcase.presenter.deletePrivacyPolicy",
+      "CommandHandler": "TestCase_PrivacyPolicy_deletePrivacyPolicy"
+    }, {
+      "CommandId": "testcase.presenter.createPrivacyPolicy",
+      "CommandHandler": "TestCase_PrivacyPolicy_createPrivacyPolicy"
+    }, {
+      "CommandId": "testcase.command.fetchPrivacyPolicy",
+      "CommandHandler": "TestCase_PrivacyPolicy_fetchPrivacyPolicy_CH"
+    }, {
+      "CommandId": "testcase.command.editPrivacyPolicy",
+      "CommandHandler": "TestCase_PrivacyPolicy_editPrivacyPolicy_CH"
+    }, {
+      "CommandId": "testcase.command.createPrivacyPolicy",
+      "CommandHandler": "TestCase_PrivacyPolicy_createPrivacyPolicy_CH"
+    }, {
+      "CommandId": "testcase.command.deletePrivacyPolicy",
+      "CommandHandler": "TestCase_PrivacyPolicy_deletePrivacyPolicy_CH"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

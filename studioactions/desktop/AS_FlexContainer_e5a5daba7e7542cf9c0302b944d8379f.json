@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_e5a5daba7e7542cf9c0302b944d8379f": {
+        "id": "AS_FlexContainer_e5a5daba7e7542cf9c0302b944d8379f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bc5d78ae25c246dea56534fa8fb8dddd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.guestDashboardLoanInfoClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

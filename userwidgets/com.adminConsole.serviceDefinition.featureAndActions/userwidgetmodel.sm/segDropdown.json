@@ -1,0 +1,215 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "6dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "08",
+    "desktop": {
+        "_data_": [
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "All"
+                }
+            },
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "View"
+                }
+            },
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Create"
+                }
+            },
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Approve"
+                }
+            },
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Delete"
+                }
+            },
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "View - Bulk"
+                }
+            },
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Create - Bulk"
+                }
+            },
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Approve - Bulk"
+                }
+            },
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Delete - Bulk"
+                }
+            }
+        ],
+        "rowTemplateId": "c5f26cf7948340dca2b2393f38acc2f0",
+        "rowtemplate": "flxSearchDropDown",
+        "sectionHeaderTemplateId": null,
+        "widgetdatamap": {
+            "flxCheckBox": "flxCheckBox",
+            "flxSearchDropDown": "flxSearchDropDown",
+            "imgCheckBox": "imgCheckBox",
+            "lblDescription": "lblDescription"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segDropdown",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b4d327d4d0f145f1892dd8a86f728403",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxDropDown",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 8,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCheckBox": "flxCheckBox",
+        "flxSearchDropDown": "flxSearchDropDown",
+        "imgCheckBox": "imgCheckBox",
+        "lblDescription": "lblDescription"
+    },
+    "zindex": 10
+}

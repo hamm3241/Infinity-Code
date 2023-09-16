@@ -1,0 +1,394 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "CustomerManagementModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmAssistedOnboarding": {
+                "Controller": "CustomerManagementModule/frmAssistedOnboardingController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "TabUtil_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmAssistedOnboarding",
+                "friendlyName": "frmAssistedOnboarding"
+            },
+            "frmCustomerManagement": {
+                "Controller": "CustomerManagementModule/frmCustomerManagementController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerManagement",
+                "friendlyName": "frmCustomerManagement"
+            },
+            "frmCustomerProfileAccounts": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileAccountsController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileAccounts",
+                "friendlyName": "frmCustomerProfileAccounts"
+            },
+            "frmCustomerProfileActivityHistory": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileActivityHistoryController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileActivityHistory",
+                "friendlyName": "frmCustomerProfileActivityHistory"
+            },
+            "frmCustomerProfileAlerts": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileAlertsController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileAlerts",
+                "friendlyName": "frmCustomerProfileAlerts"
+            },
+            "frmCustomerProfileContacts": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileContactsController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileContacts",
+                "friendlyName": "frmCustomerProfileContacts"
+            },
+            "frmCustomerProfileDeviceInfo": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileDeviceInfoController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileDeviceInfo",
+                "friendlyName": "frmCustomerProfileDeviceInfo"
+            },
+            "frmCustomerProfileEntitlements": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileEntitlementsController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileEntitlements",
+                "friendlyName": "frmCustomerProfileEntitlements"
+            },
+            "frmCustomerProfileDueDiligence": {
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "CustomerManagementModule/frmCustomerProfileDueDiligenceController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileDueDiligence",
+                "friendlyName": "frmCustomerProfileDueDiligence"
+            },
+            "frmCustomerProfileHelpCenter": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileHelpCenterController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileHelpCenter",
+                "friendlyName": "frmCustomerProfileHelpCenter"
+            },
+            "frmCustomerProfileRoles": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileRolesController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileRoles",
+                "friendlyName": "frmCustomerProfileRoles"
+            },
+            "frmDepositsDashboard": {
+                "Controller": "CustomerManagementModule/frmDepositsDashboardController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "Navigation_Form_Extn",
+                    "WidgetPermission_Checker_FormExtns"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmDepositsDashboard",
+                "friendlyName": "frmDepositsDashboard"
+            },
+            "frmLoansDashboard": {
+                "Controller": "CustomerManagementModule/frmLoansDashboardController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleDateTimeUtilities",
+                    "TabUtil_FormExtn",
+                    "Sorting_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmLoansDashboard",
+                "friendlyName": "frmLoansDashboard"
+            },
+            "frmNewCustomer": {
+                "Controller": "CustomerManagementModule/frmNewCustomerController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmNewCustomer",
+                "friendlyName": "frmNewCustomer"
+            },
+            "frmTrackApplication": {
+                "Controller": "CustomerManagementModule/frmTrackApplicationController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleDateTimeUtilities",
+                    "TabUtil_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmTrackApplication",
+                "friendlyName": "frmTrackApplication"
+            },
+            "frmUpgradeUser": {
+                "Controller": "CustomerManagementModule/frmUpgradeUserController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmUpgradeUser",
+                "friendlyName": "frmUpgradeUser"
+            },
+            "frmEnrollCustomer": {
+                "Controller": "CustomerManagementModule/frmEnrollCustomerController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+					"LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmEnrollCustomer",
+                "friendlyName": "frmEnrollCustomer"
+            },
+            "frmCustomerProfileContracts": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileContractsController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileContracts",
+                "friendlyName": "frmCustomerProfileContracts"
+            },
+            "frmCustomerProfileLimits": {
+                "Controller": "CustomerManagementModule/frmCustomerProfileLimitsController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+					"LegalEntityPermission_Form_Extn"
+
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmCustomerProfileLimits",
+                "friendlyName": "frmCustomerProfileLimits"
+            },
+            "frmProfileCDP": {
+                "Controller": "CustomerManagementModule/frmProfileCDPController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "AdminConsoleDateTimeUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn",
+                    "Navigation_Form_Extn",
+                    "WidgetPermission_Checker_FormExtns"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CustomerManagementModule/frmProfileCDP",
+                "friendlyName": "frmProfileCDP"
+            }
+        }
+    },
+    "ModuleName": "CustomerManagementModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "CustomerManagementModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "CustomerManagementModule/PresentationControllers/PresentationController_Extn",
+                "Navigation_Presentation_Extn",
+                "AdminConsoleCommonUtilities"
+            ]
+        }
+    }
+}

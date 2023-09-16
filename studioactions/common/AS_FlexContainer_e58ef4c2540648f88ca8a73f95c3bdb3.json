@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_e58ef4c2540648f88ca8a73f95c3bdb3": {
+        "id": "AS_FlexContainer_e58ef4c2540648f88ca8a73f95c3bdb3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_a3fb32c4bfb54d23a332b6fa53753c77",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfAddNewIncome",
+            "display": "onClickOfAddNewIncome",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_a7f9cca70d234e12800ef4b97d92304e": {
+        "id": "AS_Form_a7f9cca70d234e12800ef4b97d92304e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2f385b7b0484406828bb44d7ec7b900"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i227fe905bd041fbab866c60ffb62d3d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var authModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"AuthModule\");\nthis.attachToModule(authModule); \nauthModule.presentationController.showLoginScreen();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

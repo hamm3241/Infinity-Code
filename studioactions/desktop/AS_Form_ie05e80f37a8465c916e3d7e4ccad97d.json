@@ -1,0 +1,24 @@
+{
+    "AS_Form_ie05e80f37a8465c916e3d7e4ccad97d": {
+        "id": "AS_Form_ie05e80f37a8465c916e3d7e4ccad97d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b8079c51a4f2455d800373a09caa955e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.guestDashboardPreShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

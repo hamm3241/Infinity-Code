@@ -1,0 +1,31 @@
+{
+    "AS_UWI_ja28acb6354346188ed99194d3c7643b": {
+        "id": "AS_UWI_ja28acb6354346188ed99194d3c7643b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "context",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmProduct",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h1e7dfebcda54e16960419eea034b5ae"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__jc1d592faf7e483db9b34dde1a491594",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "willUpdateUI",
+            "display": "willUpdateUI",
+            "inputparams": [{
+                "name": "productsModel",
+                "value": "context"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

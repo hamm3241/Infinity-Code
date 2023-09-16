@@ -1,0 +1,105 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "NotificationFlagMessage": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c72c37dd81724d9fb10562b85e3af8cb",
+                "srcKUID": "efd7810257a2499994f297571e3888ff",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxFlagContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b2f6b4c92c964415b2bf887c6744c699",
+                "srcKUID": "a06d730b332f41a89a273bc9a2d38b8c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxIconContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dfb9c6510b1b4b9e8d5a3ff6ca932c62",
+                "srcKUID": "b333ffb4a90648d58eedcce08e6b0e07",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ic3dfbb925644907a40d5d4fc91cf436",
+                "srcKUID": "d549b073ba254cb3ad8ab54456248f33",
+                "wType": "Label"
+            },
+            "i18n_text": null,
+            "text": "Legal Entity and Service can not be Modified"
+        },
+        "lblNotificationIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "iad2eb132000416594e83770bcca63f5",
+                "srcKUID": "b460c4d5b4a944409edd9bf356356e36",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "editInfo",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "c72c37dd81724d9fb10562b85e3af8cb",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxEditNotification",
+    "pf": "frmContractCreate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "efd7810257a2499994f297571e3888ff",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_eccdc33540ca452f8a46c855aeddd5b8": {
+        "id": "AS_FlexContainer_eccdc33540ca452f8a46c855aeddd5b8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_d7f0259751214a6eb307c0bda8701133",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ondeleteSecondIncome",
+            "display": "ondeleteSecondIncome",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

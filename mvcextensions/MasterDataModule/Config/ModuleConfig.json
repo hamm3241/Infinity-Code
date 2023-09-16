@@ -1,0 +1,64 @@
+{
+  "BusinessControllerConfig": {
+    "BusinessControllerClass": "MasterDataModule/BusinessControllers/BusinessController",
+      "CommandHandler": []
+  },
+    "Forms": {
+      "desktop": {
+        "frmCustomerCare": {
+          "Controller": "MasterDataModule/frmCustomerCareController",
+            "ControllerExtensions": [
+              "Sorting_FormExtn",
+              "WidgetPermission_Checker_FormExtns",
+              "Navigation_Form_Extn",
+              "DateTimeUtils_FormExtn",
+              "AdminConsoleCommonUtilities"
+            ],
+              "FormController": "kony.mvc.MDAFormController",
+                "FormName": "MasterDataModule/frmCustomerCare",
+                  "friendlyName": "frmCustomerCare"
+        },
+          "frmLocations": {
+            "Controller": "MasterDataModule/frmLocationsController",
+              "ControllerExtensions": [
+                "Pagination_FormExtn",
+                "Sorting_FormExtn",
+                "downloadCSV_Extn",
+                "Navigation_Form_Extn",
+                "WidgetPermission_Checker_FormExtns",
+                "DateTimeUtils_FormExtn",
+                "TabUtil_FormExtn",
+                "AdminConsoleCommonUtilities"
+              ],
+                "FormController": "kony.mvc.MDAFormController",
+                  "FormName": "MasterDataModule/frmLocations",
+                    "friendlyName": "frmLocations"
+          },
+            "frmProduct": {
+              "ControllerExtensions": [
+                "Pagination_FormExtn",
+                "Sorting_FormExtn",
+                "downloadCSV_Extn",
+                "Navigation_Form_Extn",
+                "WidgetPermission_Checker_FormExtns",
+                "DateTimeUtils_FormExtn",
+                "AdminConsoleCommonUtilities"
+              ],
+                "FormController": "kony.mvc.MDAFormController",
+                  "Controller": "MasterDataModule/frmProductController",
+                    "FormName": "MasterDataModule/frmProduct",
+                      "friendlyName":"frmProduct"
+            }            
+      }
+    },
+      "ModuleName": "MasterDataModule",
+        "PresentationControllerConfig": {
+          "Default": {
+            "PresentationControllerClass": "MasterDataModule/PresentationControllers/PresentationController",
+              "PresentationExtensions": [
+                "MasterDataModule/PresentationControllers/PresentationController_Extn",
+                "Navigation_Presentation_Extn"
+              ]
+          }
+        }
+}

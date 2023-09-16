@@ -1,0 +1,24 @@
+{
+    "AS_Button_ied651dee02e48abb569c40eac9d0f9d": {
+        "id": "AS_Button_ied651dee02e48abb569c40eac9d0f9d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cda2fad0031a49aa8dfb25110d1559de",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxLoansMainContainer.setVisibility(false);\nthis.view.VehicleLoanApplicatoionTemplate.flxPersonalInfo.setVisibility(false);\nthis.view.VehicleLoanApplicatoionTemplate.flxVehicleLoanInfo.setVisibility(true);\nthis.view.VehicleLoanApplicatoionTemplate.lblFontIconLoanInfoSelection.setVisibility(true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "FAQsModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmFAQ": {
+                "Controller": "FAQsModule/frmFAQController",
+                "ControllerExtensions": [
+                    "Sorting_FormExtn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "Pagination_FormExtn",
+                    "ErrorInterceptor",
+                    "AdminConsoleCommonUtilities"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "FAQsModule/frmFAQ",
+                "friendlyName": "frmFAQ"
+            }
+        }
+    },
+    "ModuleName": "FAQsModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "FAQsModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

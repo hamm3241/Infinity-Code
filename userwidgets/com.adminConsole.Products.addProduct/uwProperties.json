@@ -1,0 +1,3458 @@
+{
+    "classname": "addProduct",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fbaed19afe064dceb76927d0e2ce48a6",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyKey": "setContext",
+                    "pw": {
+                        "displayName": "setContext",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "hdb8e5647861418f907ad9f1016b9925",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "formUpdateUI",
+                    "pw": {
+                        "displayName": "formUpdateUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d11b37bca3934582aac1af35d0f25d4b",
+                    "paramList": [
+                        {
+                            "name": "openPopup"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "alignPopups",
+                    "pw": {
+                        "displayName": "alignPopups",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b22336ac92454ba78d8ab70bf8f3b209",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "closeAddProductComponent",
+                    "pw": {
+                        "displayName": "closeAddProductComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "GET Product Lines Service",
+                "GET Product Groups Service",
+                "GET Features Service",
+                "GET Facilities Service",
+                "POST Create Product Service",
+                "PUT Update Product Service",
+                "Design Time Configurations",
+                "Product Details Screen Text Fields",
+                "Product Details Screen - Additional Text Fields",
+                "Product Description Screen Text Fields",
+                "Product Features Screen Text Fields",
+                "Add Product Facility Popup Screen Text Fields",
+                "View Product Features Popup Screen Text Fields",
+                "Image Details Screen Text Fields",
+                "Additional Attributes Screen Text Fields",
+                "Navigation Bars Text Fields",
+                "MoonIcons Text Fields",
+                "Common Skins",
+                "Navigation Bars Skins",
+                "Product Details Screen Skins",
+                "Product Features Screen Skins",
+                "Popup Common Skins",
+                "Product Add Features Popup Skins",
+                "Product View Features Popup Skins",
+                "Product Additional Attributes Screen Skins",
+                "POST Create Product Facility Service",
+                "PUT Update Product Facility Service",
+                "POST Delete Product Facility Service"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "GET Product Lines Service",
+                    "kuid": "f2d918609e2f4404a1bc8e77f1ce69db",
+                    "originalPropertyKey": "objectServiceName1",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "GET Product Groups Service",
+                    "kuid": "e14e60241c2e4b76aea44a6e8953b192",
+                    "originalPropertyKey": "objectServiceName2",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "FeatureObjService",
+                    "group": "GET Features Service",
+                    "kuid": "c6043c04d3f843ceb6a126ceaf09f16b",
+                    "originalPropertyKey": "objectServiceName3",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName3",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "POST Create Product Service",
+                    "kuid": "id55d139f6c24039ac32d5714e541845",
+                    "originalPropertyKey": "objectServiceName4",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName4",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "d63e379835d14ba3953271d3487c2d85",
+                    "originalPropertyKey": "label1Txt",
+                    "propertyIndex": 1,
+                    "propertyKey": "label1Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 1 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Line",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "e4356dc0e2c3471c84146f4f425fa65a",
+                    "originalPropertyKey": "productLineLblTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "productLineLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Line Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"values\":[\"Onboarding\",\"Campaigns\"]}",
+                    "group": "Design Time Configurations",
+                    "kuid": "dc32a2534f7b4e5c9aed2df032550152",
+                    "originalPropertyKey": "productPurposes",
+                    "propertyIndex": 1,
+                    "propertyKey": "productPurposes",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Purposes",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "PUT Update Product Service",
+                    "kuid": "dc22ba42959247a3a7c0c28652a24d15",
+                    "originalPropertyKey": "objectServiceName5",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName5",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Description_Optional",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "h22623d0f01f454792d2a7cf2525bb68",
+                    "originalPropertyKey": "descLblTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "descLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Description Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.ProductFeatures",
+                    "group": "Product Features Screen Text Fields",
+                    "kuid": "ea8198cbe1334897a8e9954363fffe42",
+                    "originalPropertyKey": "featureHeadingLblTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "featureHeadingLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Feature Heading Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Edit",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "c09f5a1169aa4897a61d9aea13e88ecb",
+                    "originalPropertyKey": "featureViewEditBtnTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "featureViewEditBtnTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Edit Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Image_Type",
+                    "group": "Image Details Screen Text Fields",
+                    "kuid": "jda15fd889b543babbffac38cb0ffb57",
+                    "originalPropertyKey": "imageTypeLblTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "imageTypeLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Image Type Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Attribute",
+                    "group": "Additional Attributes Screen Text Fields",
+                    "kuid": "c5f1c26c2f7b4df38129d5b25202de68",
+                    "originalPropertyKey": "attributeKeyLblTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "attributeKeyLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Attribute Key Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Details_CAPS",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "c2604304b2c8442f906774b7ada7fefa",
+                    "originalPropertyKey": "option1LblTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "option1LblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option 1 Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxBgF9F9F9Border1pxE4E6EC",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "fb3ccedd0fa74e37a5318e5db703b31f",
+                    "originalPropertyKey": "leftVBarBgSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "leftVBarBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Left Vertical Bar Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485C75LatoRegular13Px",
+                    "group": "Common Skins",
+                    "kuid": "e31c85aaf01640f392c33f4f1168699a",
+                    "originalPropertyKey": "commonLabelSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "commonLabelSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Common Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxffffffop100Bordercbcdd1Radius3px",
+                    "group": "Product Details Screen Skins",
+                    "kuid": "fcc5cbf51e2848cd9ce1095deda6658d",
+                    "originalPropertyKey": "prodPurposeSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "prodPurposeSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Purpose Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl192B45LatoRegular14px",
+                    "group": "Product Features Screen Skins",
+                    "kuid": "c4e800e44d72479d8baf8ce9d7c2cdc9",
+                    "originalPropertyKey": "screenHeaderLblSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "screenHeaderLblSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Screen Header Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skn222b35",
+                    "group": "Popup Common Skins",
+                    "kuid": "cdf6781575ee425ab6c0d1c1aaa5a972",
+                    "originalPropertyKey": "popupCmnBgSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "popupCmnBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxf5f6f8Border1px4pxRadius",
+                    "group": "Product Add Features Popup Skins",
+                    "kuid": "g4f2b345dd4a4fceb664758ebce9de1b",
+                    "originalPropertyKey": "optionDetailsSegBgSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "optionDetailsSegBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option Details Segment Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato696c7311px",
+                    "group": "Product View Features Popup Skins",
+                    "kuid": "b98c77d84cfa4720b3a22df43d753ac3",
+                    "originalPropertyKey": "lblKeySkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblKeySkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label Key Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknTbxBgFFFFFFBrD7D9E01pxR3px",
+                    "group": "Product Additional Attributes Screen Skins",
+                    "kuid": "fe7780bc66e643519149461c2df8dad5",
+                    "originalPropertyKey": "addAttrTextBoxSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "addAttrTextBoxSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Textbox Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue91b\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "i5778cc70710493d88f667daaf6c0498",
+                    "originalPropertyKey": "deleteIcon",
+                    "propertyIndex": 1,
+                    "propertyKey": "deleteIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Delete Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.FacilityName",
+                    "group": "Add Product Facility Popup Screen Text Fields",
+                    "kuid": "ad34830b097d4df4b85fb2dcae7738a8",
+                    "originalPropertyKey": "facilityNameLblTxt",
+                    "propertyIndex": 1,
+                    "propertyKey": "facilityNameLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Facilit Name Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "GET Facilities Service",
+                    "kuid": "f8a24c0d73fd4962a8be0d3e672ce7df",
+                    "originalPropertyKey": "objectServiceName6",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName6",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "POST Create Product Facility Service",
+                    "kuid": "e976fa202fc64c05a732797c6a7f88ed",
+                    "originalPropertyKey": "objectServiceName7",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName7",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "PUT Update Product Facility Service",
+                    "kuid": "hc26cab26f8a4a2291a69cc88d2e5f27",
+                    "originalPropertyKey": "objectServiceName8",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName8",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "BankProductManagment",
+                    "group": "POST Delete Product Facility Service",
+                    "kuid": "jcc15e1de6fb4fdda46e30af44912116",
+                    "originalPropertyKey": "objectServiceName9",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName9",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "GET Product Lines Service",
+                    "kuid": "a8a01acfdb9b40eb9fad449aefbdc256",
+                    "originalPropertyKey": "objectName1",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "product",
+                    "group": "GET Product Groups Service",
+                    "kuid": "df3ce6d493bb499ba3cf584703f1d79b",
+                    "originalPropertyKey": "objectName2",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "feature",
+                    "group": "GET Features Service",
+                    "kuid": "gf185dfd3b954dcfaa70f359497b0daa",
+                    "originalPropertyKey": "objectName3",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName3",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "bankProduct",
+                    "group": "POST Create Product Service",
+                    "kuid": "daac0c2927304a9a9c24d0341642335c",
+                    "originalPropertyKey": "objectName4",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName4",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "d7f560dbaea647bb91a2fdfb8defc586",
+                    "originalPropertyKey": "placeholder1Txt",
+                    "propertyIndex": 2,
+                    "propertyKey": "placeholder1Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 1 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Select_Product_Line",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "b8813c8d9dd347db9f4841024e5b9beb",
+                    "originalPropertyKey": "productLineDropdownPlaceholderTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "productLineDropdownPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Line Dropdown Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"values\":[{\"displayValue\":\"Single Selection\",\"backendValue\":\"SingleSelection\"},{\"displayValue\":\"Check Box\",\"backendValue\":\"CheckBox\"},{\"displayValue\":\"Textbox\",\"backendValue\":\"Textbox\"}]}",
+                    "group": "Design Time Configurations",
+                    "kuid": "cae60ae678814ce39d9f82674a20691d",
+                    "originalPropertyKey": "optionDisplayType",
+                    "propertyIndex": 2,
+                    "propertyKey": "optionDisplayType",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option Display Type",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "bankProduct",
+                    "group": "PUT Update Product Service",
+                    "kuid": "d8288d9197bd4212a04ac713bea0410c",
+                    "originalPropertyKey": "objectName5",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName5",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Description",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "d0a22e2b72d4400ba715305bae0d678e",
+                    "originalPropertyKey": "descPlaceholderTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "descPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Description Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.AddProductFeatures",
+                    "group": "Product Features Screen Text Fields",
+                    "kuid": "a12e711fc8f847628042a1220e44de70",
+                    "originalPropertyKey": "addFeatureBtnTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "addFeatureBtnTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Add Feature Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Feature_Group_CAPS",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "f50c6fce39d347c5a6a78f926dcc4810",
+                    "originalPropertyKey": "featureViewProductGroupLblTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "featureViewProductGroupLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Feature Group Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Select_Image_Type",
+                    "group": "Image Details Screen Text Fields",
+                    "kuid": "g410bef4c7564b7b8a318067d3273ecd",
+                    "originalPropertyKey": "imageTypeDropdownPlaceholderTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "imageTypeDropdownPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Image Type Dropdown Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Attribute",
+                    "group": "Additional Attributes Screen Text Fields",
+                    "kuid": "a4abae80f17e4d498ccd51203674e4f9",
+                    "originalPropertyKey": "attributeKeyPlaceholderTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "attributeKeyPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Attribute Key Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Details",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "fba0a3e764f74f3bb2f1759a1586eae5",
+                    "originalPropertyKey": "subOption1LblTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "subOption1LblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "SubOption 1 Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485C75LatoRegular12Px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "j8ae5aba519544f8be0c01d8da89fa18",
+                    "originalPropertyKey": "leftVBarBtnUnselectedSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "leftVBarBtnUnselectedSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Left Vertical Bar Buttons Unselected Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "txtD7d9e0",
+                    "group": "Common Skins",
+                    "kuid": "j242200873814b78a053a26841f8f52c",
+                    "originalPropertyKey": "tbxNormalSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "tbxNormalSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Textbox Normal Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconLimits13Px",
+                    "group": "Product Details Screen Skins",
+                    "kuid": "f0c5f2dd23544a689b5400cef537aba1",
+                    "originalPropertyKey": "prodPurposeDropdownIConSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "prodPurposeDropdownIConSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Purpose Dropdown Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknbtnf7f7faLatoRegular12Px485c75Border1px485C75Radius20px",
+                    "group": "Product Features Screen Skins",
+                    "kuid": "i162f47e3c4548e18cc3a953d63313fa",
+                    "originalPropertyKey": "addFeatureBtnSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "addFeatureBtnSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Add Feature Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxBg4A77A0",
+                    "group": "Popup Common Skins",
+                    "kuid": "j93561e92ebe4411ad2ea1670b3bad9c",
+                    "originalPropertyKey": "popupCmnTopBarSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "popupCmnTopBarSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Top Bar Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxBgE4E6EC",
+                    "group": "Product Add Features Popup Skins",
+                    "kuid": "hcc45053e1ff4e728f407e964e7b2d54",
+                    "originalPropertyKey": "bottomBarPopupBgSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "bottomBarPopupBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Bottom Bar Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue91e\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "ca7cbda1b5b3422891ad0a32df33c10e",
+                    "originalPropertyKey": "editIcon",
+                    "propertyIndex": 2,
+                    "propertyKey": "editIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Edit Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.FacilityCode",
+                    "group": "Add Product Facility Popup Screen Text Fields",
+                    "kuid": "e649a76d83bd4fb1871e945164399684",
+                    "originalPropertyKey": "facilityCodeLblTxt",
+                    "propertyIndex": 2,
+                    "propertyKey": "facilityCodeLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Facility Code label text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "bankFacility",
+                    "group": "GET Facilities Service",
+                    "kuid": "da39f754885c4b22b3d21a42cbf0653d",
+                    "originalPropertyKey": "objectName6",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName6",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "bankProduct",
+                    "group": "POST Create Product Facility Service",
+                    "kuid": "j14ab96183d348a8856316ff0a2d657c",
+                    "originalPropertyKey": "objectName7",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName7",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "bankProduct",
+                    "group": "PUT Update Product Facility Service",
+                    "kuid": "h9b4858c6e3342d49b85c37d23dc08e1",
+                    "originalPropertyKey": "objectName8",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName8",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "bankProduct",
+                    "group": "POST Delete Product Facility Service",
+                    "kuid": "gb86cf3c43454e65817a80296742d744",
+                    "originalPropertyKey": "objectName9",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName9",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "GetProductLines",
+                    "group": "GET Product Lines Service",
+                    "kuid": "b6a0682397634b30a1a10f052fd11b29",
+                    "originalPropertyKey": "operationName1",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "GetProductGroups",
+                    "group": "GET Product Groups Service",
+                    "kuid": "f50303f4a61143798a9201707f1a925b",
+                    "originalPropertyKey": "operationName2",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "getAccountLevelFeatureAction",
+                    "group": "GET Features Service",
+                    "kuid": "f26d1eab404b48f58554cec6b277fcc6",
+                    "originalPropertyKey": "operationName3",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName3",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "createProduct",
+                    "group": "POST Create Product Service",
+                    "kuid": "i0339b0a6b8a424e82faf2123b3d2d95",
+                    "originalPropertyKey": "operationName4",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName4",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "f4cba201db86447c9d19a721ee2b66b7",
+                    "originalPropertyKey": "label2Txt",
+                    "propertyIndex": 3,
+                    "propertyKey": "label2Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 2 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Please_Select_Product_Line",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "jbc5e21baad0475e9a30da6f98c95040",
+                    "originalPropertyKey": "productLineErrorMsgTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "productLineErrorMsgTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Line Error Message Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"values\":[{\"imageTypeDisplay\":\"Banner\", \"imageTypeBackend\":\"Banner\", \"height\":\"556\", \"width\":\"1366\"}, {\"imageTypeDisplay\":\"Icon\", \"imageTypeBackend\":\"Icon\", \"height\":\"40\", \"width\":\"40\"}, {\"imageTypeDisplay\":\"Large Banner\", \"imageTypeBackend\":\"Banner_Large\", \"height\":\"1112\", \"width\":\"2732\"}]}",
+                    "group": "Design Time Configurations",
+                    "kuid": "a1ee05d9dacc4428bfaadb39b41d0a57",
+                    "originalPropertyKey": "imageTypes",
+                    "propertyIndex": 3,
+                    "propertyKey": "imageTypes",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Image Types",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "updateProduct",
+                    "group": "PUT Update Product Service",
+                    "kuid": "db82af70229a421b92a36e9515d9f4e0",
+                    "originalPropertyKey": "operationName5",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName5",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Detailed Description_Optional",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "a09e3084b60d44219ad2a686a13defae",
+                    "originalPropertyKey": "detailedDescLblTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "detailedDescLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Detailed Desc Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Features_can_be_added",
+                    "group": "Product Features Screen Text Fields",
+                    "kuid": "b59a6ac3a1b74a6bb56248b71ca049a6",
+                    "originalPropertyKey": "noFeatureDescTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "noFeatureDescTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "No Feature Description Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Sequence_Number_CAPS",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "fa96e05abc5e418989c32bd5058f352c",
+                    "originalPropertyKey": "featureViewSequenceNumberLblTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "featureViewSequenceNumberLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Sequence Number Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Image_URL",
+                    "group": "Image Details Screen Text Fields",
+                    "kuid": "deff7729daed46d6bee2d35c1d47cb67",
+                    "originalPropertyKey": "imageURLLblTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "imageURLLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Image URL Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Value",
+                    "group": "Additional Attributes Screen Text Fields",
+                    "kuid": "aaf5ba7f56c949328705add5e374680f",
+                    "originalPropertyKey": "attributeValueLblTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "attributeValueLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Attribute Value Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Description",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "df11f8845dc4419098f5a0f2c9c68b1e",
+                    "originalPropertyKey": "subOption2LblTxt",
+                    "propertyIndex": 3,
+                    "propertyKey": "subOption2LblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "SubOption 2 Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLatoBold485c7512px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "c5a8d126523842fa9ebbc49919066f0b",
+                    "originalPropertyKey": "leftVBarBtnSelectedSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "leftVBarBtnSelectedSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Left Vertical Bar Buttons Selected Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skinredbg",
+                    "group": "Common Skins",
+                    "kuid": "f116c67fbf7f412f9001d27bce68a5ad",
+                    "originalPropertyKey": "tbxErrorSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "tbxErrorSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Textbox Error Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxbgF3F3F3bdrd7d9e0",
+                    "group": "Product Details Screen Skins",
+                    "kuid": "dad1b1d35aaa4b8abd5f9a864a1e4865",
+                    "originalPropertyKey": "dateDisabledFlexSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "dateDisabledFlexSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Date Disabled Flex Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl485C75LatoRegular13Px",
+                    "group": "Product Features Screen Skins",
+                    "kuid": "aa67c4987f264c70bc0c25142fca341f",
+                    "originalPropertyKey": "noFeatureScreenDescSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "noFeatureScreenDescSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "No Feature Screen Description Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLatoRegular192B4516px",
+                    "group": "Popup Common Skins",
+                    "kuid": "f1c0bc62eee94ce2a78153e5e3d7c3e5",
+                    "originalPropertyKey": "popupCmnHeadingLblSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "popupCmnHeadingLblSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Heading Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue965\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "dac0a8aac0e946e98e4b0c205e41491d",
+                    "originalPropertyKey": "selCheckboxIcon",
+                    "propertyIndex": 3,
+                    "propertyKey": "selCheckboxIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Selected Checkbox Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "getFacilities",
+                    "group": "GET Facilities Service",
+                    "kuid": "ffda0a33e5714137adfb86ecfeaea4c5",
+                    "originalPropertyKey": "operationName6",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName6",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "createProductFacility",
+                    "group": "POST Create Product Facility Service",
+                    "kuid": "b78795ae47f74c248bf9f609a3594ab4",
+                    "originalPropertyKey": "operationName7",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName7",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "updateProductFacility",
+                    "group": "PUT Update Product Facility Service",
+                    "kuid": "i82be9e37963439fa2b848443fad46fc",
+                    "originalPropertyKey": "operationName8",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName8",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "deleteProductFacility",
+                    "group": "POST Delete Product Facility Service",
+                    "kuid": "jc1f9bd1248d4824810e5c1a1e18676f",
+                    "originalPropertyKey": "operationName9",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName9",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "deab091f892c4ae7883536276404d094",
+                    "originalPropertyKey": "placeholder2Txt",
+                    "propertyIndex": 4,
+                    "propertyKey": "placeholder2Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 2 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Group",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "f7ae304f5236451c8fa0b747b7e522b5",
+                    "originalPropertyKey": "productGroupLblTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "productGroupLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Group Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "10",
+                    "group": "Design Time Configurations",
+                    "kuid": "ja10c0ed90e0480c9e489fa797d96f7e",
+                    "originalPropertyKey": "maxAddAttrAllowed",
+                    "propertyIndex": 4,
+                    "propertyKey": "maxAddAttrAllowed",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Maximum Additional Attributes Allowed",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Detailed Description",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "g496ec4602f14e06bb98d56bc68b26f5",
+                    "originalPropertyKey": "detailedDescPlaceholderTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "detailedDescPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Detailed Desc Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Feature_Name_CAPS",
+                    "group": "Product Features Screen Text Fields",
+                    "kuid": "a457d08059874ae997699e32f0f0477a",
+                    "originalPropertyKey": "featureNameLblSegTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "featureNameLblSegTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Feature Name Label Segment Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Mandatory_CAPS",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "cb721bb950de4831927c8b6b5c49de88",
+                    "originalPropertyKey": "featureViewMandatoryLblTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "featureViewMandatoryLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Mandatory Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Image_URL",
+                    "group": "Image Details Screen Text Fields",
+                    "kuid": "h32e501a031247538515f36d89425af8",
+                    "originalPropertyKey": "imageURLPlaceholderTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "imageURLPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Image URL Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Value",
+                    "group": "Additional Attributes Screen Text Fields",
+                    "kuid": "i587ad8e9a8c43398d267e348acd7c3b",
+                    "originalPropertyKey": "attributeValuePlaceholderTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "attributeValuePlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Attribute Value Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.ProductFacilities_UC",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "c0ff77e13461490d99117ef7ed6381c8",
+                    "originalPropertyKey": "option2LblTxt",
+                    "propertyIndex": 4,
+                    "propertyKey": "option2LblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option 2 Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLatoBoldCursorHover485c7512px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "d29f84e4c3f8430cba5399400027c828",
+                    "originalPropertyKey": "leftVBarBtnHoverSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "leftVBarBtnHoverSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Left Vertical Bar Buttons Hover Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "txtD7d9e0disabledf3f3f3",
+                    "group": "Common Skins",
+                    "kuid": "f81e8e15fa22407997f17f6db442891c",
+                    "originalPropertyKey": "tbxDisabledSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "tbxDisabledSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Textbox Disabled Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblIcomoon20px696c75",
+                    "group": "Product Details Screen Skins",
+                    "kuid": "db66b19285d645ea9803f7c36f571492",
+                    "originalPropertyKey": "dateDisabledIconLblSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "dateDisabledIconLblSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Date Disabled Icon Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato696c7312px",
+                    "group": "Product Features Screen Skins",
+                    "kuid": "b4a9108e109249409fe59f846e60ba7b",
+                    "originalPropertyKey": "segHeaderLblTxtSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "segHeaderLblTxtSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Segment Header Label Text Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue966\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "fb95988147cc49a19d05668f8ab9912c",
+                    "originalPropertyKey": "unselCheckboxIcon",
+                    "propertyIndex": 4,
+                    "propertyKey": "unselCheckboxIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Unselected Checkbox Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "a917afd7e7a1480a84a64851d1bd190f",
+                    "originalPropertyKey": "label3Txt",
+                    "propertyIndex": 5,
+                    "propertyKey": "label3Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 3 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Select_Product_Group",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "g13612b80e0a4eb694fc6d9c5f62c091",
+                    "originalPropertyKey": "productGroupDropdownPlaceholderTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "productGroupDropdownPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Group Dropdown Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Notes_Optional",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "gfb83c20619d44bba2dbd15f4598cd2b",
+                    "originalPropertyKey": "notesLblTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "notesLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Notes Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.AccountActions_UC",
+                    "group": "Product Features Screen Text Fields",
+                    "kuid": "ae6b09a1a41946ddb1ccd6564070471d",
+                    "originalPropertyKey": "featureGroupLblSegTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "featureGroupLblSegTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Feature Group Label Segment Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Default_Value_CAPS",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "h8fd73d6a4e543b99af85039fb78f80e",
+                    "originalPropertyKey": "featureViewDefaultValueLblTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "featureViewDefaultValueLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Default Value Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Plus_Add_Image",
+                    "group": "Image Details Screen Text Fields",
+                    "kuid": "b9dca49e185440dc9c565936f607aeae",
+                    "originalPropertyKey": "addImageBtnTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "addImageBtnTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Add Image Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Plus_Add_Attribute",
+                    "group": "Additional Attributes Screen Text Fields",
+                    "kuid": "b30b0fbac53b4dfcab47ee8ee61e6890",
+                    "originalPropertyKey": "addAttributeBtnTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "addAttributeBtnTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Add Attribute Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Features_CAPS",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "d309c7044ad147b2997e6e6571a84dc9",
+                    "originalPropertyKey": "option3LblTxt",
+                    "propertyIndex": 5,
+                    "propertyKey": "option3LblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option 3 Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblLato84939E12px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "e86e41fbfa6948aeab9fe0da5be0db10",
+                    "originalPropertyKey": "leftVBarOptionalLblSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "leftVBarOptionalLblSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Left Vertical Bar Optional Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "skntxtAread7d9e0",
+                    "group": "Common Skins",
+                    "kuid": "cee2334437714815aaa8dc82bdddb2c7",
+                    "originalPropertyKey": "tbxAreaNormalSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "tbxAreaNormalSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "TextArea Normal Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato696c7313px",
+                    "group": "Product Details Screen Skins",
+                    "kuid": "a31f65d223614a3092f0c98e0ad90bbf",
+                    "originalPropertyKey": "dateDisabledLblTxtSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "dateDisabledLblTxtSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Date Disabled Label Text Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue94d\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "c956e0d0dc954081a6d405f5e57b1a25",
+                    "originalPropertyKey": "tooltipInfoIcon",
+                    "propertyIndex": 5,
+                    "propertyKey": "tooltipInfoIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Tooltip Information Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "c7614be2e6f74e0baca972b6f891f4f9",
+                    "originalPropertyKey": "placeholder3Txt",
+                    "propertyIndex": 6,
+                    "propertyKey": "placeholder3Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 3 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Please_Select_Product_Group",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "d1dc399c41854227a8ba2b048d22a426",
+                    "originalPropertyKey": "productGroupErrorMsgTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "productGroupErrorMsgTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Group Error Message Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Notes",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "d3e6de76eaf942108c80adfacafbc063",
+                    "originalPropertyKey": "notesPlaceholderTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "notesPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Notes Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.roles.STATUS",
+                    "group": "Product Features Screen Text Fields",
+                    "kuid": "a55fa9b57e514c288c67ca6ec364939f",
+                    "originalPropertyKey": "featureTypeLblSegTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "featureTypeLblSegTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Feature Type Label Segment Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Description_CAPS",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "e105e726330f4f4e8cb22e948007bf40",
+                    "originalPropertyKey": "featureViewDescValueLblTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "featureViewDescValueLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Description Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Image_Details_CAPS",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "e08e26533ee54752b087634ba282aa43",
+                    "originalPropertyKey": "option4LblTxt",
+                    "propertyIndex": 6,
+                    "propertyKey": "option4LblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option 4 Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknflxD5D9DD",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "a15b2d663f4143c59f1eefa0acf9c53d",
+                    "originalPropertyKey": "leftVBarSeparatorSkin",
+                    "propertyIndex": 6,
+                    "propertyKey": "leftVBarSeparatorSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Left Vertical Bar Separator Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknTxtError",
+                    "group": "Common Skins",
+                    "kuid": "e5f05410a9b745e68b07b6eb4f261cda",
+                    "originalPropertyKey": "tbxAreaErrorSkin",
+                    "propertyIndex": 6,
+                    "propertyKey": "tbxAreaErrorSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "TextArea Error Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue94c\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "b5e8ba47476a4afc9ae68ff194fca5e8",
+                    "originalPropertyKey": "errorIcon",
+                    "propertyIndex": 6,
+                    "propertyKey": "errorIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Error Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "ab1bd5ce17ee4a069c709629e20cd8d1",
+                    "originalPropertyKey": "label4Txt",
+                    "propertyIndex": 7,
+                    "propertyKey": "label4Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 4 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Name",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "d9eae7fc86634fba824eab4c3c55f112",
+                    "originalPropertyKey": "productNameLblTxt",
+                    "propertyIndex": 7,
+                    "propertyKey": "productNameLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Name Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Disclosure_Optional",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "fa587772f6f74644b5f9c9c8b7350ba5",
+                    "originalPropertyKey": "disclosureLblTxt",
+                    "propertyIndex": 7,
+                    "propertyKey": "disclosureLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Disclosure Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Option_Details",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "fb75c06d6ea04294b884e3806bd091cd",
+                    "originalPropertyKey": "featureViewOptionDetailsLblTxt",
+                    "propertyIndex": 7,
+                    "propertyKey": "featureViewOptionDetailsLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option Details Heading Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Optional",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "h97491f822d0427d894dc55141d9ccac",
+                    "originalPropertyKey": "optionalFieldTxt",
+                    "propertyIndex": 7,
+                    "propertyKey": "optionalFieldTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Optional Field Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLblIcon485C7515px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "e365f1bb776c46e691005768e303e836",
+                    "originalPropertyKey": "leftVBarCollapseIconSkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "leftVBarCollapseIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Left Vertical Bar Collapse Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbxborderd7d9e03pxradius",
+                    "group": "Common Skins",
+                    "kuid": "bcc2e07d45694f6cb01380235d7dcd04",
+                    "originalPropertyKey": "lstboxNormalSkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "lstboxNormalSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Listbox Normal Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue92b\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "c1f5c812e5c54f01bc503cd8096cffe2",
+                    "originalPropertyKey": "sortUpDownIcon",
+                    "propertyIndex": 7,
+                    "propertyKey": "sortUpDownIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Sort Up Down Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "f3b9de7ba0af407e9a5437bc28523a80",
+                    "originalPropertyKey": "placeholder4Txt",
+                    "propertyIndex": 8,
+                    "propertyKey": "placeholder4Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 4 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Name",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "h150798a272f4a4bbfcfac49707f5041",
+                    "originalPropertyKey": "productNamePlaceholderTxt",
+                    "propertyIndex": 8,
+                    "propertyKey": "productNamePlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Name Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Disclosure",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "eaafa1f1549e41f09ddf4dfc7881a056",
+                    "originalPropertyKey": "disclosurePlaceholderTxt",
+                    "propertyIndex": 8,
+                    "propertyKey": "disclosurePlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Disclosure Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Option_Display_Type_CAPS",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "d797025604e7465dba376096c22dccee",
+                    "originalPropertyKey": "featureViewOptionDisplayTypeLblTxt",
+                    "propertyIndex": 8,
+                    "propertyKey": "featureViewOptionDisplayTypeLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option Display Type Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Cancel_CAPS",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "c24c83bc65234afd8dea8164d05ed258",
+                    "originalPropertyKey": "cancelBtnTxt",
+                    "propertyIndex": 8,
+                    "propertyKey": "cancelBtnTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Cancel Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknIcon485C7513px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "be562fdfa4be41b69c3bb119cc8da801",
+                    "originalPropertyKey": "leftVBarRightArrowIconSkin",
+                    "propertyIndex": 8,
+                    "propertyKey": "leftVBarRightArrowIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Left Vertical Bar Right Arrow Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "redListBxSkin",
+                    "group": "Common Skins",
+                    "kuid": "b5d445b900a04a7b83c1cd1673ec5015",
+                    "originalPropertyKey": "lstboxErrorSkin",
+                    "propertyIndex": 8,
+                    "propertyKey": "lstboxErrorSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Listbox Error Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue920\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "j5434cfc01064274b0903ab0b0d97844",
+                    "originalPropertyKey": "downArrowIcon",
+                    "propertyIndex": 8,
+                    "propertyKey": "downArrowIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Down Arrow Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "i7832b39cdb14a059534e689140406bf",
+                    "originalPropertyKey": "label5Txt",
+                    "propertyIndex": 9,
+                    "propertyKey": "label5Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 5 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Name_cannot_be_empty",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "a5960e77e569474dbea84dddf0b8cbee",
+                    "originalPropertyKey": "productNameErrorMsgTxt",
+                    "propertyIndex": 9,
+                    "propertyKey": "productNameErrorMsgTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Name Error Message Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Terms and Conditions_Optional",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "fda5e700f5f44bbbbd5f73dc4ada93c6",
+                    "originalPropertyKey": "tandCLblTxt",
+                    "propertyIndex": 9,
+                    "propertyKey": "tandCLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Terms and Conditions Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Value_CAPS",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "c1d2f7671ac9409f987712196326954a",
+                    "originalPropertyKey": "featureViewValueLblTxt",
+                    "propertyIndex": 9,
+                    "propertyKey": "featureViewValueLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Value Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Next_CAPS",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "b090857cac554e089b3309285d4f85bd",
+                    "originalPropertyKey": "nextBtnTxt",
+                    "propertyIndex": 9,
+                    "propertyKey": "nextBtnTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Next Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxBgFFFFFFBorE4E6ECsz1pxR1px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "de35516a71074163a9734c3bbaef50f6",
+                    "originalPropertyKey": "bottomBarBgSkin",
+                    "propertyIndex": 9,
+                    "propertyKey": "bottomBarBgSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Bottom Bar Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbxBGf3f3f3Radius3pxDisabled",
+                    "group": "Common Skins",
+                    "kuid": "eb6160130bb5400591117090fb30f8bb",
+                    "originalPropertyKey": "lstboxDisabledSkin",
+                    "propertyIndex": 9,
+                    "propertyKey": "lstboxDisabledSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Listbox Disabled Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue906\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "b17b8a1bdceb4d6fbb7d8c09c7ed327c",
+                    "originalPropertyKey": "upArrowIcon",
+                    "propertyIndex": 9,
+                    "propertyKey": "upArrowIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Up Arrow Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "fc92af8385b4401ca746fd39df9c3b53",
+                    "originalPropertyKey": "placeholder5Txt",
+                    "propertyIndex": 10,
+                    "propertyKey": "placeholder5Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 5 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Reference",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "b7d80bd073be4edd97dda48cce80beff",
+                    "originalPropertyKey": "productRefLblTxt",
+                    "propertyIndex": 10,
+                    "propertyKey": "productRefLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Reference Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Terms and Conditions",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "f2ea09ea72b44766bb9e26cc4283eabf",
+                    "originalPropertyKey": "tandCPlaceholderTxt",
+                    "propertyIndex": 10,
+                    "propertyKey": "tandCPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Terms and Conditions Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Description_CAPS",
+                    "group": "View Product Features Popup Screen Text Fields",
+                    "kuid": "ad06033f132042308d9ed4df0fcdef27",
+                    "originalPropertyKey": "featureViewDescriptionLblTxt",
+                    "propertyIndex": 10,
+                    "propertyKey": "featureViewDescriptionLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Description Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Add_Product_CAPS",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "b076aabf8f4546798f0426fac8eccb6d",
+                    "originalPropertyKey": "addProductBtnTxt",
+                    "propertyIndex": 10,
+                    "propertyKey": "addProductBtnTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Add Product Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknbtnf7f7faLatoRegular4f555dBorder1px8b96a5",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "bf3bb37a3c574484af1cb58b50788cb7",
+                    "originalPropertyKey": "bottomBarCancelBtnSkin",
+                    "propertyIndex": 10,
+                    "propertyKey": "bottomBarCancelBtnSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Bottom Bar Cancel Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxCalendar",
+                    "group": "Common Skins",
+                    "kuid": "a4113f1cf79e467b9e74f375b1a8d30e",
+                    "originalPropertyKey": "calendarNormalSkin",
+                    "propertyIndex": 10,
+                    "propertyKey": "calendarNormalSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Calendar Normal Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue91f\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "d40b37e1f4994106a2dc50702beead5c",
+                    "originalPropertyKey": "segMoreDetailsIcon",
+                    "propertyIndex": 10,
+                    "propertyKey": "segMoreDetailsIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Segment More Details Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "a6820144e35a47a0b0ce5a89f65ed454",
+                    "originalPropertyKey": "label6Txt",
+                    "propertyIndex": 11,
+                    "propertyKey": "label6Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 6 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Reference",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "d31d77e716ed46d89f4d218e045213ee",
+                    "originalPropertyKey": "productRefPlaceholderTxt",
+                    "propertyIndex": 11,
+                    "propertyKey": "productRefPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Reference Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Update_Product_CAPS",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "g10f74735bf14b44a50d4a13e833176a",
+                    "originalPropertyKey": "updateProductBtnTxt",
+                    "propertyIndex": 11,
+                    "propertyKey": "updateProductBtnTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Update Product Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknbtnffffffLatoRegular4f555dBorder1px485c75",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "b8ef35e57ef143dba40e479cf8500e46",
+                    "originalPropertyKey": "bottomBarCancelBtnHoverSkin",
+                    "propertyIndex": 11,
+                    "propertyKey": "bottomBarCancelBtnHoverSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Bottom Bar Cancel Button Hover Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxCalendarError",
+                    "group": "Common Skins",
+                    "kuid": "i22b6832de84449fa35f5afb629f2677",
+                    "originalPropertyKey": "calendarErrorSkin",
+                    "propertyIndex": 11,
+                    "propertyKey": "calendarErrorSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Calendar Error Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"text\":\"\\ue918\"}",
+                    "group": "MoonIcons Text Fields",
+                    "kuid": "e8faaef6b71246b6b7fc9345a85e0512",
+                    "originalPropertyKey": "menuRightArrowIcon",
+                    "propertyIndex": 11,
+                    "propertyKey": "menuRightArrowIcon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Menu Right Arrow Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Notes_Tooltip",
+                    "group": "Product Description Screen Text Fields",
+                    "kuid": "d0d977d92f384012844ac4e969119d20",
+                    "originalPropertyKey": "notesToolTipTxt",
+                    "propertyIndex": 11,
+                    "propertyKey": "notesToolTipTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Notes Tooltip Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "ffc8e7863e1f4c03aac151fab4bc1a51",
+                    "originalPropertyKey": "placeholder6Txt",
+                    "propertyIndex": 12,
+                    "propertyKey": "placeholder6Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 6 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Reference_cannot_be_empty",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "b0138cc347264cb581f7722d41d7c64c",
+                    "originalPropertyKey": "productRefErrorMsgTxt",
+                    "propertyIndex": 12,
+                    "propertyKey": "productRefErrorMsgTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Reference Error Message Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn4A77A0LatoRegular13pxFFFFFFRad20px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "b91e852f5994413c9356d39134d3be31",
+                    "originalPropertyKey": "bottomBarBtnLightSkin",
+                    "propertyIndex": 12,
+                    "propertyKey": "bottomBarBtnLightSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Bottom Bar Buttons Light Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxBgFFFFFFBore4e6ec3Px",
+                    "group": "Common Skins",
+                    "kuid": "ccc33c796a1742de9a7347cec1f11500",
+                    "originalPropertyKey": "commonRightBackgroundSkin",
+                    "propertyIndex": 12,
+                    "propertyKey": "commonRightBackgroundSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Product Right Common Background Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Additional_Attributes_CAPS",
+                    "group": "Navigation Bars Text Fields",
+                    "kuid": "h1f840fe0b154bfbba233cd809fc0649",
+                    "originalPropertyKey": "option5LblTxt",
+                    "propertyIndex": 12,
+                    "propertyKey": "option5LblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Option 5 Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "j499f15db09a4755b11b53654a489b70",
+                    "originalPropertyKey": "label7Txt",
+                    "propertyIndex": 13,
+                    "propertyKey": "label7Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 7 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Available_From_Date",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "bd41f6fd2a6b49c99e0dcb5ea4fce613",
+                    "originalPropertyKey": "startDateLblTxt",
+                    "propertyIndex": 13,
+                    "propertyKey": "startDateLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Start Date Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn003E75LatoRegular13pxFFFFFFRad20px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "g7b24e8441104845a0f23ad0bb47fd36",
+                    "originalPropertyKey": "bottomBarBtnDarkSkin",
+                    "propertyIndex": 13,
+                    "propertyKey": "bottomBarBtnDarkSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Bottom Bar Buttons Dark Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknErrorIcon",
+                    "group": "Common Skins",
+                    "kuid": "i00f36f0df8642178e0eb228bb02ccf5",
+                    "originalPropertyKey": "errorMsgIconSkin",
+                    "propertyIndex": 13,
+                    "propertyKey": "errorMsgIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Error Message Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "a2a215f73fe343fb88c2fabf3223ef1b",
+                    "originalPropertyKey": "placeholder7Txt",
+                    "propertyIndex": 14,
+                    "propertyKey": "placeholder7Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 7 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Please_select_a_valid_date",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "c3649e19362e4437a80062722cda0d23",
+                    "originalPropertyKey": "startDateErrorMsgTxt",
+                    "propertyIndex": 14,
+                    "propertyKey": "startDateErrorMsgTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Start Date Error Message Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblError",
+                    "group": "Common Skins",
+                    "kuid": "g70a487ee865486c857897412546dc01",
+                    "originalPropertyKey": "errorMsgTextSkin",
+                    "propertyIndex": 14,
+                    "propertyKey": "errorMsgTextSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Error Message Text Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn2D5982LatoRegular13pxFFFFFFRad20px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "a52ae65396fd4b939b16d1655a4f9b52",
+                    "originalPropertyKey": "bottomBarBtnLightHoverSkin",
+                    "propertyIndex": 14,
+                    "propertyKey": "bottomBarBtnLightHoverSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Bottom Bar Buttons Light Hover Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtn005198LatoRegular13pxFFFFFFRad20px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "a64c6bf79baf491bbb72eb9346a5f110",
+                    "originalPropertyKey": "bottomBarBtnDarkHoverSkin",
+                    "propertyIndex": 15,
+                    "propertyKey": "bottomBarBtnDarkHoverSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Bottom Bar Buttons Dark Hover Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "f659306faa6843aaad7d3289bf4f4afe",
+                    "originalPropertyKey": "label8Txt",
+                    "propertyIndex": 15,
+                    "propertyKey": "label8Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 8 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Available_To_Date",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "e38fbedab6484fc5b29440d2408c43ca",
+                    "originalPropertyKey": "endDateLblTxt",
+                    "propertyIndex": 15,
+                    "propertyKey": "endDateLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "End Date Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknlblLato696c7313px",
+                    "group": "Common Skins",
+                    "kuid": "j332ab6dda10412da84d50ab48e52153",
+                    "originalPropertyKey": "txtCounterLabelSkin",
+                    "propertyIndex": 15,
+                    "propertyKey": "txtCounterLabelSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "TextCounter Label Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "j93f5b2c238f40b09166c20d572117be",
+                    "originalPropertyKey": "placeholder8Txt",
+                    "propertyIndex": 16,
+                    "propertyKey": "placeholder8Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 8 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Please_select_a_valid_date",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "f6a7fb150e484d79838495079c4ede76",
+                    "originalPropertyKey": "endDateErrorMsgTxt",
+                    "propertyIndex": 16,
+                    "propertyKey": "endDateErrorMsgTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "End Date Error Message Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconOptionMenu",
+                    "group": "Common Skins",
+                    "kuid": "c7f06da791ef435e8554aa32f5317950",
+                    "originalPropertyKey": "segmentOptionsIconSkin",
+                    "propertyIndex": 16,
+                    "propertyKey": "segmentOptionsIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Segment Options Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknIcon485C7513px",
+                    "group": "Navigation Bars Skins",
+                    "kuid": "h5605f4ff06542b2bf217760f7f440ee",
+                    "originalPropertyKey": "leftVBarExpandIconSkin",
+                    "propertyIndex": 16,
+                    "propertyKey": "leftVBarExpandIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Left Vertical Bar Expand Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "fae1621b85df412bb20185f28f5dd11d",
+                    "originalPropertyKey": "label9Txt",
+                    "propertyIndex": 17,
+                    "propertyKey": "label9Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 9 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Purpose",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "i519776e340946248ddeaf6e3822212f",
+                    "originalPropertyKey": "purposeLblTxt",
+                    "propertyIndex": 17,
+                    "propertyKey": "purposeLblTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Purpose Label Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "lblIconGrey",
+                    "group": "Common Skins",
+                    "kuid": "g36c47b2845f40bd9e4942f19ff79764",
+                    "originalPropertyKey": "popupCloseCrossBtnSkin",
+                    "propertyIndex": 17,
+                    "propertyKey": "popupCloseCrossBtnSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Close Cross Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "a0d8b0e5783642eda2f16a2281763dc8",
+                    "originalPropertyKey": "placeholder9Txt",
+                    "propertyIndex": 18,
+                    "propertyKey": "placeholder9Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 9 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Product_Purpose",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "f9d9ee9865504cc1b5719b13dde616b4",
+                    "originalPropertyKey": "purposeDropdownPlaceholderTxt",
+                    "propertyIndex": 18,
+                    "propertyKey": "purposeDropdownPlaceholderTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Purpose Dropdown Placeholder Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknBtnLato117eb013Px",
+                    "group": "Common Skins",
+                    "kuid": "b598c666a95a4586bec079c4ce3493be",
+                    "originalPropertyKey": "AddSegmentRowBtnSkin",
+                    "propertyIndex": 18,
+                    "propertyKey": "AddSegmentRowBtnSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Add Segment Row Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "c84c4c6b3b8f48348e62c28146c16b94",
+                    "originalPropertyKey": "label10Txt",
+                    "propertyIndex": 19,
+                    "propertyKey": "label10Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 10 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "i18n.products.Purpose_cannot_be_empty",
+                    "group": "Product Details Screen Text Fields",
+                    "kuid": "f256ef52e260484ea4dd6bd7b152def2",
+                    "originalPropertyKey": "purposeErrorMsgTxt",
+                    "propertyIndex": 19,
+                    "propertyKey": "purposeErrorMsgTxt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Purpose Error Message Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknIcon15px",
+                    "group": "Common Skins",
+                    "kuid": "je4f64237933472a87da65b1944a0f81",
+                    "originalPropertyKey": "sortconsSkin",
+                    "propertyIndex": 19,
+                    "propertyKey": "sortconsSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Sort Icons Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknIcon22px192b45",
+                    "group": "Common Skins",
+                    "kuid": "h342a90dadaa44a0a7dbb7fe552217de",
+                    "originalPropertyKey": "deleteIconSkin",
+                    "propertyIndex": 20,
+                    "propertyKey": "deleteIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Delete Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "fdd9b61662a54e17bc46b7a12797f2af",
+                    "originalPropertyKey": "placeholder10Txt",
+                    "propertyIndex": 20,
+                    "propertyKey": "placeholder10Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 10 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "b1fcb5b00b09416da95d8212387442dc",
+                    "originalPropertyKey": "label11Txt",
+                    "propertyIndex": 21,
+                    "propertyKey": "label11Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 11 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconCheckBoxSelected",
+                    "group": "Common Skins",
+                    "kuid": "c569063662e44aa39e8b43379957dcf9",
+                    "originalPropertyKey": "checkboxSelIconSkin",
+                    "propertyIndex": 21,
+                    "propertyKey": "checkboxSelIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Checkbox Selected Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "aee349eb5f504ef59dae536b3b574265",
+                    "originalPropertyKey": "placeholder11Txt",
+                    "propertyIndex": 22,
+                    "propertyKey": "placeholder11Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 11 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFontIconCheckBoxUnselected",
+                    "group": "Common Skins",
+                    "kuid": "a7b9a588780141b89c0b166b8f12427b",
+                    "originalPropertyKey": "checkboxUnselIconSkin",
+                    "propertyIndex": 22,
+                    "propertyKey": "checkboxUnselIconSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Checkbox Unselected Icon Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "a10813ec295541ada3572549f22f67ec",
+                    "originalPropertyKey": "label12Txt",
+                    "propertyIndex": 23,
+                    "propertyKey": "label12Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 12 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "jc5b60af0ac04f06bdaa617caf597936",
+                    "originalPropertyKey": "placeholder12Txt",
+                    "propertyIndex": 24,
+                    "propertyKey": "placeholder12Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 12 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "g64bda7694e04b47875d5b435cc067e5",
+                    "originalPropertyKey": "label13Txt",
+                    "propertyIndex": 25,
+                    "propertyKey": "label13Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 13 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "c183378128e340728b519e8fadc4a787",
+                    "originalPropertyKey": "placeholder13Txt",
+                    "propertyIndex": 26,
+                    "propertyKey": "placeholder13Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 13 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "e9c35350401a4e2a8324034046f531ec",
+                    "originalPropertyKey": "label14Txt",
+                    "propertyIndex": 27,
+                    "propertyKey": "label14Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 14 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "d610ad12d3884960ab25765dbf52e795",
+                    "originalPropertyKey": "placeholder14Txt",
+                    "propertyIndex": 28,
+                    "propertyKey": "placeholder14Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 14 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "be88d17600af478b9bb0125631c67a22",
+                    "originalPropertyKey": "label15Txt",
+                    "propertyIndex": 29,
+                    "propertyKey": "label15Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Label 15 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Product Details Screen - Additional Text Fields",
+                    "kuid": "f6c9a4c1a161476da4a09418498e472b",
+                    "originalPropertyKey": "placeholder15Txt",
+                    "propertyIndex": 30,
+                    "propertyKey": "placeholder15Txt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Placeholder 15 Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d485e924f4db429d96b786e20cdaa0a4",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.adminConsole.Products",
+    "version": "1.0.0"
+}

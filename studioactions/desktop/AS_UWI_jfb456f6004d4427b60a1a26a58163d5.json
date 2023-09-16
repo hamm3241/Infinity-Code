@@ -1,0 +1,23 @@
+{
+    "AS_UWI_jfb456f6004d4427b60a1a26a58163d5": {
+        "id": "AS_UWI_jfb456f6004d4427b60a1a26a58163d5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "context",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmViewPermissions",
+            "type": "forms",
+            "platform": "",
+            "KUID": "abe59b77afba4cf989f7ad71c7861109"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_edf6640e81bf4d4fac127ddd29f0ae95",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.rejectRequestYesCallback(context);",
+            "parentId": null
+        }]
+    }
+}

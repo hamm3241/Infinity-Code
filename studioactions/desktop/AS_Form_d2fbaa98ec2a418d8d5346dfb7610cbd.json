@@ -1,0 +1,28 @@
+{
+    "AS_Form_d2fbaa98ec2a418d8d5346dfb7610cbd": {
+        "id": "AS_Form_d2fbaa98ec2a418d8d5346dfb7610cbd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerProfileDeviceInfo",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d008542927d348e39f0442586c3181e2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e967ef464d104a03aa1ba3c64b7c0399",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "CustomerProfileDeviceInfoPreshow",
+            "display": "CustomerProfileDeviceInfoPreshow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

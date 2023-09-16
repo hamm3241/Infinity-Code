@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_ff9169ffccb844c0a2386a7fef252b37": {
+        "id": "AS_FlexContainer_ff9169ffccb844c0a2386a7fef252b37",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segServicesAndFaqSelected",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f204fa7e25fb45cda3579c14858daee8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cb8474bf117f4ed7ae22b29b54fbc55f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleCheckboxSelected();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

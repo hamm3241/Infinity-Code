@@ -1,0 +1,20 @@
+{
+    "AS_FlexContainer_b84949cd0dd4401bbf895e24dbcf2b7d": {
+        "id": "AS_FlexContainer_b84949cd0dd4401bbf895e24dbcf2b7d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a97177d8378b4aafbc441053617d49d3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"showSelectedRow\");",
+            "callbackType": null
+        }]
+    }
+}

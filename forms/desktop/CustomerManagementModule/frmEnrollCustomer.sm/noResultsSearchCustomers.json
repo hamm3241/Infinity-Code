@@ -1,0 +1,116 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s438947e0b124486a93d616f381275f9",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnAddRecord": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aedc27cfbb2b40cdb1ad975dd623a94c",
+                "srcKUID": "h8354b2992bd4b4ea7873a165de1f601",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.frmEnrollCustomer.AddNewContract",
+            "text": "Create New Contract",
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "142dp"
+                }
+            }
+        },
+        "lblNoRecordsAvailable": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b351761846a04c2787c8338ac212b865",
+                "srcKUID": "e2b315945d674d5f9e6ca82032bb02c0",
+                "wType": "Label"
+            }
+        },
+        "noResultsWithButton": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f0e726ae1582412c8ccd69fcf04107ca",
+                "srcKUID": "e8b270606f6b4af8b733af362617be25",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "100dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "noResultsSearchCustomers",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f0e726ae1582412c8ccd69fcf04107ca",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxNoResultsContainer",
+    "pf": "frmEnrollCustomer",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "e8b270606f6b4af8b733af362617be25",
+    "wType": "UserWidgetInstance"
+}

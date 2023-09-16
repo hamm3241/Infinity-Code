@@ -1,0 +1,22 @@
+{
+    "AS_Button_bf157196200243bdaea320709c9ce665": {
+        "id": "AS_Button_bf157196200243bdaea320709c9ce665",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "ab9b978ca35a4d1caa6272c8aae08afa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_i23c0b33846b42fe8b16c41c28f71c7b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxDeactivatePermission.setVisibility(true);",
+            "callbackType": null
+        }]
+    }
+}

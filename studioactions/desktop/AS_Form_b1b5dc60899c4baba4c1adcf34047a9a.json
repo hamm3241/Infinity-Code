@@ -1,0 +1,23 @@
+{
+    "AS_Form_b1b5dc60899c4baba4c1adcf34047a9a": {
+        "id": "AS_Form_b1b5dc60899c4baba4c1adcf34047a9a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerProfileDueDiligence",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h6eeb122e58f469aadd7f21f9030a9ae"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_jb52fe091bc045ed848fdcd4ebf317a0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.CustomerProfileDueDiligencePreshow();",
+            "callbackType": null
+        }]
+    }
+}

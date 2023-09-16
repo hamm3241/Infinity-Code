@@ -1,0 +1,27 @@
+{
+    "AS_TextArea_j11d35e595f541edac1298f2e3dc1794": {
+        "id": "AS_TextArea_j11d35e595f541edac1298f2e3dc1794",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segAddSecurityQuestion",
+            "type": "templates",
+            "platform": "",
+            "KUID": "d1deb02e40384d5a83a93f53bf265048"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ef480df2e3c843589068b45959dfc71c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.activateSwitch();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

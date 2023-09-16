@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_ba9fe5ae8e9f4d3091e928faa2da885e": {
+        "id": "AS_FlexContainer_ba9fe5ae8e9f4d3091e928faa2da885e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segOutage",
+            "type": "templates",
+            "platform": null,
+            "KUID": "h4e4a0685eb142689ac7cdc73b71b5ee"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e18b0dc920824e55819c2e1a810d1582",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"toggleContextualMenu\");",
+            "callbackType": null
+        }]
+    }
+}

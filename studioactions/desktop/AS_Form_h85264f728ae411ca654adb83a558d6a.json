@@ -1,0 +1,24 @@
+{
+    "AS_Form_h85264f728ae411ca654adb83a558d6a": {
+        "id": "AS_Form_h85264f728ae411ca654adb83a558d6a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPasswordAgeAndLockoutSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i860fd5238df49cdb488d81dd8523689"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c8db0a532b894ac8918393b915dd6f96",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.passwordAgeAndLockoutPreShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

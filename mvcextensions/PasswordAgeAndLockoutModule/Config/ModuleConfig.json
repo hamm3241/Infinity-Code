@@ -1,0 +1,30 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "PasswordAgeAndLockoutModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmPasswordAgeAndLockoutSettings": {
+                "Controller": "PasswordAgeAndLockoutModule/frmPasswordAgeAndLockoutSettingsController",
+                "ControllerExtensions": [
+                    "WidgetPermission_Checker_FormExtns",
+                    "AdminConsoleCommonUtilities",
+                    "Navigation_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "PasswordAgeAndLockoutModule/frmPasswordAgeAndLockoutSettings",
+                "friendlyName": "frmPasswordAgeAndLockoutSettings"
+            }
+        }
+    },
+    "ModuleName": "PasswordAgeAndLockoutModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "PasswordAgeAndLockoutModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

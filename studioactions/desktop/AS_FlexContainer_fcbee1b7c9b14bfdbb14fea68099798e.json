@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_fcbee1b7c9b14bfdbb14fea68099798e": {
+        "id": "AS_FlexContainer_fcbee1b7c9b14bfdbb14fea68099798e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d94774190dae477c81b640140e03e672",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "resetSubmittedLoansListWithoutInvokingService",
+            "display": "resetSubmittedLoansListWithoutInvokingService",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

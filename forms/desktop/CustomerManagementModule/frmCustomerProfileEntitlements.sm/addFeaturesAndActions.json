@@ -1,0 +1,522 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "FeatureTypeFilterMenu": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ee7bceefefa2411e87d347634e04f936",
+                "srcKUID": "c87dfbbc0ac34b5aa5a39028fd08b938",
+                "wType": "UserWidgetInstance"
+            }
+        },
+        "FeatureTypeFilterMenu.flxArrowImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bc77e6d0fd114ec095084f96a9f3e9b8",
+                "srcKUID": "ic1be34c12bd4143a5a64b644558061b",
+                "wType": "FlexContainer"
+            }
+        },
+        "FeatureTypeFilterMenu.flxChechboxOuter": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fa31b041b3e94e0597bbd31ce4caabf1",
+                "srcKUID": "a8c962442af5459fa0fa1d8ae57dccf8",
+                "wType": "FlexContainer"
+            }
+        },
+        "FeatureTypeFilterMenu.imgUpArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ie4009cd2ea748f8bfaec1f74e3bcc62",
+                "srcKUID": "edac261aa263469e9818761ee5ae776f",
+                "wType": "Image"
+            }
+        },
+        "FeatureTypeFilterMenu.segStatusFilterDropdown": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b7d6e8930d394c4e8cde28042b1d9333",
+                "srcKUID": "a511b2d825da47dabfa7d7c74f09b2ae",
+                "wType": "Segment"
+            }
+        },
+        "addFeaturesAndActions": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a450eb89fa2746ec8e57a82d5eefc5fb",
+                "srcKUID": "fbf2abc06e7446e2b6000f2ac942ad93",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnResetActions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dc2db0aeb7ab470aace4e29b022de967",
+                "srcKUID": "ad73f81fb78a4792b78612e6a8f2e406",
+                "wType": "Button"
+            }
+        },
+        "btnSelectAll": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cdaae69e10654983bdca5f5dbac79937",
+                "srcKUID": "c8733f80191a466baf72a30eb7a87147",
+                "wType": "Button"
+            }
+        },
+        "btnViewActions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ba07ba13ad1f40bd8070b1d4289192d0",
+                "srcKUID": "g762d7b60b9b49268d66fb8c31d544c6",
+                "wType": "Button"
+            }
+        },
+        "flxAccountSearchLoading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aea144075f6c48b0a2f49ced3bac6acf",
+                "srcKUID": "e78b36ccdd1349878ff66c53015d50e6",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxActionDetailsContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g2d380d5470743d98659b4c1cb7e98ea",
+                "srcKUID": "ce68dfa224634c9ea756b4c38d370fb3",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxActionMessageBorder": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ec4769bc07564a63be4bec87f37b631b",
+                "srcKUID": "e0a33275603d49f6a68a0907a9e6fb58",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxActionsMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e253edc7a61a43868a8fc22bb39fec39",
+                "srcKUID": "ae1d244e33d84092af1392112fc4eb9c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAddOptionsSegment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c6762109d3a845e3a8e55634ba96b63b",
+                "srcKUID": "a2ce606ad39b4947b05714936c6753db",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "flxAvailableOptions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g753bdffb45c4f9db514b88d298d599d",
+                "srcKUID": "dc67cd986c924a11804797333978c8d9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxAvailableOptionsWrapper": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i6710946e2d44a9292a51b64637d0755",
+                "srcKUID": "b8c40f5f129148529d1a24cc5749b998",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxClearSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ebb7dab479984b78b8e5e4886fef0df3",
+                "srcKUID": "af06f943830342c194f68a4d4d437582",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e3b509760c624bceaf1042d2e46c6c09",
+                "srcKUID": "fe041742a4764e04abb7b8fd5386fa17",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxFeatureTypeFilter": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d31eba1393d04e8484e7252cba698840",
+                "srcKUID": "c1e8ebd569cc4268a8190467d84d8897",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxFilteredSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j56d7ad10d3e416b9d372634cd1043af",
+                "srcKUID": "c6bc93e54952498f815b8ca33e8260f7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxIconContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "be3f72c7430d4deb9935c0aa60e75bcb",
+                "srcKUID": "d13cdc3a8579411d8413d39978b3498d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxImageContainerAccountSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jd86bd7d59b241f7932464226ef182b2",
+                "srcKUID": "ge6117ca9cbc4a628d53ac8a6ae58807",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxNameDetailsBtnCont": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i18ca19165804be9ad36611b1f3b508d",
+                "srcKUID": "e9b63c2077934f969a4d6138f2d97594",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h7a72b318b7e4188b6974508c7e5e905",
+                "srcKUID": "c2dced9e7ad14c86ac19a27d84c74063",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchClick": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gd6019b455ae478394559ca63f59404e",
+                "srcKUID": "d0ce1e8f21bc48be9d62af4409f69288",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchCont": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hcd5fd41389e41928ad8464b12bc889e",
+                "srcKUID": "cc86589b16bf4d16beec653e9fdc6466",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchFilterTextBox": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f5b7f3c209da435d9e8a43278c5b1869",
+                "srcKUID": "c12eb22c10724bff81f9bd841e28629f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c47206e43e5c44adb885fa451e98bcfe",
+                "srcKUID": "d936b5e48e6c47ffac7b584df9588ce9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSegActionsList": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f6224cfb445f46faa3ba36e43214247b",
+                "srcKUID": "dbac4b3ed9744a8ab126d748c087f8ca",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "flxSegAvailableOptions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef74de77d8e94bfc82605ccf873883c8",
+                "srcKUID": "h48c7ac500e64dd58ad5fdd15566e447",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSegSearchType": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c8452b8d96cb49c999b079310d5c84a6",
+                "srcKUID": "a401ef104620474aae0232895c453d21",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSegSelectedOptions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fcadb781f0054a808c35929ce36ca7e6",
+                "srcKUID": "a20a4de0ad154a34828a978431e87c63",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSelectedOptions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aa5be25568a84aeaae1ac0ab66b36ad4",
+                "srcKUID": "b32783008d29426385c9f081f4f472e5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSelectedOptionsWrapper": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b4d2fb5788f04e81b14427b2cfa7b356",
+                "srcKUID": "cd000a5acf07485595abb798f1202f90",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSelectedType": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ib69c8ff7d39408391b16e98eb012c5b",
+                "srcKUID": "f7399a8f2ff2455bbd6effdc3d8f4b14",
+                "wType": "FlexContainer"
+            }
+        },
+        "fontIconFeatureTypeFilter": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g607127eea694045a0cb21cd438399a3",
+                "srcKUID": "j37d0c271d1e4ebd8b8d798525374522",
+                "wType": "Label"
+            }
+        },
+        "imgLoadingAccountSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i30defbd736d4ef59c49dfe32dfd2465",
+                "srcKUID": "d32e2a90ea8d409c984b27dac655cfad",
+                "wType": "Image"
+            }
+        },
+        "lblActionHeaderLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f91437b804424ad389782fb5e7e4f0da",
+                "srcKUID": "f45e661ba19b4720948da50b9723c307",
+                "wType": "Label"
+            }
+        },
+        "lblActionMsg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h8923599d4594d328a8b7d4bd27805da",
+                "srcKUID": "da9bc3aeff9a4f9aa37f0b4a24d6be61",
+                "wType": "Label"
+            }
+        },
+        "lblActionsMsgIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jcc575cc277143e8ba3e69c32dc3301b",
+                "srcKUID": "d0d57ab65f844f1a958ed4103007a802",
+                "wType": "Label"
+            }
+        },
+        "lblAvailableOptionsHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ie5f85514ae24906b9606ca2a95e9954",
+                "srcKUID": "a4c481127a744fd7a74eb52c1d424964",
+                "wType": "Label"
+            }
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ad105dc7681e4b128f526b41970b44d1",
+                "srcKUID": "a4724ab9e68d48fbbe254fab68693db0",
+                "wType": "Label"
+            }
+        },
+        "lblErrorText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fffa8047f6cd4ca18873c8f3c543b22c",
+                "srcKUID": "e73402a87fbc4605be0116d00d97922c",
+                "wType": "Label"
+            }
+        },
+        "lblFeatureHeaderLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d3fbbac6e4b44318b3076cda043cd137",
+                "srcKUID": "ffd6ad31f21e4f7e8a59f4de37f95b1d",
+                "wType": "Label"
+            }
+        },
+        "lblFeatureNameValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c1abac599cf2407e807bc8350cb376c1",
+                "srcKUID": "d085482d0c324dd5a5b136777bd581bf",
+                "wType": "Label"
+            }
+        },
+        "lblIconClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f7c3d63647754924b0dbd91434d2f873",
+                "srcKUID": "b4f93bf170c34e8d83928d20d6ea46c6",
+                "wType": "Label"
+            }
+        },
+        "lblIconDropDown": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d2d91b1876d34982b4466c2b6db339c7",
+                "srcKUID": "h621041ce4474aa09db8e4515e07c2b8",
+                "wType": "Label"
+            }
+        },
+        "lblIconSearchBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ea8963646a4644479764916211af0d16",
+                "srcKUID": "f1ad8f24ed394008a429826434e4c8d3",
+                "wType": "Label"
+            }
+        },
+        "lblSearchIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a05367e486574c9ba6cbf9795d8f3668",
+                "srcKUID": "he4ea08fd2114d39874be1fb85ed89bf",
+                "wType": "Label"
+            }
+        },
+        "lblSelSearchType": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b7feed54072c42449649c0a4ace25515",
+                "srcKUID": "g01109f1d9ae4b668c04fbc7137ff0b2",
+                "wType": "Label"
+            }
+        },
+        "lblSelectedOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a428a1be7b0644aaa71f8b96dd2f7b32",
+                "srcKUID": "cbfc7b82d7c04501b00ea8b05e093bb8",
+                "wType": "Label"
+            }
+        },
+        "rtxAvailableOptionsMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f012c770d6154f4e88954229cbea6855",
+                "srcKUID": "d63224899fcb41988ffd94f89e8930f1",
+                "wType": "RichText"
+            }
+        },
+        "rtxSelectedOptionsMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jfa3a135761b4a0f8c88408fc4178492",
+                "srcKUID": "afe3d46446a24a908928e3a862a6c62e",
+                "wType": "RichText"
+            }
+        },
+        "segAddOptions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ade5b200a57e4db4af1654c804aba714",
+                "srcKUID": "b178d46a4ff74de79442e14e3750ab52",
+                "wType": "Segment"
+            }
+        },
+        "segSearchType": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e8a33380f4474c018931926bd45ee123",
+                "srcKUID": "a02aec402b484d2d8bd6646496e293da",
+                "wType": "Segment"
+            }
+        },
+        "segSelectedOptions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "adf0196891ba4983882c9f24d8e1dbbd",
+                "srcKUID": "e8cfe24154be47b0a897fdb718fd176b",
+                "wType": "Segment"
+            }
+        },
+        "tbxFilterSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aa45f16dc0524c8885dcd8db4028150d",
+                "srcKUID": "dfd0112df6924e60bbf894a73fe091e5",
+                "wType": "TextField"
+            }
+        },
+        "tbxSearchAvailableItems": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f3947b67d0da41619d478af0cd4216bf",
+                "srcKUID": "ef87bae1a0ab4d9291e75647c069fe6d",
+                "wType": "TextField"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "addFeaturesAndActions",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "a450eb89fa2746ec8e57a82d5eefc5fb",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxAddFeaturesActions",
+    "pf": "frmCustomerProfileEntitlements",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "fbf2abc06e7446e2b6000f2ac942ad93",
+    "wType": "UserWidgetInstance"
+}

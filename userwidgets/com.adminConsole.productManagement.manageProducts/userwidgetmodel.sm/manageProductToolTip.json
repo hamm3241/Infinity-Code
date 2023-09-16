@@ -1,0 +1,186 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "110px"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ToolTip": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c0b8ce3095434fcabf9390fe9f6a55ea",
+                "srcKUID": "d2e8e05418294939bb169899d92582ca",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "50dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "110px"
+                }
+            },
+            "zIndex": {
+                "Default": 10
+            }
+        },
+        "flxToolTipMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d990f2c3de42471cb2c3fad173aebc15",
+                "srcKUID": "cd78a1e8c5f4485887810951944b2775",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "imgUpArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ge5f7b151cb04c3fa1d06c35ec1422b7",
+                "srcKUID": "ab640cc0601546c3ae3ffeb8b31c0833",
+                "wType": "Image"
+            }
+        },
+        "lblDownArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef373adc2c304eaaa681af100fd66cbc",
+                "srcKUID": "d79a3a7f0a154f35b73e2b72d3e16d6e",
+                "wType": "Label"
+            }
+        },
+        "lblNoConcentToolTip": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a0edf18d93be46228d05872fb0394f77",
+                "srcKUID": "c2397e5b3585463faa9fed82f0f10286",
+                "wType": "Label"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": "5px"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "i18n_text": null,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "10px"
+                }
+            },
+            "text": "Add image URLs",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "5px"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "210px"
+                }
+            }
+        },
+        "lblarrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i5df12cd51804a70925c1823479d5a84",
+                "srcKUID": "db1c452d6a2b41ba8fffadcdfc88f362",
+                "wType": "Label"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "10px"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "manageProductToolTip",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "c0b8ce3095434fcabf9390fe9f6a55ea",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "manageProducts",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "d2e8e05418294939bb169899d92582ca",
+    "wType": "UserWidgetInstance",
+    "zindex": 10
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_g3509e80fcd64fdebf35d24d578135a4": {
+        "id": "AS_Button_g3509e80fcd64fdebf35d24d578135a4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmErrorLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297ec624b3647e99b0e95d9a173b2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d2c85e3e63434ab2936a08344e6efb5f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var authModule=kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"AuthModule\");\n\nvar userEmailId = this.view.registertextbox.text;\n// alert(\"userEmailId: \"+userEmailId);\n\nvar emailCheck=(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(userEmailId));\n\nif(emailCheck === true){\n  this.view.registerErrorMsgTextbox.isVisible=false;\n  authModule.presentationController.sendResetPasswordEmail(this, {\"emailId\":userEmailId});\n}\nelse{\n  this.view.registerErrorMsgTextbox.isVisible=true;\n} ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

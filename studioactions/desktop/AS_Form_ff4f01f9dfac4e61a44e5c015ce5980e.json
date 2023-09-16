@@ -1,0 +1,24 @@
+{
+    "AS_Form_ff4f01f9dfac4e61a44e5c015ce5980e": {
+        "id": "AS_Form_ff4f01f9dfac4e61a44e5c015ce5980e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ef96bb3c9d2a44059e8d20563a5bbe4b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i24f7d62076a4798ab993d3e5d9f2215",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var authModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"AuthModule\");\nthis.attachToModule(authModule); \nthis.preshowLogin();\n//authModule.presentationController.showLoginScreen();\n \n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_f397b6c2e73a4e59937b1146470104e1": {
+        "id": "AS_Form_f397b6c2e73a4e59937b1146470104e1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerCare",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d820d2f953a14012bc70ac0562e789e2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ca2b8b321e754a6483edce5c6aade862",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.customercarePreShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_d65549c8a2d347eb8bcbdfecae844e71": {
+        "id": "AS_FlexContainer_d65549c8a2d347eb8bcbdfecae844e71",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segFeeRange",
+            "type": "templates",
+            "platform": "",
+            "KUID": "a48f6774374a455aa0cc3b043336e42d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a78e686d211c4c819b37e65712983e20",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.executeOnParent(\"DeleteRow\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

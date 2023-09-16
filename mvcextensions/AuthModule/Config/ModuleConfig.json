@@ -1,0 +1,36 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "AuthModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmErrorLogin": {
+                "Controller": "AuthModule/frmErrorLoginController",
+                "ControllerExtensions": [
+                    "Navigation_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthModule/frmErrorLogin",
+                "friendlyName": "frmErrorLogin"
+            },
+            "frmLogin": {
+                "Controller": "AuthModule/frmLoginController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthModule/frmLogin",
+                "friendlyName": "frmLogin"
+            }
+        }
+    },
+    "ModuleName": "AuthModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "AuthModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "AuthModule/PresentationControllers/PresentationController_Extn",
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

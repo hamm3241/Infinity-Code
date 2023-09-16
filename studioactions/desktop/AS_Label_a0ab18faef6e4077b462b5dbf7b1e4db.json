@@ -1,0 +1,30 @@
+{
+    "AS_Label_a0ab18faef6e4077b462b5dbf7b1e4db": {
+        "id": "AS_Label_a0ab18faef6e4077b462b5dbf7b1e4db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "segRoles",
+            "type": "templates",
+            "platform": "",
+            "KUID": "da190d5d0244488684303ff648233eba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i3a5b8e6284441f9906c2033439f4c3a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"hi\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

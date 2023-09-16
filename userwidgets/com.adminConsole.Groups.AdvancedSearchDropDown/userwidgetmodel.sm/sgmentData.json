@@ -1,0 +1,137 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "125dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "imgCheckBox": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "checkboxnormal.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "KL098234 - Westheimer"
+                }
+            }
+        ],
+        "rowTemplateId": "c5f26cf7948340dca2b2393f38acc2f0",
+        "rowtemplate": "flxSearchDropDown",
+        "selectionBehaviorConfig": {
+            "imageIdentifier": "imgCheckBox",
+            "selectedStateImage": "checkboxselected.png",
+            "unselectedStateImage": "checkbox.png"
+        },
+        "widgetdatamap": {
+            "flxCheckBox": "flxCheckBox",
+            "flxSearchDropDown": "flxSearchDropDown",
+            "imgCheckBox": "imgCheckBox",
+            "lblDescription": "lblDescription"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmentData",
+    "info": null,
+    "invokedProperty": "unselectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "f793c4e9bb42412ab75e799a39ef66fa",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxPopupBody",
+    "pf": "userwidgetmodel",
+    "retainselection": true,
+    "rowcounter": 0,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectimage": "checkboxselected.png",
+    "selectionbehavior": "multiselect",
+    "selectionbehaviorconfig": {
+        "imageIdentifier": "imgCheckBox",
+        "selectedStateImage": "checkboxselected.png",
+        "unselectedStateImage": "checkbox.png"
+    },
+    "selectionindicator": "imgCheckBox",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": true,
+    "unselectimage": "checkbox.png",
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCheckBox": "flxCheckBox",
+        "flxSearchDropDown": "flxSearchDropDown",
+        "imgCheckBox": "imgCheckBox",
+        "lblDescription": "lblDescription"
+    },
+    "zindex": 1
+}

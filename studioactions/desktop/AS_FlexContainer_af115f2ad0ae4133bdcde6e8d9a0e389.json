@@ -1,0 +1,20 @@
+{
+    "AS_FlexContainer_af115f2ad0ae4133bdcde6e8d9a0e389": {
+        "id": "AS_FlexContainer_af115f2ad0ae4133bdcde6e8d9a0e389",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c7d386d6889949a68cc99f8ffe86ade6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"selectedHeaderCheckBox\");",
+            "callbackType": null
+        }]
+    }
+}

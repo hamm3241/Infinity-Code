@@ -1,0 +1,24 @@
+{
+    "AS_Form_g01a21653be34ed48432393df48931ab": {
+        "id": "AS_Form_g01a21653be34ed48432393df48931ab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCSR",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fd4206700ca8455cb6149d1b2276465e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gfd350c6c0c24550a28d9d3906d22e1f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.renderCalendar();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_e22e4b3bf9b44cb2b4b0265371d39afc": {
+        "id": "AS_Form_e22e4b3bf9b44cb2b4b0265371d39afc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPermissions",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eff2add8f99c4151bcc345f1c2ae5bfd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__da107977657143dcb93cf4efd9c9a397",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " kony.mvc.MDAApplication.getSharedInstance().appContext.frmName=kony.application.getCurrentForm().id;\n   ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

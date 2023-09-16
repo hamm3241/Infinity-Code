@@ -1,0 +1,24 @@
+{
+    "AS_Form_e516afbd3fb0494f8ef97c0a93d9d22a": {
+        "id": "AS_Form_e516afbd3fb0494f8ef97c0a93d9d22a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerProfileContacts",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fb0d86fd5b384356bf50bced5bd16523"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j2b7c7be7ca84e3987d148300e31a670",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.CustomerProfileContactsPreshow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

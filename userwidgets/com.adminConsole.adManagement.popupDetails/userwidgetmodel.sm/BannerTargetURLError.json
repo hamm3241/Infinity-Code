@@ -1,0 +1,97 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "errorMsg": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "g2cd18bba9ff4ed495c3341717d02acd",
+                "srcKUID": "a23c55c15b3d49f6ba6a08000114f1cf",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "efd9166c5f7542b6bc69bcffee18126d",
+                "srcKUID": "ec7d71f61f014241a619fd96c59b0435",
+                "wType": "Label"
+            }
+        },
+        "lblErrorText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d89a7c0bb882433894a9c4ae74be913d",
+                "srcKUID": "ia85a4bdb50f477ebcfd44610c2f56ae",
+                "wType": "Label"
+            },
+            "i18n_text": null,
+            "text": "Banner target URL cannot be empty."
+        }
+    },
+    "enablescrolling": true,
+    "id": "BannerTargetURLError",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "g2cd18bba9ff4ed495c3341717d02acd",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxPopupDetailsInner",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a23c55c15b3d49f6ba6a08000114f1cf",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,41 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.command.login.successflow",
+      "CommandHandler": "TestCase_Auth_doLogin_CommandHandler"
+    }, {
+      "CommandId": "testcase.presenter.getSecurityQuestions",
+      "CommandHandler": "TestCase_SecurityQuestions_GetSecurityQuestions"
+    }, {
+      "CommandId": "testcase.presenter.updateSecurityQuestionsStatus",
+      "CommandHandler": "TestCase_SecurityQuestions_UpdateSecurityQuestionsStatus"
+    }, {
+      "CommandId": "testcase.presenter.createSecurityQuestion",
+      "CommandHandler": "TestCase_SecurityQuestions_CreateSecurityQuestion"
+    }, {
+      "CommandId": "testcase.presenter.deleteSecurityQuestion",
+      "CommandHandler": "TestCase_SecurityQuestions_DeleteSecurityQuestion"
+    }, {
+      "CommandId": "testcase.presenter.getSecurityQuestions_CH",
+      "CommandHandler": "TestCase_SecurityQuestions_GetSecurityQuestions_CH"
+    }, {
+      "CommandId": "testcase.presenter.updateSecurityQuestionsStatus_CH",
+      "CommandHandler": "TestCase_SecurityQuestions_UpdateSecurityQuestionsStatus_CH"
+    }, {
+      "CommandId": "testcase.presenter.createSecurityQuestion_CH",
+      "CommandHandler": "TestCase_SecurityQuestions_CreateSecurityQuestion_CH"
+    }, {
+      "CommandId": "testcase.presenter.deleteSecurityQuestion_CH",
+      "CommandHandler": "TestCase_SecurityQuestions_DeleteSecurityQuestion_CH"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

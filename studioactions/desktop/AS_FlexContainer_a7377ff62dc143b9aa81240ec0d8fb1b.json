@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_a7377ff62dc143b9aa81240ec0d8fb1b": {
+        "id": "AS_FlexContainer_a7377ff62dc143b9aa81240ec0d8fb1b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___idcbbb0c9b8d49cf8ca281dfec46d058",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "openAddInfoPopUp",
+            "display": "openAddInfoPopUp",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

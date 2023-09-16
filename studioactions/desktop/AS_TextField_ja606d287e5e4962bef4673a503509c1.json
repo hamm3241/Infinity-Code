@@ -1,0 +1,27 @@
+{
+    "AS_TextField_ja606d287e5e4962bef4673a503509c1": {
+        "id": "AS_TextField_ja606d287e5e4962bef4673a503509c1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmErrorLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297ec624b3647e99b0e95d9a173b2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gd7c56ff4b5e4a83934edc64ea378a5d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.validateNewPasswordForForgotPassword(this.view.txtNewPassword1.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

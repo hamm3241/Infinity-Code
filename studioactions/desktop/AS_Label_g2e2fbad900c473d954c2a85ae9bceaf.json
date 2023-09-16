@@ -1,0 +1,29 @@
+{
+    "AS_Label_g2e2fbad900c473d954c2a85ae9bceaf": {
+        "id": "AS_Label_g2e2fbad900c473d954c2a85ae9bceaf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2f385b7b0484406828bb44d7ec7b900"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d6d2249fc99c4bef84094c9ddec0b6a1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.presenter.showErrorLoginScreen({action:\"forgotEmail\"});\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

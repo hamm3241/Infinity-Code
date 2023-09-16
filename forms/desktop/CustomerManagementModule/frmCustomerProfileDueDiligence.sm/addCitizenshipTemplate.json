@@ -1,0 +1,126 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s80c0d93da844a46b7a9eedf96f7a74a",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "addTemplate": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "i08e871ce9ff465d877b4f31f3cdbea2",
+                "srcKUID": "a7c30537821e4fe8b1fa9a39cf5693d8",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "btnAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g9b925b26e834d44ae1fd9668c80e211",
+                "srcKUID": "cd5514e44de24620ba08f407f29466f9",
+                "wType": "Button"
+            },
+            "i18n_text": "i18n.ConfigurationBundles.buttonAdd"
+        },
+        "flxAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a32d9d8251f74dd3accd383c5a692d8a",
+                "srcKUID": "a098629894454ec29ff5df965ddf1ba0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDetails1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f82baf6688774c979ec28a513b7c96bf",
+                "srcKUID": "af196e23c2d84b03831da49b64682db8",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a887ebea62a8431aa094b57826caa0eb",
+                "srcKUID": "b3ca8a5ad97c41c5ac9ac762f35c6e76",
+                "wType": "Image"
+            },
+            "src": "customerrole.png"
+        },
+        "lblAddDetails": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c7f1d0b436a24fd4ab024e246c2afa9c",
+                "srcKUID": "iec643557b8342b9a1677b3fc8df32fb",
+                "wType": "Label"
+            },
+            "i18n_text": "kony.customers.dueDiligence.ToAddCitizenshipDetails",
+            "text": "To add Citizenship details click the ADD button"
+        },
+        "lblHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h08e066bf2584ef583ea9f7795a67cd6",
+                "srcKUID": "e969c7f038c04934bf83c379a6243b92",
+                "wType": "Label"
+            },
+            "i18n_text": "kony.customers.dueDiligence.citizenshipDetails"
+        }
+    },
+    "enablescrolling": true,
+    "id": "addCitizenshipTemplate",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "i08e871ce9ff465d877b4f31f3cdbea2",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCitizenshipAndTax",
+    "pf": "frmCustomerProfileDueDiligence",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a7c30537821e4fe8b1fa9a39cf5693d8",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_f3be1349998f4618b32f99edaccdc19d": {
+        "id": "AS_Form_f3be1349998f4618b32f99edaccdc19d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmViewUsers",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e8b73bb83a4b409d8aa7f00d16afadba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_ac8d7723ab204e659ac47fc48f36e6d4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.getInternalUserProfileData();\nthis.usersPreShow();",
+            "callbackType": null
+        }]
+    }
+}

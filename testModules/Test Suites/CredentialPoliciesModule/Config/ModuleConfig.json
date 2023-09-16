@@ -1,0 +1,26 @@
+{
+  "BusinessControllerConfig": {
+    "CommandHandler": [{
+      "CommandId": "testcase.presenter.getCredentialPolicies",
+      "CommandHandler": "TestCase_Policy_GetCredentialPolicies"
+    }, {
+      "CommandId": "testcase.presenter.editCredentialPolicies",
+      "CommandHandler": "TestCase_Policy_EditCredentialPolicies"
+    }, {
+      "CommandId": "testcase.command.getCredentialPoliciesSuccess",
+      "CommandHandler": "TestCase_Policy_GetCredentialPoliciesSuccessCommand"
+    }, {
+      "CommandId": "testcase.command.editCredentialPoliciesSuccess",
+      "CommandHandler": "TestCase_Policy_EditCredentialPoliciesSuccessCommand"
+    }],
+    "BusinessControllerClass": "Test_BusinessController"
+  },
+  "PresentationControllerConfig": {
+    "Default": {
+      "PresentationControllerClass": "Test_PresentationController",
+      "PresentationExtensions": ["Test_Configuration"]
+    }
+  },
+  "Forms": {},
+  "ModuleName": "TestModule"
+}

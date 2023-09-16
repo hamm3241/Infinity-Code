@@ -1,0 +1,30 @@
+{
+    "AS_RichText_cff73f6abeab4ca3bf8038f900430307": {
+        "id": "AS_RichText_cff73f6abeab4ca3bf8038f900430307",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "linktext"
+        }, {
+            "datatype": "string",
+            "name": "attributes"
+        }],
+        "contextObj": {
+            "name": "frmErrorLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297ec624b3647e99b0e95d9a173b2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c79b202f1acc41cc805278561054af12",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.flxRules.isVisible)\n  {\n    this.view.flxRules.isVisible=false;\n  }\nelse\n  {\n    this.view.flxRules.isVisible=true;\n  }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

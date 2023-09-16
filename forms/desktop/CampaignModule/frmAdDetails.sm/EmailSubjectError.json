@@ -1,0 +1,103 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "74px"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "errorMsg": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "de5c4419d87849438266f8d18a217b19",
+                "srcKUID": "a23c55c15b3d49f6ba6a08000114f1cf",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "15px"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "74px"
+                }
+            }
+        },
+        "lblErrorIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f52a7bf25fe3407e904e81aee0a1f797",
+                "srcKUID": "ec7d71f61f014241a619fd96c59b0435",
+                "wType": "Label"
+            }
+        },
+        "lblErrorText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e090c30843c34222b5dd95b5f49ff6c1",
+                "srcKUID": "ia85a4bdb50f477ebcfd44610c2f56ae",
+                "wType": "Label"
+            },
+            "i18n_text": null,
+            "text": "Email Subject cannot be empty."
+        }
+    },
+    "enablescrolling": true,
+    "id": "EmailSubjectError",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "de5c4419d87849438266f8d18a217b19",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxEmailDetails",
+    "pf": "frmAdDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a23c55c15b3d49f6ba6a08000114f1cf",
+    "wType": "UserWidgetInstance"
+}

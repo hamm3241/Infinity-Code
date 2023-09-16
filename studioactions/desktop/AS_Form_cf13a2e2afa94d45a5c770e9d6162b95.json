@@ -1,0 +1,24 @@
+{
+    "AS_Form_cf13a2e2afa94d45a5c770e9d6162b95": {
+        "id": "AS_Form_cf13a2e2afa94d45a5c770e9d6162b95",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateProfile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jc7d3e37b24c43b18247129265994a1f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b83e61c1536f4569bfe67b0bdf7fc58d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onBrowserBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

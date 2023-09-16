@@ -1,0 +1,28 @@
+{
+    "AS_Button_a29f008d666c490e96fa90b74beaa8f8": {
+        "id": "AS_Button_a29f008d666c490e96fa90b74beaa8f8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ba5d412f46e54748bb253b9746bde890",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getGuestSimulationResults",
+            "display": "getGuestSimulationResults",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

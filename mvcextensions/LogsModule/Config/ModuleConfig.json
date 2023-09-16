@@ -1,0 +1,39 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "LogsModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmLogs": {
+                "Controller": "LogsModule/frmLogsController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "DateTimeUtils_FormExtn",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "Navigation_Form_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                  	"TabUtil_FormExtn",
+                  	"CurrencyUtils_FormExtn",
+                    "downloadCSV_Extn",
+                    "LegalEntityPermission_Form_Extn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "LogsModule/frmLogs",
+                "friendlyName": "frmLogs"
+            }
+        }
+    },
+    "ModuleName": "LogsModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "LogsModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "LogsModule/PresentationControllers/PresentationController_Extn",
+                "Navigation_Presentation_Extn",
+                "ErrorInterceptor"
+            ]
+        }
+    }
+}

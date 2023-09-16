@@ -1,0 +1,231 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {},
+    "androidwearos": {},
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "backToPageHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i0806b2fe4df477092fe0d92d15e6e15",
+                "srcKUID": "i5f1c0bc1ce54f42bacc8b0b7665e222",
+                "wType": "UserWidgetInstance"
+            }
+        },
+        "backToPageHeader.btnBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d8661b53d664494494d9202dc3155d46",
+                "srcKUID": "g98dd0fee7f44300b921df00699d8a27",
+                "wType": "Button"
+            }
+        },
+        "backToPageHeader.flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b5a21dc3a9a4462ca9a2612861855983",
+                "srcKUID": "jaade176be984086b925c02c9b82ca8d",
+                "wType": "FlexContainer"
+            }
+        },
+        "backToPageHeader.fontIconBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f27de49e0cf0467ba7ddcda7b16bb212",
+                "srcKUID": "cfe8704182924f19b19937571619df1e",
+                "wType": "Label"
+            }
+        },
+        "flxBackToPermmissionBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bcf29b15968e4cc6bec58660d5347629",
+                "srcKUID": "ib6c3dbe953840ed99a284b9e6950b57",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCSRSegContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b6945ad320784436a3186612ec56db0d",
+                "srcKUID": "j0afa49ddce04f6c8e76551e84456cae",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d47035a1e34045a5846ab4454f8ca571",
+                "srcKUID": "c77f17d7771f47d19c35f80b3a592b44",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeadingSegment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bb7a895ee4bc473185ba287d3cea1fef",
+                "srcKUID": "dd32eefe69a94c2fba0c0144d9fe473b",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e9e5b067c8f44feba9cbc0c5b2a9ee86",
+                "srcKUID": "ae369eb2c52a478b93b5f3c2a969deab",
+                "wType": "Label"
+            }
+        },
+        "lblTopLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d50a67d7e7be44f38b978e20abb9c91f",
+                "srcKUID": "e802fcadb6e746a9831ac0e9eaa1be37",
+                "wType": "Label"
+            }
+        },
+        "segViewConfigureCSR": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "je4f4a50382e47cbbf3201ea92c090d2",
+                "srcKUID": "f7371f8191b947eb879c16280de5df7a",
+                "wType": "Segment"
+            },
+            "data": {
+                "desktop": [
+                    {
+                        "lblEnable": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.ViewConfigureCSR.Enable",
+                            "text": "Enable"
+                        },
+                        "lblEnabled": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.ViewConfigureCSR.Enabled",
+                            "text": "Enabled"
+                        },
+                        "lblHeadingDesc": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.permission.DESCRIPTION",
+                            "text": "DESCRIPTION"
+                        },
+                        "lblIconArrow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.userwidgetmodel.fontIconBreadcrumbsRight",
+                            "text": ""
+                        },
+                        "lblIconGreenTick": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblLine2": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Label"
+                        },
+                        "lblName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Account Transfers"
+                        },
+                        "rtxDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "RichText"
+                        },
+                        "switchToggle": {
+                            "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                            "selectedIndex": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "viewConfigureCSRAssist": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "i9fff731112f425d823de544472db39d",
+                "srcKUID": "ce37290691ee403bb90672ebec7ee7a8",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "desktopweb": {},
+    "id": "viewConfigureCSRAssist",
+    "info": null,
+    "ipad": {},
+    "iphone": {},
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kiosk": {},
+    "kuid": "i9fff731112f425d823de544472db39d",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxViewConfigureCsrCont",
+    "pf": "frmViewRoles",
+    "responsiveData": {},
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "ce37290691ee403bb90672ebec7ee7a8",
+    "spa": {},
+    "spaan": {},
+    "spaandroidtablet": {},
+    "spabb": {},
+    "spaip": {},
+    "spaipad": {},
+    "spamobile": {},
+    "spatablet": {},
+    "spawindowstablet": {},
+    "spawinphone8": {},
+    "tabrcandroid": {},
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "UserWidgetInstance",
+    "windows10": {},
+    "windows8": {},
+    "winphone10": {},
+    "winphone8": {}
+}

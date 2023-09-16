@@ -1,0 +1,17 @@
+{
+    "AS_Button_a6ac4cab443144f29f63af53b2221d09": {
+        "id": "AS_Button_a6ac4cab443144f29f63af53b2221d09",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h2353ad36dcf42108a36049d04834dec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.presenter.showLoginScreen({\"action\":\"login\"});",
+            "callbackType": null
+        }]
+    }
+}

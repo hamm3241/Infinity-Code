@@ -1,0 +1,974 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        },
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        },
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        },
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        },
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        },
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        },
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        },
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        },
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        },
+        {
+            "lblCustomerId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblCustomerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblIconRoleError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIconServiceError": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLegalEntity": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblOptions": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary"
+            },
+            "lblRemoved": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Removed"
+            },
+            "lblRoleErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblServiceErrorMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmServiceManagement.lblNoServiceTypeError",
+                "text": "Service Type cannot be empty"
+            },
+            "lstBoxRole": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            },
+            "lstBoxService": {
+                "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                "masterData": [
+                    [
+                        "lb1",
+                        "Placeholder One"
+                    ],
+                    [
+                        "lb2",
+                        "Placeholder Two"
+                    ],
+                    [
+                        "lb3",
+                        "Placeholder Three"
+                    ]
+                ],
+                "selectedKey": null,
+                "selectedKeys": null
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segEnrollCustList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "da1af9418d4f4e689e7223ff18ee6e67",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxAddedUserList",
+    "pf": "frmCompanies",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "jfcb3f823275448faded3b6e140f401d",
+    "rowcounter": 9,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": "flxEnrollCustomerList",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCustomerIdContainer": "flxCustomerIdContainer",
+        "flxEnrollCustomerList": "flxEnrollCustomerList",
+        "flxOptions": "flxOptions",
+        "flxPrimary": "flxPrimary",
+        "flxRoleError": "flxRoleError",
+        "flxServiceError": "flxServiceError",
+        "lblCustomerId": "lblCustomerId",
+        "lblCustomerName": "lblCustomerName",
+        "lblIconRoleError": "lblIconRoleError",
+        "lblIconServiceError": "lblIconServiceError",
+        "lblLegalEntity": "lblLegalEntity",
+        "lblOptions": "lblOptions",
+        "lblPrimary": "lblPrimary",
+        "lblRemoved": "lblRemoved",
+        "lblRoleErrorMsg": "lblRoleErrorMsg",
+        "lblSeperator": "lblSeperator",
+        "lblServiceErrorMsg": "lblServiceErrorMsg",
+        "lstBoxRole": "lstBoxRole",
+        "lstBoxService": "lstBoxService"
+    }
+}

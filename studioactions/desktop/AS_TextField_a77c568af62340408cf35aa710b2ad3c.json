@@ -1,0 +1,20 @@
+{
+    "AS_TextField_a77c568af62340408cf35aa710b2ad3c": {
+        "id": "AS_TextField_a77c568af62340408cf35aa710b2ad3c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onEndEditing_c7056276ad2f40d3ade6b74474572145",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//var oldPassword=kony.mvc.MDAApplication.getSharedInstance().appContext.password;\n//this.validateCurrentPassword(oldPassword,this.view.txtCurrentPassword1.text);\n",
+            "callbackType": null
+        }]
+    }
+}

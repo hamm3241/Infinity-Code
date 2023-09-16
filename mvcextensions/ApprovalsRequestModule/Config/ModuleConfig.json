@@ -1,0 +1,75 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "ApprovalsRequestModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "ApprovalsRequestModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmRequests": {
+                "ControllerExtensions": [
+                    "Sorting_FormExtn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "TabUtil_FormExtn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleCommonUtilities"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ApprovalsRequestModule/frmRequestsController",
+                "FormName": "ApprovalsRequestModule/frmRequests",
+                "friendlyName": "frmRequests"
+            },
+            "frmViewUsers": {
+                "ControllerExtensions": [
+                    "Sorting_FormExtn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "TabUtil_FormExtn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleCommonUtilities"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ApprovalsRequestModule/frmViewUsersController",
+                "FormName": "ApprovalsRequestModule/frmViewUsers",
+                "friendlyName": "frmViewUsers"
+            },
+            "frmViewRoles": {
+                "ControllerExtensions": [
+                    "Sorting_FormExtn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "TabUtil_FormExtn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleCommonUtilities"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ApprovalsRequestModule/frmViewRolesController",
+                "FormName": "ApprovalsRequestModule/frmViewRoles",
+                "friendlyName": "frmViewRoles"
+            },
+            "frmViewPermissions": {
+                "ControllerExtensions": [
+                    "Sorting_FormExtn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "TabUtil_FormExtn",
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleCommonUtilities"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ApprovalsRequestModule/frmViewPermissionsController",
+                "FormName": "ApprovalsRequestModule/frmViewPermissions",
+                "friendlyName": "frmViewPermissions"
+            }
+        }
+    },
+    "ModuleName": "ApprovalsRequestModule"
+}

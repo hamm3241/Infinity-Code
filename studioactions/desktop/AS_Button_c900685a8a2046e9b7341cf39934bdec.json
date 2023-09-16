@@ -1,0 +1,27 @@
+{
+    "AS_Button_c900685a8a2046e9b7341cf39934bdec": {
+        "id": "AS_Button_c900685a8a2046e9b7341cf39934bdec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segAddPermissions",
+            "type": "templates",
+            "platform": "",
+            "KUID": "d95ec4117c5a475380abcc45fc75dbe6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ib8a6af1b9f14176b470483500c40497",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"addPermissionstoRole\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

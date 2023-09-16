@@ -1,0 +1,26 @@
+{
+    "AS_Label_b794caa48e554f7daec958a878cef5f0": {
+        "id": "AS_Label_b794caa48e554f7daec958a878cef5f0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_c5f118a730f047399c887efe31c1b6b6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showLoanApplications();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "AS_FlexContainer_fa0d221ceddc4e40913b46dfe65871af": {
+        "id": "AS_FlexContainer_fa0d221ceddc4e40913b46dfe65871af",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f4eb77774eb941dc930a336bc45032b4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"showSelectedRowFAQ\");",
+            "callbackType": null
+        }]
+    }
+}

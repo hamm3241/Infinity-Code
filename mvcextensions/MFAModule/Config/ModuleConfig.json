@@ -1,0 +1,47 @@
+{
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "MFAModule/BusinessControllers/BusinessController"
+    },
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn",
+                "WidgetPermission_Checker_FormExtns",
+                "Sorting_FormExtn"
+            ],
+            "PresentationControllerClass": "MFAModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmMFAConfigurations": {
+                "ControllerExtensions": [
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "Sorting_FormExtn",
+                    "AdminConsoleCommonUtilities",
+                    "CurrencyUtils_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "MFAModule/frmMFAConfigurationsController",
+                "FormName": "MFAModule/frmMFAConfigurations",
+                "friendlyName": "frmMFAConfigurations"
+            },
+            "frmMFAScenarios": {
+                "ControllerExtensions": [
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "Sorting_FormExtn",
+                    "AdminConsoleCommonUtilities",
+                    "CurrencyUtils_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "MFAModule/frmMFAScenariosController",
+                "FormName": "MFAModule/frmMFAScenarios",
+                "friendlyName": "frmMFAScenarios"
+            }
+        }
+    },
+    "ModuleName": "MFAModule"
+}

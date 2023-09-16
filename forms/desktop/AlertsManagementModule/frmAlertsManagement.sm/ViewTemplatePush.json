@@ -1,0 +1,135 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": ""
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s094cf034ba74d778fe9c91095115ace",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ViewTemplate": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a2067e7ccafc405eaa7a95a5911cb12e",
+                "srcKUID": "fa300c5038b8494bbc0c4447b948a771",
+                "wType": "FlexContainer"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "flxChannelText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c0118fca1fbb4a8188383e0ab0cdaf62",
+                "srcKUID": "d43d67b258d4427b926b19bd254e58ea",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g9eea13286ab482fa395b6572193723a",
+                "srcKUID": "f05917deddab4378af4c230047d80870",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblChannelMsg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bde17e15d0d64e4196aec8e0b137fedd",
+                "srcKUID": "h9426ec6e12149bcb44dff9caf814ef9",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.YouHaveSuccessfully",
+            "text": "You have successfully changed your digital banking password. If you did not make this change, contact DBX bank immediately"
+        },
+        "lblChannelName": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g5506abd55ec4a1298d43d1fe032e1e2",
+                "srcKUID": "i6388c8fd3d34dab81b47a52108b63bd",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.PushNotification"
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a7c149532d8a4b06985d3af312fb6020",
+                "srcKUID": "f6a2d712033f42c99c00c0066dd03162",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.TitleColon"
+        },
+        "lblTitleValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a9f89f18beb34ec8aecb58ebb964b575",
+                "srcKUID": "ef9826216ec445d18cc4fa44e7f2db8a",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.frmAlertsManagement.PasswordChange",
+            "text": "Password changed"
+        }
+    },
+    "enablescrolling": true,
+    "id": "ViewTemplatePush",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "a2067e7ccafc405eaa7a95a5911cb12e",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxViewPushNotification",
+    "pf": "frmAlertsManagement",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "fa300c5038b8494bbc0c4447b948a771",
+    "wType": "UserWidgetInstance"
+}

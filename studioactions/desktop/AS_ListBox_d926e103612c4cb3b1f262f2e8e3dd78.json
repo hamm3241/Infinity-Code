@@ -1,0 +1,24 @@
+{
+    "AS_ListBox_d926e103612c4cb3b1f262f2e8e3dd78": {
+        "id": "AS_ListBox_d926e103612c4cb3b1f262f2e8e3dd78",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e2fbd6106e3e4848be6dc9af16a00fc0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.lstBoxEmploymentStatusKA.skin = \"sknlstbx485c7513px\";\nthis.view.lblSimulationEmploymentStatusError.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

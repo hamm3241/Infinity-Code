@@ -1,0 +1,29 @@
+{
+    "AS_TextField_h16715bb231c48e08a309fc5f4e77e94": {
+        "id": "AS_TextField_h16715bb231c48e08a309fc5f4e77e94",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uw3b8d9663103e4f908902add391de3abf",
+            "type": "userwidgets",
+            "KUID": "3b8d9663103e4f908902add391de3abf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__aec31f1a253d44bbbf08ef3119797e64",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.imgSearchCancel.isVisible=true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

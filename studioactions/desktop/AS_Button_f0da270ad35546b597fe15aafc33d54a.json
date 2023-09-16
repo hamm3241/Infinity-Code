@@ -1,0 +1,23 @@
+{
+    "AS_Button_f0da270ad35546b597fe15aafc33d54a": {
+        "id": "AS_Button_f0da270ad35546b597fe15aafc33d54a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "cf56d9a4a1994d2ab055121894c79d6f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__df04388d8bd948ebafa25f395f04ed88",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.resetPasswordCall();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_db8446e6b544469f9662cf31f61d4cc5": {
+        "id": "AS_Button_db8446e6b544469f9662cf31f61d4cc5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i00d800938554660a569ce9f21b41887",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showVehicleLoanConsent",
+            "display": "showVehicleLoanConsent",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

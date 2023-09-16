@@ -1,0 +1,30 @@
+{
+    "AS_Label_ea41663423704d7abbeeda75b18fb15a": {
+        "id": "AS_Label_ea41663423704d7abbeeda75b18fb15a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__da2f57e68c8e48b2b04e4345b369efac",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxAddInformationPopup.isVisible=false;\nthis.view.flxDisabledBackground.isVisible=false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

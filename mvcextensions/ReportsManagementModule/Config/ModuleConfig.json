@@ -1,0 +1,38 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "ReportsManagementModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmReportsManagement": {
+                "Controller": "ReportsManagementModule/frmReportsManagementController",
+                "ControllerExtensions": [
+                    "DateTimeUtils_FormExtn",
+                    "AdminConsoleCommonUtilities",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "downloadCSV_Extn",
+                    "CustomerManagement_Search_Extn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "Navigation_Form_Extn",
+                    "CurrencyUtils_FormExtn",
+                    "TabUtil_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "ReportsManagementModule/frmReportsManagement",
+                "friendlyName": "frmReportsManagement"
+            }
+        }
+    },
+    "ModuleName": "ReportsManagementModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "ReportsManagementModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "ReportsManagementModule/PresentationControllers/PresentationController_Extn",
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

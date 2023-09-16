@@ -1,0 +1,32 @@
+{
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "DecisionManagementModule/BusinessControllers/BusinessController"
+    },
+    "Forms": {
+        "desktop": {
+            "frmDecisionManagement": {
+              	"Controller": "DecisionManagementModule/frmDecisionManagementController",
+                "ControllerExtensions": [
+                    "Navigation_Form_Extn",
+                  	"Sorting_FormExtn",
+                    "WidgetPermission_Checker_FormExtns",
+                    "DateTimeUtils_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "DecisionManagementModule/frmDecisionManagement",
+                "friendlyName": "frmDecisionManagement"
+            }
+        }
+    },
+    "ModuleName": "DecisionManagementModule",
+      "PresentationControllerConfig": {
+        "Default": {
+          "PresentationControllerClass": "DecisionManagementModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+              "Navigation_Presentation_Extn",
+                "Sorting_FormExtn"
+            ]
+        }
+      }
+}

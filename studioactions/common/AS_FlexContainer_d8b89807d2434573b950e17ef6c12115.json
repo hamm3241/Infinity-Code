@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_d8b89807d2434573b950e17ef6c12115": {
+        "id": "AS_FlexContainer_d8b89807d2434573b950e17ef6c12115",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c4c8e0c5a50b42cb9c0c979d72fb899a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ondeleteSevenIncome",
+            "display": "ondeleteSevenIncome",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

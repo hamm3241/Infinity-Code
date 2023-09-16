@@ -1,0 +1,24 @@
+{
+    "AS_TextField_b80288ad85cb43499857be7a8fb1c243": {
+        "id": "AS_TextField_b80288ad85cb43499857be7a8fb1c243",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j372df58987140c4adcc3389faa57b78",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.addressSuggestions(eventobject.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_f49750687ec74e458eff43de9e99c5f1": {
+        "id": "AS_Button_f49750687ec74e458eff43de9e99c5f1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f280547d69354f62bc43d261341cea9d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "closeAddInfoPopUp",
+            "display": "closeAddInfoPopUp",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

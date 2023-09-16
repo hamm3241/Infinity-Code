@@ -1,0 +1,28 @@
+<project name="valuechange" default="valuechange">
+<target name="valuechange">
+		<propertyfile file="ProjectConfig.properties">
+			<entry key="TargetdevciceFarm" value="${TargetdevciceFarm}" />
+			<entry key="Channel" value="${Channel}" />
+			<entry key="app.reset" value="${app.reset}" />
+			<entry key="ele_Timeout" value="${ele_Timeout}" />
+			<entry key="newCommandTimeout" value="${newCommandTimeout}" />
+			<entry key="ACTIVITY_NAME" value="${ACTIVITY_NAME}" />
+			<entry key="PACKAGE_NAME" value="${PACKAGE_NAME}" />
+			<entry key="APK_PATH" value="${APK_PATH}" />
+			<entry key="BUNDLE_ID" value="${BUNDLE_ID}" />
+			<entry key="ipa_PATH" value="${ipa_PATH}" />
+			<entry key="OLB.url" value="${OLB.url}" />
+			<entry key="OLB.browsers" value="${OLB.browsers}" />
+			<entry key="OLB.isHeadless" value="${OLB.isHeadless}" />
+			<entry key="isScreenShotAlways" value="${isScreenShotAlways}" />
+			<entry key="isScreenShotForPassedTC" value="${isScreenShotForPassedTC}"/>
+			<entry key="Scope" value="${Scope}" />
+		</propertyfile>
+		<replace file="ProjectConfig.properties" token="https\:" value="https:" />		
+	 </target>
+	 
+     <target name="main">		
+		<antcall target="valuechange" />
+	</target>
+
+</project>

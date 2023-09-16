@@ -1,0 +1,24 @@
+{
+    "AS_Form_a7af3565c840460f98fbc9638c2db7e1": {
+        "id": "AS_Form_a7af3565c840460f98fbc9638c2db7e1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmErrorLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297ec624b3647e99b0e95d9a173b2df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__je8a21dd05cd4c2b89b86d95fca4f2bf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var vizServerURL = window.location.href;\nvar qpExists = vizServerURL.indexOf(\"qp=\");\nthis.preshowLoginError();\nif (qpExists !== -1) {\n  this.view.flxChangePassword.isVisible=false;\n  this.view.flxErrorLoginInner.isVisible = false;\n  kony.adminConsole.utils.showProgressBar(this.view);\n  var qp = vizServerURL.substring(qpExists + 3);\n  var authModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"AuthModule\");\n  authModule.presentationController.openResetPasswordForm({\"qp\": qp});\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

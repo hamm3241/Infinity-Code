@@ -1,0 +1,23 @@
+{
+    "AS_Form_bc2062d792164f688e44ee06efa568b9": {
+        "id": "AS_Form_bc2062d792164f688e44ee06efa568b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmContractSearch",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j00faa189ba949c9a96b997fb74248ea"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_idef63d1586d46fcb4c987e1c02aebaf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.contractSearchPreshow();",
+            "parentId": null
+        }]
+    }
+}

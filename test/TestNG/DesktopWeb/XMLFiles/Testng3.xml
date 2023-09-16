@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KSFS-3">
+
+	<!-- <test name="Automation">
+	<parameter name="browserName" value="Chrome" />
+		<parameter name="DRIVER_PATH" value="/usr/local/chromedriver/chromedriver" />
+		<parameter name="BROWSER_PATH" value="/opt/google/chrome/chrome" />
+		<parameter name="WEB_APP_URL" value="https://retailbanking2.konycloud.com/apps/KonyOLB" />
+		<classes>
+			<class name="com.kony.base.BaseClass" />
+		</classes>
+	</test> -->
+	
+	
+	
+	<test name="Automation-3">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="DRIVER_PATH" value="/usr/local/chromedriver/chromedriver" />
+		<parameter name="BROWSER_PATH" value="/opt/google/chrome/chrome" />
+		<parameter name="AGENT_NAME" value="Agent3" />
+		<classes>
+			<class name="com.kony.ktas.KeywordDriven.Library.KeywordDriverScript" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,31 @@
+{
+    "AS_TextField_f43c3c8736ff4f6fb3d3f8d91b239086": {
+        "id": "AS_TextField_f43c3c8736ff4f6fb3d3f8d91b239086",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___aed468cf86714f4497d361a614434132",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "instantPhoneNumberCheck",
+            "display": "instantPhoneNumberCheck",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

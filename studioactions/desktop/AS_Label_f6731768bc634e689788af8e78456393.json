@@ -1,0 +1,30 @@
+{
+    "AS_Label_f6731768bc634e689788af8e78456393": {
+        "id": "AS_Label_f6731768bc634e689788af8e78456393",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmGuestDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ff5fd548a8254b8fb653cc4ee121b8d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f109b3a8f4894cad9a87d2ca59f7ca74",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.sendEmail();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

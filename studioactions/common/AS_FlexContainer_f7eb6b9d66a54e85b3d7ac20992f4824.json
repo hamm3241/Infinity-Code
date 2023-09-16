@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_f7eb6b9d66a54e85b3d7ac20992f4824": {
+        "id": "AS_FlexContainer_f7eb6b9d66a54e85b3d7ac20992f4824",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f4baed04702548bcbd90534303688802",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.verticalTabsPreShow();\nkony.print(\"verticalTabs preshow called\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

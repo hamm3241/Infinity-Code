@@ -1,0 +1,435 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "11",
+    "desktop": {
+        "_data_": [
+            [
+                {
+                    "lblActionName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Monetary Actions"
+                    },
+                    "lblApprovalRequiredHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmComapnies.APPROVAL_REQUIRED",
+                        "text": "APPROVAL REQUIRED"
+                    },
+                    "lblApproversHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmComapnies.APPROVERS",
+                        "text": "APPROVERS"
+                    },
+                    "lblFASeperator1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCSR.lblSeperator",
+                        "text": "."
+                    },
+                    "lblFASeperator2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCSR.lblSeperator",
+                        "text": "."
+                    },
+                    "lblFASeperatorTop": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCSR.lblSeperator",
+                        "text": "."
+                    },
+                    "lblIconAction": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblRangeHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmComapnies.RANGE",
+                        "text": "RANGE"
+                    },
+                    "lbxTransactionType": {
+                        "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                        "masterData": [
+                            [
+                                "lb1",
+                                "Placeholder One"
+                            ],
+                            [
+                                "lb2",
+                                "Placeholder Two"
+                            ],
+                            [
+                                "lb3",
+                                "Placeholder Three"
+                            ]
+                        ],
+                        "selectedKey": null,
+                        "selectedKeys": null
+                    }
+                },
+                [
+                    {
+                        "lblApprovalNA": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "N/A"
+                        },
+                        "lblApprovalValue1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Upto $100"
+                        },
+                        "lblApprovalValue2": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Yes"
+                        },
+                        "lblApprovalView": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.permission.View",
+                            "text": "APPROVERS"
+                        },
+                        "lblIconAction": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmCSR.lblSeperator",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblApprovalNA": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "N/A"
+                        },
+                        "lblApprovalValue1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Upto $100"
+                        },
+                        "lblApprovalValue2": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Yes"
+                        },
+                        "lblApprovalView": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.permission.View",
+                            "text": "APPROVERS"
+                        },
+                        "lblIconAction": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmCSR.lblSeperator",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblApprovalNA": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "N/A"
+                        },
+                        "lblApprovalValue1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Upto $100"
+                        },
+                        "lblApprovalValue2": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Yes"
+                        },
+                        "lblApprovalView": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.permission.View",
+                            "text": "APPROVERS"
+                        },
+                        "lblIconAction": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmCSR.lblSeperator",
+                            "text": "."
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "lblActionName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Monetary Actions"
+                    },
+                    "lblApprovalRequiredHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmComapnies.APPROVAL_REQUIRED",
+                        "text": "APPROVAL REQUIRED"
+                    },
+                    "lblApproversHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmComapnies.APPROVERS",
+                        "text": "APPROVERS"
+                    },
+                    "lblFASeperator1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCSR.lblSeperator",
+                        "text": "."
+                    },
+                    "lblFASeperator2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCSR.lblSeperator",
+                        "text": "."
+                    },
+                    "lblFASeperatorTop": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmCSR.lblSeperator",
+                        "text": "."
+                    },
+                    "lblIconAction": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblRangeHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.frmComapnies.RANGE",
+                        "text": "RANGE"
+                    },
+                    "lbxTransactionType": {
+                        "@class": "com.viz.ide.model.segment.CheckableSegmentData",
+                        "masterData": [
+                            [
+                                "lb1",
+                                "Placeholder One"
+                            ],
+                            [
+                                "lb2",
+                                "Placeholder Two"
+                            ],
+                            [
+                                "lb3",
+                                "Placeholder Three"
+                            ]
+                        ],
+                        "selectedKey": null,
+                        "selectedKeys": null
+                    }
+                },
+                [
+                    {
+                        "lblApprovalNA": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "N/A"
+                        },
+                        "lblApprovalValue1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Upto $100"
+                        },
+                        "lblApprovalValue2": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Yes"
+                        },
+                        "lblApprovalView": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.permission.View",
+                            "text": "APPROVERS"
+                        },
+                        "lblIconAction": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmCSR.lblSeperator",
+                            "text": "."
+                        }
+                    },
+                    {
+                        "lblApprovalNA": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "N/A"
+                        },
+                        "lblApprovalValue1": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Upto $100"
+                        },
+                        "lblApprovalValue2": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Yes"
+                        },
+                        "lblApprovalView": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.permission.View",
+                            "text": "APPROVERS"
+                        },
+                        "lblIconAction": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblLine": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "i18nkey": "i18n.frmCSR.lblSeperator",
+                            "text": "."
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "e0a641a9b27f477caaa9dd45d0899c88",
+        "rowtemplate": "flxApprovalMatrixRangeRow",
+        "sectionHeaderTemplateId": "f112567e23df4c0cb492e9a3d609d8f9",
+        "sectionheadertemplate": "flxApprovalMatrixActionHeader",
+        "selectionBehaviorConfig": {
+            "imageIdentifier": "imgCheckbox",
+            "selectedStateImage": "checkboxselected.png",
+            "unselectedStateImage": "checkboxnormal.png"
+        },
+        "widgetdatamap": {
+            "flxActionName": "flxActionName",
+            "flxApprovalEdit": "flxApprovalEdit",
+            "flxApprovalMatrixActionHeader": "flxApprovalMatrixActionHeader",
+            "flxApprovalMatrixRangeRow": "flxApprovalMatrixRangeRow",
+            "flxApprovalRangeCont": "flxApprovalRangeCont",
+            "flxViewApprovalsHeader": "flxViewApprovalsHeader",
+            "lblActionName": "lblActionName",
+            "lblApprovalNA": "lblApprovalNA",
+            "lblApprovalRequiredHeader": "lblApprovalRequiredHeader",
+            "lblApprovalValue1": "lblApprovalValue1",
+            "lblApprovalValue2": "lblApprovalValue2",
+            "lblApprovalView": "lblApprovalView",
+            "lblApproversHeader": "lblApproversHeader",
+            "lblFASeperator1": "lblFASeperator1",
+            "lblFASeperator2": "lblFASeperator2",
+            "lblFASeperatorTop": "lblFASeperatorTop",
+            "lblIconAction": "lblIconAction",
+            "lblLine": "lblLine",
+            "lblRangeHeader": "lblRangeHeader",
+            "lbxTransactionType": "lbxTransactionType"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segFeatureActions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cd6f4536378e45858627ded60ac3b78e",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxCardBottomContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 1,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": "flxContractEnrollAccountsEditRow",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "sectionheadertemplate": "flxContractEnrollAccountsEditSection",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectimage": "checkboxselected.png",
+    "selectionbehavior": "default",
+    "selectionindicator": "imgCheckbox",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "unselectimage": "checkboxnormal.png",
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxActionName": "flxActionName",
+        "flxApprovalEdit": "flxApprovalEdit",
+        "flxApprovalMatrixActionHeader": "flxApprovalMatrixActionHeader",
+        "flxApprovalMatrixRangeRow": "flxApprovalMatrixRangeRow",
+        "flxApprovalRangeCont": "flxApprovalRangeCont",
+        "flxViewApprovalsHeader": "flxViewApprovalsHeader",
+        "lblActionName": "lblActionName",
+        "lblApprovalNA": "lblApprovalNA",
+        "lblApprovalRequiredHeader": "lblApprovalRequiredHeader",
+        "lblApprovalValue1": "lblApprovalValue1",
+        "lblApprovalValue2": "lblApprovalValue2",
+        "lblApprovalView": "lblApprovalView",
+        "lblApproversHeader": "lblApproversHeader",
+        "lblFASeperator1": "lblFASeperator1",
+        "lblFASeperator2": "lblFASeperator2",
+        "lblFASeperatorTop": "lblFASeperatorTop",
+        "lblIconAction": "lblIconAction",
+        "lblLine": "lblLine",
+        "lblRangeHeader": "lblRangeHeader",
+        "lbxTransactionType": "lbxTransactionType"
+    }
+}

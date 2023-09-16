@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9160d55f44b4d7cbc562a2662ab77b6",
+    "_text_": "Security alerts are sent when any sensitive data of a customer is accessed/updated. Certain high security alerts are sent as mandatory alerts like login attempt, username or password update. For others, the customers can choose to activate or deactivate them. ",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "lblAlertDescValue",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "b727ffb0d79b4d3a9a8c20f6c228e8ae",
+    "name": "kony.ui.Label",
+    "parent": "flxAlertDescValue",
+    "pf": "frmAlertsManagement",
+    "texti18n": "i18n.frmAlertsManagement.SecurityAlertsDesc",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

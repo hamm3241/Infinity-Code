@@ -1,0 +1,198 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "desktop": {
+        "_data_": [
+            [
+                {
+                    "fonticonArrow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "img_down_arrow.png"
+                    },
+                    "lblDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "October 21, 2017"
+                    }
+                },
+                [
+                    {
+                        "imgUser": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "option3.png"
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": " 6:46 am"
+                        },
+                        "lblUserName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "John Doe"
+                        },
+                        "rtxNotesDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis dignissim quam. Curabitur enim eros, aliquet sit amet maximus et, porttitor et ligula."
+                        }
+                    },
+                    {
+                        "imgUser": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "option3.png"
+                        },
+                        "lblTime": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": " 6:46 am"
+                        },
+                        "lblUserName": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "John Doe"
+                        },
+                        "rtxNotesDescription": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis dignissim quam. Curabitur enim eros, aliquet sit amet maximus et, porttitor et ligula."
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "bf5488368c78465082b8070b4887c616",
+        "rowtemplate": "flxCustomerMangNotes",
+        "sectionHeaderTemplateId": "f9924b2ab4484872bed1207f6f642106",
+        "sectionheadertemplate": "flxNotesSection",
+        "selectionBehaviorConfig": {},
+        "widgetdatamap": {
+            "flxArrow": "flxArrow",
+            "flxCustMangContent": "flxCustMangContent",
+            "flxCustomerMangNotes": "flxCustomerMangNotes",
+            "flxDetails": "flxDetails",
+            "flxNotesHeader": "flxNotesHeader",
+            "flxNotesSection": "flxNotesSection",
+            "flxNotesUserProfile": "flxNotesUserProfile",
+            "flxUserPic": "flxUserPic",
+            "fonticonArrow": "fonticonArrow",
+            "imgArrow": "imgArrow",
+            "imgUser": "imgUser",
+            "lblDate": "lblDate",
+            "lblTime": "lblTime",
+            "lblUserName": "lblUserName",
+            "rtxNotesDescription": "rtxNotesDescription"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segNotes",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "d31089bbee204a1db1ff801c87989086",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxNotesSegment",
+    "pf": "userwidgetmodel",
+    "retainselection": true,
+    "rowcounter": 1,
+    "rowfocusskin": "se901dcdd2ae4a58a81f21c009edf99e",
+    "rowskin": "s54014e0d4204ce9acd27107655ded87",
+    "rowtemplate": "flxCustomerMangNotes",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sffa0c1a0560403189088e98f7b4f498",
+    "sectionheadertemplate": "segNotes",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": {},
+    "separatorrequired": false,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 408,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxArrow": "flxArrow",
+        "flxCustMangContent": "flxCustMangContent",
+        "flxCustomerMangNotes": "flxCustomerMangNotes",
+        "flxDetails": "flxDetails",
+        "flxNotesHeader": "flxNotesHeader",
+        "flxNotesSection": "flxNotesSection",
+        "flxNotesUserProfile": "flxNotesUserProfile",
+        "flxUserPic": "flxUserPic",
+        "fonticonArrow": "fonticonArrow",
+        "imgArrow": "imgArrow",
+        "imgUser": "imgUser",
+        "lblDate": "lblDate",
+        "lblTime": "lblTime",
+        "lblUserName": "lblUserName",
+        "rtxNotesDescription": "rtxNotesDescription"
+    },
+    "zindex": 1
+}

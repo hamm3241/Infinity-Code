@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_ebda17456f0c4f4b9eaba396602a2aa9": {
+        "id": "AS_AppEvents_ebda17456f0c4f4b9eaba396602a2aa9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e662de53d54a4284ab18af6d5454c95b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//var authModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"AuthModule\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

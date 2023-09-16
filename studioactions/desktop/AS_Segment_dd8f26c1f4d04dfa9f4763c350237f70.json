@@ -1,0 +1,23 @@
+{
+    "AS_Segment_dd8f26c1f4d04dfa9f4763c350237f70": {
+        "id": "AS_Segment_dd8f26c1f4d04dfa9f4763c350237f70",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_h8c12fcd7229495cac6cc75acc9b08f1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.resumeApplicationData(this.view.segmentListOfApplications.selectedRowItems[0].queryResponseID,this.view.segmentListOfApplications.selectedRowItems[0].queryDefID,this.view.segmentListOfApplications.selectedRowItems[0].createOn,this.view.segmentListOfApplications.selectedRowItems[0].modifyOn);",
+            "callbackType": null
+        }]
+    }
+}

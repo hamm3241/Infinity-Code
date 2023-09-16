@@ -1,0 +1,34 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "CSRModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmCSR": {
+                "Controller": "CSRModule/frmCSRController",
+                "ControllerExtensions": [
+                    "AdminConsoleCommonUtilities",
+                    "WidgetPermission_Checker_FormExtns",
+                    "downloadCSV_Extn",
+                    "Pagination_FormExtn",
+                    "Sorting_FormExtn",
+                    "Navigation_Form_Extn",
+                    "DateTimeUtils_FormExtn"
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "CSRModule/frmCSR",
+                "friendlyName": "frmCSR"
+            }
+        }
+    },
+    "ModuleName": "CSRModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "CSRModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "Navigation_Presentation_Extn"
+            ]
+        }
+    }
+}

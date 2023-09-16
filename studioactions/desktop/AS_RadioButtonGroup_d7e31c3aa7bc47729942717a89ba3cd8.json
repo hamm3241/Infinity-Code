@@ -1,0 +1,28 @@
+{
+    "AS_RadioButtonGroup_d7e31c3aa7bc47729942717a89ba3cd8": {
+        "id": "AS_RadioButtonGroup_d7e31c3aa7bc47729942717a89ba3cd8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___be6537fe85884072bd5f6fc947b62e6e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loanInforadioCOborroweSelction",
+            "display": "loanInforadioCOborroweSelction",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

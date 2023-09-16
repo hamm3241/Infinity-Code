@@ -1,0 +1,24 @@
+{
+    "AS_ListBox_i56c478e48134df2a150af83a953b084": {
+        "id": "AS_ListBox_i56c478e48134df2a150af83a953b084",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c337a4fbd702465c9390121cb9bf5023"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d852e3b5c18e4d309daa0c1cab78cff0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.ListBoxLoanTypes.skin = \"sknlstbx485c7513px\";\nthis.view.lblLoanTypeError.setVisibility(false);\nif(this.view.ListBoxLoanTypes.selectedKey == \"4\"){\n  this.view.flxSimulate.setVisibility(false);\n}\nelse{\n  this.view.flxSimulate.setVisibility(true);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

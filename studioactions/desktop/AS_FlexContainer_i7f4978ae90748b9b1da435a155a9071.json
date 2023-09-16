@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_i7f4978ae90748b9b1da435a155a9071": {
+        "id": "AS_FlexContainer_i7f4978ae90748b9b1da435a155a9071",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpGuestSimulationResults",
+            "type": "templates",
+            "platform": "",
+            "KUID": "gec71dc1f43546b6b5defe67d79071ea"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bfea922005c344d5a3d8ebaedf88463e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showLoanApplications();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

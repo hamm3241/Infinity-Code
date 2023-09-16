@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_c32e76eaff8549d5bf1fe683a5235941": {
+        "id": "AS_FlexContainer_c32e76eaff8549d5bf1fe683a5235941",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c83c53ebac084fc6b3f632cf64917e73",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ondeleteFiveIncome",
+            "display": "ondeleteFiveIncome",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa24d0cc4aa3494da591359f9103f6a5",
+    "_top_": {
+        "type": "number",
+        "value": "315"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "160px"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxArrowImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a0983ad50acf4850b78f1e2a2bee6a3a",
+                "srcKUID": "c254095edc7746e0a97f5e8ed2c1ae5f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e154f56a25974cea92ca4e1e10e4e1bd",
+                "srcKUID": "e25dcb4fdbc94e0fa6bc4e6c3df2f773",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxUpgrade": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d274aa2b15994182a641a536a4883a62",
+                "srcKUID": "c6c35eddd0b04dae87356892e5595b9a",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgUpArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "abef367b65a941868ee79794b65e6aba",
+                "srcKUID": "be90efd677e04369b39d8da5c300abdb",
+                "wType": "Image"
+            },
+            "src": "uparrow_2x.png"
+        },
+        "infoIconComponent": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "bfecd51b11f64a4a869d2674cdad21da",
+                "srcKUID": "ccbccb3820ea4c4087dffc008fd4ef15",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "32%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "number",
+                    "value": "315"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "160px"
+                }
+            },
+            "zIndex": {
+                "Default": 10
+            }
+        },
+        "lblOption2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b81e75999a41417181e3604ba9300b09",
+                "srcKUID": "ac1760f7c802424bab0ceb73d50b783e",
+                "wType": "Label"
+            },
+            "i18n_text": "kony.customers.dueDiligence.receivePayReason",
+            "text": "Reason for receiving money from the selected countries."
+        }
+    },
+    "enablescrolling": true,
+    "id": "reasonReceiveInfoComponent",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "bfecd51b11f64a4a869d2674cdad21da",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxReceivePaymentsDetailsContainer",
+    "pf": "frmCustomerProfileDueDiligence",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ccbccb3820ea4c4087dffc008fd4ef15",
+    "wType": "UserWidgetInstance",
+    "zindex": 10
+}

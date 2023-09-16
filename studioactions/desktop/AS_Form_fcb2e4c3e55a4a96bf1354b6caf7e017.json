@@ -1,0 +1,24 @@
+{
+    "AS_Form_fcb2e4c3e55a4a96bf1354b6caf7e017": {
+        "id": "AS_Form_fcb2e4c3e55a4a96bf1354b6caf7e017",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOutageMessage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j7b3f4bb8796425085d1c24b69bd1d57"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g3f19e4a011c4490bee4b6f4c4cdcb0c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//registered\nthis.onBrowserBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

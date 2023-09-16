@@ -1,0 +1,119 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "80px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_skin_": "s8ff24328417401b877c3ceb2a5fa27c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h2fe44f39d404e02b4805102fc5c42d5",
+                "srcKUID": "hb7e8e6dc73a4044aaa1636cb1f70704",
+                "wType": "Button"
+            },
+            "isVisible": true
+        },
+        "btnNext": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ceeda9067f9a440192ca52d7a1080a8c",
+                "srcKUID": "if89a3cc957141078b03996441e09d8c",
+                "wType": "Button"
+            },
+            "isVisible": true
+        },
+        "btnSave": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j5c24b1772794cebaad7175b8cd89545",
+                "srcKUID": "af70c434338f4068a24a87b45c58f9ee",
+                "wType": "Button"
+            }
+        },
+        "commonButtons": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ca48edc6508a427482b7147a93039416",
+                "srcKUID": "cc441f293bdb4489aebfc9b06fe5513e",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "flxRightButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j2f566a87cc64f04aed659c8f3cb301b",
+                "srcKUID": "beae25c502d54e038c70de835ec18eca",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "commonButtonsEditLimits",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ca48edc6508a427482b7147a93039416",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxAddedUserEditLimitsButtons",
+    "pf": "frmCompanies",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "cc441f293bdb4489aebfc9b06fe5513e",
+    "wType": "UserWidgetInstance"
+}
